@@ -1,0 +1,2964 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Definition xsi:type="MyObjectBuilder_HudDefinition">
+    <!--
+    REFERENCE
+      * Members labeled with ? are not mandatory.
+      * StatIds can be found in external reference.
+      * Sizes and offsets of elements are defined in pixel sizes to keep the proportions.
+
+    ............................................
+    ALIGN ENUM
+        HORISONTAL_LEFT_AND_VERTICAL_TOP = 0,
+        HORISONTAL_LEFT_AND_VERTICAL_CENTER = 1,
+        HORISONTAL_LEFT_AND_VERTICAL_BOTTOM = 2,
+        HORISONTAL_CENTER_AND_VERTICAL_TOP = 3,
+        HORISONTAL_CENTER_AND_VERTICAL_CENTER = 4,
+        HORISONTAL_CENTER_AND_VERTICAL_BOTTOM = 5,
+        HORISONTAL_RIGHT_AND_VERTICAL_TOP = 6,
+        HORISONTAL_RIGHT_AND_VERTICAL_CENTER = 7,
+        HORISONTAL_RIGHT_AND_VERTICAL_BOTTOM = 8,
+    ............................................
+    VisibleCondition
+        Below, 
+        Above, 
+        Equal, 
+        NotEqual
+    ............................................
+    Blink TEMPLATE
+      <Blink>
+        <MinAlpha></MinAlpha> ?
+        <MaxAlpha></MaxAlpha> ?
+        <IntervalMs></IntervalMs> ?
+        <ColorMask> ?
+          <X></X>
+          <Y></Y>
+          <Z></Z>
+          <W></W>
+        </ColorMask>
+        <Blink>true/false</Blink> ?
+      </Blink>
+    ............................................
+    STAT VISUAL STYLE TEMPLATE
+      * Is collection of modifiers that are common for all types of 
+        Stat styles that are defined below.
+      * Right now we are supporting 4 types of stat styles.
+        * MyObjectBuilder_CircularProgressBarStatVisualStyle
+        * MyObjectBuilder_ProgressBarStatVisualStyle
+        * MyObjectBuilder_TextStatVisualStyle
+        * MyObjectBuilder_ImageStatVisualStyle
+      * This is just a base and should never be used alone without
+        specific style definition
+
+
+    <StatStyle xsi:type="SPECIFIC_OBJECT_BUILDER">
+        <StatId></StatId>
+        <StatCriticalValue></StatCriticalValue> ?
+        <VisibleCondition></VisibleCondition> ?
+        <ConditionValue></ConditionValue> ?
+
+        <OffsetPx>
+          <X></X>
+          <Y></Y>
+        </OffsetPx>
+        <SizePx>
+          <X></X>
+          <Y></Y>
+        </SizePx>
+
+        <Blink>... BLINK TEMPLATE ...</Blink>
+
+        ...
+        STYLE SPECIFIC STUFF
+        ...
+    </StatStyle>
+
+
+                ............................................
+                MyObjectBuilder_ImageStatVisualStyle
+                
+                <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+                  ...
+                  BASE SPECIFIC DEFINITION
+                  ...
+
+                  <Texture></Texture>
+                  <ColorMask>
+                    <X></X>
+                    <Y></Y>
+                    <Z></Z>
+                    <W></W>
+                  </ColorMask>
+                </StatStyle>
+                ............................................
+                MyObjectBuilder_TextStatVisualStyle
+                
+                  * In the text field use {STAT} as a identifier where you want the stat
+                    numeric value be displayed. 
+                    (example: <Text>Your current speed is: {STAT} m/s</Text>)
+                  * Vanilla fonts:
+                      * Debug
+                      * Red
+                      * Green
+                      * Blue
+                      * White
+                      * DarkBlue
+
+                <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+                  ...
+                  BASE SPECIFIC DEFINITION
+                  ...
+
+                  <Text></Text>
+                  <Scale></Scale>
+                  <Font></Font>
+                  <TextAlign></TextAlign> ?
+                  <ColorMask> ?
+                    <X></X>
+                    <Y></Y>
+                    <Z></Z>
+                    <W></W>
+                  </ColorMask>
+                </StatStyle>
+                ............................................
+                MyObjectBuilder_ProgressBarStatVisualStyle
+                  * Texture field refers to 9Tiled texture definition (Composite texture)
+                  * Probably subject to change ... depends ...
+
+                <StatStyle xsi:type="MyObjectBuilder_ProgressBarStatVisualStyle">
+                  ...
+                  BASE SPECIFIC DEFINITION
+                  ...
+
+                  <Texture></Texture>
+                  <ColorMask> ?
+                    <X></X>
+                    <Y></Y>
+                    <Z></Z>
+                    <W></W>
+                  </ColorMask>
+                </StatStyle>
+                ............................................
+                MyObjectBuilder_CircularProgressBarStatVisualStyle
+                  * Optional: segment origin
+                    * Texture mid is takne when not specified
+                  * Optional: Spacing angle
+                    * Angle between segments
+                  * Optional: Angle offset
+                    * Segmentation starts at (-1,0)
+                  * Optional: Number of segments
+                    * Default value is 10
+
+                <StatStyle xsi:type="MyObjectBuilder_CircularProgressBarStatVisualStyle">
+                  ...
+                  BASE SPECIFIC DEFINITION
+                  ...
+
+                  <SegmentSizePx>
+                    <X></X>
+                    <Y></Y>
+                  </SegmentSizePx>
+                  <Segmenttexture></Segmenttexture>
+                  <BackgroundTexture></BackgroundTexture> ?
+
+                  <SegmentOrigin> ?
+                    <X></X>
+                    <Y></Y>
+                  </SegmentOrigin>
+                  <SpacingAngle></SpacingAngle> ?
+                  <AngleOffset></AngleOffset> ?
+                  <NumberOfSegments></NumberOfSegments> ?
+                  <ShowEmptySegments>true/false</ShowEmptySegments> ?
+
+                  <EmptySegmentColorMask> ?
+                    <X></X>
+                    <Y></Y>
+                    <Z></Z>
+                    <W></W>
+                  </EmptySegmentColorMask>
+                  <FullSegmentColorMask> ?
+                    <X></X>
+                    <Y></Y>
+                    <Z></Z>
+                    <W></W>
+                  </FullSegmentColorMask>
+                  <AnimatedSegmentColorMask> ?
+                    <X></X>
+                    <Y></Y>
+                    <Z></Z>
+                    <W></W>
+                  </AnimatedSegmentColorMask>
+
+                  <Animate>true/false</Animate> ?
+                  <AnimationDelayMs></AnimationDelayMs> ?
+                  <AnimationSegmentDelayMs></AnimationSegmentDelayMs> ?
+                </StatStyle>
+    ............................................
+    STAT CONTROL TEMPLATE
+      <StatControl>
+        <Position>
+          <X></X>
+          <Y></Y>
+        </Position>
+        <OriginAlign></OriginAlign>
+
+        <StatStyles>
+          <StatStyle>... STAT VISUAL TEMPLATE ...</StatStyle>
+        </StatStyles>
+      </StatControl>
+    ............................................
+    -->
+    <Id>
+      <TypeId>HudDefinition</TypeId>
+      <SubtypeId>Base</SubtypeId>
+    </Id>
+    <Toolbar>
+      <CenterPosition>
+        <X>0.5</X>
+        <Y>0.85</Y>
+      </CenterPosition>
+      <TabsOffset>
+        <X>-0.2178</X>
+        <Y>0.085</Y>
+      </TabsOffset>
+      <SelectedItemPosition>
+        <X>0.012</X>
+        <Y>-0.005</Y>
+      </SelectedItemPosition>
+      
+      <OriginAlign>HORISONTAL_CENTER_AND_VERTICAL_TOP</OriginAlign>
+      <ItemStyle>
+        <Texture>ToolbarItem_normal</Texture>
+        <TextureHighlight>ToolbarItem_highlight</TextureHighlight>
+        <VariantTexture>ToolbarVariantIcon</VariantTexture>
+        <FontNormal>Blue</FontNormal>
+        <FontHighlight>White</FontHighlight>
+        <TextScale>0.4</TextScale>
+        <ItemTextureScale>
+          <X>0.7</X>
+          <Y>0.7</Y>
+        </ItemTextureScale>
+        <Margin>
+          <Left>0.002</Left>
+          <Right>0.002</Right>
+          <Top>0.002</Top>
+          <Bottom>0.002</Bottom>
+        </Margin>
+        <VariantOffset>
+          <X>0.91</X>
+          <Y>0.38</Y>
+        </VariantOffset>
+      </ItemStyle>
+      <PageStyle>
+        <PageCompositeTexture>ToolBarTabs</PageCompositeTexture>
+        <PageHighlightCompositeTexture>ToolBarTabsHighlight</PageHighlightCompositeTexture>
+        <PagesOffset>
+          <X>-0.2175</X>
+          <Y>0.08</Y>
+        </PagesOffset>
+      </PageStyle>
+      <ColorPanelStyle>
+        <Offset>
+          <X>0.22</X>
+          <Y>0.085</Y>
+        </Offset>
+        <Size>
+          <X>0.025</X>
+          <Y>0.025</Y>
+        </Size>
+        <Texture>ToolBarColorVariant</Texture>
+      </ColorPanelStyle>
+    </Toolbar>
+    <GravityIndicator>
+      <Position>
+        <X>0.24</X>
+        <Y>-0.115</Y>
+      </Position>
+      <SizePx>
+        <X>100</X>
+        <Y>100</Y>
+      </SizePx>
+      <FillTexture>GravityIndicator_fill</FillTexture>
+      <OverlayTexture>GravityIndicator_circles</OverlayTexture>
+      <OriginAlign>HORISONTAL_CENTER_AND_VERTICAL_BOTTOM</OriginAlign>
+    </GravityIndicator>
+    <StatControls>
+
+      <!--Helmet Visor Glass-->
+      <!--<StatControl>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</OriginAlign>
+
+        <StatStyles>
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_helmet</StatId>
+            <OffsetPx>
+              <X>-960</X>
+              <Y>-540</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>1920</X>
+              <Y>1080</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+              <StatId>player_helmet</StatId>
+            </VisibleCondition>
+
+            <Texture>HelmetVisorGlass</Texture>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>-->
+      <!--Helmet Visor Top Left-->
+      <!--<StatControl>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_LEFT_AND_VERTICAL_TOP</OriginAlign>
+        <StatStyles>
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_helmet</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>0</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>316</X>
+              <Y>143</Y>
+            </SizePx>
+
+            <Texture>HelmetVisorTopLeft</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>-->
+      <!--Helmet Visor Top Right-->
+      <!--<StatControl>
+        <Position>
+          <X>-0.187</X>
+          <Y>0</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_RIGHT_AND_VERTICAL_TOP</OriginAlign>
+        <StatStyles>
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_helmet</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>0</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>316</X>
+              <Y>143</Y>
+            </SizePx>
+
+            <Texture>HelmetVisorTopRight</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>-->
+      <!--Helmet Visor Bottom Left-->
+
+      <!--<StatControl>
+        <Position>
+          <X>0</X>
+          <Y>-0.19</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_LEFT_AND_VERTICAL_BOTTOM</OriginAlign>
+        <StatStyles>
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_helmet</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>0</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>481</X>
+              <Y>208</Y>
+            </SizePx>
+
+            <Texture>HelmetVisorBottomLeft</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>-->
+
+      <!--Helmet Visor Bottom Right-->
+
+      <!--<StatControl>
+        <Position>
+          <X>-0.285</X>
+          <Y>-0.19</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_RIGHT_AND_VERTICAL_BOTTOM</OriginAlign>
+        <StatStyles>
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_helmet</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>0</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>481</X>
+              <Y>208</Y>
+            </SizePx>
+
+            <Texture>HelmetVisorBottomRight</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>-->
+
+      <!--Helmet Visor Bottom-->
+      <!--<StatControl>
+        <Position>
+          <X>0</X>
+          <Y>-0.155</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_CENTER_AND_VERTICAL_BOTTOM</OriginAlign>
+        <StatStyles>
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_helmet</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>-960</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>1920</X>
+              <Y>176</Y>
+            </SizePx>
+
+            <Texture>HelmetVisorBottom</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>-->
+      <!-- Block Operations -->
+      
+      <StatControl>
+        <Position>
+          <X>0.18</X>
+          <Y>0.011</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_CENTER_AND_VERTICAL_BOTTOM</OriginAlign>
+        <StatStyles>
+          <!--Grid Size Small-->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+
+            <OffsetPx>
+              <X>-300</X>
+              <Y>-60</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>44</X>
+              <Y>44</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>toolbar_grid_size</StatId>
+              <Value>0</Value>
+              <Operator>Equal</Operator>
+            </VisibleCondition>
+
+            <Texture>GridSizeSmall</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>0.8</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!--Grid Size Large-->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+
+            <OffsetPx>
+              <X>-300</X>
+              <Y>-60</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>44</X>
+              <Y>44</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>toolbar_grid_size</StatId>
+              <Value>1</Value>
+              <Operator>Equal</Operator>
+            </VisibleCondition>
+
+            <Texture>GridSizeLarge</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>0.8</W>
+            </ColorMask>
+          </StatStyle>
+        
+          <!--Block Rotate-->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>-250</X>
+              <Y>-60</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>44</X>
+              <Y>44</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>toolbar_align_to_mountpoint</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Texture>BlockRotate</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>0.8</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <!--Block Rotate Keybind-->
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+
+            <OffsetPx>
+              <X>-214</X>
+              <Y>-60</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>{GAME_CONTROL:CUBE_DEFAULT_MOUNTPOINT}</Text>
+            <Font>White</Font>
+            <Scale>0.6</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        
+          <!--Grid Mirror-->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+
+            <OffsetPx>
+              <X>-200</X>
+              <Y>-60</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>44</X>
+              <Y>44</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>toolbar_symmetry</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Texture>GridMirror</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>0.8</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!--Block Mirror Keybind-->
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <OffsetPx>
+              <X>-160</X>
+              <Y>-60</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>{GAME_CONTROL:USE_SYMMETRY}</Text>
+            <Font>White</Font>
+            <Scale>0.6</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>
+      
+      <!-- Player Speed -->
+      <StatControl>
+        <Position>
+          <X>0.125</X>
+          <Y>0.015</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_LEFT_AND_VERTICAL_BOTTOM</OriginAlign>
+        <StatStyles>
+          <StatStyle xsi:type="MyObjectBuilder_CircularProgressBarStatVisualStyle">
+            <StatId>controlled_speed</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>80</X>
+              <Y>-129</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>150</X>
+              <Y>150</Y>
+            </SizePx>
+
+            <NumberOfSegments>10</NumberOfSegments>
+            <SegmentTexture>Speed</SegmentTexture>
+            <SegmentSizePx>
+              <X>30</X>
+              <Y>28</Y>
+            </SegmentSizePx>
+            <SegmentOrigin>
+              <X>16</X>
+              <Y>52</Y>
+            </SegmentOrigin>
+            <SpacingAngle>12</SpacingAngle>
+            <AngleOffset>-20</AngleOffset>
+            <Animate>false</Animate>
+
+            <EmptySegmentColorMask>
+              <X>0.321235294117647</X>
+              <Y>0.364901960784314</Y>
+              <Z>0.400627450980392</Z>
+              <W>0.6</W>
+            </EmptySegmentColorMask>
+            <FullSegmentColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </FullSegmentColorMask>
+            <AnimatedSegmentColorMask>
+              <X>0.834375</X>
+              <Y>0.9837254901960784</Y>
+              <Z>0.9947058823529412</Z>
+              <W>0.7</W>
+            </AnimatedSegmentColorMask>
+          </StatStyle>
+
+          <!--Speed Text-->
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>controlled_speed</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>75</X>
+              <Y>-160</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>150</X>
+              <Y>150</Y>
+            </SizePx>
+
+            <Text>{STAT}</Text>
+            <Font>Blue</Font>
+            <Scale>1</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>controlled_speed</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>75</X>
+              <Y>-140</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>150</X>
+              <Y>150</Y>
+            </SizePx>
+
+            <Text>m/s</Text>
+            <Font>Blue</Font>
+            <Scale>1</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <!--Dampeners-->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_dampeners</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>200</X>
+              <Y>-112</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>60</X>
+              <Y>60</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <Operator>Below</Operator>
+              <Value>0.5</Value>
+              <StatId>controlled_dampeners</StatId>
+            </VisibleCondition>
+
+            <Texture>DampenersOn</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>0</Y>
+              <Z>0</Z>
+              <W>0.8</W>
+            </ColorMask>
+
+            <FadeOutTimeMs>500</FadeOutTimeMs>			
+		        <FadeInTimeMs>100</FadeInTimeMs>
+			
+          </StatStyle>
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_dampeners</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>200</X>
+              <Y>-112</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>60</X>
+              <Y>60</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+              <StatId>controlled_dampeners</StatId>
+            </VisibleCondition>
+
+            <Texture>DampenersOn</Texture>
+            <ColorMask>
+              <X>0.834375</X>
+              <Y>0.9837254901960784</Y>
+              <Z>0.9947058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+		        <FadeInTimeMs>100</FadeInTimeMs>			
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+			
+          </StatStyle>
+
+    		  <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+      			<OffsetPx>
+              <X>205</X>
+              <Y>-75</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>60</X>
+              <Y>60</Y>
+            </SizePx>
+  		
+            <VisibleCondition xsi:type="StatCondition">
+              <Operator>Below</Operator>
+              <Value>0.5</Value>
+              <StatId>controlled_dampeners</StatId>
+            </VisibleCondition>
+      			
+      			<Text>Dampeners Off</Text>
+      			<Font>Blue</Font>
+      			<Scale>0.5</Scale>
+            <ColorMask>
+              <X>1</X>
+              <Y>0.1</Y>
+              <Z>0.1</Z>
+              <W>1</W>
+            </ColorMask>
+      			<TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+
+            <FadeInTimeMs>100</FadeInTimeMs>      
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+    		  </StatStyle>
+          
+		      <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+		        <OffsetPx>
+              <X>205</X>
+              <Y>-75</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>60</X>
+              <Y>60</Y>
+            </SizePx>
+			
+            <VisibleCondition xsi:type="StatCondition">
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+              <StatId>controlled_dampeners</StatId>
+            </VisibleCondition>
+			
+      			<Text>Dampeners On</Text>
+      			<Font>Blue</Font>
+      			<Scale>0.5</Scale>
+      			<TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+
+            <FadeInTimeMs>100</FadeInTimeMs>      
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+    			
+    		  </StatStyle>
+		  
+          <!--Dampeners Keybind-->
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            
+            <OffsetPx>
+              <X>250</X>
+              <Y>-110</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>{GAME_CONTROL:DAMPING}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>
+      
+      <!--GRAVITY-->
+      <StatControl>
+        <Position>
+          <X>0.215</X>
+          <Y>-0.105</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_CENTER_AND_VERTICAL_BOTTOM</OriginAlign>
+        <StatStyles>
+          
+          <!--A-Gravity-->
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>0</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+            <Text>A-Gravity</Text>
+            <Font>White</Font>
+            <Scale>0.6</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        
+          <!--A-Gravity VALUE-->
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>artificial_gravity</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>0</X>
+              <Y>18</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+            <Text>{STAT}</Text>
+            <Font>White</Font>
+            <Scale>0.6</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        
+          <!--P-Gravity-->
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>0</X>
+              <Y>40</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+            <Text>P-Gravity</Text>
+            <Font>White</Font>
+            <Scale>0.6</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        
+          <!--P-Gravity VALUE-->
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>natural_gravity</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>0</X>
+              <Y>58</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+            <Text>{STAT}</Text>
+            <Font>White</Font>
+            <Scale>0.6</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>
+
+      <!-- Player Stats -->
+      <StatControl>
+        <Position>
+          <X>0.004</X>
+          <Y>0.01</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_LEFT_AND_VERTICAL_BOTTOM</OriginAlign>
+
+        <StatStyles>
+          <!-- 
+            HEALTH
+            ...............................................................................
+          -->
+          <StatStyle xsi:type="MyObjectBuilder_ProgressBarStatVisualStyle">
+            <StatId>player_health</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>-135</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>185</X>
+              <Y>28</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_health</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <SimpleStyle>
+              <BackgroundTexture>ProgressBar_Background</BackgroundTexture>
+              <ProgressTexture>ProgressBar_Bar</ProgressTexture>              
+              <ProgressTextureOffsetPx>
+                <X>34</X>
+                <Y>12</Y>
+              </ProgressTextureOffsetPx>
+              <ProgressColorMask>
+                <X>0.734375</X>
+                <Y>0.9137254901960784</Y>
+                <Z>0.9647058823529412</Z>
+                <W>1</W>
+              </ProgressColorMask>
+               <BackgroundColorMask>
+                <X>0.3137</X>
+                <Y>0.3607</Y>
+                <Z>0.4039</Z>
+                <W>1</W>
+              </BackgroundColorMask>
+            </SimpleStyle>
+          </StatStyle>
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>player_health</StatId>
+
+            <OffsetPx>
+              <X>200</X>
+              <Y>-128</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_health</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <Percentage>true</Percentage>
+            <Precision>0</Precision>
+            <Text>{STAT}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_health</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>-137</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>24</X>
+              <Y>24</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_health</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <Texture>HealthIcon</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!-- 
+            O2 
+            ...............................................................................
+          -->
+          <StatStyle xsi:type="MyObjectBuilder_ProgressBarStatVisualStyle">
+            <StatId>player_oxygen</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>-105</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>185</X>
+              <Y>28</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_oxygen</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <SimpleStyle>
+              <BackgroundTexture>ProgressBar_Background</BackgroundTexture>
+              <ProgressTexture>ProgressBar_Bar</ProgressTexture>              
+              <ProgressTextureOffsetPx>
+                <X>34</X>
+                <Y>12</Y>
+              </ProgressTextureOffsetPx>
+              <ProgressColorMask>
+                <X>0.734375</X>
+                <Y>0.9137254901960784</Y>
+                <Z>0.9647058823529412</Z>
+                <W>1</W>
+              </ProgressColorMask>
+              <BackgroundColorMask>
+                <X>0.3137</X>
+                <Y>0.3607</Y>
+                <Z>0.4039</Z>
+                <W>1</W>
+              </BackgroundColorMask>
+            </SimpleStyle>
+          </StatStyle>
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>player_oxygen</StatId>
+
+            <OffsetPx>
+              <X>200</X>
+              <Y>-98</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_oxygen</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <Percentage>true</Percentage>
+            <Precision>0</Precision>
+            <Text>{STAT}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_oxygen</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>-107</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>24</X>
+              <Y>24</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_oxygen</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <Texture>OxygenIcon</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <!--O2 Bottles-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>47</X>
+              <Y>-105</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>18</X>
+              <Y>6</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>player_oxygen_bottles</StatId>
+              <Value>0</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>         
+
+            <Texture>Bottle</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>70</X>
+              <Y>-105</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>18</X>
+              <Y>6</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>player_oxygen_bottles</StatId>
+              <Value>1</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>  
+
+            <Texture>Bottle</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>93</X>
+              <Y>-105</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>18</X>
+              <Y>6</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>player_oxygen_bottles</StatId>
+              <Value>2</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>  
+
+            <Texture>Bottle</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>115</X>
+              <Y>-108</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>11</X>
+              <Y>11</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>player_oxygen_bottles</StatId>
+              <Value>3</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>  
+
+            <Texture>HealthIcon</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!-- 
+            Power
+            ...............................................................................
+             -->
+          <StatStyle xsi:type="MyObjectBuilder_ProgressBarStatVisualStyle">
+            <StatId>player_energy</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>-75</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>185</X>
+              <Y>28</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_energy</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <SimpleStyle>
+              <BackgroundTexture>ProgressBar_Background</BackgroundTexture>
+              <ProgressTexture>ProgressBar_Bar</ProgressTexture>              
+              <ProgressTextureOffsetPx>
+                <X>34</X>
+                <Y>12</Y>
+              </ProgressTextureOffsetPx>
+              <ProgressColorMask>
+                <X>0.734375</X>
+                <Y>0.9137254901960784</Y>
+                <Z>0.9647058823529412</Z>
+                <W>1</W>
+              </ProgressColorMask>
+              <BackgroundColorMask>
+                <X>0.3137</X>
+                <Y>0.3607</Y>
+                <Z>0.4039</Z>
+                <W>1</W>
+              </BackgroundColorMask>
+            </SimpleStyle>
+          </StatStyle>
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>player_energy</StatId>
+
+            <OffsetPx>
+              <X>200</X>
+              <Y>-68</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_energy</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <Percentage>true</Percentage>
+            <Precision>0</Precision>
+            <Text>{STAT}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_energy</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>-77</Y>
+            </OffsetPx>
+
+            <SizePx>
+              <X>24</X>
+              <Y>24</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_energy</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+            
+            <Texture>EnergyIcon</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!-- 
+            Hydrogen
+            ...............................................................................
+             -->
+          <StatStyle xsi:type="MyObjectBuilder_ProgressBarStatVisualStyle">
+            <StatId>player_hydrogen</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>-45</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>185</X>
+              <Y>28</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_hydrogen</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <SimpleStyle>
+              <BackgroundTexture>ProgressBar_Background</BackgroundTexture>
+              <ProgressTexture>ProgressBar_Bar</ProgressTexture>              
+              <ProgressTextureOffsetPx>
+                <X>34</X>
+                <Y>12</Y>
+              </ProgressTextureOffsetPx>
+              <ProgressColorMask>
+                <X>0.734375</X>
+                <Y>0.9137254901960784</Y>
+                <Z>0.9647058823529412</Z>
+                <W>1</W>
+              </ProgressColorMask>
+              <BackgroundColorMask>
+                <X>0.3137</X>
+                <Y>0.3607</Y>
+                <Z>0.4039</Z>
+                <W>1</W>
+              </BackgroundColorMask>
+            </SimpleStyle>
+          </StatStyle>
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>player_hydrogen</StatId>
+
+            <OffsetPx>
+              <X>200</X>
+              <Y>-39</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_hydrogen</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <Percentage>true</Percentage>
+            <Precision>0</Precision>
+            <Text>{STAT}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_hydrogen</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>-47</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>24</X>
+              <Y>24</Y>
+            </SizePx>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_hydrogen</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <Texture>HydrogenIcon</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+        
+          <!--H2 Bottles-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>47</X>
+              <Y>-44</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>18</X>
+              <Y>5</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>player_hydrogen_bottles</StatId>
+              <Value>0</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>  
+
+            <Texture>Bottle</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>70</X>
+              <Y>-44</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>18</X>
+              <Y>5</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>player_hydrogen_bottles</StatId>
+              <Value>1</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>  
+
+            <Texture>Bottle</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>93</X>
+              <Y>-44</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>18</X>
+              <Y>5</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>player_hydrogen_bottles</StatId>
+              <Value>2</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>  
+
+            <Texture>Bottle</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>115</X>
+              <Y>-48</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>11</X>
+              <Y>11</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>player_hydrogen_bottles</StatId>
+              <Value>3</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>  
+
+            <Texture>HealthIcon</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>
+      
+      <StatControl>
+        <Position>
+          <X>-0.009</X>
+          <Y>-0.17</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_CENTER_AND_VERTICAL_BOTTOM</OriginAlign>
+
+        <!-- HelmetOff -->
+        <StatStyles>
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_helmet</StatId>
+            <OffsetPx>
+              <X>-300</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_helmet</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Below</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_helmet</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Below</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>PlayerHelmetOff</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!-- Helmet On -->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_helmet</StatId>
+            <OffsetPx>
+              <X>-300</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_helmet</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_helmet</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Above</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>PlayerHelmetOn</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <!--Helmet Keybind-->
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+
+            <OffsetPx>
+              <X>-280</X>
+              <Y>-15</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>{GAME_CONTROL:HELMET}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <!-- Jetpack On -->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_jetpack</StatId>
+
+            <OffsetPx>
+              <X>-245</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>56</X>
+              <Y>56</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_jetpack</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_jetpack</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Above</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>Jetpack</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+
+            <Blink>
+              <MinAlpha>0.2</MinAlpha>
+              <MaxAlpha>0.8</MaxAlpha>
+              <IntervalMs>400</IntervalMs>
+              <ColorMask>
+                <X>1</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                <W>0.8</W>
+              </ColorMask>
+            </Blink>
+          </StatStyle>
+
+          <!--JatpackOff-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_jetpack</StatId>
+
+            <OffsetPx>
+              <X>-245</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>56</X>
+              <Y>56</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_jetpack</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Below</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_jetpack</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Below</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>JetpackOff</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!--Jetpack Keybind-->
+          
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+
+            <OffsetPx>
+              <X>-222</X>
+              <Y>-15.5</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>{GAME_CONTROL:THRUSTS}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <!--PlayerBroadcastingOff-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_broadcasting</StatId>
+
+            <OffsetPx>
+              <X>-190</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_broadcasting</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Below</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_broadcasting</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Below</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>PlayerBroadcastingOff</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!--PlayerBroadcastingOn-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_broadcasting</StatId>
+
+            <OffsetPx>
+              <X>-190</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_broadcasting</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_broadcasting</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Above</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>PlayerBroadcastingOn</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <!--PlayerBroadcasting Keybind-->
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+
+            <OffsetPx>
+              <X>-170</X>
+              <Y>-15</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>{GAME_CONTROL:BROADCASTING}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <!--Flashlight-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_flashlight</StatId>
+            <OffsetPx>
+              <X>-135</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <!-- (F & G) | F -->
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_flashlight</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_flashlight</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Above</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>Flashlight</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <!--Flashlight Keybind-->
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+
+            <OffsetPx>
+              <X>-120</X>
+              <Y>-15</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>{GAME_CONTROL:HEADLIGHTS}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <!--Magboots-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+
+            <OffsetPx>
+              <X>-80</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_magboots</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_magboots</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Above</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>Magboots</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!--Handbreak-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_handbreak</StatId>
+
+            <OffsetPx>
+              <X>150</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>controlled_handbreak</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>controlled_handbreak</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Above</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>Handbrake</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!--Handbreak Keybind-->
+          
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>controlled_handbreak</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>168</X>
+              <Y>-15</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Terms>
+                <Term xsi:type="StatCondition">
+                  <StatId>hud_show_states</StatId>
+                  <Operator>Above</Operator>
+                  <Value>0.5</Value>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>controlled_is_grid</StatId>
+                  <Operator>Above</Operator>
+                  <Value>0.5</Value>
+                </Term>
+              </Terms>
+              <Operator>And</Operator>
+            </VisibleCondition>
+
+            <Text>P</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <!--RemoteControlOn-->
+          
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_remote_access</StatId>
+
+            <OffsetPx>
+              <X>165</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>controlled_remote_access</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>controlled_remote_access</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Above</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>RemoteControlOn</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <!--RemoteControl Keybind-->
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+
+            <OffsetPx>
+              <X>195</X>
+              <Y>-15</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>Shift+K</Text>
+            <Font>White</Font>
+            <Scale>0.6</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+
+          <!--GridBroadcastinOn-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_broadcasting</StatId>
+            <OffsetPx>
+              <X>220</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>controlled_broadcasting</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>controlled_broadcasting</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Above</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>GridBroadcastingOn</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!--GridBroadcastinOff-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_broadcasting</StatId>
+
+            <OffsetPx>
+              <X>220</X>
+              <Y>-3</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>controlled_broadcasting</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Below</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>controlled_broadcasting</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Below</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>GridBroadcastingOff</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!--GridBroadcasting Keybind-->
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+
+            <OffsetPx>
+              <X>230</X>
+              <Y>-15</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>{GAME_CONTROL:BROADCASTING}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+          
+          <!--GridPower-->
+
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_reactors</StatId>
+
+            <OffsetPx>
+              <X>275</X>
+              <Y>3</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>45</X>
+              <Y>45</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+            <MaxOnScreenTimeMs>1000</MaxOnScreenTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>controlled_reactors</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Below</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>controlled_reactors</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Below</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <Texture>GridPower</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <!--GridPower Keybind-->
+
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>controlled_reactors</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>291</X>
+              <Y>-15</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>hud_show_states</StatId>
+              <Operator>Above</Operator>
+              <Value>0.5</Value>
+            </VisibleCondition>
+
+            <Text>{GAME_CONTROL:TOGGLE_REACTORS}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        
+          <!--Cockpit Build Mode-->
+          <!--
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_reactors</StatId>
+            <OffsetPx>
+              <X>55</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>50</X>
+              <Y>50</Y>
+            </SizePx>
+
+            <Texture>CockpitBuildMode</Texture>
+            <ColorMask>
+              <X>0.734375</X>
+              <Y>0.9137254901960784</Y>
+              <Z>0.9647058823529412</Z>
+              <W>1</W>
+            </ColorMask>
+          </StatStyle>
+          -->
+          <!--Cockpit Build Mode Keybind-->
+          <!--
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>controlled_reactors</StatId>
+            <StatCriticalValue>0</StatCriticalValue>
+            <OffsetPx>
+              <X>80</X>
+              <Y>-15</Y>
+           </OffsetPx>
+           <SizePx>
+             <X>16</X>
+             <Y>16</Y>
+           </SizePx>
+
+           <Text>CTRL+G</Text>
+           <Font>White</Font>
+           <Scale>0.6</Scale>
+           <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+         </StatStyle>
+          -->
+        </StatStyles>        
+      </StatControl>
+      
+      <!--HAZARD ICONS-->
+      
+      <StatControl>
+        <Position>
+          <X>0.0</X>
+          <Y>-0.25</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_CENTER_AND_VERTICAL_BOTTOM</OriginAlign>
+        <StatStyles>
+          <!-- Suffocating -->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_suffocating</StatId>
+            <OffsetPx>
+              <X>85</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>80</X>
+              <Y>80</Y>
+            </SizePx>
+
+            <FadeInTimeMs>500</FadeInTimeMs>
+            <FadeOutTimeMs>1000</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_suffocating</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_suffocating</StatId>
+                  <Value>0.5</Value>
+                  <Operator>Above</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_suffocating</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </BlinkCondition>
+
+            <Texture>Suffocating</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>0.8</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!-- HealthLow -->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>player_health</StatId>
+            <OffsetPx>
+              <X>0</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>80</X>
+              <Y>80</Y>
+            </SizePx>
+
+            <FadeInTimeMs>500</FadeInTimeMs>
+            <FadeOutTimeMs>1000</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="Condition">
+              <Operator>Or</Operator>
+              <Terms>
+                <Term xsi:type="Condition">
+                  <Operator>And</Operator>
+                  <Terms>
+                    <Term xsi:type="StatCondition">
+                      <StatId>player_health</StatId>
+                      <Value>0.3</Value>
+                      <Operator>Below</Operator>
+                    </Term>
+                    <Term xsi:type="StatCondition">
+                      <StatId>hud_show_states</StatId>
+                      <Value>0.5</Value>
+                      <Operator>Above</Operator>
+                    </Term>
+                  </Terms>
+                </Term>
+                <Term xsi:type="StatCondition">
+                  <StatId>player_health</StatId>
+                  <Value>0.3</Value>
+                  <Operator>Below</Operator>
+                </Term>
+              </Terms>
+            </VisibleCondition>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_health</StatId>
+              <Value>0.3</Value>
+              <Operator>Below</Operator>
+            </BlinkCondition>
+
+            <Texture>HealthLow</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>0.8</W>
+            </ColorMask>
+          </StatStyle>
+
+          <!-- Capacity -->
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <OffsetPx>
+              <X>-85</X>
+              <Y>0</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>80</X>
+              <Y>80</Y>
+            </SizePx>
+
+            <FadeInTimeMs>100</FadeInTimeMs>
+            <FadeOutTimeMs>500</FadeOutTimeMs>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>player_inventory_full</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>player_inventory_full</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>             
+            </BlinkCondition>
+
+            <Blink>
+              <MinAlpha>0.5</MinAlpha>
+              <MaxAlpha>1</MaxAlpha>
+              <IntervalMs>300</IntervalMs>
+            </Blink>
+            <Texture>Capacity</Texture>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>0.8</W>
+            </ColorMask>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>
+      <!-- RIGHT PROGRESS BARS -->
+      <StatControl>
+        <Position>
+          <X>-0.02</X>
+          <Y>-0.1</Y>
+        </Position>
+        <OriginAlign>HORISONTAL_RIGHT_AND_VERTICAL_BOTTOM</OriginAlign>
+        <StatStyles>
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>controlled_mass</StatId>
+
+            <OffsetPx>
+              <X>-54</X>
+              <Y>-2</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+          
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>controlled_is_grid</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>
+
+            <Text>{STAT} Kg</Text>
+            <Font>Blue</Font>
+            <Scale>0.8</Scale>
+            <ColorMask>
+              <X>1</X>
+              <Y>1</Y>
+              <Z>1</Z>
+              <W>0.8</W>
+            </ColorMask>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_mass</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>-6</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>24</X>
+              <Y>24</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>controlled_is_grid</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>
+
+            <Texture>Mass</Texture>
+          </StatStyle>
+          
+          <!--Energy Progress Bar-->
+        
+          <StatStyle xsi:type="MyObjectBuilder_ProgressBarStatVisualStyle">
+            <StatId>controlled_power_usage</StatId>
+            <OffsetPx>
+              <X>-164</X>
+              <Y>30</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>185</X>
+              <Y>28</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>controlled_is_grid</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>controlled_power_usage</StatId>
+              <Value>0.9</Value>
+              <Operator>Above</Operator>
+            </BlinkCondition>
+
+            <Inverted>true</Inverted>  
+            
+            <SimpleStyle>
+              <BackgroundTexture>ProgressBar_BackgroundMirrored</BackgroundTexture>
+              <ProgressTexture>ProgressBar_BarMirrored</ProgressTexture>              
+              <ProgressTextureOffsetPx>
+                <X>0</X>
+                <Y>12</Y>
+              </ProgressTextureOffsetPx>
+              <ProgressColorMask>
+                <X>0.734375</X>
+                <Y>0.9137254901960784</Y>
+                <Z>0.9647058823529412</Z>
+                <W>1</W>
+              </ProgressColorMask>
+              <BackgroundColorMask>
+                <X>0.3137</X>
+                <Y>0.3607</Y>
+                <Z>0.4039</Z>
+                <W>1</W>
+              </BackgroundColorMask>
+            </SimpleStyle>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>controlled_power_usage</StatId>
+            
+            <OffsetPx>
+              <X>-190</X>
+              <Y>37</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>controlled_is_grid</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>
+
+            <BlinkCondition xsi:type="StatCondition">
+              <StatId>controlled_power_usage</StatId>
+              <Value>0.9</Value>
+              <Operator>Above</Operator>
+            </BlinkCondition>
+
+            <Percentage>true</Percentage>
+            <Precision>1</Precision>
+            <Text>{STAT}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+            <StatId>controlled_power_usage</StatId>
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>28</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>24</X>
+              <Y>24</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>controlled_is_grid</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>
+
+            <Texture>EnergyIcon</Texture>
+          </StatStyle>
+          
+          <!--Hydrogen Progress Bar-->
+        
+          <StatStyle xsi:type="MyObjectBuilder_ProgressBarStatVisualStyle">
+            <StatId>controlled_hydrogen_capacity</StatId>
+            <OffsetPx>
+              <X>-164</X>
+              <Y>60</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>185</X>
+              <Y>28</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>controlled_is_grid</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>
+
+            <Inverted>true</Inverted>
+
+            <SimpleStyle>
+              <BackgroundTexture>ProgressBar_BackgroundMirrored</BackgroundTexture>
+              <ProgressTexture>ProgressBar_BarMirrored</ProgressTexture>              
+              <ProgressTextureOffsetPx>
+                <X>0</X>
+                <Y>12</Y>
+              </ProgressTextureOffsetPx>
+              <ProgressColorMask>
+                <X>0.734375</X>
+                <Y>0.9137254901960784</Y>
+                <Z>0.9647058823529412</Z>
+                <W>1</W>
+              </ProgressColorMask>
+              <BackgroundColorMask>
+                <X>0.3137</X>
+                <Y>0.3607</Y>
+                <Z>0.4039</Z>
+                <W>1</W>
+              </BackgroundColorMask>
+            </SimpleStyle>
+          </StatStyle>
+          
+          <StatStyle xsi:type="MyObjectBuilder_TextStatVisualStyle">
+            <StatId>controlled_hydrogen_capacity</StatId>
+            <OffsetPx>
+              <X>-190</X>
+              <Y>66</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>16</X>
+              <Y>16</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>controlled_is_grid</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>
+
+            <Percentage>true</Percentage>
+            <Text>{STAT}</Text>
+            <Font>White</Font>
+            <Scale>0.8</Scale>
+            <TextAlign>HORISONTAL_CENTER_AND_VERTICAL_CENTER</TextAlign>
+          </StatStyle>
+        
+          <StatStyle xsi:type="MyObjectBuilder_ImageStatVisualStyle">
+
+            <OffsetPx>
+              <X>0</X>
+              <Y>58</Y>
+            </OffsetPx>
+            <SizePx>
+              <X>24</X>
+              <Y>24</Y>
+            </SizePx>
+
+            <VisibleCondition xsi:type="StatCondition">
+              <StatId>controlled_is_grid</StatId>
+              <Value>0.5</Value>
+              <Operator>Above</Operator>
+            </VisibleCondition>
+
+            <Texture>HydrogenIcon</Texture>
+          </StatStyle>
+        </StatStyles>
+      </StatControl>
+      <!-- Grid Stats -->
+    </StatControls>
+  </Definition>
+</Definitions>
