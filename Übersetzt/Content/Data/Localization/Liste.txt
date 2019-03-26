@@ -1,108 +1,60 @@
 ﻿Hinzufügen:
 
-data name="AUTO" xml:space="preserve">
-data name="Antenna_HudTextLabel" xml:space="preserve">
-data name="Antenna_HudTextToolTip" xml:space="preserve">
-data name="BlockActionTitle_AutoEnable" xml:space="preserve">
-data name="BlockActionTitle_DischargeToggle" xml:space="preserve">
-data name="BlockActionTitle_RechargeToggle" xml:space="preserve">
-data name="BlockPropertiesTitle_HudText" xml:space="preserve">
-data name="BlockPropertiesTitle_HudText_Tooltip" xml:space="preserve">
-data name="BlockPropertyTitle_Auto" xml:space="preserve">
-data name="BlockPropertyTitle_ChargeMode" xml:space="preserve">
-data name="BlueprintInfo_SendTo" xml:space="preserve">
-data name="ChatBotMisunderstanding0" xml:space="preserve">
-data name="ChatBotName" xml:space="preserve">
-data name="ChatBotUnavailable" xml:space="preserve">
-data name="ChatBot_Generic" xml:space="preserve">
-data name="ChatBot_Generic_Q0" xml:space="preserve">
-data name="ChatBot_Generic_Q1" xml:space="preserve">
-data name="ChatBot_Generic_Q10" xml:space="preserve">
-data name="ChatBot_Generic_Q11" xml:space="preserve">
-data name="ChatBot_Generic_Q12" xml:space="preserve">
-data name="ChatBot_Generic_Q2" xml:space="preserve">
-data name="ChatBot_Generic_Q3" xml:space="preserve">
-data name="ChatBot_Generic_Q4" xml:space="preserve">
-data name="ChatBot_Generic_Q5" xml:space="preserve">
-data name="ChatBot_Generic_Q6" xml:space="preserve">
-data name="ChatBot_Generic_Q7" xml:space="preserve">
-data name="ChatBot_Generic_Q8" xml:space="preserve">
-data name="ChatBot_Generic_Q9" xml:space="preserve">
-data name="ChatBot_HowAreYou" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q0" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q1" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q2" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q3" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q4" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q5" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q6" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q7" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q8" xml:space="preserve">
-data name="ChatBot_HowAreYou_Q9" xml:space="preserve">
-data name="ChatBot_Rude" xml:space="preserve">
-data name="ChatBot_Rude_Q0" xml:space="preserve">
-data name="ChatBot_Rude_Q1" xml:space="preserve">
-data name="ChatBot_Rude_Q2" xml:space="preserve">
-data name="ChatBot_Rude_Q3" xml:space="preserve">
-data name="ChatBot_Rude_Q4" xml:space="preserve">
-data name="ChatBot_Rude_Q5" xml:space="preserve">
-data name="ChatBot_Rude_Q6" xml:space="preserve">
-data name="ChatBot_Substitute0_D" xml:space="preserve">
-data name="ChatBot_Substitute0_S" xml:space="preserve">
-data name="ChatBot_Substitute1_D" xml:space="preserve">
-data name="ChatBot_Substitute1_S" xml:space="preserve">
-data name="ChatBot_Substitute2_D" xml:space="preserve">
-data name="ChatBot_Substitute2_S" xml:space="preserve">
-data name="ChatBot_Substitute3_D" xml:space="preserve">
-data name="ChatBot_Substitute3_S" xml:space="preserve">
-data name="ChatBot_ThankYou" xml:space="preserve">
-data name="ChatBot_ThankYou_Q0" xml:space="preserve">
-data name="ChatBot_ThankYou_Q1" xml:space="preserve">
-data name="ChatBot_ThankYou_Q2" xml:space="preserve">
-data name="ChatBot_ThankYou_Q3" xml:space="preserve">
-data name="ChatBot_ThankYou_Q4" xml:space="preserve">
-data name="ChatBot_ThankYou_Q5" xml:space="preserve">
-data name="ChatBot_ThankYou_Q6" xml:space="preserve">
-data name="ChatBot_ThankYou_Q7" xml:space="preserve">
-data name="ChatBot_ThankYou_Q8" xml:space="preserve">
-data name="ChatBot_ThankYou_Q9" xml:space="preserve">
-data name="ControlMenuItemLabel_ShowAdminMenu" xml:space="preserve">
-data name="ControlMenuItemLabel_ShowBlueprints" xml:space="preserve">
-data name="ControlMenuItemLabel_ShowHelp" xml:space="preserve">
-data name="ControlMenuItemLabel_ShowPlayers" xml:space="preserve">
-data name="ControlMenuItemLabel_ShowSpawnMenu" xml:space="preserve">
-data name="ControlName_InertialDampenersOnOff" xml:space="preserve">
-data name="ControlName_RelativeDampening" xml:space="preserve">
-data name="CustomWorld_LearningToSurvive" xml:space="preserve">
-data name="CustomWorld_NeverSurrender" xml:space="preserve">
-data name="Department_AssistantProducer" xml:space="preserve">
-data name="Department_Designers" xml:space="preserve">
-data name="Department_LeadArtist" xml:space="preserve">
-data name="Department_LeadDesigner" xml:space="preserve">
-data name="Department_TeamOperations" xml:space="preserve">
-data name="Department_TechnicalDirector" xml:space="preserve">
-data name="Department_Video" xml:space="preserve">
-data name="Description_AdvancedRotor" xml:space="preserve">
-data name="Description_AdvancedRotorPart" xml:space="preserve">
-data name="Description_AirVent" xml:space="preserve">
-data name="Description_AngleGrinder" xml:space="preserve">
-data name="Description_Assembler" xml:space="preserve">
-data name="Description_AssemblerBasic" xml:space="preserve">
-data name="Description_AtmosphericThrust" xml:space="preserve">
-data name="Description_Battery" xml:space="preserve">
-data name="Description_Beacon" xml:space="preserve">
-data name="Description_ButtonPanel" xml:space="preserve">
-data name="Description_Camera" xml:space="preserve">
-data name="Description_Cockpit" xml:space="preserve">
-data name="Description_Collector" xml:space="preserve">
-data name="Description_Connector" xml:space="preserve">
-data name="Description_ControlPanel" xml:space="preserve">
-data name="Description_ControlStation" xml:space="preserve">
-data name="Description_ConveyorSorter" xml:space="preserve">
-data name="Description_ConveyorTube" xml:space="preserve">
-data name="Description_CornerLight" xml:space="preserve">
-data name="Description_CryoChamber" xml:space="preserve">
-data name="Description_Decoy" xml:space="preserve">
+<!-- data name="AUTO" xml:space="preserve"> -->
+<!-- data name="Antenna_HudTextLabel" xml:space="preserve"> -->
+<!-- data name="Antenna_HudTextToolTip" xml:space="preserve"> -->
+<!-- data name="BlockActionTitle_AutoEnable" xml:space="preserve" -->>
+<!-- data name="BlockActionTitle_DischargeToggle" xml:space="preserve"> -->
+<!-- data name="BlockActionTitle_RechargeToggle" xml:space="preserve"> -->
+<!-- data name="BlockPropertiesTitle_HudText" xml:space="preserve"> -->
+<!-- data name="BlockPropertiesTitle_HudText_Tooltip" xml:space="preserve"> -->
+<!-- data name="BlockPropertyTitle_Auto" xml:space="preserve"> -->
+<!-- data name="BlockPropertyTitle_ChargeMode" xml:space="preserve"> -->
+<!-- data name="BlueprintInfo_SendTo" xml:space="preserve"> -->
+<!-- data name="ChatBotMisunderstanding0" xml:space="preserve"> -->
+<!-- data name="ChatBotName" xml:space="preserve"> -->
+<!-- data name="ChatBotUnavailable" xml:space="preserve"> -->
+<!-- data name="ChatBot_Generic" xml:space="preserve"> -->
+<!-- data name="ChatBot_HowAreYou" xml:space="preserve"> -->
+<!-- data name="ChatBot_Rude" xml:space="preserve"> -->
+<!-- data name="ChatBot_ThankYou" xml:space="preserve"> -->
+<!-- data name="ControlMenuItemLabel_ShowAdminMenu" xml:space="preserve"> -->
+<!-- data name="ControlMenuItemLabel_ShowBlueprints" xml:space="preserve"> -->
+<!-- data name="ControlMenuItemLabel_ShowHelp" xml:space="preserve"> -->
+<!-- data name="ControlMenuItemLabel_ShowPlayers" xml:space="preserve"> -->
+<!-- data name="ControlMenuItemLabel_ShowSpawnMenu" xml:space="preserve"> -->
+<!-- data name="ControlName_InertialDampenersOnOff" xml:space="preserve"> -->
+<!-- data name="ControlName_RelativeDampening" xml:space="preserve"> -->
+<!-- data name="CustomWorld_LearningToSurvive" xml:space="preserve"> -->
+<!-- data name="CustomWorld_NeverSurrender" xml:space="preserve"> -->
+<!-- data name="Department_AssistantProducer" xml:space="preserve"> -->
+<!-- data name="Department_Designers" xml:space="preserve"> -->
+<!-- data name="Department_LeadArtist" xml:space="preserve"> -->
+<!-- data name="Department_LeadDesigner" xml:space="preserve"> -->
+<!-- data name="Department_TeamOperations" xml:space="preserve"> -->
+<!-- data name="Department_TechnicalDirector" xml:space="preserve"> -->
+<!-- data name="Department_Video" xml:space="preserve"> -->
+<!-- data name="Description_AdvancedRotor" xml:space="preserve"> -->
+<!-- data name="Description_AdvancedRotorPart" xml:space="preserve"> -->
+<!-- data name="Description_AirVent" xml:space="preserve"> -->
+<!-- data name="Description_AngleGrinder" xml:space="preserve" -->>
+<!-- data name="Description_Assembler" xml:space="preserve"> -->
+<!-- data name="Description_AssemblerBasic" xml:space="preserve"> -->
+<!-- data name="Description_AtmosphericThrust" xml:space="preserve"> -->
+<!-- data name="Description_Battery" xml:space="preserve"> -->
+<!-- data name="Description_Beacon" xml:space="preserve"> -->
+<!-- data name="Description_ButtonPanel" xml:space="preserve"> -->
+<!-- data name="Description_Camera" xml:space="preserve"> -->
+<!-- data name="Description_Cockpit" xml:space="preserve"> -->
+<!-- data name="Description_Collector" xml:space="preserve"> -->
+<!-- data name="Description_Connector" xml:space="preserve"> -->
+<!-- data name="Description_ControlPanel" xml:space="preserve"> -->
+<!-- data name="Description_ControlStation" xml:space="preserve"> -->
+<!-- data name="Description_ConveyorSorter" xml:space="preserve"> -->
+<!-- data name="Description_ConveyorTube" xml:space="preserve"> -->
+<!-- data name="Description_CornerLight" xml:space="preserve"> -->
+<!-- data name="Description_CryoChamber" xml:space="preserve"> -->
+<!-- data name="Description_Decoy" xml:space="preserve"> -->
 data name="Description_DiagonalWindow" xml:space="preserve">
 data name="Description_Door" xml:space="preserve">
 data name="Description_Drill" xml:space="preserve">
@@ -260,7 +212,7 @@ data name="Description_FAQ_Voxel" xml:space="preserve">
 data name="Description_FAQ_VoxelHands" xml:space="preserve">
 data name="Description_FAQ_Welding" xml:space="preserve">
 data name="Description_FAQ_WhatIsABlock" xml:space="preserve">
-data name="Description_FighterCockpit" xml:space="preserve">
+<!-- data name="Description_FighterCockpit" xml:space="preserve"> -->
 data name="Description_FlightSeat" xml:space="preserve">
 data name="Description_FullCoverWall" xml:space="preserve">
 data name="Description_GatlingGun" xml:space="preserve">
@@ -338,7 +290,7 @@ data name="Description_Window" xml:space="preserve">
 data name="Descripton_ConveyorJunction" xml:space="preserve">
 data name="DisplayName_Block_BasicAssembler" xml:space="preserve">
 data name="DisplayName_Block_Hydrogen_Engine" xml:space="preserve">
-data name="DisplayName_Block_Ladder" xml:space="preserve">
+<!-- data name="DisplayName_Block_Ladder" xml:space="preserve"> -->
 data name="DisplayName_Block_SmallBattery" xml:space="preserve">
 data name="DisplayName_Block_SurvivalKit" xml:space="preserve">
 data name="DisplayName_Block_WindTurbine" xml:space="preserve">
@@ -346,8 +298,6 @@ data name="DisplayName_BlueprintClass_BasicComponents" xml:space="preserve">
 data name="DisplayName_BlueprintClass_BasicLargeBlocks" xml:space="preserve">
 data name="DisplayName_BlueprintClass_BasicSmallBlocks" xml:space="preserve">
 data name="DisplayName_Category_CharacterWeapons" xml:space="preserve">
-data name="DisplayName_Category_ShipTools" xml:space="preserve">
-data name="DisplayName_Category_ShipWeapons" xml:space="preserve">
 data name="DisplayName_RespawnPodSpace" xml:space="preserve">
 data name="GPS_Respawn_Location_Desc" xml:space="preserve">
 data name="GPS_Respawn_Location_Name" xml:space="preserve">
@@ -542,7 +492,7 @@ data name="IngameHelp_WheeledVehicles_Title" xml:space="preserve">
 data name="JoinScreen_GTXGamingBanner" xml:space="preserve">
 data name="MedicalRoom_SpawnNameLabel" xml:space="preserve">
 data name="MedicalRoom_SpawnNameToolTip" xml:space="preserve">
-data name="NotificationBlockNotResearched" xml:space="preserve">
+<!-- data name="NotificationBlockNotResearched" xml:space="preserve"> -->
 data name="NotificationHintJoystickPressToOpenInventory" xml:space="preserve">
 data name="NotificationHintLadderBlocked" xml:space="preserve">
 data name="NotificationHintPressToGetOnLadder" xml:space="preserve">
@@ -651,40 +601,3 @@ data name="WorldSettings_CharactersInventorySize" xml:space="preserve">
 data name="WorldSettings_EnableAutorespawn" xml:space="preserve">
 data name="WorldSettings_EnableResearch" xml:space="preserve">
 data name="WorldSettings_OptimalSpawnDistance" xml:space="preserve">
-
-
-Daten angleichen?
-
-data name="ControlName_InertialDampeners" xml:space="preserve"> ----> InertialDampenersOnOff
-data name="Department_AssistentProducer" xml:space="preserve"> ----> Department_AssistantProducer
-data name="DisplayName_Category_ShipWeaponsTools" xml:space="preserve"> ----> DisplayName_Category_ShipTools" xml:space="preserve
-
-Daten löschen?
-data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-data name="Color1" type="System.Drawing.Color, System.Drawing">Blue/data>
-data name="Description_Animation_Wave" xml:space="preserve">
-data name="Description_CloseHelmet" xml:space="preserve">
-data name="Description_OpenHelmet" xml:space="preserve">
-data name="Description_Scenario_2Planets" xml:space="preserve">
-data name="Description_Scenario_AlienEasyStart" xml:space="preserve">
-data name="Description_Scenario_Asteroids" xml:space="preserve">
-data name="Description_Scenario_BigSmall" xml:space="preserve">
-data name="Description_Scenario_CrashedRedShip" xml:space="preserve">
-data name="Description_Scenario_DebugStart" xml:space="preserve">
-data name="Description_Scenario_EarthEasyStart" xml:space="preserve">
-data name="Description_Scenario_EasyStart1" xml:space="preserve">
-data name="Description_Scenario_EasyStart2" xml:space="preserve">
-data name="Description_Scenario_EmptyWorld" xml:space="preserve">
-data name="Description_Scenario_LoneSurvivor" xml:space="preserve">
-data name="Description_Scenario_MarsEasyStart" xml:space="preserve">
-data name="Description_Scenario_MoonEasyStart" xml:space="preserve">
-data name="Description_Scenario_Planet" xml:space="preserve">
-data name="Description_Scenario_StarSystem" xml:space="preserve">
-data name="Description_Scenario_StarSystemAligned" xml:space="preserve">
-data name="Description_Scenario_TestStarSystem" xml:space="preserve">
-data name="Description_Scenario_TwoPlatforms" xml:space="preserve">
-data name="DisplayName_RespawnShip_Yellow" xml:space="preserve">
-data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-data name="MessageBoxCaptionVideoTutori" xml:space="preserve">
-data name="NotificationShipOverLimits" xml:space="preserve">
-data name="String" xml:space="preserve"> 

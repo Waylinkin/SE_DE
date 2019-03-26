@@ -209,6 +209,9 @@
   <data name="DisplayName_Block_Antenna" xml:space="preserve">
     <value>Antenne</value>
   </data>
+  <data name="AUTO" xml:space="preserve">
+    <value>AUTO</value>
+  </data>
   <data name="DisplayName_Item_AutomaticRifle" xml:space="preserve">
     <value>SG A/1</value>
   </data>
@@ -1470,6 +1473,9 @@ Volumen: {2} L{4}</value>
   <data name="ControlName_InertialDampeners" xml:space="preserve">  
 	<value>Fluglagekontrollsystem</value>
   </data>
+   <data name="ControlName_InertialDampenersOnOff" xml:space="preserve">
+    <value>FLKS an/aus</value>
+  </data>
   <data name="ControlName_UseSymmetry" xml:space="preserve">
     <value>Symmetrie verwenden</value>
   </data>
@@ -1802,25 +1808,7 @@ stark beeinträchtigen!</value>
     <value>Realistisches Verwalten von Rohstoffen, realistische Inventarkapazität, 
 Tod und Wiederbelebung.</value>
   </data>
-  <data name="Description_Scenario_Asteroids" xml:space="preserve">
-    <value>Start im Rettungsschiff mit sehr wenigen Rohstoffen in der nähe eines kleinen Asteroidenfeldes.</value>
-  </data>
-  <data name="Description_Scenario_EasyStart1" xml:space="preserve">
-    <value>Starte auf einer Asteroidenplattform mit einem großen und zwei kleinen Schiffen.</value>
-  </data>
-  <data name="Description_Scenario_EasyStart2" xml:space="preserve">
-    <value>Starte in einer grünen Asteroidenstation mit mehreren großen und kleinen Schiffen (Das ist eine große Umgebung!).</value>
-  </data>
-  <data name="Description_Scenario_EmptyWorld" xml:space="preserve">
-    <value>Leere Welt, keine Asteroiden, keine Schiffe, sinnvoll für Kreativmodus.</value>
-  </data>
-  <data name="Description_Scenario_LoneSurvivor" xml:space="preserve">
-    <value>Starte ohne Schiffe auf einer verlassenen Asteroidenplattform, auf der du neu anfangen musst.</value>
-  </data>
   <data name="DisplayName_Scenario_CrashedRedShip" xml:space="preserve">
-    <value>Abgestürztes rotes Schiff</value>
-  </data>
-  <data name="Description_Scenario_CrashedRedShip" xml:space="preserve">
     <value>Abgestürztes rotes Schiff</value>
   </data>
   <data name="HudBlockInfo_Components" xml:space="preserve">
@@ -1846,9 +1834,6 @@ Tod und Wiederbelebung.</value>
   </data>
   <data name="DisplayName_Scenario_TwoPlatforms" xml:space="preserve">
     <value>Zwei Plattformen</value>
-  </data>
-  <data name="Description_Scenario_TwoPlatforms" xml:space="preserve">
-    <value>Konkurrenz-Mehrspielerwelt mit zwei Teams.</value>
   </data>
   <data name="Terminal_BlockIncomplete" xml:space="preserve">
     <value>(unvollständig)</value>
@@ -2877,9 +2862,6 @@ zu erreichen.</value>
   <data name="BlockActionTitle_SwitchLock" xml:space="preserve">
     <value>Sperrschalter</value>
   </data>
-  <data name="Description_Animation_Wave" xml:space="preserve">
-    <value>Freunden (oder Feinden) zuwinken!</value>
-  </data>
   <data name="DisplayName_Animation_Wave" xml:space="preserve">
     <value>Winken (Animation)</value>
   </data>
@@ -3170,8 +3152,11 @@ Eine Deinstallation des Spieles ist nicht genug, weil Steam keine unbekannten Da
   <data name="DisplayName_Category_ShipThrusters" xml:space="preserve">
     <value>Triebwerke</value>
   </data>
-  <data name="DisplayName_Category_ShipWeaponsTools" xml:space="preserve">
+  <data name="DisplayName_Category_ShipWeapons" xml:space="preserve">
     <value>Waffen + Werkzeuge</value>
+  </data>
+    <data name="DisplayName_Category_ShipTools" xml:space="preserve">
+    <value>Block Weapons</value>
   </data>
   <data name="DisplayName_Category_WindowBlocks" xml:space="preserve">
     <value>Fenster</value>
@@ -3193,9 +3178,6 @@ Eine Deinstallation des Spieles ist nicht genug, weil Steam keine unbekannten Da
   </data>
   <data name="DisplayName_RespawnShip_ShipDrill" xml:space="preserve">
     <value>Kleines Bohrschiff</value>
-  </data>
-  <data name="DisplayName_RespawnShip_Yellow" xml:space="preserve">
-    <value>Wiedereinstiegsschiff</value>
   </data>
   <data name="ScreenMedicals_OwnerTimeoutColumn" xml:space="preserve">
     <value>Besitzer / Zeitüberschreitung</value>
@@ -5046,12 +5028,6 @@ ohne Ausrüstung im Inventar.</value>
   <data name="MyGuiScreenTriggerNoSpawn" xml:space="preserve">
     <value>Kein Spawnpunkt</value>
   </data>
-  <data name="Description_Scenario_2Planets" xml:space="preserve">
-    <value>2 bewohnbare Planeten in Nähe zueinander</value>
-  </data>
-  <data name="Description_Scenario_Planet" xml:space="preserve">
-    <value>Welt mit einem bewohnbarem Planeten </value>
-  </data>
   <data name="DisplayName_Scenario_2Planets" xml:space="preserve">
     <value>2 Planeten</value>
   </data>
@@ -5224,9 +5200,6 @@ Erlaubte Seiten: Steamcommunity, Youtube, KSH Forum.</value>
   <data name="MessageBoxCaptionTutorial" xml:space="preserve">
     <value>Tutorial</value>
   </data>
-  <data name="MessageBoxCaptionVideoTutori" xml:space="preserve">
-    <value/>
-  </data>
   <data name="HudInfoState" xml:space="preserve">
     <value>Status</value>
   </data>
@@ -5244,9 +5217,6 @@ Erlaubte Seiten: Steamcommunity, Youtube, KSH Forum.</value>
   </data>
   <data name="HudInfoOxygen" xml:space="preserve">
     <value>Sauerstoff: </value>
-  </data>
-  <data name="Description_Scenario_BigSmall" xml:space="preserve">
-    <value>Ein Planet mit 120 km und einer mit 50 km Durchmesser.</value>
   </data>
   <data name="DisplayName_Scenario_BigSmall" xml:space="preserve">
     <value>Großer und kleiner Planet</value>
@@ -5266,9 +5236,6 @@ Erlaubte Seiten: Steamcommunity, Youtube, KSH Forum.</value>
   <data name="NotificationCannotJumpIntoGravity" xml:space="preserve">
     <value>Mit Sprungtriebwerken kann man nicht in einen Bereich mit natürlicher Gravitation springen.</value>
   </data>
-  <data name="Description_Scenario_StarSystem" xml:space="preserve">
-    <value>Ein leeres Sonnensystem mit drei Planeten und ihren Monden.</value>
-  </data>
   <data name="DisplayName_Scenario_StarSystem" xml:space="preserve">
     <value>Sonnensystem</value>
   </data>
@@ -5284,15 +5251,10 @@ Erlaubte Seiten: Steamcommunity, Youtube, KSH Forum.</value>
   <data name="TerminalTab_Info_GridMass" xml:space="preserve">
     <value>Gittermasse:</value>
   </data>
-  <data name="Description_Scenario_TestStarSystem" xml:space="preserve">
-    <value>Test-Sonnensystem um die Möglichkeiten der Planetenerzeugung zu zeigen - Alle verfügbaren Planeten und Monde.</value>
-  </data>
   <data name="DisplayName_Scenario_TestStarSystem" xml:space="preserve">
     <value>Test-Sonnensystem</value>
   </data>
-  <data name="Description_Scenario_StarSystemAligned" xml:space="preserve">
-    <value>Die Planeten und ihre Monde stehen dicht beieinander.</value>
-  </data>
+ 
   <data name="DisplayName_Scenario_StarSystemAligned" xml:space="preserve">
     <value>Dichtes Sonnensystem</value>
   </data>
@@ -5567,9 +5529,6 @@ um fortgeschrittene Logiken und Effekte zu nutzen.</value>
   <data name="DisplayName_Animation_SpiderDeburrow" xml:space="preserve">
     <value>Ausgraben</value>
   </data>
-  <data name="Description_Scenario_DebugStart" xml:space="preserve">
-    <value>Minimale Welt mit einer Plattform und ein paar Jägern, lädt schnell, gut zum Testen und Debuggen.</value>
-  </data>
   <data name="DisplayName_Scenario_DebugStart" xml:space="preserve">
     <value>Debug Schnellstart</value>
   </data>
@@ -5636,20 +5595,11 @@ um fortgeschrittene Logiken und Effekte zu nutzen.</value>
   <data name="DisplayName_Faction_SpacePirates" xml:space="preserve">
     <value>{LOCG:DisplayName_Faction_SpacePirates_Translation}</value>
   </data>
-  <data name="Description_Scenario_EarthEasyStart" xml:space="preserve">
-    <value>Starte auf einem bewohnbaren Planeten auf einer Station, die mit grundlegenden Fahrzeugen ausgerüstet ist. Die Basis wird ständig von Piraten bedroht.</value>
-  </data>
-  <data name="Description_Scenario_MarsEasyStart" xml:space="preserve">
-    <value>Starte auf einem öden Planeten auf einer Station, die mit grundlegenden Fahrzeugen ausgerüstet ist. Du wirst ständig von Piraten bedroht.</value>
-  </data>
   <data name="DisplayName_Scenario_EarthEasyStart" xml:space="preserve">
     <value>Leichter Start Erde</value>
   </data>
   <data name="DisplayName_Scenario_MarsEasyStart" xml:space="preserve">
     <value>Leichter Start Mars</value>
-  </data>
-  <data name="Description_Scenario_AlienEasyStart" xml:space="preserve">
-    <value>Starte auf einem mysteriösen Planeten und setze Dich gegen Angriffe von Piraten und Tieren zur Wehr.</value>
   </data>
   <data name="DisplayName_Scenario_AlienEasyStart" xml:space="preserve">
     <value>Leichter Start Alienplanet</value>
@@ -5671,9 +5621,6 @@ um fortgeschrittene Logiken und Effekte zu nutzen.</value>
   </data>
   <data name="QuickstartSelectDifferent" xml:space="preserve">
     <value>Bitte wähle ein Szenario ohne Planeten.</value>
-  </data>
-  <data name="Description_Scenario_MoonEasyStart" xml:space="preserve">
-    <value>Starte auf einem Mond mit einer grundlegenden Bergbauinfrastruktur. Doch Vorsicht: Am Pol des Mondes treiben sich Piraten rum...</value>
   </data>
   <data name="DisplayName_Faction_FirstColonyFaction" xml:space="preserve">
     <value>{LOCG:DisplayName_Faction_FirstColonyFaction_Translation}</value>
@@ -5785,12 +5732,6 @@ in denen dir das Verhalten von Energie in Space Engineers sowie die verschiedene
     <value>Helm öffnen</value>
   </data>
   <data name="DisplayName_CloseHelmet" xml:space="preserve">
-    <value>Helm schließen</value>
-  </data>
-  <data name="Description_OpenHelmet" xml:space="preserve">
-    <value>Helm öffnen</value>
-  </data>
-  <data name="Description_CloseHelmet" xml:space="preserve">
     <value>Helm schließen</value>
   </data>
   <data name="GPS_Body_Location_Name" xml:space="preserve">
@@ -6051,9 +5992,6 @@ Wenn dies 0 ist, ist die Sicherungsfunktion deaktiviert
 </data>
   <data name="NotificationLimitsPCU" xml:space="preserve">
     <value>PCU-Limit erreicht.</value>
-  </data>
-  <data name="NotificationShipOverLimits" xml:space="preserve">
-    <value>Kann Schiff nicht platzieren. Es überschreitet die Regularien.</value>
   </data>
   <data name="WorldSettings_MaxBlocksPerPlayer" xml:space="preserve">
     <value>Max. Blöcke pro Spieler</value>
@@ -7048,7 +6986,7 @@ Umwelt-Feindseligkeit.</value>
   <data name="Department_Artists" xml:space="preserve">
     <value>Künstler</value>
   </data>
-  <data name="Department_AssistentProducer" xml:space="preserve">
+  <data name="Department_AssistantProducer" xml:space="preserve">
     <value>Assistierender Produzent</value>
   </data>
   <data name="Department_CommunityManagers" xml:space="preserve">
@@ -7739,4 +7677,197 @@ Du kannst Deine Meinung jederzeit ändern.</value>
   <data name="ScreenDebugAdminMenu_UntargetableToolTip" xml:space="preserve">
     <value>Macht Dich für alle Geschütze unsichtbar.</value>
   </data>
-</root>
+   <data name="Antenna_HudTextLabel" xml:space="preserve">
+    <value>HUD Text</value>
+  </data>
+  <data name="Antenna_HudTextToolTip" xml:space="preserve">
+    <value>Der Text, der auf dem HUD angezeigt werden soll, wenn die Antenne eingeschaltet ist. Lässt Du es leer, wird der Blockname verwendet.</value>
+  </data>
+  <data name="BlockPropertiesTitle_HudText" xml:space="preserve">
+    <value>HUD Text</value>
+  </data>
+  <data name="BlockPropertiesTitle_HudText_Tooltip" xml:space="preserve">
+    <value>Der Text, der auf dem HUD angezeigt werden soll, wenn die Boje eingeschaltet ist. Lässt Du es leer, wird der Blockname verwendet.</value>
+  </data>
+    <data name="BlockActionTitle_AutoEnable" xml:space="preserve">
+    <value>Autoaktivierung</value>
+  </data>
+    <data name="BlockActionTitle_DischargeToggle" xml:space="preserve">
+    <value>Entladen Ein/Aus</value>
+  </data>
+    <data name="BlockActionTitle_RechargeToggle" xml:space="preserve">
+    <value>Aufladen Ein/Aus</value>
+  </data>
+    <data name="BlockPropertyTitle_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+    <data name="BlockPropertyTitle_ChargeMode" xml:space="preserve">
+    <value>Lademodus</value>
+  </data>
+    <data name="BlueprintInfo_SendTo" xml:space="preserve">
+    <value>Senden an:</value>
+  </data>
+   <data name="ChatBotName" xml:space="preserve">
+    <value>KIA</value>
+  </data>
+  <data name="ChatBotUnavailable" xml:space="preserve">
+    <value>Es tut mir leid, aber ich bin gerade nicht verfügbar. Bitte besuche https://support.keenswh.com/ oder versuche es später noch einmal.</value>
+  </data>
+  <data name="ChatBot_Generic" xml:space="preserve">
+    <value>Hallo, Ingenieur! Ich bin KIA (Künstliche Intelligenz Assistent). Womit kann ich Dir helfen?</value>
+  </data>
+  <data name="ChatBot_HowAreYou" xml:space="preserve">
+    <value>Mir geht es gut, Danke!</value>
+  </data>
+  <data name="ChatBot_Rude" xml:space="preserve">
+    <value>Das war nicht sehr nett! Im Fall von Problemen kontaktiere uns bitte auf https://support.keenswh.com/.</value>
+  </data>
+  <data name="ChatBot_ThankYou" xml:space="preserve">
+    <value>Keine Ursache!</value>
+  </data>
+  <data name="ChatBotMisunderstanding0" xml:space="preserve">
+    <value>Entschuldigung, es ist mir nicht möglich, diese Frage zu benatworten. Ich bin noch in der Lernphase. Für mehr Hilfe besuche bitte https://support.keenswh.com/.</value>
+  </data>
+   <data name="ControlMenuItemLabel_ShowAdminMenu" xml:space="preserve">
+    <value>Zeige Administration</value>
+  </data>
+  <data name="ControlMenuItemLabel_ShowBlueprints" xml:space="preserve">
+    <value>Zeige Baupläne</value>
+  </data>
+   <data name="ControlMenuItemLabel_ShowHelp" xml:space="preserve">
+    <value>Zeige Hilfe</value>
+  </data>
+  <data name="ControlMenuItemLabel_ShowPlayers" xml:space="preserve">
+    <value>Zeige Spieler</value>
+  </data>
+  <data name="ControlMenuItemLabel_ShowSpawnMenu" xml:space="preserve">
+    <value>Zeige Spawnmenü</value>
+  </data>
+    <data name="ControlName_RelativeDampening" xml:space="preserve">
+    <value>Aktiviere Geschwindigkeitsanpassung </value>
+  </data>
+    <data name="NotificationBlockNotResearched" xml:space="preserve">
+    <value>Unbekannte Technologie. Du musst sie erst erforschen.</value>
+  </data>
+  <data name="DisplayName_Block_Ladder" xml:space="preserve">
+    <value>Leiter</value>
+  </data>
+  <data name="CustomWorld_NeverSurrender" xml:space="preserve">
+    <value>Niemals aufgeben</value>
+  </data>
+  <data name="CustomWorld_LearningToSurvive" xml:space="preserve">
+    <value>Überlebenstraining</value>
+  </data>
+  <data name="Department_AssistantProducer" xml:space="preserve">
+    <value>Assistierender Produzent</value>
+  </data>
+  <data name="Department_Designers" xml:space="preserve">
+    <value>Designer</value>
+  </data>
+  <data name="Department_LeadArtist" xml:space="preserve">
+    <value>Verantwortlicher Künstler</value>
+  </data>
+  <data name="Department_LeadDesigner" xml:space="preserve">
+    <value>Verantwortlicher Designer</value>
+  </data>
+  <data name="Department_TechnicalDirector" xml:space="preserve">
+    <value>Technischer Direktor</value>
+  </data>
+  <data name="Department_TeamOperations" xml:space="preserve">
+    <value>Team Operationen</value>
+  </data>
+  <data name="Department_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+    <data name="Description_AdvancedRotor" xml:space="preserve">
+    <value>Die verbesserten Rotoren der Firma ProSys ermöglichen es verbundenen Gittern, Güter zu transferieren.</value>
+  </data>
+  <data name="Description_AdvancedRotorPart" xml:space="preserve">
+    <value>Der Kopf des Rotors kann, falls er zerstört wird, in den Rotoreinstellungen neu erzeugt werden. </value>
+  </data>
+  <data name="Description_AirVent" xml:space="preserve">
+    <value>Die Belüftungsanlagen der Firma ProSys sorgen schon seit Jahrzehnten für gute Luft auf Rauminstallationen aller Art. Verbunden mit einem Leitungsnetzwerk ermöglichen sie es, einen luftdichten Raum zu be -oder auch entlüften.
+
+Sauerstoff wird aus Eis in Elektrolyseblöcken oder in Photosyntheseanlagen produziert. Er lässt sich in Sauerstofftanks speichern und mittels Förderleitungen transportieren. </value>
+  </data>
+   <data name="Description_AngleGrinder" xml:space="preserve">
+    <value>Die Schleifgeräte der Firma Steel and Sweat werden dazu benutzt, Installationen zu demontieren. Hat man gerade keine Waffe zur Hand, kann man damit auch Gegner... "Demontieren". Außerdem sind sie ein beliebtes Hackingtool.</value>
+  </data>
+  <data name="Description_Assembler" xml:space="preserve">
+    <value>Fabriken sind äußerst fortschrittliche Maschinen, die von der Firma ProSys seit Jahrzehnten weiterentwickelt wurden. Einmal aufgestellt, können sie alles produzieren, was in den Speichern hinterlegt ist. Sie sind außerdem mit Modulen erweiterbar.
+
+Zum Betrieb werden Rohstoffe und Energie benötigt.</value>
+  </data>
+  <data name="Description_AssemblerBasic" xml:space="preserve">
+    <value>Die Basisfabrik ist der kleine Bruder der Fabrik. Ihre Produktionsfähigkeit ist limitiert, dafür ist sie schnell aufgestellt und braucht nur wenig Teile. Ein älteres Konzept der Firma ProSys, aber immer noch beliebt.
+
+Zum Betrieb werden Rohstoffe und Energie benötigt.</value>
+  </data>
+  <data name="Description_AtmosphericThrust" xml:space="preserve">
+    <value>Wenn es um Triebwerke geht, sind die Produkte der Firma Speedmover erste Wahl unter den Raumingenieuren. Achtung: Atmosphärische Triebwerke können nur auf Planeten mit einer Atmosphäre eingesetzt werden. Und nicht in den Abgasstrahl fassen! </value>
+  </data>
+  <data name="Description_Battery" xml:space="preserve">
+    <value>Die Batterie dient als Zwischenspeicher für Notfälle und kann bei Bedarf einen hohen Ausstoß liefern. Die besten raumtauglichen Modelle kommen nach wie vor von Sun-Energizer.</value>
+  </data>
+  <data name="Description_Beacon" xml:space="preserve">
+    <value>Obwohl Computertechnologie ihr Hauptgebiet ist, stellt die Firma Positro-Complex Hive auch einfachere elektronische Geräte her. Die Boje dient einfach nur dazu, ein Peilsignal abzugeben, damit man einen Ort wiederfinden kann.</value>
+  </data>
+  <data name="Description_ButtonPanel" xml:space="preserve">
+    <value>Die Schaltkonsolen der Firma Firma Positro-Complex Hive ermöglichen dem Raumfahrer einen schnellen, unkomplizierten Zugriff auf Funktionen aller Art. Die großen Knöpfe sorgen dafür, dass man auch mit Handschuhen zielsicher tippen kann.
+
+Anvisieren und zum Einrichten [{CONTROL:TERMINAL}] drücken. Um einen Knopf zu aktivieren, [{CONTROL:USE}] drücken. </value>
+  </data>
+  <data name="Description_Camera" xml:space="preserve">
+    <value>Die Kameras der Firma Positro-Complex Hive werden nicht nur von Stalkern gerne benutzt, sondern dienen auch dem Raumfahrer zur Orientierung. Sie beinhalten auch eine Zoomfunktion.
+
+Wie wichtig eine Kamera sein kann, merkst Du spätestens dann, wenn Du ein 500 Tonnen schweres Bergbauschiff rückwärts aus einem Tunnel fliegen musst... </value>
+  </data>
+    <data name="Description_Cockpit" xml:space="preserve">
+    <value>Ein Cockpit wird benötigt, um ein Raumschiff oder einen Rover zu steuern. Das Standardmodell ist ein Gemeinschaftsprodukt der Firmen Positro-Complex Hive und ProSys.
+
+Es bietet Anschlüsse für Elektrolyseblöcke und/oder Sauerstofftanks und kann somit den Piloten mit Sauerstoff versorgen.</value>
+  </data>
+  <data name="Description_FighterCockpit" xml:space="preserve">
+    <value>Das Jägercocpit ist ein Gemeinschaftsprodukt der Firmen Positro-Complex Hive, Pounder Weapons und ProSys. Das Design ist für den Einbau in Kampfjäger optimiert und bietet mehr Schutz, als das Standardmodell.
+
+Es bietet ebenfalls Anschlüsse für Elektrolyseblöcke und/oder Sauerstofftanks und kann somit den Piloten mit Sauerstoff versorgen.</value>
+  </data>
+  <data name="Description_Collector" xml:space="preserve">
+    <value>Der Sammler ist ein Gerät der Firma ProSys. Er kann an ein Transportnetzwerk angeschlossen werden. Alles, was in den Samnmler gerät, kann dann in Container gebracht werden. Aber Vorsicht - Es sollen schon verhungerte Astronauten in Containern gefunden worden sein... </value>
+  </data>
+  <data name="Description_Connector" xml:space="preserve">
+    <value>Der Dockport dient zum Verbinden mit anderen Dockports. So kann dann z.B. ein Raumschiff Waren an einer Station aufnehmen oder abladen. Auch Energie kann transferiert werden. Somit können also Batteriebetriene Schiffe und Fahrzeuge aufgeladen werden. Es emittiert ein regelbares Magnetfeld, welches beim Andocken hilft, und nach dem Verriegeln das Schiff fixiert. 
+
+Wenn Du [{CONTROL:LANDING_GEAR}] drückst, schaltest Du zwischen An- und Abgedockt um. Wenn Du in Reichweite zum Docken bist, leuchten beide Ports gelb. Dockst Du ab, wird das Magnetfeld kurz deaktiviert, die Ports leuchten dann blau.</value>
+  </data>
+  <data name="Description_ControlPanel" xml:space="preserve">
+    <value>Kontrollfelder werden von der Firma Positro-Complex Hive hergestellt und erlauben den Zugriff auf die Steuermenüs von Konstruktionen aller Art.
+
+Anvisieren und [{CONTROL:TERMINAL}] drücken, um in das Menü zu gelangen. </value>
+  </data>
+  <data name="Description_ControlStation" xml:space="preserve">
+    <value>Die Kontrollstationen der Firma Positro-Complex Hive dienen zum Steuern großer Schiffe und Einrichtungen. Sie bieten höchsten Komfort für den Piloten und reduzieren Ablenkungen auf das Minimum für konzentriertes Arbeiten. Schützt aber nicht vor meckernden Beifliegern... Tipp: Nutzen sie Kopilotensitze mit Schleudersitzen.</value>
+  </data>
+  <data name="Descripton_ConveyorJunction" xml:space="preserve">
+    <value>Die Firma ProSys ist auch im Logistikbereich vertreten und produziert Normelemente für Leitungsnetzwerke. Diese Förderleitungsknoten können eingesetzt werden, um automatisiert Waren und Gase von A nach B zu transportieren und dienen als Kreuzungen von Leitungen.</value>
+  </data>
+  <data name="Description_ConveyorSorter" xml:space="preserve">
+    <value>Sortierer sind ein Gemeinschaftsprodukt der Firmen ProSys und Positro-Complex Hive. Mit Ihnen lässt sich der Warenfluss im Transportnetzwerk steuern.
+
+Mittels Black- und Whitelist kannst Du damit unerwünschte Materialien aussortieren oder bestimmte Waren in bestimmte Container bringen. </value>
+  </data>
+  <data name="Description_ConveyorTube" xml:space="preserve">
+    <value>Die Firma ProSys ist auch im Logistikbereich vertreten und produziert Normelemente für Leitungsnetzwerke. Diese Förderleitungen können eingesetzt werden, um automatisiert Waren und Gase von A nach B zu transportieren.</value>
+  </data>
+  <data name="Description_CornerLight" xml:space="preserve">
+    <value>Lampen dienen zur Beleuchtung von Räumen oder als Positionsmarker von Installationen aller Art. Sie werden von der Firma ProSys hergestellt.</value>
+  </data>
+  <data name="Description_CryoChamber" xml:space="preserve">
+    <value>Die Kryokammer dient dem gestressten Raumfahrer als Rückzugsort. Es beinhaltet eine komplette Tiefschlafausrüstung. Sie sind ein Gemeinschaftsprodukt der Firmen ProSys, Sun-Energizer und Positro-Complex Hive.
+
+Wichtig für Multiplayer, denn ein Spieler in einer Kryokammer verbraucht weniger Sauerstoff und der Werkzeuggürtel wird gespeichert. Die Kryokammer kann zur Sauerstoffversorgung an Leitungsnetzwerke angeschlossen werden. </value>
+  </data>
+  <data name="Description_Decoy" xml:space="preserve">
+    <value>Köder werden von der Firma Punder Weapons vertrieben und dienen dem Schutz von Raumjägern und Schiffen aller Art. Sie emittieren starke Signale und ziehen so das Feuer automatischer Waffen auf sich. Wer seinen Kommandanten hasst, baut öfter heimlich einen Köder unter die Kontrollstation...</value>
+  </data>
+  </root>
