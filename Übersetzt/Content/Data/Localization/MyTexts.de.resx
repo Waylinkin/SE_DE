@@ -7714,7 +7714,7 @@ Du kannst Deine Meinung jederzeit ändern.</value>
     <value>Es tut mir leid, aber ich bin gerade nicht verfügbar. Bitte besuche https://support.keenswh.com/ oder versuche es später noch einmal.</value>
   </data>
   <data name="ChatBot_Generic" xml:space="preserve">
-    <value>Hallo, Ingenieur! Ich bin KIA (Künstliche Intelligenz Assistent). Womit kann ich Dir helfen?</value>
+    <value>Hallo, Ingenieur! Ich bin Good.bot. Womit kann ich Dir helfen?</value>
   </data>
   <data name="ChatBot_HowAreYou" xml:space="preserve">
     <value>Mir geht es gut, Danke!</value>
@@ -7869,5 +7869,408 @@ Wichtig für Multiplayer, denn ein Spieler in einer Kryokammer verbraucht wenige
   </data>
   <data name="Description_Decoy" xml:space="preserve">
     <value>Köder werden von der Firma Punder Weapons vertrieben und dienen dem Schutz von Raumjägern und Schiffen aller Art. Sie emittieren starke Signale und ziehen so das Feuer automatischer Waffen auf sich. Wer seinen Kommandanten hasst, baut öfter heimlich einen Köder unter die Kontrollstation...</value>
+  </data>
+ <data name="Description_Door" xml:space="preserve">
+    <value>Türen dienen nicht nur als Raumteiler, sondern werden in der Raumfahrt dazu verwendet, Bereiche luftdicht und gleichzeitig betretbar zu gestalten. Im Bereich der Luftschleusen arbeiten seit Jahren die Firmen ProSys und Steel and Sweat zusammen.</value>
+  </data>
+  <data name="Description_Drill" xml:space="preserve">
+    <value>Die Schiffsbohrer von Steel and Sweat sind die erste Wahl, wenn es darum geht, Rohstoffe aus Asteroiden und Planeten zu gewinnen.
+
+Kann aus einem Cockpit genutzt oder manuell bedient werden. Vorsicht, nicht zu nahe ran gehen, wenn sie in Betrieb sind. Tut mächtig AUA! Bohrer können ans Leitungsnetzwerk angeschlossen werden.</value>
+  </data>
+  <data name="Description_Ejector" xml:space="preserve">
+    <value>Der Auswurf ist ein Gerät der Firma ProSys und quasi das Gegenstück zum Sammler. Mit ihm kann man unerwünschte Gegenstände aus dem Schiff werfen. Funktioniert nicht mit nervenden Beifliegern. Leider.
+
+Du kannst Auswürfe zusammen mit Sortierern verwenden und so genau festlegen, was ausgeworfen werden soll und was nicht. </value>
+  </data>
+  <data name="Description_DiagonalWindow" xml:space="preserve">
+    <value>Diese diagonalen Fensterläden kann man wunderbar als Treppen benutzen.</value>
+  </data>
+    <data name="Description_ProductivityModule" xml:space="preserve">
+    <value>Produktivitätsmodule erhöhen die Arbeitsgeschwindigkeit angeschlossener Fabriken oder Raffinerien enorm. Allerdings erhöhen sie auch massiv den Stromverbrauch. Wie alle Module dieser Art sind sie ein Gemeinschaftsprodukt der Firmen ProSys, Sun-Energizer und Positro-Complex Hive.</value>
+  </data>
+  <data name="Description_EffectivenessModule" xml:space="preserve">
+    <value>Effizienzmodule erhöhen die Ausbeute von Erzen aller Art bei angeschlossenen Raffinierien. Dafür steigt der Stromverbrauch stark an. Wie alle Module dieser Art sind sie ein Gemeinschaftsprodukt der Firmen ProSys, Sun-Energizer und Positro-Complex Hive.</value>
+  </data>
+  <data name="Description_PowerEfficiencyModule" xml:space="preserve">
+    <value>Stromsparmodule reduzieren den Energieverbrauch angeschlossener Fabriken und Raffinierien. Wie alle Module dieser Art sind sie ein Gemeinschaftsprodukt der Firmen ProSys, Sun-Energizer und Positro-Complex Hive.</value>
+  </data>
+  <data name="Description_FAQ_Electricity" xml:space="preserve">
+    <value>Elektrizität kann mit Reaktoren, Wasserstoffkraftwerken, Solarzellen oder Windkraftanlagen gewonnen werden. Sie wird automatisch über alle verbundenen Blöcke weitergeleitet. Viele Blöcke benötigen sie, um zu funktionieren. </value>
+  </data>
+  <data name="Description_FAQ_Asteroids" xml:space="preserve">
+    <value>Asteroiden können im Weltraum gefunden werden. Anzahl und Dichte hängen von den Einstellungen des Servers bzw. den Welteinstellungen ab. Asteroiden beinhalten oft abbaubare Erze.</value>
+  </data>
+  <data name="Description_FAQ_Gravity" xml:space="preserve">
+    <value>Planeten und Monde haben ihre eigene, natürliche Gravitation. Außerdem kann künstliche Gravitation mittels Gravitationsgeneratoren erzeugt werden. Künstliche Gravitation hat keine Wirkung auf Gitter, solange keine künstliche Masse verbaut wurde. </value>
+  </data>
+  <data name="Description_FAQ_Oxygen" xml:space="preserve">
+    <value>Manche Planeten haben eine atembare Atmosphäre. Ansonsten kann Sauerstoff mit Elektrolyseblöcken oder Photosyntheseanlagen gewonnen werden. Er kann in Sauerstoffflaschen oder Sauerstofftanks gespeichert werden.</value>
+  </data>
+  <data name="Description_FAQ_Damage" xml:space="preserve">
+    <value>Schaden kann durch Waffen, aber auch Werkzeuge an Gittern und Astronauten zugefügt werden. Außerdem können Einschläge und Kollisionen Schaden anrichten. Wenn aktiviert, können auch aktive Triebwerke Schaden anrichten.</value>
+  </data>
+  <data name="Description_FAQ_Repair" xml:space="preserve">
+    <value>Schäden können mit Schweißgeräten repariert werden, dazu müssen eventuell Komponenten mitgeführt werden. Blöcke die komplett zerstört wurden, müssen neu gesetzt werden. Um das zu unterstützen, können Projektoren verwendet werden. </value>
+  </data>
+  <data name="Description_FAQ_Welding" xml:space="preserve">
+    <value>Mit Schweißgeräten können Blöcke gebaut und repariert werden. Sie benötigen Strom von Deinem Anzug und die zum Bau erforderlichen Komponenten. Außerdem kannst Du Schweißgeräte an Bord von Schiffen installieren, was den bauprozess enorm beschleunigen und vereinfachen kann. </value>
+  </data>
+  <data name="Description_FAQ_Mining" xml:space="preserve">
+    <value>Du kannst Erze mit Deinem Handbohrer auf Planeten, Monden und Asteroiden gewinnen. Dein Handbohrer verfügt über einen eingebauten Erzdetektor mit kurzer Reichweite. Du kannst größere Bohrer und bessere Detektoren an Bord von Schiffen installieren, um besser Bergbau betreiben zu können.</value>
+  </data>
+  <data name="Description_FAQ_Healing" xml:space="preserve">
+    <value>Um Dich zu heilen kannst Du Dich zu einer Krankenstation oder einem Überlebenskit begeben. Drücke [{CONTROL:USE}] um die Konsole zu benutzen. Je nach Spieleinstellung kannst Du auch automatisch über Zeit heilen, dies aber nur bis maximal 70% Deiner maximalen Lebenspunkte. </value>
+  </data>
+  <data name="Description_FAQ_Recharging" xml:space="preserve">
+    <value>Die Energie Deines Anzugs kannst Du an Krankenstationen und Überlebenskits wieder aufladen. Oder Du setzt Dich einfach in irgendeinen Sitz oder irgendein Cockpit, das über Energie verfügt.</value>
+  </data>
+  <data name="Description_FAQ_Grinding" xml:space="preserve">
+    <value>Mit einem Schleifgerät kannst Du Blöcke abbauen. Die enthaltenen Komponenten gehen in Dein Inventar wenn Du genug Platz hast. Ansonsten fallen sie zu Boden oder treiben im Weltraum. Du kannst auch Schleifgeräte an Schiffen anbringen.. </value>
+  </data>
+  <data name="Description_FAQ_Hydrogen" xml:space="preserve">
+    <value>Wasserstoff ist ein leichtes Gas, welches als Treibstoff für Dein Jetpack, Wasserstoffkraftwerken und von Wasserstofftriebwerken genutzt wird. Er kann in Elektrolyseblöcken hergestellt und in Wasserstoffflaschen und Wasserstofftanks gespeichert werden. </value>
+  </data>
+  <data name="Description_FAQ_Jetpack" xml:space="preserve">
+    <value>Dein Jetpack ist ein Fluggerät, mit dem Du Dich im Raum, aber auch auf Planeten bewegen kannst. Es benötigt Wasserstoff als Treibstoff, welcher in Elektrolyseblöcken asu Eis gewonnen werden kann. Du kannst Wasserstoff an Krankenstationen und Überlebenskits direkt aufladen, wenn diese an ein Leitungsnetzwerk angeschlossen sind. Flaschen können direkt im Elektrolyseblock oder einem Wasserstofftank aufgefüllt werden. </value>
+  </data>
+  <data name="Description_FAQ_MagneticBoots" xml:space="preserve">
+    <value>Magnetstiefel funktionieren nur in 0-G-Umgebungen. Sie geben Dir festen Halt auf Oberflächen wie Schiffen, Stationen und Asteroiden. Drücke [{CONTROL:THRUSTS}] umd Dein Jetpack abzuschalten. Die Magnete aktivieren sich, wenn Du in stehender Lage auf einer Oberfläche bist.</value>
+  </data>
+  <data name="Description_FAQ_Ore" xml:space="preserve">
+    <value>Erz ist der Oberbegriff für verschiedene Arten an Mineralien, welche in einer Raffinerie zu Barren weiterverarbeitet werden können. Sie können auf Planeten, Monden und Asteroiden gefunden werden. Ihre Lagerstellen sind meist durch auffällige Stellen auf der Oberfläche zu erkennen. </value>
+  </data>
+  <data name="Description_FAQ_Ice" xml:space="preserve">
+    <value>Eis wird benötigt, um in Elektrolyseblöcken Sauerstoff und Wasserstoff herzustellen. Es kann auf Planeten, Monden und Asteroiden gefunden werden.</value>
+  </data>
+  <data name="Description_FAQ_Voxel" xml:space="preserve">
+    <value>Alle Planeten, Monde und Asteroiden im Spiel bestehen aus sogenannten Voxels, welche einen physikalischen Körper simulieren. Mit Hilfe von Bohrern kannst Du sie abbauen (Zum Abbau von Erzen oder um Tunnel zu graben etc.). Im Kreativmodus kannst Du außerdem die Voxelhände benutzen, um Oberflächen selbst zu gestalten. </value>
+  </data>
+  <data name="Description_FAQ_Grid" xml:space="preserve">
+    <value>Als Gitter werden alle Ansammlungen von Blöcken bezeichnet, die dann Stationen oder Schiffe bilden. Also ist jedes Schiff und jede Station ein eigenes Gitter. </value>
+  </data>
+  <data name="Description_FAQ_Clang" xml:space="preserve">
+    <value>Preiset Clang!</value>
+  </data>
+  <data name="Description_FAQ_Visor" xml:space="preserve">
+    <value>Du kannst Dein Helmvisier öffnen und schließen, indem Du [{CONTROL:HELMET}] drückst. Öffne niemals den Helm im Weltraum, Du wirst es bereuen!</value>
+  </data>
+  <data name="Description_FAQ_RoomPressure" xml:space="preserve">
+    <value>Räume können mit Hilfe von Lüftern belüftet werden. Damit das funktioniert, muss der Raum luftdicht sein. Der Raumdruck kann im Menü eines Lüfters nachgesehen werden. </value>
+  </data>
+  <data name="Description_FAQ_Thrusters" xml:space="preserve">
+    <value>Triebwerke erlauben es Deinem Schiff, sich zu bewegen und zu fliegen. Es gibt drei Arten von Triebwerken: Atmosphärische, Ionen und Wasserstofftriebwerke. Atmosphärische Triebwerke funktionieren nur in Lufthüllen, Ionentriebwerke verlieren unter Gravitationseinfluss rapide an Wirksamkeit. Wasserstofftriebwerke funktionieren überall, benötigen aber Wasserstoff als Treibstoff. Wähle Weise!</value>
+  </data>
+  <data name="Description_FAQ_ShipMovement" xml:space="preserve">
+    <value>Drücke {CONTROL:TOGGLE_REACTORS}] um die Energie ein- oder auszuschalten. Triebwerke entfalten ihre volle Leistungsfähigkeit nur, wenn sie genug Energie (Im Fall von Wasserstofftriebwerken Wasserstoff) bekommen. Achte also darauf, dass Du genug Reaktoren/Batterien hast, um die nötigen Energiemengen bereitstellen zu können.</value>
+  </data>
+  <data name="Description_FAQ_RoverMovement" xml:space="preserve">
+    <value>Drücke [{CONTROL:LANDING_GEAR}] um Bremsen und Landestützen zu entriegeln, bzw. [{CONTROL:TOGGLE_REACTORS}], um die Energie ein- oder auszuschalten. Bodenfahrzeuge benötigen in der Regel viel weniger Energie, als Schiffe, dennoch solltest Du den Füllstand von Batterien oder Reaktoren prüfen.</value>
+  </data>
+  <data name="Description_FAQ_Planets" xml:space="preserve">
+    <value>Planeten kannst Du schon aus großer Entfernung sehen. Wenn Du keine siehst, sind sie in dieser Welt eventuell ausgeschaltet. Falls Du eine Welt mit Planeten aus dem Workshop geholt hast, achte darauf, dass diese eventuell aus Modplaneten besteht, die separat geladen werden müssen.</value>
+  </data>
+  <data name="Description_FAQ_Pirates" xml:space="preserve">
+    <value>Schütze Dich selbst vor Piraten oder anderen Spielern, indem Du Panzerung, Geschütze und Köder baust. Notfalls hast noch die Flex... </value>
+  </data>
+  <data name="Description_FAQ_Fuel" xml:space="preserve">
+    <value>Reaktoren nutzen in der Regel aufbereitetes Uran als Treibstoff. Wasserstoffkraftwerke, Dein Jetpack sowie Wasserstofftriebwerke benötigen Wasserstoff als Treibstoff. </value>
+  </data>
+  <data name="Description_FAQ_PCU" xml:space="preserve">
+    <value>PCU ist die Abkürzung für "Performance Cost Unit". Sie verdeutlichen die Rechenpower, die eine bestimmte Komponente benötigt, um zu funktionieren. In den Welt/Servereinstellungen kann diesbezüglich ein Limit gesetzt sein, so dass die Anzahl an Blöcken begrenzt ist. Das Bauen und Abreißen von Blöcken kostet/erstattet PCUs. </value>
+  </data>
+  <data name="Description_FAQ_Ownership" xml:space="preserve">
+    <value>Wenn Du einen Block baust, bist Du in der Regel auch dessen Besitzer. Du kannst allerdings die Nutzung von Blöcken für alle anderen sperren, oder sie für alle, oder Deine Fraktion freigeben. Du kannst auch den Besitz komplett an jemand anderen überschreiben.</value>
+  </data>
+  <data name="Description_FAQ_Factions" xml:space="preserve">
+    <value>Fraktionen sind eine Möglichkeit, zusammen mit anderen Spielern zu spielen, da man in einer Fraktion die Nutzung von Blöcken teilen kann. Dies erleichtert die Zusammenarbeit enorm. Jeder kann eine eigene Fraktion gründen.. </value>
+  </data>
+  <data name="Description_FAQ_Bottles" xml:space="preserve">
+    <value>Wasserstoff- und Sauerstoffflaschen können in Fabriken hergestellt werden. Du kannst sie in Elektrolyseblöcken oder entsprechenden Tanks auffüllen. Flaschen füllen Deinen Anzugsvorrat automatisch auf, wenn ein bestimmeter Bestand unterschritten wird. </value>
+  </data>
+  <data name="Description_FAQ_Help" xml:space="preserve">
+    <value>Drücke [{CONTROL:HELP_SCREEN}] um zusätzliche Hilfe zu finden, oder frag mich einfach.</value>
+  </data>
+  <data name="Description_FAQ_SaveBlueprints" xml:space="preserve">
+    <value>Du kannst von jedem Objekt, dass Du baust, einen Bauplan erzeugen. Visiere das Objekt an und drücke Strg+B. Mit F10 öffnest Du Deine Bauplan-Bibliothek. Baupläne kannst Du in Projektoren laden, um den Bau zu vereinfachen. Du kannst sie auch im Workshop veröffentlichen, bzw. Baupläne von dort beziehen. </value>
+  </data>
+  <data name="Description_FAQ_Lost" xml:space="preserve">
+    <value>Wenn Du Dich mal verirrt hast, oder wo feststeckst, kannst Du immer [{CONTROL:SUICIDE}] drücken, um bei einem Überlebenskit oder einer Krankenstation zu respawnen. </value>
+  </data>
+  <data name="Description_FAQ_Mass" xml:space="preserve">
+    <value>Alle Deine Fahrzeuge haben ein Gewicht (Masse). Bedenke, dass auch die Zuladung eine Masse hat. Das Beladen von Containern kann also die Manövrierfähigkeit Deiner Schiffe stark beeinträchtigen. </value>
+  </data>
+  <data name="Description_FAQ_Skins" xml:space="preserve">
+    <value>Skins können im Überlebensmodus gefunden werden, indem Du die Kapseln findest (Unbekannte Signale) und deren Knopf drückst. An einer Krankenstation kannst Du Deinen Character damit ausstatten. </value>
+  </data>
+  <data name="Description_FAQ_ShipInventories" xml:space="preserve">
+    <value>Stelle sicher, dass Du die Container an Bord eines Schiffes/Station untereinander mit Förderleitungen verbindest, um Güter automatisch transportieren zu können und selbst einfacheren Zugriff auf alles zu haben. Beachte, dass nicht alle Güter durch kleine Förderleitungen passen. Mit [{CONTROL:INVENTORY}] öffnest Du Dein eigenes Inventar. </value>
+  </data>
+  <data name="Description_FAQ_ShipBuilding" xml:space="preserve">
+    <value>Die Minimalanforderung für ein Schiff sind: Cockpit, Gyroskop, ein Triebwerk in jede Richtung und eine Form von Energiequelle, z.B. Batterien, Reaktoren etc.. </value>
+  </data>
+  <data name="Description_FAQ_Script" xml:space="preserve">
+    <value>Skripte ermöglichen bestimmte Funktionen, die das Leben eines Raumfahrers leichter machen. Z.B. das Handling von Luftschleusen, Anzeigen von Informationen auf LCDs etc. Sie werden auf Computerkernen installiert und ausgeführt oder Du kannst sie dort auch selber programmieren. Du kannst sie auch aus dem Workshop beziehen. Beachte, dass Skripte in den Welteinstellungen abgeschaltet werden können. </value>
+  </data>
+  <data name="Description_FAQ_GridMovement" xml:space="preserve">
+    <value>Alle Gitter, die nicht vom Typ Station sind, können im freien Raum mitunter einen unerwünschten Bewegungsimpuls erhalten. Um ein solches Gitter an Ort und Stelle zu halten, benötigst Du daher wenigstens ein Triebwerk in jede Richtung. Alternativ kannst Du das Gitter in eine Station umwandeln. Stationen sind nicht bewegungsfähig und sind somit an Ort und Stelle verankert. Stationen haben zudem den Vorteil, dass sie weniger Performance verbrauchen.</value>
+  </data>
+  <data name="Description_FAQ_StopMoving" xml:space="preserve">
+    <value>Stelle sicher, dass Dein Jetpack ativiert ist ( [{CONTROL:THRUSTS}] ) und aktiviere das FLKS mit [{CONTROL:DAMPING}]. </value>
+  </data>
+  <data name="Description_FAQ_RelativeDampeners" xml:space="preserve">
+    <value>Das relative FLKS passt Deine Geschwindigkeit und Flugrichtung an ein anderes, sich bewegendes Objekt an. Drücke [Ctrl-{CONTROL:DAMPING}] währnd Du das Ziel anvisierst. Beachte, dass Du dafür maximal 100 Meter vom Zielobjekt entfernt sein darfst, damit es funktioniert. </value>
+  </data>
+  <data name="Description_FAQ_InertiaDampeners" xml:space="preserve">
+    <value>Das FLKS (Fluglage-Kontrollsystem) versucht immer, Dich oder ein beliebiges anderes Objekt an Ort und Stelle und in der aktuellen Lage zu fixieren. Du kannst es mit [{CONTROL:DAMPING}] ein- und ausschalten. Das relative FLKS passt Deine Geschwindigkeit und Flugrichtung an ein anderes, sich bewegendes Objekt an und kann mit [Ctrl-{CONTROL:DAMPING}] ein- und ausgeschaltet werden. Beide benötigen Triebwerke in alle Richtungen, um effizient arbeiten zu können.</value>
+  </data>
+  <data name="Description_FAQ_Flashlight" xml:space="preserve">
+    <value>Du kannst die Taschenlampe mit [{CONTROL:HEADLIGHTS}] ein- und ausschalten. Die Taschenlampe zieht Strom aus dem Anzug und funktioniert nicht, wenn dieser leer ist. </value>
+  </data>
+  <data name="Description_FAQ_FindOtherPlayers" xml:space="preserve">
+    <value>Sieh Dich nach Fraktionen um, denen Du beitreten kannst, oder frage umher, ob Du Dich einer Gruppe anschließen kannst. Achte auf Antennensignale, welche auf andere Spieler hinweisen können. </value>
+  </data>
+  <data name="Description_FAQ_HowToPlayGame" xml:space="preserve">
+    <value>Kannst Du bitte etwas genauer werden?</value>
+  </data>
+  <data name="Description_FAQ_Thing" xml:space="preserve">
+    <value>Hast Du dieses andere Ding ausprobiert?</value>
+  </data>
+  <data name="Description_FAQ_ShipWontFly" xml:space="preserve">
+    <value>Prüfe folgende Dinge: Ist das Schiff noch irgendwo angedockt? Hat das Schiff genug Energie? Falls es batteriebetrieben ist: Stehen die Batterien auf "aufladen"? Sind genug Triebwerke verbaut? </value>
+  </data>
+  <data name="Description_FAQ_WhatIsABlock" xml:space="preserve">
+    <value>Der Block ist das kleinste Teil eines Gitters. Alles, was Du baust, besteht aus Blöcken. Es gibt sie in zwei Größen: Groß und klein. Alle Blöcke, die Du bauen kannst, findest Du im Baumenü ( [{CONTROL:BUILD_SCREEN}] ). </value>
+  </data>
+  <data name="Description_FAQ_MirrorMode" xml:space="preserve">
+    <value>Der Spiegelmodus funktioniert nur im Kreativmodus und erlaubt einfacheres symmetrisches Bauen. Drücke [{CONTROL:SYMMETRY_SWITCH}] um durch alle sechs Spiegelebenen zu schalten. Drücke LMT, um zu bauen und RMT um etwas zu entfernen. Mit [{CONTROL:USE_SYMMETRY}] kannst Du den Spiegelmodus zweitweilig abschalten. </value>
+  </data>
+  <data name="Description_FAQ_ProtectingMyself" xml:space="preserve">
+    <value>Verstecke Deine Basen untrirdisch oder in einem Asteroiden. Baue Geschütze und Köder, um Dich gegen Angriffe zu schützen. Baue mehrere, verstreute Krankenstationen, um respawnen zu können, wenn Du stirbst sowie mehrere Optionen zu haben, wenn Du in Deiner Basis kämpfen musst.</value>
+  </data>
+  <data name="Description_FAQ_LosingHealth" xml:space="preserve">
+    <value>Wenn Du Schaden nimmst: Bist Du am Ersticken? Bist Du zu nahe an einem Triebwerk? Bist Du zu nahe an einem Schiffswerkzeug? Ist die Anzugsenergie ausgegangen?</value>
+  </data>
+  <data name="Description_FAQ_VoxelHands" xml:space="preserve">
+    <value>Die Voxelhände sind ein Werkzeug, welches nur im Kreativmodus verfügbar ist. Sie erlauben Dir, Voxeloberflächen selbst zu erzeugen und sie zu formen. Sie können in den Welt/Servereinstellungen aktiviert werden. </value>
+  </data>
+  <data name="Description_FAQ_AirTightnessPressure" xml:space="preserve">
+    <value>Ein Raum muss luftdicht sein, bevor er mittels eines Lüfters unter Druck gesetzt werden kann. Stelle sicher, dass die Außenwände dicht sind und alle Türen geschlossen sind. </value>
+  </data>
+  <data name="Description_FAQ_Components" xml:space="preserve">
+    <value>Komponenten werden benötigt, um Blöcke zu bauen. Sie können in Fabriken aus Barren hergestellt werden. Um im Überlebensmodus einen Block setzen zu können, wird immer dessen erste Komponente benötigt. </value>
+  </data>
+  <data name="Description_FAQ_Station" xml:space="preserve">
+    <value>Eine Station ist ein statisches Grid und somit Bewegungsunfähig. Sie können direkt an/in Asteroiden gebaut werden oder an Planetenoberflächen stehen. Stationen belasten die Performance weniger, als Schiffe. Eine Station kann, falls in den Welt/Servereinstellungen aktiviert, in ein Schiff umgewandelt werden und umgekehrt. Aber Vorsicht: ist eine Station mit Voxels verbunden, wird sie wahrscheinlich dabei schwer beschädigt oder gar ganz vernichtet werden. </value>
+  </data>
+  <data name="Description_FAQ_Ship" xml:space="preserve">
+    <value>Ein Schiff ist ein bewegliches Gitter und dazu gedacht, sich zu bewegen. Für gewöhnlich hat es Triebwerke in alle Richtungen, Gyroskope zur Drehung, ein Cockpit und Energiequellen. Schiffe können für bestimmte Aufgaben konstruiert werden. Z.B. Bergbau oder Kampf.</value>
+  </data>
+  <data name="Description_FAQ_CarRover" xml:space="preserve">
+    <value>Ein Rover ist ein bodengebundenes Fahrzeug mit Rädern. Sie sind billig zu bauen, aber in der Regel langsam und leichte Ziele.</value>
+  </data>
+  <data name="Description_FAQ_GPSSignals" xml:space="preserve">
+    <value>GPS-Punkte werden benutzt, um wichtige Orte zu markieren. Sie können gezielt ein- und ausgeblendet werden, um das HUD nicht unnötig vollzumüllen. Sie können auch in LCDs angezeigt oder im Chat gesendet werden. Achte darauf, keine Gegner anzulocken.</value>
+  </data>
+  <data name="Description_FAQ_GridSize" xml:space="preserve">
+    <value>Es gibt zwei Gittergrößen, welche ganz einfach groß und klein genannt werden. Du kannst beim Bauen zwischen den Größen umschalten, indem Du einfach wiederholt die entsprechende Taste des Werkzeuggürtels drückst. Beachte, dass nicht alle Blöcke in jeder Größe verfügbar sind. </value>
+  </data>
+  <data name="Description_FAQ_Suit" xml:space="preserve">
+    <value>Dein Anzug hält Dich am Leben, wenn Du Dich in lebensfeindlichen Umgebungen aufhältst. Deine Gesundheit, Sauerstoff, Wasserstoff und Energie werden im HUD angezeigt. Dein Anzug ist außerdem mit einem Jetpack , Magnetstiefeln und einer Taschenlampe ausgestattet. </value>
+  </data>
+  <data name="Description_FAQ_HandTools" xml:space="preserve">
+    <value>Es gibt drei Arten an Handwerkzeugen: mit dem Schweißgerät kannst Du bauen und reparieren. Das Schleifgerät wird zum Abbauen, Hacken und notfalls auch als Waffe verwendet. Mit dem Handbohrer schließlich kannst Du Erze finden und abbauen oder Tunnel graben. </value>
+  </data>
+  <data name="Description_FAQ_Inventory" xml:space="preserve">
+    <value>Du kannst Dein Inventar mit [{CONTROL:INVENTORY}] Aufrufen. Um Gegenstände einfach wegzuwerfen, ziehe sie außerhalb des Inventarbildschirms und lass sie dann los. Mit [{CONTROL:PICK_UP}] kannst Du Gegenstände aufheben.</value>
+  </data>
+  <data name="Description_FAQ_ShipToolsWeapons" xml:space="preserve">
+    <value>Du kannst mit [{CONTROL:BUILD_SCREEN}] Werkzeuge oder auch Waffen Deiner Bedienleiste hinzufügen, indem Du sie mit der Maus in den gewünschten Platz ziehst oder mit RMT direkt hinzufügst. Das Selbe funktioniert auch mit Schiffsfunktionen, wenn Du Dich in einem Cockpit aufhältst. </value>
+  </data>
+  <data name="Description_FAQ_Ingots" xml:space="preserve">
+    <value>Barren werden in Raffinerien aus Erz hergestellt und sind nötig, um Komponenten zu produzieren. </value>
+  </data>
+  <data name="Description_FAQ_Armor" xml:space="preserve">
+    <value>Panzerblöcke werden verwendet, um die Hüllen von Schiffen und Stationen zu errichten. Sie fungieren auch als Schutz für wichtige Blöcke. Leichte Panzerung ist billig, schnell gebaut und hat weniger Masse. Schwere Panzerung bietet sehr viel besseren Schutz, ist aber teuer, und beinträchtigt eher die Manövrierfähigkeit von Schiffen. </value>
+  </data>
+  <data name="Description_FAQ_Meteor" xml:space="preserve">
+    <value>Meteore können in den Welt/Servereinstellungen aktiviert werden. Um Dich zu schützen, kannst Du Geschütze, mehr Panzerung oder einfach unterirdisch, bzw. innerhalb von Asteroiden bauen.</value>
+  </data>
+  <data name="Description_FAQ_UnknownSignals" xml:space="preserve">
+    <value>Diese Signale zeigen die Positionen von kleinen Pods, von denen Du Skins und Beute erhalten kannst. Schwache Signale sind nur für Dich sichtbar. Starke Signale sind für jeden auf dem Server sichtbar, können aber bessere Beute enthalten. Diese Pods gibt es nur im Überlebensmodus. </value>
+  </data>
+  <data name="Description_FAQ_GPSColors" xml:space="preserve">
+    <value>Blaue Signale gehören Dir. Weiße Signale sind neutral, grüne freundlich, bzw. Deiner Fraktion zugehörig. Rot ist feindlich. Gelbe Signale sind starke, unbekannte Signale. Allerdings haben auch schwache, unbekannte Signale grüne Farbe. </value>
+  </data>
+  <data name="Description_FAQ_Drones" xml:space="preserve">
+    <value>Drohnen sind unbemannte Schiffe, die entweder ferngesteuert, oder von Skripten, bzw. Sensoren und Zeitgebern kontrolliert werden.</value>
+  </data>
+  <data name="Description_FAQ_Objective" xml:space="preserve">
+    <value>Space Engineers ist ein Sandkastenspiel. Es gibt keine vordefinierten Ziele, außer Du setzt Dir selbst welche. Im Workshop kannst Du Szenarien oder auch Kampagnen finden, oder Du baust Dir selber welche. Außerdem beinhaltet das Spiel selbst drei vorgefertigte Kampagnen.Befindest Du Dich in einem Szenario, werden aktuelle Ziele links oben eingeblendet. </value>
+  </data>
+  <data name="Description_FAQ_GoodBot" xml:space="preserve">
+    <value>Ich bin Good.bot. Ich bin hier, um Deine Fragen so gut wie möglich zu beantworten. Wie kann ich Dir helfen?</value>
+  </data>
+  <data name="Description_FAQ_Math" xml:space="preserve">
+    <value>Mathematik! Die ganze Zeit tue ich nichts anderes!</value>
+  </data>
+  <data name="Description_FAQ_Begin" xml:space="preserve">
+    <value>Baue Deine Produktion aus. Baue Raffinerien und Fabriken. Stelle Sicher, dass Du genug Energie hast. Baue Solarpanele, Reaktoren, Windturbinen. Achte darauf, dass Deine Krankenstation gut gesichert ist, bzw. baue mehrere davon.</value>
+  </data>
+  <data name="Description_FAQ_BasicMovement" xml:space="preserve">
+    <value>Nutze [{CONTROL:FORWARD}] [{CONTROL:STRAFE_LEFT}] [{CONTROL:BACKWARD}] [{CONTROL:STRAFE_RIGHT}] um Dich zu bewegen, halte [{CONTROL:SPRINT}] um zu sprinten, mit [{CONTROL:SWITCH_WALK}] kannst Du gehen/rennen umschalten. Drücke [{CONTROL:CROUCH}] um gebückt zu gehen und [{CONTROL:JUMP}] um zu springen. </value>
+  </data>
+  <data name="Description_FAQ_Time" xml:space="preserve">
+    <value>Es ist Zeit für Space Engineers!</value>
+  </data>
+  <data name="Description_FAQ_SteamWorkshop" xml:space="preserve">
+    <value>Im Workshop kannst Du Unmengen an Mods, Bauplänen, Szenarien und Skripten von anderen Spielern finden, um das Spiel aufzupeppen. Um Dinge aus dem Workshop ins Spiel zu bringen, kannst Du diese abbonieren.</value>
+  </data>
+  <data name="Description_FAQ_Painting" xml:space="preserve">
+    <value>Du kannst Blöcke färben, während Du einen anderen Block in der Hand hältst, indem Du [{CONTROL:CUBE_COLOR_CHANGE}] drückst. Drücke K , um mehr Farboptionen zu erhalten. Nutze die Kombinationen Ctrl-[{CONTROL:CUBE_COLOR_CHANGE}] oder Shift-[{CONTROL:CUBE_COLOR_CHANGE}] um größere Bereiche zu färben. </value>
+  </data>
+  <data name="Description_FAQ_InvalidMaterial" xml:space="preserve">
+    <value>Sorry, dieses Material existiert in Space Engineers nicht. </value>
+  </data>
+  <data name="Description_FAQ_Test" xml:space="preserve">
+    <value>Test erhalten!</value>
+  </data>
+  <data name="Description_FAQ_Broadcasting" xml:space="preserve">
+    <value>Dein Anzug hat eine begrenzte Funkreichweite (200m), um auf Gitter zugreifen zu können, bzw. Drohnen fernsteuern zu können. Mit O kannst Du die Anzugsantenne ein- und ausschalten. </value>
+  </data>
+  <data name="Description_FAQ_BlockRotation" xml:space="preserve">
+    <value>Du kannst den Block- und Gitterrotationsassistenten in den Spieloptionen aktivieren, um die Rotationsmöglichkeiten im Spiel angezeigt zu bekommen. Drücke [{CONTROL:CUBE_DEFAULT_MOUNTPOINT}] um einen Block in Richtung seines Standard-Montagepunkts zu drehen. </value>
+  </data>
+  <data name="Description_FAQ_HUD" xml:space="preserve">
+    <value>Du kannst mit [{CONTROL:TOGGLE_HUD}] zwischen den verschiedenen HUD-Modi umschalten. Mit [{CONTROL:TOGGLE_SIGNALS}] kannst Du zwischen den verschiedenen Anzeigemodi für GPS-Punkte umschalten. </value>
+  </data>
+  <data name="Description_FAQ_Bug" xml:space="preserve">
+    <value>Du kannst Bugs und Probleme mit dem Spiel im Forum berichten. Du kannst auch unter https://support.keenswh.com/ Hilfe erhalten.</value>
+  </data>
+  <data name="Description_FAQ_Messages" xml:space="preserve">
+    <value>Im Kommunikationstab kannst Du private Nachrichten an andere Spieler/Fraktionen senden. Beachte, dass dies nur funktioniert, wenn Deine Anzugsantenne aktiviert ist, und Du Dich in Reichweite zu anderen Spielern/Antennen befindest. </value>
+  </data>
+  <data name="Description_FAQ_AutoPilot" xml:space="preserve">
+    <value>Um den Autopiloten nutzen zu können, benötigt Dein Schiff zunächst mal eine Fernsteuerung. Dort kannst Du beliebige GPS-Punkte addieren und einen Flugmodus auswählen. Außerdem kannst Du festlegen, welche Aktionen das Schiff ausführen soll, wenn es einen Wegpunkt erreicht. </value>
+  </data>
+  <data name="Description_FAQ_Experimental" xml:space="preserve">
+    <value>Der experimentelle Modus ist ein Modus, der Features aktiviert, die als instabil geführt werden und möglicherweise Performanceprobleme verursachen können. Er kann in den Welt/Servereinstellungen aktiviert werden.</value>
+  </data>
+  <data name="Description_FAQ_Marek" xml:space="preserve">
+    <value>Marek Rosa ist der Gründer, CEO von Keen Software House und GoodAI. </value>
+  </data>
+  <data name="Description_FAQ_GoodAI" xml:space="preserve">
+    <value>GoodAI wurde von CEO/CTO Marek Rosa im Januar 2014 gegründet und betreibt Forschungen zur Entwicklung von künstlicher Intelligenz. </value>
+  </data>
+  <data name="Description_FAQ_DisableHints" xml:space="preserve">
+    <value>Um die Tipps von Good.bot zu deaktivieren, drücke Escape, gehe in die Optionen, gehe in Spiel und deaktiviere "Zeige Good.bot Tipps".</value>
+  </data>
+  <data name="Description_FAQ_Permissions" xml:space="preserve">
+    <value>In Mehrspielerspielen benötigst Du die spezielle Erlaubnis eines Admins, um Baupläne spawnen zu können, Skripte zu editieren oder zu teleportieren. Im Einzelspielermodus kannst Du den SpaceMaster aktivieren oder den Weltmodus in den Kreativmodus ändern. </value>
+  </data>
+  <data name="Description_FAQ_LeavePlanet" xml:space="preserve">
+    <value>Um einen Planeten mit Atmosphäre/Hoher Gravitation verlassen zu können, benötigst Du ein raumtüchtiges Schiff. Die einfachste Methode ist es, das Schiff mit Wasserstofftriebwerken und Wasserstofftanks auszustatten. </value>
+  </data>
+  <data name="Description_FAQ_Groups" xml:space="preserve">
+    <value>Du kannst Funktionsblöcke gruppieren, um deren Funktionen gleichzeitg nutzen zu können. Mit Strg oder Shift kannst Du die Blöcke auswählen, die in eine Gruppe sollen. Dann schreibe einen Namen für die Gruppe in "Blockgruppe" auf der rechten Bildschirmseite und drücke Enter um die Gruppe zu erzeugen. </value>
+  </data>
+  <data name="Description_FAQ_MergeGrids" xml:space="preserve">
+    <value>Du kannst mit Landestützen auf Gittern andocken, oder mit Dockports auch Verbindungen zwischen Gittern herstellen. Du kannst auch Blockverbinder oder Motoren nutzen, um permanente Verbindungen zwischen Gittern herzustellen. </value>
+  </data>
+  <data name="Description_FAQ_Camera" xml:space="preserve">
+    <value>Du kannst die Kameraansicht mit [{CONTROL:CAMERA_MODE}] zwischen der Egoansicht und der Außenansicht wechseln. Beachte, dass die Außenansicht in die Egoansicht zurückschalten kann, wenn Hindernisse die Kamera behindern. </value>
+  </data>
+  <data name="Description_FAQ_Ammo" xml:space="preserve">
+    <value>Du kannst Munition für Deine Waffen in fortgeschrittenen Fabriken herstellen, wenn Du die nötigen Materialien dafür hast. </value>
+  </data>
+  <data name="Description_FAQ_Airlock" xml:space="preserve">
+    <value>Eine Luftschleuse ermöglicht es dem Spieler, ein Objekt zu betreten oder zu verlassen, während das Objekt den Innendruck behält. Die einfachste Form einer Schleuse sind zwei Türen hintereinander, aber mittels Skripten, Konsolen, Zeitgebern, etc. sind hier sehr fortgeschrittene Konzepte möglich. </value>
+  </data>
+  <data name="Description_FAQ_Pushing" xml:space="preserve">
+    <value>Spieler können kleine Objekte bewegen, indem sie dagegenlaufen oder fliegen, wenn die Objekte nicht zu schwer sind. Willst Du größere/schwerere Objekte bewegen, benötigts Du ein Schiff oder einen Rover, um das Objekt dann mit Landestützen greifen zu können. </value>
+  </data>
+  <data name="Description_FAQ_Upgrade" xml:space="preserve">
+    <value>Du kannst in fortgeschrittenen Fabriken bessere Handwerkzeuge produzieren. Außerdem kannst Du fortgeschrittene Fabriken und Raffinierien mit Modulen ausstatten, um ihre Leistung zu erhöhen. </value>
+  </data>
+  <data name="Description_FAQ_GameMode" xml:space="preserve">
+    <value>Es gibt zwei Spielmodi: Den Kreativmodus und den Überlebensmodus. Im Kreativmodus benötigst Du keinerlei Materialien, um etwas zu bauen. In den Welt/Servereinstellungen kannst Du den Modus ändern. </value>
+  </data>
+  <data name="Description_FAQ_ScreenShot" xml:space="preserve">
+    <value>Mit F12 kannst Du jederzeit einen Screenshot aufnehmen. Falls Du eine NVidia-Karte hast, kannst Du auch Ansel nutzen, indem Du Alt+F drückst. </value>
+  </data>
+  <data name="Description_FAQ_Unlock" xml:space="preserve">
+    <value>Du kannst neue Blöcke freischalten, indem Du die dazu benötigten Blöcke fertigstellst. Im Baumenü unter "Fortschritt" kannst Du sehen, welche Blöcke du bauen musst, um etwas bestimmtes freizuschalten. </value>
+  </data>
+  <data name="Description_FAQ_Temperature" xml:space="preserve">
+    <value>Die Außentemperatur beeinflusst die Systeme Deines Anzugs. Unter extremen Bedingungen wird die Anzugsenergie schneller aufgebraucht. Ist die Energie leer, kann der Anzug Dich nicht länger schützen, und Du wirst Schaden nehmen. </value>
+  </data>
+  <data name="Description_FAQ_SpawnShip" xml:space="preserve">
+    <value>Dein Startschiff beinhaltet alles, was Du zum Start benötigst. Du kannst es zum Bau einer Basis ausschlachten. </value>
+  </data>
+  <data name="Description_FAQ_MetalScrap" xml:space="preserve">
+    <value>Metallschrott erscheint, wenn Blöcke gewaltsam zerstört werden. Er kann in Raffinerien zu Eisenbarren verwertet werden. </value>
+  </data>
+  <data name="Description_FAQ_LogOut" xml:space="preserve">
+    <value>Wenn Du auf einem Server spielst, kannst (und solltest) eine Kryokammer aufsuchen, bevor Du auslogst. Das schützt Deinen Character vorm Ersticken und bewahrt den Werkzeuggürtel. Stelle aber sicher, dass die Kryokammer ausreichend mit Sauerstoff und energie versorgt ist!</value>
+  </data>
+  <data name="Description_FAQ_Interaction" xml:space="preserve">
+    <value>Objekte, mit denen Du interagieren kannst (z.B. Türen, copckpits) werden gelb hervorgehoben, wenn Du sie anvisierst. Mit [{CONTROL:USE}] kannst Du sie betätigen.</value>
+  </data>
+  <data name="Description_FAQ_Navigation" xml:space="preserve">
+    <value>Der Weltraum ist groß, und Antennen und Bojen reichen maximal 50 Km weit. Außerdem können diese auch von anderen gesehen werden. Um sicherzustellen, dass Du einen Punkt immer wieder findest. kannst Du GPS-Punkte erstellen. Diese kannst außerdem auch nur Du sehen. Du kannst den Chatbefehl /GPS benutzen, um Deine aktuelle Position zu sichern.</value>
+  </data>
+  <data name="Description_FAQ_Elaborate" xml:space="preserve">
+    <value>Kannst Du etwas deutlicher werden?</value>
+  </data>
+  <data name="Description_FAQ_CopyPaste" xml:space="preserve">
+    <value>Im Kreativmodus kannst Du Blöcke kopieren, einfügen und löschen, indem Du Strg+C, Strg+V und Strg+X drückst. </value>
+  </data>
+  <data name="Description_FAQ_Tools" xml:space="preserve">
+    <value>Mit einem Schweißgerät kannst Du bauen und reparieren, mit einem Schleifgerät abbauen und zerlegen und mit einem Bohrer Erze abbauen und Tunnel graben. Alle diese Werkzeuge können in Fabriken oder auch dem Überlebenskit hergestellt werden. </value>
+  </data>
+  <data name="Description_FAQ_Commands" xml:space="preserve">
+    <value>Mit dem Chatbefehl /help kannst Du alle Chatbefehle anzeigen lassen. </value>
+  </data>
+  <data name="Description_FAQ_Platinum" xml:space="preserve">
+    <value>Platin ist ein seltenes Erz, welches in Asteroiden und auf Monden gefunden werden kann. Auf Planeten gibt es kein Platin. </value>
+  </data>
+  <data name="Description_FAQ_Uranium" xml:space="preserve">
+    <value>Uran ist ein seltenes Erz, welches in Asteroiden und auf Monden gefunden werden kann. Auf Planeten gibt es kein Uran. </value>
+  </data>
+  <data name="Description_FAQ_Stone" xml:space="preserve">
+    <value>Stein kann in Raffinerien sowie dem Überlebenskit verarbeitet werden, um Spuren von Eisen, Nickel und Silizium zu gewinnen. </value>
+  </data>
+  <data name="Description_FAQ_BlockShapes" xml:space="preserve">
+    <value>Du kannst durch das Drehen des Mausrades durch die möglichen Varianten eines Blocks schalten, wenn der gerade ausgerüstete Block solche hat. Du erkennst dies an einem "+" Symbol am Icon eines Blocks. </value>
+  </data>
+  <data name="Description_FAQ_BuildMode" xml:space="preserve">
+    <value>Du kannst durch die verschiedenen Baumodi mit der Taste "B" schalten. </value>
+  </data>
+  <data name="Description_FAQ_CarJump" xml:space="preserve">
+    <value>Dein Rover kann seine Radaufhängungen zum Sprung nutzen, um aus engen Räumen zu entkommen. Halte "X" gedrückt, um den Sprung aufzuladen und lasse dann los, um zu springen. Die Stärke des Sprungs hängt davon ab, wie die Stärke der Aufhängung eingestellt ist.</value>
+  </data>
+  <data name="Description_FAQ_ConvertGrid" xml:space="preserve">
+    <value>Du kannst Gitter von Schiff zur Station und umgekehrt umwandeln, wenn dies in den Welt/Servereinstellungen aktiviert ist. </value>
+  </data>
+  <data name="Description_FAQ_FlipRover" xml:space="preserve">
+    <value>Du klannst Deinen Rover umdrehen, indem Du Kolben anbaust, oder indem Du schwere Blöcke anbaust, um den Masseschwerpunkt so zu verändern, dass er in die gewünschte Richtung kippt. </value>
+  </data>
+  <data name="Description_FAQ_Tutorial" xml:space="preserve">
+    <value>Spiele die Kampagen "Überlebenstraining", um die Grundlagen von Space Engineers zu erlernen. Achte auf die Tooltips der Blöcke, um mehr über ihre Funktionen zu lernen. Außerdem werde ich mein Bestes tun, um Dir auf Deinem Weg zu helfen!</value>
+  </data>
+  <data name="Description_FAQ_Encounter" xml:space="preserve">
+    <value>Zufällige Begegnungen können verschiedene Dinge enthalten: Schiffswracks, verlassene Schiffe oder Piratenstationen. Diese senden oft ein MAYDAY-Signal. Vorsicht, diese Objekte zu erforschen kann sehr gefährlich sein.</value>
+  </data>
+  <data name="Description_FAQ_Blastdoors" xml:space="preserve">
+    <value>Sicherheitstüren sind Blöcke, die sich nicht biegen und zwischen die Kollisionsboxen von anderen Blöcken passen. Daher können sie frei mit Pistons und Rotoren bewegt werden. Sie sind sehr nützlich, um große Türen, Rampen und bewegliche Plattformen zu bauen. </value>
+  </data>
+  <data name="Description_FAQ_BlockLimit" xml:space="preserve">
+    <value>Blocklimits setzen eine Begrenzung, wie viele Blöcke jeder Art jeder Spieler bauen darf, um die Performance zu erhalten. Sie können in den Welt/Servereinstellungen deaktiviert werden. </value>
+  </data>
+  <data name="Description_FAQ_Hacking" xml:space="preserve">
+    <value>Du kannst fremde Blöcke übernehmen, indem Du sie mit dem Schleifgerät bis unter die blaue Linie demontierst und anschließend wieder reparierst. Dies wird als "Hacken" bezeichnet. </value>
+  </data>
+  <data name="Description_FAQ_Ladder" xml:space="preserve">
+    <value>Du kannst Leitern bauen, um Höhen vertikal zu überbrücken. Sie können aneinandergereiht werden. Drücke [{CONTROL:USE}] um mit einer Leiter zu interagieren. Halte [{CONTROL:FORWARD}] oderr [{CONTROL:BACKWARD}] um hoch, bzw. herunterzuklettern. Drücke [{CONTROL:JUMP}] um von der Leiter zu steigen. </value>
   </data>
   </root>

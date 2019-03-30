@@ -55,27 +55,27 @@
 <!-- data name="Description_CornerLight" xml:space="preserve"> -->
 <!-- data name="Description_CryoChamber" xml:space="preserve"> -->
 <!-- data name="Description_Decoy" xml:space="preserve"> -->
-data name="Description_DiagonalWindow" xml:space="preserve">
-data name="Description_Door" xml:space="preserve">
-data name="Description_Drill" xml:space="preserve">
-data name="Description_EffectivenessModule" xml:space="preserve">
-data name="Description_Ejector" xml:space="preserve">
-data name="Description_FAQ_AirTightnessPressure" xml:space="preserve">
-data name="Description_FAQ_Airlock" xml:space="preserve">
-data name="Description_FAQ_Ammo" xml:space="preserve">
-data name="Description_FAQ_Armor" xml:space="preserve">
-data name="Description_FAQ_Asteroids" xml:space="preserve">
-data name="Description_FAQ_AutoPilot" xml:space="preserve">
-data name="Description_FAQ_BasicMovement" xml:space="preserve">
-data name="Description_FAQ_Begin" xml:space="preserve">
+<!-- data name="Description_DiagonalWindow" xml:space="preserve"> -->
+<!-- data name="Description_Door" xml:space="preserve"> -->
+<!-- data name="Description_Drill" xml:space="preserve"> -->
+data name="<!-- Description_EffectivenessModule -->" xml:space="preserve">
+<!-- data name="Description_Ejector" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_AirTightnessPressure" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Airlock" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Ammo" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Armor" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Asteroids" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_AutoPilot" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_BasicMovement" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Begin" xml:space="preserve"> -->
 data name="Description_FAQ_Begin_Q0" xml:space="preserve">
-data name="Description_FAQ_Blastdoors" xml:space="preserve">
-data name="Description_FAQ_BlockLimit" xml:space="preserve">
-data name="Description_FAQ_BlockRotation" xml:space="preserve">
-data name="Description_FAQ_BlockShapes" xml:space="preserve">
-data name="Description_FAQ_Bottles" xml:space="preserve">
-data name="Description_FAQ_Broadcasting" xml:space="preserve">
-data name="Description_FAQ_Bug" xml:space="preserve">
+<!-- data name="Description_FAQ_Blastdoors" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_BlockLimit" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_BlockRotation" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_BlockShapes" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bottles" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Broadcasting" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bug" xml:space="preserve"> -->
 data name="Description_FAQ_Bug_Q0" xml:space="preserve">
 data name="Description_FAQ_Bug_Q1" xml:space="preserve">
 data name="Description_FAQ_Bug_Q2" xml:space="preserve">
@@ -85,133 +85,133 @@ data name="Description_FAQ_Bug_Q5" xml:space="preserve">
 data name="Description_FAQ_Bug_Q6" xml:space="preserve">
 data name="Description_FAQ_Bug_Q7" xml:space="preserve">
 data name="Description_FAQ_Bug_Q8" xml:space="preserve">
-data name="Description_FAQ_BuildMode" xml:space="preserve">
-data name="Description_FAQ_Camera" xml:space="preserve">
-data name="Description_FAQ_CarJump" xml:space="preserve">
-data name="Description_FAQ_CarRover" xml:space="preserve">
-data name="Description_FAQ_Clang" xml:space="preserve">
+<!-- data name="Description_FAQ_BuildMode" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Camera" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_CarJump" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_CarRover" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Clang" xml:space="preserve"> -->
 data name="Description_FAQ_Clang_Q0" xml:space="preserve">
 data name="Description_FAQ_Clang_Q1" xml:space="preserve">
-data name="Description_FAQ_Commands" xml:space="preserve">
-data name="Description_FAQ_Components" xml:space="preserve">
-data name="Description_FAQ_ConvertGrid" xml:space="preserve">
-data name="Description_FAQ_CopyPaste" xml:space="preserve">
-data name="Description_FAQ_Damage" xml:space="preserve">
-data name="Description_FAQ_DisableHints" xml:space="preserve">
-data name="Description_FAQ_Drones" xml:space="preserve">
-data name="Description_FAQ_Elaborate" xml:space="preserve">
-data name="Description_FAQ_Electricity" xml:space="preserve">
-data name="Description_FAQ_Encounter" xml:space="preserve">
-data name="Description_FAQ_Experimental" xml:space="preserve">
-data name="Description_FAQ_Factions" xml:space="preserve">
-data name="Description_FAQ_FindOtherPlayers" xml:space="preserve">
-data name="Description_FAQ_Flashlight" xml:space="preserve">
-data name="Description_FAQ_FlipRover" xml:space="preserve">
-data name="Description_FAQ_Fuel" xml:space="preserve">
-data name="Description_FAQ_GPSColors" xml:space="preserve">
-data name="Description_FAQ_GPSSignals" xml:space="preserve">
-data name="Description_FAQ_GameMode" xml:space="preserve">
-data name="Description_FAQ_GoodAI" xml:space="preserve">
-data name="Description_FAQ_GoodBot" xml:space="preserve">
+<!-- data name="Description_FAQ_Commands" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Components" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_ConvertGrid" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_CopyPaste" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Damage" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_DisableHints" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Drones" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Elaborate" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Electricity" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Encounter" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Experimental" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Factions" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_FindOtherPlayers" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Flashlight" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_FlipRover" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Fuel" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GPSColors" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GPSSignals" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GameMode" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GoodAI" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GoodBot" xml:space="preserve"> -->
 data name="Description_FAQ_GoodBot_Q0" xml:space="preserve">
 data name="Description_FAQ_GoodBot_Q1" xml:space="preserve">
 data name="Description_FAQ_GoodBot_Q2" xml:space="preserve">
 data name="Description_FAQ_GoodBot_Q3" xml:space="preserve">
-data name="Description_FAQ_Gravity" xml:space="preserve">
-data name="Description_FAQ_Grid" xml:space="preserve">
-data name="Description_FAQ_GridMovement" xml:space="preserve">
-data name="Description_FAQ_GridSize" xml:space="preserve">
-data name="Description_FAQ_Grinding" xml:space="preserve">
-data name="Description_FAQ_Groups" xml:space="preserve">
-data name="Description_FAQ_HUD" xml:space="preserve">
-data name="Description_FAQ_Hacking" xml:space="preserve">
-data name="Description_FAQ_HandTools" xml:space="preserve">
-data name="Description_FAQ_Healing" xml:space="preserve">
-data name="Description_FAQ_Help" xml:space="preserve">
-data name="Description_FAQ_HowToPlayGame" xml:space="preserve">
-data name="Description_FAQ_Hydrogen" xml:space="preserve">
-data name="Description_FAQ_Ice" xml:space="preserve">
-data name="Description_FAQ_InertiaDampeners" xml:space="preserve">
-data name="Description_FAQ_Ingots" xml:space="preserve">
-data name="Description_FAQ_Interaction" xml:space="preserve">
-data name="Description_FAQ_InvalidMaterial" xml:space="preserve">
-data name="Description_FAQ_Inventory" xml:space="preserve">
-data name="Description_FAQ_Jetpack" xml:space="preserve">
-data name="Description_FAQ_Ladder" xml:space="preserve">
-data name="Description_FAQ_LeavePlanet" xml:space="preserve">
-data name="Description_FAQ_LogOut" xml:space="preserve">
-data name="Description_FAQ_LosingHealth" xml:space="preserve">
-data name="Description_FAQ_Lost" xml:space="preserve">
-data name="Description_FAQ_MagneticBoots" xml:space="preserve">
-data name="Description_FAQ_Marek" xml:space="preserve">
-data name="Description_FAQ_Mass" xml:space="preserve">
-data name="Description_FAQ_Math" xml:space="preserve">
-data name="Description_FAQ_MergeGrids" xml:space="preserve">
-data name="Description_FAQ_Messages" xml:space="preserve">
-data name="Description_FAQ_MetalScrap" xml:space="preserve">
-data name="Description_FAQ_Meteor" xml:space="preserve">
-data name="Description_FAQ_Mining" xml:space="preserve">
-data name="Description_FAQ_MirrorMode" xml:space="preserve">
-data name="Description_FAQ_Navigation" xml:space="preserve">
-data name="Description_FAQ_Objective" xml:space="preserve">
+<!-- data name="Description_FAQ_Gravity" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Grid" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GridMovement" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GridSize" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Grinding" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Groups" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_HUD" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Hacking" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_HandTools" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Healing" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Help" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_HowToPlayGame" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Hydrogen" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Ice" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_InertiaDampeners" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Ingots" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Interaction" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_InvalidMaterial" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Inventory" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Jetpack" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Ladder" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_LeavePlanet" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_LogOut" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_LosingHealth" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Lost" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_MagneticBoots" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Marek" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Mass" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Math" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_MergeGrids" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Messages" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_MetalScrap" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Meteor" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Mining" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_MirrorMode" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Navigation" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Objective" xml:space="preserve"> -->
 data name="Description_FAQ_Objective_Q0" xml:space="preserve">
 data name="Description_FAQ_Objective_Q1" xml:space="preserve">
 data name="Description_FAQ_Objective_Q2" xml:space="preserve">
 data name="Description_FAQ_Objective_Q3" xml:space="preserve">
 data name="Description_FAQ_Objective_Q4" xml:space="preserve">
 data name="Description_FAQ_Objective_Q5" xml:space="preserve">
-data name="Description_FAQ_Ore" xml:space="preserve">
-data name="Description_FAQ_Ownership" xml:space="preserve">
-data name="Description_FAQ_Oxygen" xml:space="preserve">
-data name="Description_FAQ_PCU" xml:space="preserve">
-data name="Description_FAQ_Painting" xml:space="preserve">
-data name="Description_FAQ_Permissions" xml:space="preserve">
-data name="Description_FAQ_Pirates" xml:space="preserve">
-data name="Description_FAQ_Planets" xml:space="preserve">
-data name="Description_FAQ_Platinum" xml:space="preserve">
-data name="Description_FAQ_ProtectingMyself" xml:space="preserve">
-data name="Description_FAQ_Pushing" xml:space="preserve">
-data name="Description_FAQ_Recharging" xml:space="preserve">
-data name="Description_FAQ_RelativeDampeners" xml:space="preserve">
-data name="Description_FAQ_Repair" xml:space="preserve">
-data name="Description_FAQ_RoomPressure" xml:space="preserve">
-data name="Description_FAQ_RoverMovement" xml:space="preserve">
-data name="Description_FAQ_SaveBlueprints" xml:space="preserve">
-data name="Description_FAQ_ScreenShot" xml:space="preserve">
-data name="Description_FAQ_Script" xml:space="preserve">
-data name="Description_FAQ_Ship" xml:space="preserve">
-data name="Description_FAQ_ShipBuilding" xml:space="preserve">
-data name="Description_FAQ_ShipInventories" xml:space="preserve">
-data name="Description_FAQ_ShipMovement" xml:space="preserve">
-data name="Description_FAQ_ShipToolsWeapons" xml:space="preserve">
-data name="Description_FAQ_ShipWontFly" xml:space="preserve">
-data name="Description_FAQ_Skins" xml:space="preserve">
-data name="Description_FAQ_SpawnShip" xml:space="preserve">
-data name="Description_FAQ_Station" xml:space="preserve">
-data name="Description_FAQ_SteamWorkshop" xml:space="preserve">
-data name="Description_FAQ_Stone" xml:space="preserve">
-data name="Description_FAQ_StopMoving" xml:space="preserve">
-data name="Description_FAQ_Suit" xml:space="preserve">
-data name="Description_FAQ_Temperature" xml:space="preserve">
-data name="Description_FAQ_Test" xml:space="preserve">
+<!-- data name="Description_FAQ_Ore" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Ownership" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Oxygen" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_PCU" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Painting" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Permissions" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Pirates" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Planets" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Platinum" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_ProtectingMyself" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Pushing" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Recharging" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_RelativeDampeners" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Repair" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_RoomPressure" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_RoverMovement" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_SaveBlueprints" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_ScreenShot" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Script" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Ship" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_ShipBuilding" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_ShipInventories" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_ShipMovement" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_ShipToolsWeapons" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_ShipWontFly" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Skins" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_SpawnShip" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Station" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_SteamWorkshop" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Stone" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_StopMoving" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Suit" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Temperature" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Test" xml:space="preserve"> -->
 data name="Description_FAQ_Test_Q0" xml:space="preserve">
 data name="Description_FAQ_Test_Q1" xml:space="preserve">
 data name="Description_FAQ_Test_Q2" xml:space="preserve">
 data name="Description_FAQ_Test_Q3" xml:space="preserve">
-data name="Description_FAQ_Thing" xml:space="preserve">
-data name="Description_FAQ_Thrusters" xml:space="preserve">
-data name="Description_FAQ_Time" xml:space="preserve">
-data name="Description_FAQ_Tools" xml:space="preserve">
-data name="Description_FAQ_Tutorial" xml:space="preserve">
-data name="Description_FAQ_UnknownSignals" xml:space="preserve">
-data name="Description_FAQ_Unlock" xml:space="preserve">
-data name="Description_FAQ_Upgrade" xml:space="preserve">
-data name="Description_FAQ_Uranium" xml:space="preserve">
-data name="Description_FAQ_Visor" xml:space="preserve">
-data name="Description_FAQ_Voxel" xml:space="preserve">
-data name="Description_FAQ_VoxelHands" xml:space="preserve">
-data name="Description_FAQ_Welding" xml:space="preserve">
-data name="Description_FAQ_WhatIsABlock" xml:space="preserve">
+<!-- data name="Description_FAQ_Thing" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Thrusters" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Time" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Tools" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Tutorial" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_UnknownSignals" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Unlock" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Upgrade" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Uranium" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Visor" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Voxel" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_VoxelHands" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Welding" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_WhatIsABlock" xml:space="preserve"> -->
 <!-- data name="Description_FighterCockpit" xml:space="preserve"> -->
 data name="Description_FlightSeat" xml:space="preserve">
 data name="Description_FullCoverWall" xml:space="preserve">
@@ -250,9 +250,9 @@ data name="Description_Passage" xml:space="preserve">
 data name="Description_PassengerSeat" xml:space="preserve">
 data name="Description_Piston" xml:space="preserve">
 data name="Description_PistonTop" xml:space="preserve">
-data name="Description_PowerEfficiencyModule" xml:space="preserve">
+<!-- data name="Description_PowerEfficiencyModule" xml:space="preserve"> -->
 data name="Description_PowerGenerator" xml:space="preserve">
-data name="Description_ProductivityModule" xml:space="preserve">
+<!-- data name="Description_ProductivityModule" xml:space="preserve"> -->
 data name="Description_ProgrammableBlock" xml:space="preserve">
 data name="Description_Projector" xml:space="preserve">
 data name="Description_RadioAntenna" xml:space="preserve">
