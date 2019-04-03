@@ -8273,4 +8273,138 @@ Du kannst Auswürfe zusammen mit Sortierern verwenden und so genau festlegen, wa
   <data name="Description_FAQ_Ladder" xml:space="preserve">
     <value>Du kannst Leitern bauen, um Höhen vertikal zu überbrücken. Sie können aneinandergereiht werden. Drücke [{CONTROL:USE}] um mit einer Leiter zu interagieren. Halte [{CONTROL:FORWARD}] oderr [{CONTROL:BACKWARD}] um hoch, bzw. herunterzuklettern. Drücke [{CONTROL:JUMP}] um von der Leiter zu steigen. </value>
   </data>
+    <data name="Description_FlightSeat" xml:space="preserve">
+    <value>Pilotensitze sind sehr bequeme Arbeitsplätze, die es dem Piloten ermöglichen, ein großes Schiff zu steuern und auf alle ihm freigegebene Funktionen zuzugreifen. Der führende Anbieter auf dem Markt ist derzeit Positro-Complex Hive. Ihre Modelle mit der neuesten Spieledatenbank inkklusive Bosstaste sind derzeit der letzte Schrei... </value>
+  </data>
+  <data name="Description_FullCoverWall" xml:space="preserve">
+    <value>Geländer von der Firma Steel and Sweat schützen Mensch und Maschine vor unliebsamen Begegnungen. Meistens jedenfalls. Sie schützen auch Menschen vor dem Herunterfallen ins Nichts. Meistens. Garantien... Gibts auf Steuern und Waschmaschinen. Meistens. </value>
+  </data>
+  <data name="Description_GatlingGun" xml:space="preserve">
+    <value>Die MK Vulcan ist eine Schnellfeuer-Maschinenkanone der Firma Pounder Weapons. Sie wird mit starrer Aufhängung eingebaut und kann sich nicht drehen. Aufgrund ihrer einfachen, aber zuverlässigen Konstruktion nimmt sie nur wenig Platz weg und kann somit leicht in mehrfacher Ausführung kombiniert werden. Mit den richtigen Piloten kann sie eine beeidruckende Feuerkraft entwicklen. Zur Versorgung mit Munition kann sie an eine Leitungsnetzwerk angeschlossen werden.
+
+Um sie zu benutzen, lege die Waffe in die Funktionsleiste des Schiffes. Nutze eine Kamera, um an weiter entfernte Ziele heranzuzoomen und so die Treffsicherheit zu erhöhen. </value>
+  </data>
+  <data name="Description_GatlingTurret" xml:space="preserve">
+    <value>Der Geschützturm MK Wächter kommt von der Firma Pounder Weapons und ist sozusagen der große Bruder der Vulcan. Es handelt sich hierbei um einen Geschützturm mit automatischer Zielerfassung- und Verfolgung. Seine nominelle Reichweite beträgt 800 Meter. Sie sind konfigurierbar in Zielauswahl und Reichweite. 
+
+Zum Betrieb benötigt der Wächter Großkalibermunition, die in Fabriken hergestellt werden kann. Zur automatischen Versorgung kann er an ein Leitungsnetzwerk angeschlossen werden. Der Turm kann auch manuell gesteuert werden, wenn Du in einem Cockpit sitzt. </value>
+  </data>
+  <data name="Description_GravityGenerator" xml:space="preserve">
+    <value>Gravitationsgeneratoren werden nur und ausschließlich von der Sun-Energizer Corporation angeboten. Nur sie haben das Rätsel der Gravitation gelöst. Wie der Name schon sagt, werden sie zur Erzeugung von künstlicher Gravitation verwendet. Somit können Spieler sich in Null-G-Zonen gewohnt bewegen. Die Massen von Schiffen werden nur beeinflusst, wenn sie künstliche Masse verbaut, und diese aktiviert haben. Die Effizienz der Generatoren lässt in natürlichen Gravitationsfeldern rapide nach. Die Stärke und Reichweite der Felder sind einstellbar.</value>
+  </data>
+  <data name="Description_GravityGeneratorSphere" xml:space="preserve">
+    <value>Auch der sphärische Gravitationsfeldgenerator kommt von der Firma Sun-Energizer und kann durchaus als High-Tech bezeichnet werden. Im Gegensatz zum normalen Generator erzeugt er kein gerichtetes, sondern ein radiales Feld, welches auch abstoßend sein kann. Dadurch können sich Effekte ergeben, die für vielerlei Dinge eingesetzt werden können. Auch ihre Effizienz lässt in natürlichen Gravitationsfeldern rapide nach. </value>
+  </data>
+    <data name="Description_ShipGrinder" xml:space="preserve">
+    <value>Angeboten von der Firma Steel and Sweat sind sie der große Bruder der Handschleifgeräte. Sie können sowohl an kleinen, wie auch großen Schiffen/Stationen angebracht werden. Sie werden zur Demontage von Objekten eingesetzt werden und können zum Abtransport der Items an ein Leitungsnetzwerk angeschlossen werden. Baust Du mit ihnen einen Container mit Inhalt ab, wird auch der Inhalt automatisch mit aufgenommen. Vorsicht: Kommst Du zu nahe ran, dann... Hast Du schon mal einem Metzger zugesehen? </value>
+  </data>
+  <data name="Description_Gyroscope" xml:space="preserve">
+    <value>Die Gyroskope von der Firma ProSys dienen der Lagestabilisation von Objekten aller Art, ermöglichen aber auch erst die Drehung um alle drei Achsen eines Körpers. Es sind große Schwingkreisel, die unglaublich schnell rotieren. Daher solltest Du NIEMALS den Block, auf dem ein Gyro verankert ist, demontieren, solange der Gyro darauf noch aktiv ist. Ansonsten wird er Dir das Schiff zerlegen!
+
+Du kannst mehrere Gyros bauen, um die Kraft zu verstärken und so auch größere Massen stabilisieren oder drehen.</value>
+  </data>
+    <data name="Description_HandDrill" xml:space="preserve">
+    <value>Wie alle Werkzeuge kommt die Handbohrmaschine von der Firma Steel and Sweat und wird genutzt, um Erze zu finden und abzubauen. Mit der Sekundärfunktion (RMT) nimmt der Bohrer jedoch keine Rücksicht auf eventuelle Erze und gräbt munter drauflos. So kannst Du schnell größere Tunnel erzeugen, bekommst dann aber keine Rohstoffe. </value>
+  </data>
+    <data name="Description_HangarDoor" xml:space="preserve">
+    <value>Hangartüren sind große Tore, die kombiniert werden können, um große Räume Luftdicht abschließen zu können und dennoch Fahrzeugen Zutritt gewähren können. Sie sind ein Gemeinschaftsprodukt der Firmen ProSys und Positro-Complex Hive und verfügen über Schnittstellen zur automatischen Steuerung per Skript, Sensoren und Konsolen aller Art. </value>
+  </data>
+    <data name="Description_HeavyArmor" xml:space="preserve">
+    <value>Bei der schweren Panzerung handelt es sich um eine hochfeste Legierung, die zusätzlich mit verstärkenden Elementen versehen wird. Sie bietet enormen Schutz, ist jedoch sehr schwer und teuer. Erstmals entwickelt von der Firma Steel and Sweat, ist sie in den letzten Jahrzehnten deutlich weiterentwickelt worden. So war es zu Beginn tatsächlich kaum möglich, Schiffe damit zu armieren, da sie dann kaum noch manövrierfähig waren. Ob die heutige Verwendbarkeit an den Bemühungen der Firma Steel and Sweat liegt, oder an der Weiterentwicklung der Triebwerke, ist eine berechtigte Frage. </value>
+  </data>
+  <data name="Description_HydrogenTank" xml:space="preserve">
+    <value>Wasserstofftanks sind ein Erzeugnis der Firma ProSys und können heutzutage durchaus als ein Stück High-Tech betrachtet werden. "Was soll an einem Tank den schon High-Tech sein?" fragst Du Dich jetzt? Nun, Wasserstoff ist ein heikles Element, wenn es ums Lagern geht. In gasförmiger Form ist er extrem flüchtig, so dass er sogar durch Stahl allmählich diffundieren kann. Um das zu verhindern, und außerdem größere Mengen lagern zu können, muss er als Flüssiggas gespeichert werden, also auf unter 21,15 K heruntergekühlt werden. 
+    </value>
+  </data>
+  <data name="Description_HydrogenThrust" xml:space="preserve">
+    <value>Die Wasserstofftriebwerke sind noch nicht so ausgereift, wie man sie gerne sehen würde. Sie liefern zwar den größten Schub und sind überall einsetzbar, sind jedoch extrem Treibstoffhungrig. Aus diesem grund benötigen selbst kleine Schiffe verhältnismäßig große und schwere Tanks (auch, weil Wasserstoff schwer zu lagern ist), um nicht schnell ohne Schub dazustehen. Die TRiebwerke sind ein Gemeinschaftsprodukt der Firmen ProSys und Speedmover, wobei ProSys sich um Lagerung und Leitung des Treibstoffs kümmert.
+</value>
+  </data>
+  <data name="Description_InteriorLight" xml:space="preserve">
+    <value>Lampen werden zur Beleuchtung von Innen- und Außenbereichen genutzt, oder auch als Positionsmarker. Lampen eben, was soll man sonst dazu sagen? </value>
+  </data>
+  <data name="Description_InteriorPillar" xml:space="preserve">
+    <value>Diese eleganten Bauteile werden von der Firma Steel and Sweat geliefert und dienen dazu, die Statik von Bauwrken aller Art zu verstärken.</value>
+  </data>
+  <data name="Description_InteriorTurret" xml:space="preserve">
+    <value>Die Kobra war eins der ersten gesteuerten Geschütze der Firma Pounder Weapons. Sie wird meist zu Absicherung gegen Infanterie und Wildtiere genutzt und verfeuert die selbe Munition, wie Handwaffen. Sie kann auch begrenzt als Luftabwehr gegen kleinere Schiffe dienen, ist jedoch lange nicht so durchschlagkräftig, wie der Wächter. Auch ihre maximale Reichweite von 600 Metern ist deutlich unterlegen. Ein weiterer, großer Nachteil ist es, dass man die Kobra nicht an ein Leitungsnetzwerk anschließen kann.</value>
+  </data>
+  <data name="Description_InteriorWall" xml:space="preserve">
+    <value>Innenwände werden, wie der Name schon sagt, für Wände, Decken oder Böden innerhalb einer Struktur genutzt und sind mit Leuchtmarkern zur Orientierung ausgestattet. Als Panzerung eigenen sie sich aufgrund ihrer Verwundbarkeit nicht.</value>
+  </data>
+  <data name="Description_IonThrust" xml:space="preserve">
+    <value>Ionentriebwerke sind ein Produkt der Firma Speedmover und sind für die Nutzung im Weltraum ausgelegt. Sie benötigen keinen Treibstoff, dafür aber relativ hohe Energiemengen. Unter dem Einfluss natürlicher Gravitation sinkt ihre Effizienz rapide ab und beträgt bei 1G nur noch 20%. </value>
+  </data>
+  <data name="Description_JumpDrive" xml:space="preserve">
+    <value>Das Sprungtriebwerk ist ein Gemeinschaftsprodukt der Firmen Speedmover, Sun-Energizer, Positro-Complex Hive, Steel and Sweat und ProSys. Schon die Ansammlung dieser bedeutenden Firmen lässt auf die Komplxität und Schwierigkeit dieses Projekts schließen. Tatsächlich ist die Kontrolle von Zeit und Raum ein Projekt, dass niemand alleine beherrschen kann. 
+    Nun, ganz einfach ausgedrückt, ermöglicht dieses Triebwerk den Sprung über große Entfernungen hinweg in Nullzeit. Allerdings sinkt die Reichweite ab, je höher die Masse des Objekts ist, so dass große Schiffe mehrere dieser extrem teuren Blöcke benötigen. Sie müssen voll aufgeladen sein, um zu springen, und der Sprung kann nur von einem Cockpit aus ausgelöst werden.
+    </value>
+  </data>
+    <data name="Description_Ladder" xml:space="preserve">
+    <value>Ernsthaft? Eine Leiter? Zugreifen, hochklettern, fertig. MUAHAHA.</value>
+  </data>
+    <data name="Description_LandingGear" xml:space="preserve">
+    <value>Landestützen sind dazu gedacht, ein Schiff auf jeder Oberfläche sicher abstellen zu können. Sie können verriegelt werden, und halten das Schiff dann fest. Entgegen der landläufigen Meinung, handelt es sich hier NICHT um einen magnetischen Verschluss, denn er funktioniert auch auf nichtmagnetischen Oberflächen. Es handelt sich hier um Mikrogravitationsfelder, die extrem stark sind. Daher verwundert es nicht, dass bei der Herstellung nicht nur die Firma ProSys, sondern auch Sun-Energizer beteiligt sind.
+
+Landestützen können mit [{CONTROL:LANDING_GEAR}] verriegelt/entriegelt werden, wenn Du in einem Cockpit sitzt. Sie leuchten grün, wenn sie verriegelt sind, blau, wenn sie auf automatisch verriegeln stehen und gelb, wenn sie verriegelt werden können. </value>
+  </data>
+    <data name="Description_SmallCargoContainer" xml:space="preserve">
+    <value>In kleine Container kann man immerhin ein paar Kisten Bier unterbringen. </value>
+  </data>
+  <data name="Description_MediumCargoContainer" xml:space="preserve">
+    <value>Der mittlere Container fasst erheblich mehr Güter, als der kleine. Beachte, dass er nur für kleine Schiffe verfügbar ist. </value>
+  </data>
+    <data name="Description_LargeCargoContainer" xml:space="preserve">
+    <value>In diese riesigen Container passt jede Menge Krimskrams rein. Sagt zumindest die Firma Steel and Sweat. Ich bevorzuge eher nützliche Dinge... </value>
+  </data>
+    <data name="Description_LaserAntenna" xml:space="preserve">
+    <value>Eine Laserantenne ist ein gerichtetes Kommunikationsmittel. Daher können andere Spieler kein Signal von ihr sehen, jedoch wird eine direkte Sichtlinie zum Partner benötigt. Um sich auf das Ziel ausrichten zu können, benötigt die Antenne die GPS-Koordinaten des Ziels. Bedingt durch die Funktionsweise kann jede Antenne nur ein Ziel gleichzeitig bedienen. </value>
+  </data>
+   <data name="Description_LightArmor" xml:space="preserve">
+    <value>Die leichte Panzerung ist das grundlegende Modul zum Bau von Objekten aller Art. Sie bietet nur wenig Schutz,ist aber auch leicht und beeinträchtigt ein Schiff kaum. Sie wird meist für zivile Schiffe wie Frachter oder Minenschiffe genutzt. </value>
+  </data>
+  <data name="Description_MedicalRoom" xml:space="preserve">
+    <value>Die Krankenstation ermöglicht Dir den Wiedereinstieg ins Spiel, kann Deine Erscheinung verändern und regeneriert Energie und Gesundheit viel schneller, als das Überlebenskit. Ein Wunderwerk der Firmen ProSys und Positro-Complex Hive.</value>
+  </data>
+  <data name="Description_MergeBlock" xml:space="preserve">
+    <value>Blockverbinder ermöglichen den dauerhaften oder temporären Zusammenschluss zweier Gitter zu einem, man kann jedoch keine Güter durch sie übertragen.
+
+Wenn sie in Reichweite zum Zusammenschluss sind, leuchten sie gelb, sind sie verbunden, grün.</value>
+  </data>
+  <data name="Description_MissileTurret" xml:space="preserve">
+    <value>Der Drache ist ein gesteuerter Geschützturm, der Raketen in schneller Folge feuern kann. Diese Raketen können, wenn sie treffen, erhebliche, großflächige Schäden anrichten. Leider sind die Raketen selbst ziemlich teuer. Wenigstens freut dies dann die Firma Pounder Weapons.
+
+Als Munition werden Raketenbehälter benötigt, die in Fabriken hergestellt werden können. Der Turm kann an ein Leitungsnetzwerk angeschlossen werden. </value>
+  </data>
+    <data name="Description_NotAvailable" xml:space="preserve">
+    <value>Keine zusätzlichen Infos verfügbar. Dumm gelaufen, was?</value>
+  </data>
+    <data name="Description_OreDetector" xml:space="preserve">
+    <value>Erzedetektoren stammen von der Firma Positro-Complex Hive und entdecken Erze in einem begrenzten Umkreis. Diese werden dann auf dem HUD eingeblendet. Verfügt das Schiff über eine aktive Antenne, kannst Du die Fundstellen auch dann sehen, wenn Du ausgestiegen bist und Dich innerhlab der Reichweite befindest.</value>
+  </data>
+  <data name="Description_OxygenFarm" xml:space="preserve">
+    <value>Photosyntheseanlagen stammen von der Firma ProSys. Im Prinzip sind es hydroponische Anlagen. Die Pflanzen erzeugen kleine Mengen an Sauerstoff, wenn sie Sonnenlicht ausgesetzt sind. Dieser kann dann in Sauerstofftanks gespeichert werden.
+</value>
+  </data>
+  <data name="Description_OxygenGenerator" xml:space="preserve">
+    <value>Auch der Elektrolyseblock stammt von der Firma ProSys. In ihm wird mittels Energie Eis in seine Hauptbestandteile Wasserstoff und Sauerstoff aufgespalten. Diese können dann in entsprechenden Tanks gespeichert werden.</value>
+  </data>
+  <data name="Description_OxygenTank" xml:space="preserve">
+    <value>Wie der Name es vermuten lässt, kann man im Sauerstofftank Sauerstoff speichern. Glücklicherweise ist Sauerstoff nicht so zickig, wie Wasserstoff. Daher ist ein Sauerstofftank tatsächlich ein relativ günstiges und einfaches Gebilde.</value>
+  </data>
+  <data name="Description_ParachuteHatch" xml:space="preserve">
+    <value>Fallschirmbehälter beinhalten Fallschirme, welche den Fall eines Objektes innerhalb einer Atmosphäre verlangsamen können. Sie können entweder automatisch, oder manuell über die Funktionsleiste ausgelöst werden. </value>
+  </data>
+  <data name="Description_Passage" xml:space="preserve">
+    <value>Eine Passage ermöglicht einen Durchgang in senkrechter oder waagerechter Lage. Nicht mehr, aber auch nicht weniger. </value>
+  </data>
+  <data name="Description_PassengerSeat" xml:space="preserve">
+    <value>Mit einem Passagiersitz können andere Spieler mitgenommen werden, selbst wenn sie nicht der eigenen Fraktion angehören. Er lädt auch die Anzugsenergie auf, gewährt aber keine Zugriffsrechte auf Schiffsfunktionen.</value>
+  </data>
+  <data name="Description_Piston" xml:space="preserve">
+    <value>Der Kolben, ein Produkt der Firmen Steel and Sweat und ProSys, ist ein ausfahrbahrer Block, der den Transport von Gütern und Energie ermöglicht.</value>
+  </data>
+  <data name="Description_PistonTop" xml:space="preserve">
+    <value>Dieser Teil des Kolbens ist der Kolbenkopf. An ihm können weitere Blöcke angebracht werden. Z.B. einen Dockport. </value>
+  </data>
   </root>

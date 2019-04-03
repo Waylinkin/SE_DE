@@ -58,7 +58,7 @@
 <!-- data name="Description_DiagonalWindow" xml:space="preserve"> -->
 <!-- data name="Description_Door" xml:space="preserve"> -->
 <!-- data name="Description_Drill" xml:space="preserve"> -->
-data name="<!-- Description_EffectivenessModule -->" xml:space="preserve">
+<!-- data name="Description_EffectivenessModule" xml:space="preserve"> -->
 <!-- data name="Description_Ejector" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_AirTightnessPressure" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Airlock" xml:space="preserve"> -->
@@ -68,7 +68,7 @@ data name="<!-- Description_EffectivenessModule -->" xml:space="preserve">
 <!-- data name="Description_FAQ_AutoPilot" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_BasicMovement" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Begin" xml:space="preserve"> -->
-data name="Description_FAQ_Begin_Q0" xml:space="preserve">
+<!-- data name="Description_FAQ_Begin_Q0" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Blastdoors" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_BlockLimit" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_BlockRotation" xml:space="preserve"> -->
@@ -76,22 +76,22 @@ data name="Description_FAQ_Begin_Q0" xml:space="preserve">
 <!-- data name="Description_FAQ_Bottles" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Broadcasting" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Bug" xml:space="preserve"> -->
-data name="Description_FAQ_Bug_Q0" xml:space="preserve">
-data name="Description_FAQ_Bug_Q1" xml:space="preserve">
-data name="Description_FAQ_Bug_Q2" xml:space="preserve">
-data name="Description_FAQ_Bug_Q3" xml:space="preserve">
-data name="Description_FAQ_Bug_Q4" xml:space="preserve">
-data name="Description_FAQ_Bug_Q5" xml:space="preserve">
-data name="Description_FAQ_Bug_Q6" xml:space="preserve">
-data name="Description_FAQ_Bug_Q7" xml:space="preserve">
-data name="Description_FAQ_Bug_Q8" xml:space="preserve">
+<!-- data name="Description_FAQ_Bug_Q0" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bug_Q1" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bug_Q2" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bug_Q3" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bug_Q4" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bug_Q5" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bug_Q6" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bug_Q7" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Bug_Q8" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_BuildMode" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Camera" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_CarJump" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_CarRover" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Clang" xml:space="preserve"> -->
-data name="Description_FAQ_Clang_Q0" xml:space="preserve">
-data name="Description_FAQ_Clang_Q1" xml:space="preserve">
+<!-- data name="Description_FAQ_Clang_Q0" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Clang_Q1" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Commands" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Components" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_ConvertGrid" xml:space="preserve"> -->
@@ -113,10 +113,10 @@ data name="Description_FAQ_Clang_Q1" xml:space="preserve">
 <!-- data name="Description_FAQ_GameMode" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_GoodAI" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_GoodBot" xml:space="preserve"> -->
-data name="Description_FAQ_GoodBot_Q0" xml:space="preserve">
-data name="Description_FAQ_GoodBot_Q1" xml:space="preserve">
-data name="Description_FAQ_GoodBot_Q2" xml:space="preserve">
-data name="Description_FAQ_GoodBot_Q3" xml:space="preserve">
+<!-- data name="Description_FAQ_GoodBot_Q0" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GoodBot_Q1" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GoodBot_Q2" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_GoodBot_Q3" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Gravity" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Grid" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_GridMovement" xml:space="preserve"> -->
@@ -154,12 +154,12 @@ data name="Description_FAQ_GoodBot_Q3" xml:space="preserve">
 <!-- data name="Description_FAQ_MirrorMode" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Navigation" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Objective" xml:space="preserve"> -->
-data name="Description_FAQ_Objective_Q0" xml:space="preserve">
-data name="Description_FAQ_Objective_Q1" xml:space="preserve">
-data name="Description_FAQ_Objective_Q2" xml:space="preserve">
-data name="Description_FAQ_Objective_Q3" xml:space="preserve">
-data name="Description_FAQ_Objective_Q4" xml:space="preserve">
-data name="Description_FAQ_Objective_Q5" xml:space="preserve">
+<!-- data name="Description_FAQ_Objective_Q0" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Objective_Q1" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Objective_Q2" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Objective_Q3" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Objective_Q4" xml:space="preserve"> -->
+<!-- data name="Description_FAQ_Objective_Q5" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Ore" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Ownership" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Oxygen" xml:space="preserve"> -->
@@ -194,10 +194,10 @@ data name="Description_FAQ_Objective_Q5" xml:space="preserve">
 <!-- data name="Description_FAQ_Suit" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Temperature" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Test" xml:space="preserve"> -->
-data name="Description_FAQ_Test_Q0" xml:space="preserve">
+<!-- data name="Description_FAQ_Test_Q0" xml:space="preserve">
 data name="Description_FAQ_Test_Q1" xml:space="preserve">
 data name="Description_FAQ_Test_Q2" xml:space="preserve">
-data name="Description_FAQ_Test_Q3" xml:space="preserve">
+data name="Description_FAQ_Test_Q3" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Thing" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Thrusters" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_Time" xml:space="preserve"> -->
@@ -213,43 +213,43 @@ data name="Description_FAQ_Test_Q3" xml:space="preserve">
 <!-- data name="Description_FAQ_Welding" xml:space="preserve"> -->
 <!-- data name="Description_FAQ_WhatIsABlock" xml:space="preserve"> -->
 <!-- data name="Description_FighterCockpit" xml:space="preserve"> -->
-data name="Description_FlightSeat" xml:space="preserve">
-data name="Description_FullCoverWall" xml:space="preserve">
-data name="Description_GatlingGun" xml:space="preserve">
-data name="Description_GatlingTurret" xml:space="preserve">
-data name="Description_GravityGenerator" xml:space="preserve">
-data name="Description_GravityGeneratorSphere" xml:space="preserve">
-data name="Description_Gyroscope" xml:space="preserve">
-data name="Description_HandDrill" xml:space="preserve">
-data name="Description_HangarDoor" xml:space="preserve">
-data name="Description_HeavyArmor" xml:space="preserve">
-data name="Description_HydrogenTank" xml:space="preserve">
-data name="Description_HydrogenThrust" xml:space="preserve">
-data name="Description_InteriorLight" xml:space="preserve">
-data name="Description_InteriorPillar" xml:space="preserve">
-data name="Description_InteriorTurret" xml:space="preserve">
-data name="Description_InteriorWall" xml:space="preserve">
-data name="Description_IonThrust" xml:space="preserve">
-data name="Description_JumpDrive" xml:space="preserve">
-data name="Description_Ladder" xml:space="preserve">
-data name="Description_LandingGear" xml:space="preserve">
-data name="Description_LargeCargoContainer" xml:space="preserve">
-data name="Description_LaserAntenna" xml:space="preserve">
-data name="Description_LightArmor" xml:space="preserve">
-data name="Description_MedicalRoom" xml:space="preserve">
-data name="Description_MediumCargoContainer" xml:space="preserve">
-data name="Description_MergeBlock" xml:space="preserve">
-data name="Description_MissileTurret" xml:space="preserve">
-data name="Description_NotAvailable" xml:space="preserve">
-data name="Description_OreDetector" xml:space="preserve">
-data name="Description_OxygenFarm" xml:space="preserve">
-data name="Description_OxygenGenerator" xml:space="preserve">
-data name="Description_OxygenTank" xml:space="preserve">
-data name="Description_ParachuteHatch" xml:space="preserve">
-data name="Description_Passage" xml:space="preserve">
-data name="Description_PassengerSeat" xml:space="preserve">
-data name="Description_Piston" xml:space="preserve">
-data name="Description_PistonTop" xml:space="preserve">
+<!-- data name="Description_FlightSeat" xml:space="preserve"> -->
+<!-- data name="Description_FullCoverWall" xml:space="preserve"> -->
+<!-- data name="Description_GatlingGun" xml:space="preserve"> -->
+<!-- data name="Description_GatlingTurret" xml:space="preserve"> -->
+<!-- data name="Description_GravityGenerator" xml:space="preserve"> -->
+<!-- data name="Description_GravityGeneratorSphere" xml:space="preserve"> -->
+<!-- data name="Description_Gyroscope" xml:space="preserve"> -->
+<!-- data name="Description_HandDrill" xml:space="preserve"> -->
+<!-- data name="Description_HangarDoor" xml:space="preserve"> -->
+<!-- data name="Description_HeavyArmor" xml:space="preserve"> -->
+<!-- data name="Description_HydrogenTank" xml:space="preserve"> -->
+<!-- data name="Description_HydrogenThrust" xml:space="preserve"> -->
+<!-- data name="Description_InteriorLight" xml:space="preserve"> -->
+<!-- data name="Description_InteriorPillar" xml:space="preserve"> -->
+<!-- data name="Description_InteriorTurret" xml:space="preserve"> -->
+<!-- data name="Description_InteriorWall" xml:space="preserve"> -->
+<!-- data name="Description_IonThrust" xml:space="preserve"> -->
+<!-- data name="Description_JumpDrive" xml:space="preserve"> -->
+<!-- data name="Description_Ladder" xml:space="preserve"> -->
+<!-- data name="Description_LandingGear" xml:space="preserve"> -->
+<!-- data name="Description_LargeCargoContainer" xml:space="preserve"> -->
+<!-- data name="Description_LaserAntenna" xml:space="preserve"> -->
+<!-- data name="Description_LightArmor" xml:space="preserve"> -->
+<!-- data name="Description_MedicalRoom" xml:space="preserve"> -->
+<!-- data name="Description_MediumCargoContainer" xml:space="preserve"> -->
+<!-- data name="Description_MergeBlock" xml:space="preserve"> -->
+<!-- data name="Description_MissileTurret" xml:space="preserve"> -->
+<!-- data name="Description_NotAvailable" xml:space="preserve"> -->
+<!-- data name="Description_OreDetector" xml:space="preserve"> -->
+<!-- data name="Description_OxygenFarm" xml:space="preserve"> -->
+<!-- data name="Description_OxygenGenerator" xml:space="preserve"> -->
+<!-- data name="Description_OxygenTank" xml:space="preserve"> -->
+<!-- data name="Description_ParachuteHatch" xml:space="preserve"> -->
+<!-- data name="Description_Passage" xml:space="preserve"> -->
+<!-- data name="Description_PassengerSeat" xml:space="preserve"> -->
+<!-- data name="Description_Piston" xml:space="preserve"> -->
+<!-- data name="Description_PistonTop" xml:space="preserve"> -->
 <!-- data name="Description_PowerEfficiencyModule" xml:space="preserve"> -->
 data name="Description_PowerGenerator" xml:space="preserve">
 <!-- data name="Description_ProductivityModule" xml:space="preserve"> -->
@@ -268,9 +268,9 @@ data name="Description_RocketLauncherReload" xml:space="preserve">
 data name="Description_Rotor" xml:space="preserve">
 data name="Description_RotorPart" xml:space="preserve">
 data name="Description_Sensor" xml:space="preserve">
-data name="Description_ShipGrinder" xml:space="preserve">
+<!-- data name="Description_ShipGrinder" xml:space="preserve"> -->
 data name="Description_ShipWelder" xml:space="preserve">
-data name="Description_SmallCargoContainer" xml:space="preserve">
+<!-- data name="Description_SmallCargoContainer" xml:space="preserve"> -->
 data name="Description_SolarPanel" xml:space="preserve">
 data name="Description_Sound" xml:space="preserve">
 data name="Description_SpaceBall" xml:space="preserve">
