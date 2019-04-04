@@ -2824,7 +2824,7 @@ zu erreichen.</value>
     <value>Oberes Kolbenstück</value>
   </data>
   <data name="DisplayName_Block_RotorPart" xml:space="preserve">
-    <value>Motorteil</value>
+    <value>Motorkopf</value>
   </data>
   <data name="DisplayName_Block_ArmorInvCorner" xml:space="preserve">
     <value>Sicherheitstor (inv. Ecke)</value>
@@ -3126,7 +3126,7 @@ Eine Deinstallation des Spieles ist nicht genug, weil Steam keine unbekannten Da
     <value>Zeit bis zum Start: </value>
   </data>
   <data name="DisplayName_Block_SmallRocketLauncherReload" xml:space="preserve">
-    <value>Nachladbarer Raketenwerfer</value>
+    <value>RAK Hydra R</value>
   </data>
   <data name="DisplayName_Category_AllBlocks" xml:space="preserve">
     <value>Alle Blöcke</value>
@@ -3360,7 +3360,7 @@ Eine Deinstallation des Spieles ist nicht genug, weil Steam keine unbekannten Da
     <value>Verbesserter Motor</value>
   </data>
   <data name="DisplayName_Block_AdvancedRotorPart" xml:space="preserve">
-    <value>Verbessertes Motorteil</value>
+    <value>Verbesserter Motorkopf</value>
   </data>
   <data name="ScreenDebugSpawnMenu_InvalidAmount" xml:space="preserve">
     <value>Menge ungültig</value>
@@ -3498,7 +3498,7 @@ Eine Deinstallation des Spieles ist nicht genug, weil Steam keine unbekannten Da
     <value>Lautstärke</value>
   </data>
   <data name="DisplayName_Block_SoundBlock" xml:space="preserve">
-    <value>Tonblock</value>
+    <value>Lautsprecher</value>
   </data>
   <data name="DisplayName_VoxelHand_Box" xml:space="preserve">
     <value>Kiste</value>
@@ -8406,5 +8406,99 @@ Als Munition werden Raketenbehälter benötigt, die in Fabriken hergestellt werd
   </data>
   <data name="Description_PistonTop" xml:space="preserve">
     <value>Dieser Teil des Kolbens ist der Kolbenkopf. An ihm können weitere Blöcke angebracht werden. Z.B. einen Dockport. </value>
+  </data>
+    <data name="Description_PowerGenerator" xml:space="preserve">
+    <value>Obwohl das Prinzip der Wasserstoffverbrennung schon im präastronautischen Zeitalter bekannt war, ist das Wasserstoffkraftwerk ein Newcomer im Weltraum. Trotz aller Bemühungen von Sun-Energizer krankt es leider an einer geringen Effizienz und im Vergleich zum Reaktor nur geringen Leistung. Daher eignet es sich eher als Notkraftwerk. </value>
+  </data>
+  <data name="Description_ProgrammableBlock" xml:space="preserve">
+    <value>Der Computerkern der Firma Positro-Complex Hive sieht zwar fast unscheinbar aus, hat es jedoch in sich. Er kann Skripte laden, die alle möglichen Aufgaben an Bord von Schiffen und Stationen ausführen können und ist somit ein mächtiges Werkzeug. Skripte können im Workshop gefunden oder selbst programmiert werden. </value>
+  </data>
+  <data name="Description_Projector" xml:space="preserve">
+    <value>Der Projektor ist ein Gemeinschaftsprodukt der Firmen ProSys und Positro-Complex Hive und ermöglicht die 3D-Projektion eines Bauplans. Dieser kann dann einfach fertiggeschweißt werden. Beachte, dass die Projektoren Gitterabhängig arbeiten: Ein großer Projektor kann nur große, ein kleiner Projektor nur kleine Gitter darstellen. Außerdem muss eine Verbindung in Form von Blöcken vom Projektor zum Bauplan bestehen, bevor geschweißt werden kann.</value>
+  </data>
+    <data name="Description_RadioAntenna" xml:space="preserve">
+    <value>Antennen können genutzt werden, um Positionen bekannt zu geben, Markierungen auf dem HUD zu zeigen und Zugriff auf Gitter aller Art zu gewähren. Auch für eine Fernsteuerung wird sie benötigt. Damit eine Verbindung besteht, muss die Antenne sowohl Senden, als auch empfangen können, daher sollten sich die Reichweiten überlappen.</value>
+  </data>
+    <data name="Description_Ramp" xml:space="preserve">
+    <value>Mit der Rampe kann man einen Höhenunterschied sanft überwinden. Oder sie einfach zur Verschönerung einsetzen.</value>
+  </data>
+  <data name="Description_Reactor" xml:space="preserve">
+    <value>Reaktoren sind ein Erzeugnis der Firma Sun-Energizer und generieren große Energiemengen. Zum Betrieb verwenden sie aufbereitetes Uran. </value>
+  </data>
+  <data name="Description_Refinery" xml:space="preserve">
+    <value>Fortgeschrittene Raffinerien sind das neueste Produkt der Firmen ProSys und Steel and Sweat. Sie sind effizienter, als die Basisraffinerie und können alle Rohstoffe verarbeiten. Außerdem kann sie mit Modulen aufgerüstet werden.</value>
+  </data>
+  <data name="Description_RefineryBasic" xml:space="preserve">
+    <value>Die Basisraffinerie stammt von den Firmen Firmen ProSys und Steel and Sweat. Sie sind günstig und schnell errichtet. Allerdings kann sie nicht alle Rohstoffe verwerten und ist weniger effizient, als ihr großer Bruder. </value>
+  </data>
+  <data name="Description_ReflectorLight" xml:space="preserve">
+    <value>Es ist Dir zu dunkel? Du siehst mal wieder schwarz? Schweinwerfer von ProSys sind DIE Lösung dafür! Jetzt kaufen!</value>
+  </data>
+   <data name="Description_RemoteControl" xml:space="preserve">
+    <value>Die Fernsteuerung ist ein Produkt von Positro-Complex Hive und ermöglicht es, Schiff, aber auch Stationen aus der Ferne zu steuern und zu kontrollieren. In Verbindung mit Skripten und/oder Sensordaten können Schiffe auch selbständig handeln und somit bestimmte Aufgaben an Wegpunkten durchführen.</value>
+  </data>
+  <data name="Description_RocketLauncher" xml:space="preserve">
+    <value>Die Hydra ist eines der ersten Waffensysteme von Pounder Weapons. Sie ermöglicht den Abschuss von Raketen in sehr schneller Folge. Sie ist sehr einfach gehalten und ein starres System. Leider kann sie nicht an ein Leitungsnetzwerk angeschlossen werden, muss somit von Hand geladen werden.</value>
+  </data>
+  <data name="Description_Rotor" xml:space="preserve">
+    <value>Motoren kommen von der Firma ProSys und ermöglichen angeschlossenen Gittern eine Rotation. Dies kann für vielfältige Zwecke eingesetzt werden.</value>
+  </data>
+  <data name="Description_RotorPart" xml:space="preserve">
+    <value>Der Motorkopf ist der Oberteil des Motors. An ihm können dann weitere Blöcke angebracht werden. Wird der Motorkopf zerstört, kann er in den Motoreinstellungen neu erzeugt werden.</value>
+  </data>
+  <data name="Description_Sensor" xml:space="preserve">
+    <value>Die Sensoren von Positro-Complex Hive sind hochwertige Geräte, welche die Annäherung von Objekten aus größerer Entfernung anmessen können. Man kann ihnen Aktionen zuweisen, die die Steuerung von Systemen ermöglichen, je nachdem, was entdeckt wird. Zum Beispiel eine Tür öffnen, wenn der Besitzer davorsteht. </value>
+  </data>
+  <data name="Description_SolarPanel" xml:space="preserve">
+    <value>Solar Panele sind eine der ältesten Formen der Energieumwandlung. Sie erzeugen Strom, wenn Sonnenstrahlung auf sie trifft. Die Energiemengen sind relativ klein, doch die Panele sind günstig. Sie eignen sich hervorragend als Notversorgung, oder um eine Station im Schlafmodus überdauern zu lassen.</value>
+  </data>
+  <data name="Description_Sound" xml:space="preserve">
+    <value>Lautsprecher können dazu verwendet werden, Töne abzuspielen, wenn bestimmte Vorrausetzungen gegeben sind. Kombination mit Sensoren empfohlen.</value>
+  </data>
+  <data name="Description_SpaceBall" xml:space="preserve">
+    <value>Der Raumball ist einfach nur eine Kugel, die auf Graviation reagiert. Bis heute weiß keiner, wem diese Spielerei entstammt. Er war einfach so... Da.</value>
+  </data>
+    <data name="Description_ShipWelder" xml:space="preserve">
+    <value>Mit einem Schiffsschweißgerät der Firma ProSys wirst Du viel Freude haben. Kein ständiges Hin- und Herfliegen. Schweißgerät ans Leitungsnetzwerk anschließen und gemütlich aus dem beheizten, belüfteten Cockpit heraus arbeiten. Oder gleich eine Drohne verwenden und es dir in der Station gemütlich machen. Arbeiten von der Couch aus! Jetzt kaufen! Ach ja: ProSys übernimmt keine Haftung für Grillfleisch! Nicht zu nahe rangehen!</value>
+  </data>
+    <data name="Description_Stairs" xml:space="preserve">
+    <value>Treppen können Höhenunterschiede überbrücken. Bzw. derjenige, der sie benutzt. Unglaublich, aber wahr!</value>
+  </data>
+    <data name="Description_SteelCatwalk" xml:space="preserve">
+    <value>Der englische Name "Catwalk" ist ein wenig irreführend. Tatsächlich dient der Laufsteg dazu, unzugängliche Bereiche begehbar zu machen. Zum Beispiel Wartungsgänge. Man kann sie auch als dünne Wände zweckentfremden. Mit Katzen hat das aber nix zu tun! Miau!</value>
+  </data>
+    <data name="Description_SurvivalKit" xml:space="preserve">
+    <value>Das Überlebenskit der Firma ProSys ist ein kleines Wunderwerk der Technik. Es vereint eine Vielzahl an Funktionen in sich: Es kann den Spieler heilen und seine Vorräte auffüllen, hat eine (wenn auch sehr begrenzte) Raffineriefunktion und kann auch grundlegende Komponenten herstellen. Es dient auch als Wiedereinstiegspunkt für den Spieler. </value>
+  </data>
+    <data name="Description_Suspension" xml:space="preserve">
+    <value>Radaufhängungen sind sehr robust und bieten eine Vielzahl von Funktionen, um Bodenfahrzeuge sicher auch über rauhes Gelände fahren zu lassen.</value>
+  </data>
+    <data name="Description_TextPanel" xml:space="preserve">
+    <value>Mit der Texttafel kann man benutzerdefinierte Texte anzeigen lassen, aber auch Ergebnisse von Abfragen aus Skripten.</value>
+  </data>
+    <data name="Description_Timer" xml:space="preserve">
+    <value>Ein Zeitgeber ist ein relativ einfaches Gerät, mit dem man bestimmte Aktionen nach Ablauf einer bestimmten Zeit auslösen kann. Mit mehreren Zeitgebern kann man regelrechte Befehlsketten aufbauen um auch komplexere Dinge zu steuern (z.b. Luftschleusen). Zeitgeber sind eine Alternative zu Computerkernen, wenn Skripte nicht verfügbar sind.
+    </value>
+  </data>
+    <data name="Description_VerticalWindow" xml:space="preserve">
+    <value>Das vertikale Fenster kann man am Besten als Raumteiler und Begrenzung verwenden. Es lässt Luft durch, aber keine Ingenieure. Naja. Solange sie die Flex nicht benutzen. </value>
+  </data>
+    <data name="Description_VirtualMass" xml:space="preserve">
+    <value>Künstliche Masse und auch Raumbälle ermöglichen es Gittern, auf künstliche Gravitation zu reagieren. Dazu muss sie aktiviert sein. Dies, und die Tatsache, dass künstliche Gravitationsfelder regelbar sind, ermöglicht nette Anwendungen...</value>
+  </data>
+  <data name="Description_Warhead" xml:space="preserve">
+    <value>Dieses Produkt der Firma Pounder Weapons dient zum Erzeugen starker Explosionen. Man kann damit Asteroiden, Schiffe und Stationen zerstören. Solange er nicht scharf gemacht wurde, ist er jeodch ganz harmlos. Der Sprengkopf bietet vielfältige Einstellungsmöglichkeiten hinsichtlich der Auslösung. Somit kann man ihn in einem Torpedo genauso verwenden, wie als Selbsvernichtungsanlage im Falle einer Enterung.</value>
+  </data>
+    <data name="Description_Welder" xml:space="preserve">
+    <value>Genauso wie alle anderen Handwerkzeuge auch stammt das Handschweißgerät von der Firma Steel and Sweat. Damit können Blöcke geschweißt und repariert werden.</value>
+  </data>
+    <data name="Description_Wheel" xml:space="preserve">
+    <value>Räder werden an Radaufhängungen angebracht und sind für Bodenfahrzeuge essentiell, um vorwärtszukommen.</value>
+  </data>
+    <data name="Description_WindTurbine" xml:space="preserve">
+    <value>Die Windturbinen der Firma Sun-Energizer sind Neuzugänge hier im All. Sie sind eine gute Alternative zu Solarpanelen, da sie Energie auch Nachts liefern - Sofern Wind weht. Deshalb können sie auch nur auf Planeten mit einer Atmosphäre eingesetzt werden. Grundsätzlich sollten Windturbinen erhöht stehen und genug Freiraum um sich herum haben, damit Luftströmungen nicht behindert werden.</value>
+  </data>
+    <data name="Description_Window" xml:space="preserve">
+    <value>Definition Fenster: Transparente Fläche aus Glas oder ähnlichen Materialien. Du kannst also durchgucken, aber Luft bleibt drin, Vakuum draußen. Meistens jedenfalls. Drück ja nicht auf das X oben rechts! </value>
   </data>
   </root>

@@ -251,43 +251,43 @@ data name="Description_FAQ_Test_Q3" xml:space="preserve"> -->
 <!-- data name="Description_Piston" xml:space="preserve"> -->
 <!-- data name="Description_PistonTop" xml:space="preserve"> -->
 <!-- data name="Description_PowerEfficiencyModule" xml:space="preserve"> -->
-data name="Description_PowerGenerator" xml:space="preserve">
+<!-- data name="Description_PowerGenerator" xml:space="preserve" -->>
 <!-- data name="Description_ProductivityModule" xml:space="preserve"> -->
-data name="Description_ProgrammableBlock" xml:space="preserve">
-data name="Description_Projector" xml:space="preserve">
-data name="Description_RadioAntenna" xml:space="preserve">
-data name="Description_Ramp" xml:space="preserve">
+<!-- data name="Description_ProgrammableBlock" xml:space="preserve">
+data name="Description_Projector" xml:space="preserve"> -->
+<!-- data name="Description_RadioAntenna" xml:space="preserve"> -->
+<!-- data name="Description_Ramp" xml:space="preserve">
 data name="Description_Reactor" xml:space="preserve">
 data name="Description_Refinery" xml:space="preserve">
-data name="Description_RefineryBasic" xml:space="preserve">
-data name="Description_ReflectorLight" xml:space="preserve">
-data name="Description_RemoteControl" xml:space="preserve">
-data name="Description_Rifle" xml:space="preserve">
-data name="Description_RocketLauncher" xml:space="preserve">
-data name="Description_RocketLauncherReload" xml:space="preserve">
-data name="Description_Rotor" xml:space="preserve">
-data name="Description_RotorPart" xml:space="preserve">
-data name="Description_Sensor" xml:space="preserve">
+data name="Description_RefineryBasic" xml:space="preserve"> -->
+<!-- data name="Description_ReflectorLight" xml:space="preserve"> -->
+<!-- data name="Description_RemoteControl" xml:space="preserve"> -->
+<!-- data name="Description_Rifle" xml:space="preserve"> -->
+<!-- data name="Description_RocketLauncher" xml:space="preserve"> -->
+<!-- data name="Description_RocketLauncherReload" xml:space="preserve"> -->
+<!-- data name="Description_Rotor" xml:space="preserve"> -->
+<!-- data name="Description_RotorPart" xml:space="preserve"> -->
+<!-- data name="Description_Sensor" xml:space="preserve"> -->
 <!-- data name="Description_ShipGrinder" xml:space="preserve"> -->
-data name="Description_ShipWelder" xml:space="preserve">
+<!-- data name="Description_ShipWelder" xml:space="preserve"> -->
 <!-- data name="Description_SmallCargoContainer" xml:space="preserve"> -->
-data name="Description_SolarPanel" xml:space="preserve">
-data name="Description_Sound" xml:space="preserve">
-data name="Description_SpaceBall" xml:space="preserve">
-data name="Description_Stairs" xml:space="preserve">
-data name="Description_SteelCatwalk" xml:space="preserve">
-data name="Description_SurvivalKit" xml:space="preserve">
-data name="Description_Suspension" xml:space="preserve">
-data name="Description_TextPanel" xml:space="preserve">
-data name="Description_Timer" xml:space="preserve">
-data name="Description_VerticalWindow" xml:space="preserve">
-data name="Description_VirtualMass" xml:space="preserve">
-data name="Description_Warhead" xml:space="preserve">
-data name="Description_Welder" xml:space="preserve">
-data name="Description_Wheel" xml:space="preserve">
-data name="Description_WindTurbine" xml:space="preserve">
-data name="Description_Window" xml:space="preserve">
-data name="Descripton_ConveyorJunction" xml:space="preserve">
+<!-- data name="Description_SolarPanel" xml:space="preserve"> -->
+<!-- data name="Description_Sound" xml:space="preserve"> -->
+<!-- data name="Description_SpaceBall" xml:space="preserve"> -->
+<!-- data name="Description_Stairs" xml:space="preserve"> -->
+<!-- data name="Description_SteelCatwalk" xml:space="preserve"> -->
+<!-- data name="Description_SurvivalKit" xml:space="preserve"> -->
+<!-- data name="Description_Suspension" xml:space="preserve"> -->
+<!-- data name="Description_TextPanel" xml:space="preserve"> -->
+<!-- data name="Description_Timer" xml:space="preserve"> -->
+<!-- data name="Description_VerticalWindow" xml:space="preserve"> -->
+<!-- data name="Description_VirtualMass" xml:space="preserve"> -->
+<!-- data name="Description_Warhead" xml:space="preserve"> -->
+<!-- data name="Description_Welder" xml:space="preserve"> -->
+<!-- data name="Description_Wheel" xml:space="preserve"> -->
+<!-- data name="Description_WindTurbine" xml:space="preserve"> -->
+<!-- data name="Description_Window" xml:space="preserve"> -->
+<!-- data name="Descripton_ConveyorJunction" xml:space="preserve"> -->
 data name="DisplayName_Block_BasicAssembler" xml:space="preserve">
 data name="DisplayName_Block_Hydrogen_Engine" xml:space="preserve">
 <!-- data name="DisplayName_Block_Ladder" xml:space="preserve"> -->
