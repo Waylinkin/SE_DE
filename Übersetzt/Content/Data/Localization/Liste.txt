@@ -288,49 +288,49 @@ data name="Description_RefineryBasic" xml:space="preserve"> -->
 <!-- data name="Description_WindTurbine" xml:space="preserve"> -->
 <!-- data name="Description_Window" xml:space="preserve"> -->
 <!-- data name="Descripton_ConveyorJunction" xml:space="preserve"> -->
-data name="DisplayName_Block_BasicAssembler" xml:space="preserve">
-data name="DisplayName_Block_Hydrogen_Engine" xml:space="preserve">
+<!-- data name="DisplayName_Block_BasicAssembler" xml:space="preserve"> -->
+<!-- data name="DisplayName_Block_Hydrogen_Engine" xml:space="preserve"> -->
 <!-- data name="DisplayName_Block_Ladder" xml:space="preserve"> -->
-data name="DisplayName_Block_SmallBattery" xml:space="preserve">
-data name="DisplayName_Block_SurvivalKit" xml:space="preserve">
-data name="DisplayName_Block_WindTurbine" xml:space="preserve">
-data name="DisplayName_BlueprintClass_BasicComponents" xml:space="preserve">
+<!-- data name="DisplayName_Block_SmallBattery" xml:space="preserve"> -->
+<!-- data name="DisplayName_Block_SurvivalKit" xml:space="preserve"> -->
+<!-- data name="DisplayName_Block_WindTurbine" xml:space="preserve"> -->
+<!-- data name="DisplayName_BlueprintClass_BasicComponents" xml:space="preserve">
 data name="DisplayName_BlueprintClass_BasicLargeBlocks" xml:space="preserve">
-data name="DisplayName_BlueprintClass_BasicSmallBlocks" xml:space="preserve">
-data name="DisplayName_Category_CharacterWeapons" xml:space="preserve">
-data name="DisplayName_RespawnPodSpace" xml:space="preserve">
-data name="GPS_Respawn_Location_Desc" xml:space="preserve">
-data name="GPS_Respawn_Location_Name" xml:space="preserve">
-data name="Hint27Text" xml:space="preserve">
-data name="Hint28Text" xml:space="preserve">
-data name="Hint29Text" xml:space="preserve">
-data name="Hint30Text" xml:space="preserve">
-data name="Hint31Text" xml:space="preserve">
-data name="Hint32Text" xml:space="preserve">
-data name="Hint33Text" xml:space="preserve">
-data name="Hint34Text" xml:space="preserve">
-data name="Hint35Text" xml:space="preserve">
-data name="Hint36Text" xml:space="preserve">
-data name="Hint37Text" xml:space="preserve">
-data name="IngameHelp_BasicRefinery_Detail1" xml:space="preserve">
-data name="IngameHelp_BasicRefinery_Title" xml:space="preserve">
-data name="IngameHelp_Battery2_Detail1" xml:space="preserve">
-data name="IngameHelp_Battery_Detail1" xml:space="preserve">
-data name="IngameHelp_Battery_Title" xml:space="preserve">
-data name="IngameHelp_Building2_Detail1" xml:space="preserve">
-data name="IngameHelp_Building2_Detail2" xml:space="preserve">
-data name="IngameHelp_Building2_Detail3" xml:space="preserve">
-data name="IngameHelp_Building3_Detail1" xml:space="preserve">
-data name="IngameHelp_Building3_Detail2" xml:space="preserve">
-data name="IngameHelp_BuildingTip2_Detail1" xml:space="preserve">
-data name="IngameHelp_BuildingTip2_Detail2" xml:space="preserve">
-data name="IngameHelp_BuildingTip_Detail1" xml:space="preserve">
-data name="IngameHelp_BuildingTip_Detail2" xml:space="preserve">
-data name="IngameHelp_Building_Detail1" xml:space="preserve">
+data name="DisplayName_BlueprintClass_BasicSmallBlocks" xml:space="preserve"> -->
+<!-- data name="DisplayName_Category_CharacterWeapons" xml:space="preserve"> -->
+<!-- data name="DisplayName_RespawnPodSpace" xml:space="preserve"> -->
+<!-- data name="GPS_Respawn_Location_Desc" xml:space="preserve"> -->
+<!-- data name="GPS_Respawn_Location_Name" xml:space="preserve"> -->
+<!-- data name="Hint27Text" xml:space="preserve"> -->
+<!-- data name="Hint28Text" xml:space="preserve"> -->
+<!-- data name="Hint29Text" xml:space="preserve"> -->
+<!-- data name="Hint30Text" xml:space="preserve"> -->
+<!-- data name="Hint31Text" xml:space="preserve"> -->
+<!-- data name="Hint32Text" xml:space="preserve"> -->
+<!-- data name="Hint33Text" xml:space="preserve"> -->
+<!-- data name="Hint34Text" xml:space="preserve"> -->
+<!-- data name="Hint35Text" xml:space="preserve"> -->
+<!-- data name="Hint36Text" xml:space="preserve"> -->
+<!-- data name="Hint37Text" xml:space="preserve"> -->
+<!-- data name="IngameHelp_BasicRefinery_Detail1" xml:space="preserve"> -->
+<!-- data name="IngameHelp_BasicRefinery_Title" xml:space="preserve"> -->
+<!-- data name="IngameHelp_Battery2_Detail1" xml:space="preserve"> -->
+<!-- data name="IngameHelp_Battery_Detail1" xml:space="preserve"> -->
+<!-- data name="IngameHelp_Battery_Title" xml:space="preserve"> -->
+<!-- data name="IngameHelp_Building2_Detail1" xml:space="preserve"> -->
+<!-- data name="IngameHelp_Building2_Detail2" xml:space="preserve"> -->
+<!-- data name="IngameHelp_Building2_Detail3" xml:space="preserve"> -->
+<!-- data name="IngameHelp_Building3_Detail1" xml:space="preserve">
+data name="IngameHelp_Building3_Detail2" xml:space="preserve"> -->
+<!-- data name="IngameHelp_BuildingTip2_Detail1" xml:space="preserve"> -->
+<!-- data name="IngameHelp_BuildingTip2_Detail2" xml:space="preserve"> -->
+<!-- data name="IngameHelp_BuildingTip_Detail1" xml:space="preserve">
+data name="IngameHelp_BuildingTip_Detail2" xml:space="preserve"> -->
+<!-- data name="IngameHelp_Building_Detail1" xml:space="preserve">
 data name="IngameHelp_Building_Detail2" xml:space="preserve">
 data name="IngameHelp_Building_Detail3" xml:space="preserve">
-data name="IngameHelp_Building_Detail4" xml:space="preserve">
-data name="IngameHelp_Building_Title" xml:space="preserve">
+data name="IngameHelp_Building_Detail4" xml:space="preserve"> -->
+<!-- data name="IngameHelp_Building_Title" xml:space="preserve"> -->
 data name="IngameHelp_CameraTip_Detail1" xml:space="preserve">
 data name="IngameHelp_CameraTip_Detail2" xml:space="preserve">
 data name="IngameHelp_Camera_Detail1" xml:space="preserve">

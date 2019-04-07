@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -194,7 +194,7 @@
     <value>Kontrollfeld</value>
   </data>
   <data name="DisplayName_Block_Assembler" xml:space="preserve">
-    <value>Fabrik</value>
+    <value>PS 002 Fabrik</value>
   </data>
   <data name="DisplayName_Block_Refinery" xml:space="preserve">
     <value>Raffinerie</value>
@@ -553,19 +553,19 @@ Für ein stabileres Verhalten des Spiels empfehlen wir, diese Option auszuschalt
     <value>Aktiviere realistisches FLKS</value>
   </data>
   <data name="TooltipWorldSettings_EnableRealisticDampeners" xml:space="preserve">
-    <value>Aktiviert das realistische Verhalten des Fluglage-Kontrollsystems</value>		 
+    <value>Aktiviert das realistische Verhalten des Fluglage-Kontrollsystems</value>
   </data>
   <data name="WorldSettings" xml:space="preserve">
     <value>Welteinstellungen</value>
   </data>
   <data name="ToolTipWorldSettingsAutoHealing" xml:space="preserve">
-    <value>Selbstheilung heilt den Spieler, 
+    <value>Selbstheilung heilt den Spieler,
 wenn er keinen weiteren Schaden nimmt.</value>
   </data>
   <data name="ToolTipWorldSettingsDifficulty" xml:space="preserve">
-    <value>Der Schaden, der von Feinden und der Umwelt verursacht wird. 
-Höhere Schwierigkeit bedeutet 
-realistischeren Schaden.</value>							 											  
+    <value>Der Schaden, der von Feinden und der Umwelt verursacht wird.
+Höhere Schwierigkeit bedeutet
+realistischeren Schaden.</value>
   </data>
   <data name="ToolTipWorldSettingsEnvironment" xml:space="preserve">
     <value>Die Häufigkeit und Stärke von Meteoritenschauern.</value>
@@ -584,7 +584,7 @@ Benutze den Kreativmodus wenn du einfach nur Dinge bauen möchtest.
 
 Überlebensmodus: Realistische Inventargröße, eingeschränkte Rohstoffe - du musst Erze bohren, abbauen und in einer Raffinerie verarbeiten.
 Erstelle Komponenten mit einer Fabrik, und Blöcke mit Hilfe von Schweißgeräten, entferne sie wieder mit dem Schleifgerät.
-Spieler können sterben - sie erscheinen dann wieder in ihrem Krankenzimmer. 
+Spieler können sterben - sie erscheinen dann wieder in ihrem Krankenzimmer.
 Wenn es keines gibt, in einem neuen Starterschiff als neuer Spieler am Rande des Sektors.
 
 Überlebensmodus x3: gleich wie "Überlebensmodus", nur 3x größeres Inventar
@@ -1469,8 +1469,8 @@ Empfehlungen helfen der Community zu wachsen. Vielen Dank!</value>
     <value>{0}{3}
 Masse: {1} kg
 Volumen: {2} L{4}</value>
-  </data>  
-  <data name="ControlName_InertialDampeners" xml:space="preserve">  
+  </data>
+  <data name="ControlName_InertialDampeners" xml:space="preserve">
 	<value>Fluglagekontrollsystem</value>
   </data>
    <data name="ControlName_InertialDampenersOnOff" xml:space="preserve">
@@ -1574,7 +1574,7 @@ Volumen: {2} L{4}</value>
     <value>Die momentane Rotation des Motors ist außerhalb des Limits, die Beschränkung wird aktiv, sobald der Motor sich wieder innerhalb des Limits befindet.</value>
 </data>
   <data name="BlockPropertiesText_MotoLockOverrideDisabled" xml:space="preserve">
-    <value>Die aktuelle Motor-Rotationsgeschwindigkeit ist zu hoch. 
+    <value>Die aktuelle Motor-Rotationsgeschwindigkeit ist zu hoch.
 Der Motor wird gesichert, wenn die Winkelgeschwindigkeit gering genug ist.</value>
   </data>
   <data name="BlockPropertyDescription_MotorBrakingTorque" xml:space="preserve">
@@ -1584,7 +1584,7 @@ Der Motor wird gesichert, wenn die Winkelgeschwindigkeit gering genug ist.</valu
     <value>Untere Winkelgrenze</value>
   </data>
   <data name="BlockPropertyDescription_MotorLock" xml:space="preserve">
-    <value>Der Motor wird an seiner aktuellen Position verriegelt.</value>	
+    <value>Der Motor wird an seiner aktuellen Position verriegelt.</value>
   </data>
   <data name="BlockPropertyDescription_MotorTorque" xml:space="preserve">
     <value>Das Drehmoment des Motors: Wie schnell er beschleunigt (wird nur angewendet, wenn der Rotor aktiviert wurde).</value>
@@ -1678,7 +1678,7 @@ Der Motor wird gesichert, wenn die Winkelgeschwindigkeit gering genug ist.</valu
     <comment>On/Off buttons in terminal. Don't translate or keep it short if you have to!!!</comment>
   </data>
   <data name="ToolTipWorldSettingsEnableCopyPaste" xml:space="preserve">
-    <value>Kopieren und Einfügen erlaubt es dir, 
+    <value>Kopieren und Einfügen erlaubt es dir,
 neue Schiffe und Stationen direkt aus der Zwischenablage zu erstellen.</value>
   </data>
   <data name="WorldSettings_EnableCopyPaste" xml:space="preserve">
@@ -1805,7 +1805,7 @@ stark beeinträchtigen!</value>
     <value>Unbegrenzte Rohstoffe, Sofort bauen, Unsterblich</value>
   </data>
   <data name="ToolTipWorldSettingsModeSurvival" xml:space="preserve">
-    <value>Realistisches Verwalten von Rohstoffen, realistische Inventarkapazität, 
+    <value>Realistisches Verwalten von Rohstoffen, realistische Inventarkapazität,
 Tod und Wiederbelebung.</value>
   </data>
   <data name="DisplayName_Scenario_CrashedRedShip" xml:space="preserve">
@@ -2361,9 +2361,9 @@ Höhere Zahlen beeinflussen die Leistung.</value>
   <data name="ToolTipWorldSettingsRemoveTrash" xml:space="preserve">
     <value>Falls markiert, werden Schiffe, die als Schrott angesehen werden, vom Spiel entfernt,
 um dieses nicht unnötig zu belasten.
-Um als Schrott erkannt zu werden, muss das Objekt aus nur wenigen Blöcken bestehen, 
-nicht elektrifiziert sein,sich unkontrolliert bewegen, 
-keine Krankenstation besitzen und weit genug vom Spieler 
+Um als Schrott erkannt zu werden, muss das Objekt aus nur wenigen Blöcken bestehen,
+nicht elektrifiziert sein,sich unkontrolliert bewegen,
+keine Krankenstation besitzen und weit genug vom Spieler
 entfernt sein.</value>
   </data>
   <data name="WorldSettings_LimitWorldSize" xml:space="preserve">
@@ -2458,7 +2458,7 @@ entfernt sein.</value>
     <value>Batterie</value>
   </data>
   <data name="DisplayName_Block_Battery" xml:space="preserve">
-    <value>Batterie</value>
+    <value>SE ST 2 Batterie</value>
   </data>
   <data name="BlockPropertiesText_MaxStoredPower" xml:space="preserve">
     <value>Max. speicherbare Energie: </value>
@@ -2588,22 +2588,22 @@ Wiedereinstieg?</value>
   </data>
   <data name="BlockPropertyDescription_Motor_Friction" xml:space="preserve">
     <value>Reguliert die Reibung der Räder, durch Änderung des Luftdrucks im Rad.</value>
-  </data>		
-  <data name="BlockPropertyTitle_Motor_Friction" xml:space="preserve">																		   
+  </data>
+  <data name="BlockPropertyTitle_Motor_Friction" xml:space="preserve">
     <value>Reibung</value>
   </data>
   <data name="BlockPropertyTitle_Suspension_AirShock" xml:space="preserve">
-    <value>Schockabsorber</value>  	 
-  </data>															 
+    <value>Schockabsorber</value>
+  </data>
 <data name="BlockPropertyDescription_Suspension_AirShock" xml:space="preserve">
     <value>Erhöht automatisch die Stärke der Stoßdämpferfedern, wenn das Fahrzeug zu hart aufsetzt.</value>
-  </data>																										  
+  </data>
 <data name="BlockPropertyTitle_Suspension_Brake" xml:space="preserve">
     <value>Bremse</value>
   </data>
   <data name="BlockPropertyDescription_Suspension_Brake" xml:space="preserve">
     <value>Aktiviert die Bremsen.</value>
-  </data>																	
+  </data>
   <data name="DisplayName_Block_Suspension1x1" xml:space="preserve">
     <value>Radaufhängung 1x1 R</value>
   </data>
@@ -2748,7 +2748,7 @@ Hohe Werte können in unerwartetem Verhalten münden.</value>
     <value>Trägheitstensor teilen</value>
   </data>
   <data name="BlockPropertyTooltip_ShareTensor" xml:space="preserve">
-    <value>Gleicht virtuelle Massen verbundener Gitter an, um ein stabileres Verhalten 
+    <value>Gleicht virtuelle Massen verbundener Gitter an, um ein stabileres Verhalten
 zu erreichen.</value>
   </data>
   <data name="HudInfoNameNumberOfBatteries" xml:space="preserve">
@@ -2941,12 +2941,12 @@ Hinweis: Versuche die "TypeId" bei jedem Block in dem Terminal zu setzen - Der s
   </data>
   <data name="DisplayName_BlueprintClass_LargeBlocks" xml:space="preserve">
     <value>Große Blöcke
-	Klicke auf einen großen Block, um alle für seine Konstruktion 
+	Klicke auf einen großen Block, um alle für seine Konstruktion
 	nötigen Komponenten hinzuzufügen.</value>
   </data>
   <data name="DisplayName_BlueprintClass_SmallBlocks" xml:space="preserve">
     <value>Kleine Blöcke
-Klicke auf einen kleinen Block, um alle für seine Konstruktion 
+Klicke auf einen kleinen Block, um alle für seine Konstruktion
 nötigen Komponenten hinzuzufügen.</value>
   </data>
   <data name="BlockActionTitle_View" xml:space="preserve">
@@ -3141,7 +3141,7 @@ Eine Deinstallation des Spieles ist nicht genug, weil Steam keine unbekannten Da
     <value>Charakter Animationen</value>
   </data>
   <data name="DisplayName_Category_CharacterTools" xml:space="preserve">
-    <value>Charakter Werkzeuge</value>
+    <value>Handwerkzeuge</value>
   </data>
   <data name="DisplayName_Category_ConveyorBlocks" xml:space="preserve">
     <value>Logistik</value>
@@ -3507,9 +3507,9 @@ Eine Deinstallation des Spieles ist nicht genug, weil Steam keine unbekannten Da
     <value>Kugel</value>
   </data>
   <data name="ToolTipWorldSettingsLimitWorldSize" xml:space="preserve">
-    <value>Falls gesetzt, ist der Spielbereich in Form eines Würfels 
+    <value>Falls gesetzt, ist der Spielbereich in Form eines Würfels
 mit der gewählten Seitenlänge begrenzt.
-Alle Objekte, die den Spielbereich verlassen, 
+Alle Objekte, die den Spielbereich verlassen,
 werden vom Spiel entfernt.
 Charaktere, die diesen verlassen, werden getötet.</value>
   </data>
@@ -3790,7 +3790,7 @@ Charaktere, die diesen verlassen, werden getötet.</value>
     <value>Manuell</value>
   </data>
   <data name="ToolTipWorldSettingsViewDistance" xml:space="preserve">
-    <value>Große Sichtweiten können die Leistung beeinträchtigen, 
+    <value>Große Sichtweiten können die Leistung beeinträchtigen,
 je nach dem wieviele Objekte in der Welt geladen sind.
 Große Sichtweiten sind nicht empfohlen für Welten mit
 hoher Asteroidendichte.</value>
@@ -4264,7 +4264,7 @@ Inaktiv   Laser ist im Ruhemodus.
 &gt;&gt;   Laser dreht sich zu einem anderen Empfänger oder GPS Koordinaten.
 ?&gt;   Sucht nach anderem Laser bei angegebenen GPS Koordinaten.
 ~&gt;   Kontaktiert anderes Ende der Verbindung (Beinhaltet Warten, bis anderer
-Laser sich auf mich ausgerichtet hat, oder vergeblich versucht den Empfänger zu kontaktieren, 
+Laser sich auf mich ausgerichtet hat, oder vergeblich versucht den Empfänger zu kontaktieren,
 welcher entweder aus ist, oder nicht mehr existiert).
 =&gt;   Verbindung hergestellt.
 Um mit Lasern, die hier nicht aufgelistet sind zu verbinden, können Zielkoordinaten angegeben werden.</value>
@@ -4977,7 +4977,7 @@ Besteht keine Chance, auf eine Krankenstation Zugriff zu erhalten, ist das Spiel
     <value>Ist dies deaktiviert, können Spieler nirgendwo ein Jetpack nutzen.</value>
   </data>
   <data name="ToolTipWorldSettings_SpawnWithTools" xml:space="preserve">
-    <value>Ist dies deaktiviert, spawnen Spieler 
+    <value>Ist dies deaktiviert, spawnen Spieler
 ohne Ausrüstung im Inventar.</value>
   </data>
   <data name="WorldSettings_EnableJetpack" xml:space="preserve">
@@ -5153,8 +5153,8 @@ Bitte kontaktiere den Autor, um das Problem zu beheben.</value>
     <value>Das Sprungtriebwerk ist nur zu {0} % aufgeladen!</value>
   </data>
   <data name="ToolTipWorldSettings_StartInRespawnScreen" xml:space="preserve">
-    <value>Wenn in einem Szenario: Der Spieler 
-wird im Respawnbildschirm mit einer neuen Identität beginnen. 
+    <value>Wenn in einem Szenario: Der Spieler
+wird im Respawnbildschirm mit einer neuen Identität beginnen.
 Alle bisherigen Besitztümer gehen verloren.</value>
   </data>
   <data name="WorldSettings_StartInRespawnScreen" xml:space="preserve">
@@ -5254,7 +5254,7 @@ Erlaubte Seiten: Steamcommunity, Youtube, KSH Forum.</value>
   <data name="DisplayName_Scenario_TestStarSystem" xml:space="preserve">
     <value>Test-Sonnensystem</value>
   </data>
- 
+
   <data name="DisplayName_Scenario_StarSystemAligned" xml:space="preserve">
     <value>Dichtes Sonnensystem</value>
   </data>
@@ -5388,19 +5388,19 @@ Diese Schiffe sind Feinde und werden versuchen, dich direkt oder mit ihren Drohn
 durchfliegen.</value>
   </data>
   <data name="ToolTipWorldSettings_ClientCanSave" xml:space="preserve">
-    <value>Der Client kann Netzwerkspiele speichern. Wenn das deaktiviert ist, 
+    <value>Der Client kann Netzwerkspiele speichern. Wenn das deaktiviert ist,
 kann nur der Server speichern.</value>
   </data>
   <data name="ToolTipWorldSettings_Enable3rdPersonCamera" xml:space="preserve">
-    <value>Die Kamera kan in die 3. Person Perspektive umgeschaltet werden. 
+    <value>Die Kamera kan in die 3. Person Perspektive umgeschaltet werden.
 So kannst Du deinen Astronauten oder das Schiff von außen sehen.</value>
   </data>
   <data name="ToolTipWorldSettings_EnableEncounters" xml:space="preserve">
     <value>Zufällig erzeugte verlassene Schiffe oder Stationen können entdeckt werden.</value>
   </data>
   <data name="ToolTipWorldSettings_EnableIngameScripts" xml:space="preserve">
-    <value>Falls deaktiviert, können im Spiel keine Skripte genutzt werden. 
-Skripte werden in Computerkernen genutzt und können verwendet werden, 
+    <value>Falls deaktiviert, können im Spiel keine Skripte genutzt werden.
+Skripte werden in Computerkernen genutzt und können verwendet werden,
 um fortgeschrittene Logiken und Effekte zu nutzen.</value>
   </data>
   <data name="ToolTipWorldSettings_EnableSunRotation" xml:space="preserve">
@@ -5738,7 +5738,7 @@ in denen dir das Verhalten von Energie in Space Engineers sowie die verschiedene
     <value>Ort Deiner Leiche</value>
   </data>
   <data name="GPS_Body_Location_Desc" xml:space="preserve">
-    <value>Der letzte bekannte Ort Deiner Leiche.</value>
+    <value>Da liegt er nun...</value>
   </data>
   <data name="DisplayName_AlienLander" xml:space="preserve">
     <value>Challenger</value>
@@ -5805,7 +5805,7 @@ ausgeführt zu werden. </value>
   </data>
   <data name="ProgrammableBlock_DefaultScript_Main" xml:space="preserve">
     <value>Der Haupteingangspunkt des Skripts wird jedes Mal aufgerufen,
-wenn eine der Computerkernaktionen aufgerufen wird, 
+wenn eine der Computerkernaktionen aufgerufen wird,
 oder das Skript sich selbst aktualisiert.
 Das updateSource-Argument beschreibt, woher das Update stammt.
 
@@ -5857,7 +5857,7 @@ Erforderlich.</value>
     <value>Konvertiert diese Station in ein Schiff.
 Schiffe können sich drehen und bewegen.
 WARNUNG: Stelle sicher, dass deine Station nicht an einem Asteroiden verankert ist,
-wenn du sie in ein Schiff umwandelst! Wenn sie verankert ist, 
+wenn du sie in ein Schiff umwandelst! Wenn sie verankert ist,
 kann sie bei der Umwandlung explodieren!</value>
   </data>
   <data name="TerminalTab_Info_ConvertToStationButton" xml:space="preserve">
@@ -5900,10 +5900,10 @@ nicht in Voxeln verankert ist. </value>
     <value>Max. Sicherungskopien</value>
   </data>
   <data name="ToolTipWorldSettingsMaxBackupSaves" xml:space="preserve">
-    <value>Konfiguriert die maximale Anzahl an Spielständen, welche gesichert werden.  
+    <value>Konfiguriert die maximale Anzahl an Spielständen, welche gesichert werden.
 Der Sicherungsordner befindet sich im jeweiligen Sicherungsverzeichnis des Spielstands.
 Wenn dies 0 ist, ist die Sicherungsfunktion deaktiviert
- und alle Sicherungen werden nach dem 
+ und alle Sicherungen werden nach dem
  Speichern gelöscht!</value>
   </data>
   <data name="TerminalTab_Chat_ChatHistory" xml:space="preserve">
@@ -6003,7 +6003,7 @@ Wenn dies 0 ist, ist die Sicherungsfunktion deaktiviert
     <value>Max. Schiffsgröße</value>
   </data>
   <data name="ToolTipWorldSettingsMaxBlocksPerPlayer" xml:space="preserve">
-    <value>Maximale Anzahl an Blöcken, die jeder Spieler bauen kann. 
+    <value>Maximale Anzahl an Blöcken, die jeder Spieler bauen kann.
 	Zerstörte Blöcke werden rückerstattet.</value>
 </data>
   <data name="ToolTipWorldSettingsTotalPCU" xml:space="preserve">
@@ -6026,14 +6026,14 @@ Jeder Block hat PCU-Kosten, die PCU zerstörter Blöcke werden rückerstattet.</
     <value>Du hast gebaut</value>
   </data>
   <data name="ToolTipWorldSettings_EnableRemoteBlockRemoval" xml:space="preserve">
-    <value>Ermöglicht es Spielern, eigene Blöcke aus der Entfernung zu entfernen, 
+    <value>Ermöglicht es Spielern, eigene Blöcke aus der Entfernung zu entfernen,
 um Blöcke zurückzugewinnen.</value>
   </data>
   <data name="WorldSettings_EnableRemoteBlockRemoval" xml:space="preserve">
     <value>Blockentf. aus der Ferne</value>
   </data>
   <data name="ToolTipWorldSettings_StationVoxelSupport" xml:space="preserve">
-    <value>Durch das Aktivieren dieser Option werden die Gitter nicht mehr dynamisch umgewandelt, 
+    <value>Durch das Aktivieren dieser Option werden die Gitter nicht mehr dynamisch umgewandelt,
 wenn sie von statischen Gittern getrennt werden.</value>
   </data>
   <data name="WorldSettings_StationVoxelSupport" xml:space="preserve">
@@ -6134,7 +6134,7 @@ wenn sie von statischen Gittern getrennt werden.</value>
   </data>
   <data name="ToolTipAudioOptionsEnableReverb" xml:space="preserve">
     <value>Aktiviert Echo. Beachte, dass Echos nicht funktionieren,
-wenn die Abtastrate deiner Soundeinstellungen größer als 48 kHz ist. 
+wenn die Abtastrate deiner Soundeinstellungen größer als 48 kHz ist.
 Diese kannst du in den Lautsprechereinstellungen ändern und dann das Spiel neu starten.</value>
   </data>
   <data name="DisplayName_Dead_Astronaut" xml:space="preserve">
@@ -7185,11 +7185,11 @@ Umwelt-Feindseligkeit.</value>
     <value>Nicht verfügbar</value>
   </data>
   <data name="TerminalControlPanel_EditCode_Tooltip_Steam" xml:space="preserve">
-    <value>Öffnet einen Code Editor, mit welchem Du neue Skripte erstellen und im {0}-Workshop hoch/herunterladen kannst.</value>  
+    <value>Öffnet einen Code Editor, mit welchem Du neue Skripte erstellen und im {0}-Workshop hoch/herunterladen kannst.</value>
   </data>
   <data name="WwwLinkNotAllowed_Steam" xml:space="preserve">
     <value>Dieser Link ist nicht erlaubt und wird nicht geöffnet.
-Erlaubte Seiten: steamcommunity, youtube, KSH Forum.</value>  
+Erlaubte Seiten: steamcommunity, youtube, KSH Forum.</value>
   </data>
   <data name="Depower" xml:space="preserve">
     <value>Energie entziehen</value>
@@ -7304,7 +7304,7 @@ falls Du mehrere gleiche Gegenstände hast.</value>
     <value>Rechts</value>
   </data>
   <data name="NotificationHealthCritical" xml:space="preserve">
-    <value>WARNUNG: Deine Gesundheit ist kritisch!</value>		 
+    <value>WARNUNG: Deine Gesundheit ist kritisch!</value>
   </data>
 <data name="NotificationHealthLow" xml:space="preserve">
     <value>WARNUNG: Deine Gesundheit ist niedrig!</value>
@@ -7387,15 +7387,15 @@ um ihn auszuwerfen.</value>
     <value>Gitterblöcke:</value>
   </data>
   <data name="ControlScreen_ShareComboboxDisabled" xml:space="preserve">
-    <value>Du musst der Besitzer des Blocks sein, um Zugriff auf die 
+    <value>Du musst der Besitzer des Blocks sein, um Zugriff auf die
 Freigabeoptionen zu haben.</value>
   </data>
   <data name="ControlScreen_TerminalBlockGroupDeleteDisabled" xml:space="preserve">
-    <value>Du musst erst eine Blockgruppe auswählen, 
+    <value>Du musst erst eine Blockgruppe auswählen,
 bevor Du sie löschen kannst.</value>
   </data>
   <data name="ControlScreen_TerminalBlockGroupSaveDisabled" xml:space="preserve">
-    <value>Du musst erst einen Gruppennamen eingeben, 
+    <value>Du musst erst einen Gruppennamen eingeben,
 bevor Du eine neue Blockgruppe erzeugen kannst.</value>
   </data>
   <data name="GpsScreen_GpsListLabel" xml:space="preserve">
@@ -7417,7 +7417,7 @@ bevor Du eine neue Blockgruppe erzeugen kannst.</value>
     <value>Kopiert den markierten GPS-Punkt in die Zwischenablage</value>
   </data>
   <data name="TerminalTab_GPS_Delete_Disabled_ToolTip" xml:space="preserve">
-    <value>Du musst erst einen GPS-Punkt auswählen, 
+    <value>Du musst erst einen GPS-Punkt auswählen,
 bevor Du ihn löschen kannst.</value>
   </data>
   <data name="TerminalTab_GPS_Delete_ToolTip" xml:space="preserve">
@@ -7433,7 +7433,7 @@ bevor Du ihn löschen kannst.</value>
     <value>Erzeugt einen neuen GPS-Punkt aus der Zwischenablage</value>
   </data>
   <data name="TerminalTab_GPS_NewFromCurrent_ToolTip" xml:space="preserve">
-    <value>Erzeugt einen neuen GPS-Punkt mit den 
+    <value>Erzeugt einen neuen GPS-Punkt mit den
 aktuellen Koordinaten</value>
   </data>
   <data name="TerminalTab_GPS_SelectGpsEntry" xml:space="preserve">
@@ -7460,15 +7460,15 @@ Du kannst jede Station in ein Schiff konvertieren. Sei vorsichtig dabei, denn we
 Ein Schiff darf sich nicht in Bewegung befinden, wenn es in eine Station konvertiert werden soll.</value>
   </data>
   <data name="TerminalTab_Info_EnemyAntennaRange_ToolTip" xml:space="preserve">
-    <value>Maximale Reichweite, bis zu der feindliche Antennen auf 
+    <value>Maximale Reichweite, bis zu der feindliche Antennen auf
 dem HUD angezeigt werden können.</value>
   </data>
   <data name="TerminalTab_Info_FriendlyAntennaRange_ToolTip" xml:space="preserve">
-    <value>Maximale Reichweite, bis zu der freundliche Antennen auf 
+    <value>Maximale Reichweite, bis zu der freundliche Antennen auf
 dem HUD angezeigt werden können.</value>
   </data>
   <data name="TerminalTab_Info_OwnedAntennaRange_ToolTip" xml:space="preserve">
-    <value>Maximale Reichweite, bis zu der eigene Antennen auf 
+    <value>Maximale Reichweite, bis zu der eigene Antennen auf
 dem HUD angezeigt werden können.</value>
   </data>
   <data name="TerminalTab_Info_PivotBtn_ToolTip" xml:space="preserve">
@@ -7836,7 +7836,7 @@ Es bietet ebenfalls Anschlüsse für Elektrolyseblöcke und/oder Sauerstofftanks
     <value>Der Sammler ist ein Gerät der Firma ProSys. Er kann an ein Transportnetzwerk angeschlossen werden. Alles, was in den Samnmler gerät, kann dann in Container gebracht werden. Aber Vorsicht - Es sollen schon verhungerte Astronauten in Containern gefunden worden sein... </value>
   </data>
   <data name="Description_Connector" xml:space="preserve">
-    <value>Der Dockport dient zum Verbinden mit anderen Dockports. So kann dann z.B. ein Raumschiff Waren an einer Station aufnehmen oder abladen. Auch Energie kann transferiert werden. Somit können also Batteriebetriene Schiffe und Fahrzeuge aufgeladen werden. Es emittiert ein regelbares Magnetfeld, welches beim Andocken hilft, und nach dem Verriegeln das Schiff fixiert. 
+    <value>Der Dockport dient zum Verbinden mit anderen Dockports. So kann dann z.B. ein Raumschiff Waren an einer Station aufnehmen oder abladen. Auch Energie kann transferiert werden. Somit können also Batteriebetriene Schiffe und Fahrzeuge aufgeladen werden. Es emittiert ein regelbares Magnetfeld, welches beim Andocken hilft, und nach dem Verriegeln das Schiff fixiert.
 
 Wenn Du [{CONTROL:LANDING_GEAR}] drückst, schaltest Du zwischen An- und Abgedockt um. Wenn Du in Reichweite zum Docken bist, leuchten beide Ports gelb. Dockst Du ab, wird das Magnetfeld kurz deaktiviert, die Ports leuchten dann blau.</value>
   </data>
@@ -8285,7 +8285,7 @@ Du kannst Auswürfe zusammen mit Sortierern verwenden und so genau festlegen, wa
 Um sie zu benutzen, lege die Waffe in die Funktionsleiste des Schiffes. Nutze eine Kamera, um an weiter entfernte Ziele heranzuzoomen und so die Treffsicherheit zu erhöhen. </value>
   </data>
   <data name="Description_GatlingTurret" xml:space="preserve">
-    <value>Der Geschützturm MK Wächter kommt von der Firma Pounder Weapons und ist sozusagen der große Bruder der Vulcan. Es handelt sich hierbei um einen Geschützturm mit automatischer Zielerfassung- und Verfolgung. Seine nominelle Reichweite beträgt 800 Meter. Sie sind konfigurierbar in Zielauswahl und Reichweite. 
+    <value>Der Geschützturm MK Wächter kommt von der Firma Pounder Weapons und ist sozusagen der große Bruder der Vulcan. Es handelt sich hierbei um einen Geschützturm mit automatischer Zielerfassung- und Verfolgung. Seine nominelle Reichweite beträgt 800 Meter. Sie sind konfigurierbar in Zielauswahl und Reichweite.
 
 Zum Betrieb benötigt der Wächter Großkalibermunition, die in Fabriken hergestellt werden kann. Zur automatischen Versorgung kann er an ein Leitungsnetzwerk angeschlossen werden. Der Turm kann auch manuell gesteuert werden, wenn Du in einem Cockpit sitzt. </value>
   </data>
@@ -8313,7 +8313,7 @@ Du kannst mehrere Gyros bauen, um die Kraft zu verstärken und so auch größere
     <value>Bei der schweren Panzerung handelt es sich um eine hochfeste Legierung, die zusätzlich mit verstärkenden Elementen versehen wird. Sie bietet enormen Schutz, ist jedoch sehr schwer und teuer. Erstmals entwickelt von der Firma Steel and Sweat, ist sie in den letzten Jahrzehnten deutlich weiterentwickelt worden. So war es zu Beginn tatsächlich kaum möglich, Schiffe damit zu armieren, da sie dann kaum noch manövrierfähig waren. Ob die heutige Verwendbarkeit an den Bemühungen der Firma Steel and Sweat liegt, oder an der Weiterentwicklung der Triebwerke, ist eine berechtigte Frage. </value>
   </data>
   <data name="Description_HydrogenTank" xml:space="preserve">
-    <value>Wasserstofftanks sind ein Erzeugnis der Firma ProSys und können heutzutage durchaus als ein Stück High-Tech betrachtet werden. "Was soll an einem Tank den schon High-Tech sein?" fragst Du Dich jetzt? Nun, Wasserstoff ist ein heikles Element, wenn es ums Lagern geht. In gasförmiger Form ist er extrem flüchtig, so dass er sogar durch Stahl allmählich diffundieren kann. Um das zu verhindern, und außerdem größere Mengen lagern zu können, muss er als Flüssiggas gespeichert werden, also auf unter 21,15 K heruntergekühlt werden. 
+    <value>Wasserstofftanks sind ein Erzeugnis der Firma ProSys und können heutzutage durchaus als ein Stück High-Tech betrachtet werden. "Was soll an einem Tank den schon High-Tech sein?" fragst Du Dich jetzt? Nun, Wasserstoff ist ein heikles Element, wenn es ums Lagern geht. In gasförmiger Form ist er extrem flüchtig, so dass er sogar durch Stahl allmählich diffundieren kann. Um das zu verhindern, und außerdem größere Mengen lagern zu können, muss er als Flüssiggas gespeichert werden, also auf unter 21,15 K heruntergekühlt werden.
     </value>
   </data>
   <data name="Description_HydrogenThrust" xml:space="preserve">
@@ -8336,7 +8336,7 @@ Du kannst mehrere Gyros bauen, um die Kraft zu verstärken und so auch größere
     <value>Ionentriebwerke sind ein Produkt der Firma Speedmover und sind für die Nutzung im Weltraum ausgelegt. Sie benötigen keinen Treibstoff, dafür aber relativ hohe Energiemengen. Unter dem Einfluss natürlicher Gravitation sinkt ihre Effizienz rapide ab und beträgt bei 1G nur noch 20%. </value>
   </data>
   <data name="Description_JumpDrive" xml:space="preserve">
-    <value>Das Sprungtriebwerk ist ein Gemeinschaftsprodukt der Firmen Speedmover, Sun-Energizer, Positro-Complex Hive, Steel and Sweat und ProSys. Schon die Ansammlung dieser bedeutenden Firmen lässt auf die Komplxität und Schwierigkeit dieses Projekts schließen. Tatsächlich ist die Kontrolle von Zeit und Raum ein Projekt, dass niemand alleine beherrschen kann. 
+    <value>Das Sprungtriebwerk ist ein Gemeinschaftsprodukt der Firmen Speedmover, Sun-Energizer, Positro-Complex Hive, Steel and Sweat und ProSys. Schon die Ansammlung dieser bedeutenden Firmen lässt auf die Komplxität und Schwierigkeit dieses Projekts schließen. Tatsächlich ist die Kontrolle von Zeit und Raum ein Projekt, dass niemand alleine beherrschen kann.
     Nun, ganz einfach ausgedrückt, ermöglicht dieses Triebwerk den Sprung über große Entfernungen hinweg in Nullzeit. Allerdings sinkt die Reichweite ab, je höher die Masse des Objekts ist, so dass große Schiffe mehrere dieser extrem teuren Blöcke benötigen. Sie müssen voll aufgeladen sein, um zu springen, und der Sprung kann nur von einem Cockpit aus ausgelöst werden.
     </value>
   </data>
@@ -8500,5 +8500,171 @@ Als Munition werden Raketenbehälter benötigt, die in Fabriken hergestellt werd
   </data>
     <data name="Description_Window" xml:space="preserve">
     <value>Definition Fenster: Transparente Fläche aus Glas oder ähnlichen Materialien. Du kannst also durchgucken, aber Luft bleibt drin, Vakuum draußen. Meistens jedenfalls. Drück ja nicht auf das X oben rechts! </value>
+  </data>
+    <data name="DisplayName_Block_BasicAssembler" xml:space="preserve">
+    <value>PS 001 Basisfabrik</value>
+  </data>
+    <data name="DisplayName_Block_Hydrogen_Engine" xml:space="preserve">
+    <value>SE HP 1 Wasserstoffkraftwerk</value>
+  </data>
+  <data name="DisplayName_Block_WindTurbine" xml:space="preserve">
+    <value>SE WT 1 Windturbine</value>
+  </data>
+  <data name="DisplayName_Block_SurvivalKit" xml:space="preserve">
+    <value>PS A Überlebenskit</value>
+  </data>
+  <data name="DisplayName_Block_SmallBattery" xml:space="preserve">
+    <value>SE ST 1 Babyzelle</value>
+  </data>
+  <data name="DisplayName_BlueprintClass_BasicComponents" xml:space="preserve">
+    <value>Basiskomponenten
+- Klicke auf eine der Basiskomponenten, um alle benötigten Komponenten produzieren zu lassen.</value>
+  </data>
+    <data name="DisplayName_BlueprintClass_BasicLargeBlocks" xml:space="preserve">
+    <value>Basis - große Blöcke
+- Klicke auf einen der großen Blöcke, um alle benötigten Komponenten produzieren zu lassen.</value>
+  </data>
+    <data name="DisplayName_BlueprintClass_BasicSmallBlocks" xml:space="preserve">
+    <value>Basis - kleine Blöcke
+- Klicke auf einen der kleinen Blöcke, um alle benötigten Komponenten produzieren zu lassen.</value>
+  </data>
+    <data name="DisplayName_Category_CharacterWeapons" xml:space="preserve">
+    <value>Handwaffen</value>
+  </data>
+    <data name="DisplayName_RespawnPodSpace" xml:space="preserve">
+    <value>Raumkapsel</value>
+  </data>
+    <data name="GPS_Respawn_Location_Desc" xml:space="preserve">
+    <value>Dein Startschiff - Verflieg Dich nicht! ^^</value>
+  </data>
+    <data name="GPS_Respawn_Location_Name" xml:space="preserve">
+    <value>Dein Startschiff</value>
+  </data>
+    <data name="Hint27Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Blöcke, die durch Kollisionen oder Kämpfe zerstört werden, können auch andere Blöcke um sie herum beschädigen.</value>
+  </data>
+  <data name="Hint28Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Belüftete Umgebungen werden automatisch temperiert und Dein Sauerstoff wird aufgefüllt. Außerdem heilst Du an solchen Orten langsam.</value>
+  </data>
+  <data name="Hint29Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Deine Anzugsenergie wird in Umgebungen mit extremen Temperaturen schneller verbraucht</value>
+  </data>
+  <data name="Hint30Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Die Krankenstation regeneriert Deine Energie und Gesundheit 5x schneller, als das Überlebenskit.</value>
+  </data>
+  <data name="Hint31Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Sensoren können Feinde auch dann entdecken, wenn sie versuchen, Deine Basis aus dem Untergrund zu inflitrieren.</value>
+  </data>
+  <data name="Hint32Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Windturbinen sind effizienter, wenn sie erhöht und frei stehen.</value>
+  </data>
+  <data name="Hint33Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Bodenfahrzeuge können ihre Radaufhängungen verwenden, um aus beengten Umgebungen herauszuspringen.</value>
+  </data>
+  <data name="Hint34Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Fortgeschrittene Raffinierien haben eine bessere Ausbeute als die Basisraffinerien.</value>
+  </data>
+  <data name="Hint35Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Das relative FLKS funktioniert auch mit Deinem Jetpack.</value>
+  </data>
+  <data name="Hint36Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Der Energieverbrauch von Radaufhängungen hängt von der eingestellten Leistung ab.</value>
+  </data>
+  <data name="Hint37Text" xml:space="preserve">
+    <value>Schon gewusst?
+    
+    
+Du kannst im Chat /F nutzen, um nur mit Deiner Fraktion, oder /g, um mit allen zu chatten.</value>
+  </data>
+  <data name="IngameHelp_BasicRefinery_Detail1" xml:space="preserve">
+    <value>Eine Basisraffiniere, bzw. eine Basisfabrik ist effizienter, als das Überlebenskit, brauchen aber auch mehr Strom. 
+
+Baue eine Batterie als Puffer, um die benötigte Energie bereitstellen zu können.</value>
+  </data>
+  <data name="IngameHelp_BasicRefinery_Title" xml:space="preserve">
+    <value>Good.bot: Effizienz</value>
+  </data>
+  <data name="IngameHelp_Battery2_Detail1" xml:space="preserve">
+    <value>Die Lagerstätten von Erzen fallen in der Regel durch helle oder dunkle Flecken auf der Oberfläche auf. Du kannst sie dann mit Deinem Handbohrer orten, oder Fahrzeuge mit Erzdetektoren und Lagervolumen ausrüsten, um gleich größere Erzmengen zur Basis bringen zu können.</value>
+  </data>
+  <data name="IngameHelp_Battery_Detail1" xml:space="preserve">
+    <value>Deine Basisi nimmt allmählich Form an!
+
+Jetzt, da Du eine Batterie hast, kannst Du die Basis weiter ausbauen. Dazu brauchst Du natürlich Rohstoffe. Erkunde die Umgebung, um Erze zu finden und die Produktion ans Laufen zu kriegen.</value>
+  </data>
+  <data name="IngameHelp_Battery_Title" xml:space="preserve">
+    <value>Good.bot: Fortschritt</value>
+  </data>
+  <data name="IngameHelp_Building2_Detail1" xml:space="preserve">
+    <value>Die meisten Blöcke existieren in zwei Größen und können in jede Richtung rotiert werden.</value>
+  </data>
+  <data name="IngameHelp_Building2_Detail2" xml:space="preserve">
+    <value>Wähle den selben Block zweimal aus, um zwischen den Größen umzuschalten.</value>
+  </data>
+  <data name="IngameHelp_Building2_Detail3" xml:space="preserve">
+    <value>Nutze die Tasten {0}, {1}, {2}, {3}, {4} und {5}, um die Blöcke in Deine gewünschte Ausrichtung zu drehen.</value>
+  </data>
+  <data name="IngameHelp_Building3_Detail1" xml:space="preserve">
+    <value>Im Überlebensmodus benötigst Du zum Setzen eines Blocks mindestens eine der ersten (unterste) angezeigte Komponente im Inventar. Du kannst Komponenten in Fabriken herstellen, oder sie mit einem Schleifgerät aus anderen Blöcken erhalten.</value>
+  </data>
+  <data name="IngameHelp_Building3_Detail2" xml:space="preserve">
+    <value>Platziere einen Block mit {0}.</value>
+  </data>
+    <data name="IngameHelp_BuildingTip2_Detail1" xml:space="preserve">
+    <value>Sicher, dass Du so was noch nie zuvor gemacht hast?</value>
+  </data>
+  <data name="IngameHelp_BuildingTip2_Detail2" xml:space="preserve">
+    <value>*Tipp:* Immer ein paar Komponenten bei Dir haben.</value>
+  </data>
+    <data name="IngameHelp_BuildingTip_Detail1" xml:space="preserve">
+    <value>Du bist ein Naturtalent!</value>
+  </data>
+  <data name="IngameHelp_BuildingTip_Detail2" xml:space="preserve">
+    <value>*Tipp:* Blöcke mit einem + Symbol haben verschiedene Varianten, die Du mit dem Mausrad durchschalten kannst.</value>
+  </data>
+    <data name="IngameHelp_Building_Detail1" xml:space="preserve">
+    <value>Du kannst überall in der Welt Blöcke setzen oder sie an existierende Gitter anfügen. Im Baumenü findest Du alle verfügbaren Blöcke. Sogar mit genialer Suche!</value>
+  </data>
+  <data name="IngameHelp_Building_Detail2" xml:space="preserve">
+    <value>Drücke {0}, um das Baumenü zu öffnen.</value>
+  </data>
+  <data name="IngameHelp_Building_Detail3" xml:space="preserve">
+    <value>Ziehe einen Block in Deine Werkzeugleiste.</value>
+  </data>
+    <data name="IngameHelp_Building_Detail4" xml:space="preserve">
+    <value>Wähle einen Block durch drücken der Tasten 1-9.</value>
+  </data>
+    <data name="IngameHelp_Building_Title" xml:space="preserve">
+    <value>Good.bot: Bauen</value>
   </data>
   </root>
