@@ -119,23 +119,32 @@
   </resheader>
   <data name="CrashScreen_Detail" xml:space="preserve">
     <value> 
-Um uns bei der Problemlösung zu helfen, teile uns bitte mit, was Du gerade getan hast, als der Fehler auftrat(optional):</value>
+Um uns bei der Problemlösung zu helfen, teile uns bitte mit, was Du gerade getan hast, als der Fehler auftrat (optional):</value>
   </data>
   <data name="CrashScreen_Email" xml:space="preserve">
-    <value>Email (optional)</value>
+    <value>E-Mail (optional)</value>
   </data>
   <data name="CrashScreen_EmailText" xml:space="preserve">
     <value>Zusätzlich kannst Du uns Deine Mailadresse mitteilen, falls unsere Support-Mitarbeiter mehr Informationen zu diesem Fehler benötigen.
 
-By sending the log, I grant my consent to the processing of my personal data (E-mail, Steam ID and IP address) to Keen SWH LTD. United Kingdom and it subsidiaries, in order for these data to be processed for the purpose of tracking the crash and requesting feedback with the intent to improve the game performance. I grant this consent for an indefinite term until my express revocation thereof. I confirm that I have been informed that the provision of these data is voluntary, and that I have the right to request their deletion. Registration is non-transferable. More information about the processing of my personal data in the scope required by legal regulations, in particular Regulation (EU) 2016/679 of the European Parliament and of the Council, can be found as of 25 May 2018 here.</value>
+Mit dem Absenden des Protokolls erteile ich Keen SWH LTD meine Zustimmung zur Verarbeitung meiner persönlichen Daten (E-Mail, Steam-ID und IP-Adresse).
+
+Das Vereinigte Königreich und seine Tochtergesellschaften verwendet diese Daten zur Auffindung des Fehlers, sowie dazu, ggf. um Rückmeldung zu ersuchen um die Spielperformance zu verbessern.
+
+Diese Einwilligung erteile ich auf unbestimmte Zeit bis zu meinem ausdrücklichen Widerruf und bestätige, dass mir mitgeteilt wurde, dass die Bereitstellung dieser Daten freiwillig ist, und dass ich das Recht habe, deren Löschung zu beantragen.
+
+Die Registrierung ist nicht übertragbar. Weitere Informationen zur Verarbeitung meiner personenbezogenen Daten im gesetzlich vorgeschriebenen Umfang, insbesondere der Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates, finden Sie ab dem 25. Mai 2018 hier.</value>
   </data>
   <data name="CrashScreen_Log" xml:space="preserve">
     <value>Log</value>
   </data>
   <data name="CrashScreen_MainText" xml:space="preserve">
-    <value>Space Engineers hatte ein Problem und ist abgestürzt! 
+    <value>Space Engineers hatte ein Problem und ist abgestürzt!
+
 Wir entschuldigen uns für die Unannehmlichkeit.
+
 Bitte klicke auf Log senden, wenn Du uns bei der Analyse und Behebung des Problems helfen möchtest.
+
 Weitere Informationen findest Du im Log unten.</value>
   </data>
   <data name="CrashScreen_Title" xml:space="preserve">
@@ -148,42 +157,43 @@ Weitere Informationen findest Du im Log unten.</value>
     <value>Entschuldigung, aber {0} läuft bereits auf Deinem Computer. Es ist nur eine Instanz erlaubt.</value>
   </data>
   <data name="Error_DX11" xml:space="preserve">
-    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}\n\nDieses Problem könnte von Deiner Grafikkarte verursacht worden sein, da sie nicht die Mindestanforderungen erfüllt. Eine  DirectX 11 fähige GPU wird benötigt. Bitte schau Dir die Mindestanforderungen auf {2} an.\n\nMöchtest Du Deine Konfiguration den Entwicklern mitteilen?\n\nDanke!\nKeen Software House</value>
+    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}.\n\nDieses Problem könnte von Deiner Grafikkarte verursacht worden sein, da sie nicht die Mindestanforderungen erfüllt. Eine  DirectX 11 fähige GPU wird benötigt. Bitte schau Dir die Mindestanforderungen auf {2} an.\n\nMöchtest Du Deine Konfiguration den Entwicklern mitteilen?\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_Error_Caption" xml:space="preserve">
     <value>{0} - Anwendungsfehler</value>
   </data>
   <data name="Error_Error_Message" xml:space="preserve">
-    <value>{0} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {1}\n\nWenn Du uns dabei helfen möchtest, {0} zu einem besseren Spiel zu machen, kannst Du uns die Logdatei schicken. Es werden keine persönlichen Daten oder sensible Informationen übermittelt.\n\nMöchtest Du dieses Log an die Entwickler senden?\n\nDanke!\nKeen Software House</value>
+    <value>{0} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {1}\n\nWenn Du uns dabei helfen möchtest, {0} zu einem besseren Spiel zu machen, kannst Du uns die Logdatei schicken. Es werden keine persönlichen oder sensiblen Daten übermittelt.\n\nMöchtest Du dieses Log an die Entwickler senden?\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_Failed" xml:space="preserve">
-    <value>{0} Hochladen des Logs fehlgeschlagen!\n{1}\n\nWenn Du uns dabei helfen möchtest, {0} zu einem besseren Spiel zu machen, schicke das Log bitte an: {2}\n\nDanke!\nKeen Software House</value>
+    <value>{0} Hochladen des Logs fehlgeschlagen!\n\n{1}\n\nWenn Du uns dabei helfen möchtest, {0} zu einem besseren Spiel zu machen, schicke das Log bitte an: {2}\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_GPU_Drivers" xml:space="preserve">
-    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}\n\nEs scheint, als wäre entweder kein Grafikkartentreiber installiert, oder Deine Grafikarte erfüllt nicht die Mindestanforderungen. Bitte installiere die Treiber und schau Dir die Mindestanforderungen auf {2} an\n\nDanke!\nKeen Software House</value>
+    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}.\n\nEs scheint, als wäre entweder kein Grafikkartentreiber installiert, oder Deine Grafikarte erfüllt nicht die Mindestanforderungen. Bitte installiere die Treiber und schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_GPU_Low" xml:space="preserve">
-    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}\n\nDieses Problem könnte von Deiner Grafikkarte verursacht worden sein, da sie nicht die Mindestanforderungen erfüllt. Bitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\nKeen Software House</value>
+    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}.\n\nDieses Problem könnte von Deiner Grafikkarte verursacht worden sein, da sie nicht die Mindestanforderungen erfüllt. Bitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_GPU_NotDX11" xml:space="preserve">
-    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}\n\nDieses Problem könnte von Deiner Grafikkarte verursacht worden sein, da sie nicht die Mindestanforderungen erfüllt. Eine  DirectX 11 fähige GPU wird benötigt. Bitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\nKeen Software House</value>
+    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}.\n\nDieses Problem könnte von Deiner Grafikkarte verursacht worden sein, da sie nicht die Mindestanforderungen erfüllt. Eine  DirectX 11 fähige GPU wird benötigt. Bitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_GPU_OldDriver" xml:space="preserve">
-    <value>{0} - Warnung!\n\nDein '{1}' Grafikkartentreiber ist zu alt.\n\nWir empfehlen dringend ein Update der Treiber. Alte Treiber können das Spiel abstürzen lassen. Möchtest Du die Treiber aktualisieren?\n\nNein - Diese Meldung nicht mehr anzeigen\nAbbrechen - Diese Meldung verstecken\n\n\nDanke!\nKeen Software House</value>
+    <value>{0} - Warnung!\n\nDein '{1}' Grafikkartentreiber ist zu alt.\n\nWir empfehlen dringend ein Update der Treiber. Alte Treiber können das Spiel abstürzen lassen. Möchtest Du die Treiber aktualisieren?\n\nNein - Diese Meldung nicht mehr anzeigen\n\nAbbrechen - Diese Meldung verstecken\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_GPU_OutOfMemory" xml:space="preserve">
-    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}\n\nDieses Problem wurde durch zu wenig Grafikkartenspeicher verursacht. Bitte stelle sicher, dass Deine Grafikkarte den Mindestanforderungen entspricht: Mindestens 512 MB Grafikkartenspeicher. Falls Du mit Mods oder auf einem Server mit Mods spielst, kann das die Ursache sein. Manche Mods stellen hochqualitative Texturen bereit, welche viel Grafikkartenspeicher benötigen.\n\nBitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\nKeen Software House</value>
+    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}.\n\nDieses Problem wurde durch zu wenig Grafikkartenspeicher verursacht. Bitte stelle sicher, dass Deine Grafikkarte den Mindestanforderungen entspricht: Mindestens 512 MB Grafikkartenspeicher. Falls Du mit Mods oder auf einem Server mit Mods spielst, kann das die Ursache sein. Manche Mods stellen hochqualitative Texturen bereit, welche viel Grafikkartenspeicher benötigen.\n\nBitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_GPU_Unsupported" xml:space="preserve">
-    <value>{1} - Warnung!\n\nScheinbar wird Deine Grafikarte nicht unterstützt, da sie den Mindestanforderungen nicht entspricht. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}\nBitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke\nKeen Software House</value>
+    <value>{1} - Warnung!\n\nScheinbar wird Deine Grafikarte nicht unterstützt, da sie den Mindestanforderungen nicht entspricht. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}.\n\nBitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_Message_Caption" xml:space="preserve">
     <value>{0} Launcher</value>
   </data>
   <data name="Error_OutOfMemmory" xml:space="preserve">
-    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}\n\nDieses Problem wurde durch zu wenig Grafikkartenspeicher verursacht. Falls Du ein 32-bit Betriebssystem verwendest, wird ein Upgrade dringend empfohlen.\n\nFalls Du ein 64-bit Betriebssystem nutzt, schließe bitte alle anderen Programme (Vor allem Interntebrowser) und versuche es noch mal oder rüste den RAM auf.\n\nBitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\nKeen Software House</value>
+    <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}.\n\nDieses Problem wurde durch zu wenig Grafikkartenspeicher verursacht. Falls Du ein 32-bit Betriebssystem verwendest, wird ein Upgrade dringend empfohlen.\n\nFalls Du ein 64-bit Betriebssystem nutzt, schließe bitte alle anderen Programme (Vor allem Interntebrowser) und versuche es noch mal oder rüste den RAM auf.\n\nBitte schau Dir die Mindestanforderungen auf {2} an.\n\nDanke!\n\nKeen Software House</value>
   </data>
   <data name="Error_ThankYou" xml:space="preserve">
-    <value>We make sure the issue will be fixed as soon as possible!\n\nThank You!\nKeen Software House</value>
+    <value>Wir werden das Problem so schnell wie möglich lösen!\n\nDanke!\n\nKeen Software House</value>
   </data>
+
 </root>
