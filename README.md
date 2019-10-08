@@ -2,9 +2,7 @@
 Hinweis:
 Im deutschen SE-Forum (http://space-engineers.de/index.php/BoardList/) und in Steam bin ich unter dem Namen "Taurec" vertreten. Dieser war in GitHub leider schon vergeben.
 
-GitHub-Initiale Version:
-Diese Version der Übersetzung ist noch für die SE-Version 1.187.204 gedacht. Sie kann in der aktuellen Spielversion funktionieren, dies kann aber nicht garantiert werden. Bin an der Arbeit. :)
-Auch die Beschreibung in der Readme werde ich noch überarbeiten. :)
+Anpassung der Übersetzung an die Spielversion 1.192.104. Sie ist funktionsfähig, wird aber wohl noch Schönheitsfehler haben.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Da die deutsche Übersetzung keinerlei Fortschritte macht, und seit den neueren Updates vorher übersetzte Wörter gar wieder Englisch sind, habe ich mich entschlossen, das kurzerhand selber zu machen.
