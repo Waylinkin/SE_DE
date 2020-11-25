@@ -156,6 +156,12 @@ Weitere Informationen findest Du im Log unten.</value>
   <data name="Error_AlreadyRunning" xml:space="preserve">
     <value>Entschuldigung, aber {0} läuft bereits auf Deinem Computer. Es ist nur eine Instanz erlaubt.</value>
   </data>
+  <data name="Error_DirectInputNotInitialized" xml:space="preserve">
+    <value>DirectX Input nicht initialisiert</value>
+  </data>
+  <data name="Error_DirectInputNotInitialized_Description" xml:space="preserve">
+    <value>DirectX Input wurde nicht initialisiert. Bitte berichte das auf support.keenswh.com.</value>
+  </data>
   <data name="Error_DX11" xml:space="preserve">
     <value>{1} - Anwendungsfehler aufgetreten. Für mehr Informationen schau im Anwendungslog im Verzeichnis {0}.\n\nDieses Problem könnte von Deiner Grafikkarte verursacht worden sein, da sie nicht die Mindestanforderungen erfüllt. Eine  DirectX 11 fähige GPU wird benötigt. Bitte schau Dir die Mindestanforderungen auf {2} an.\n\nMöchtest Du Deine Konfiguration den Entwicklern mitteilen?\n\nDanke!\n\nKeen Software House</value>
   </data>

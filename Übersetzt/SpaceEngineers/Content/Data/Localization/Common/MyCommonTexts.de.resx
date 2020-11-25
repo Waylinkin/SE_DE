@@ -212,8 +212,11 @@ Die Originalbelegung löschen?</value>
   <data name="InvertMouseY" xml:space="preserve">
     <value>Y-Achse (Maus) invertieren</value>
   </data>
+  <data name="InvertMouseScrollBlockSelection" xml:space="preserve">
+    <value>Invertiere Mausscrolling zur Blockauswahl</value>
+  </data>
   <data name="Joystick" xml:space="preserve">
-    <value>Joystick oder Gamepad</value>
+    <value>Controllerauswahl</value>
   </data>
   <data name="JoystickButtonLeft" xml:space="preserve">
     <value>Linker Knopf (Joystick)</value>
@@ -228,13 +231,13 @@ Die Originalbelegung löschen?</value>
     <value>Runter (Joystick)</value>
   </data>
   <data name="JoystickDeadzone" xml:space="preserve">
-    <value>Totzone Joystick</value>
+    <value>Totzone des Controllers</value>
   </data>
   <data name="JoystickExponent" xml:space="preserve">
-    <value>Joystick Stufenpräzision</value>
+    <value>Stufenpräzision des Controllers</value>
   </data>
   <data name="JoystickSensitivity" xml:space="preserve">
-    <value>Joystick Empfindlichkeit</value>
+    <value>Empfindlichkeit des Controllers</value>
   </data>
   <data name="ScreenOptionsControls_Keyboard1" xml:space="preserve">
     <value>Tastatur 1</value>
@@ -388,6 +391,15 @@ Die Originalbelegung löschen?</value>
   </data>
   <data name="KeysTab" xml:space="preserve">
     <value>Tab</value>
+  </data>
+  <data name="KeysShift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="KeysAlt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="KeysControl" xml:space="preserve">
+    <value>Steuerung</value>
   </data>
   <data name="TitleFailedToStartInternetBrowser" xml:space="preserve">
     <value>Fehler beim Starten des Browsers.</value>
@@ -552,7 +564,7 @@ Die Originalbelegung löschen?</value>
     <value>Bauplanmaterialien</value>
   </data>
   <data name="ProductionQueue" xml:space="preserve">
-    <value>Produktionswarteschlange</value>
+    <value>Produktionsschleife</value>
   </data>
   <data name="LoadScreenButtonEditSettings" xml:space="preserve">
     <value>Einstellungen bearbeiten</value>
@@ -606,7 +618,7 @@ Die Originalbelegung löschen?</value>
     <value>Kreativ</value>
   </data>
   <data name="PlayerCharacter" xml:space="preserve">
-    <value>Spieler Charakter</value>
+    <value>Spielercharakter</value>
   </data>
   <data name="WorldSettings_AutoSave" xml:space="preserve">
     <value>Auto-Speichern</value>
@@ -825,8 +837,13 @@ Jetzt neustarten?</value>
 Fortfahren?</value>
   </data>
   <data name="MessageBoxTextConfirmExperimental" xml:space="preserve">
-    <value>Die Aktivierung des experimentellen Modus wird inoffizielle und nicht vollständig entwickelte oder getestete Funktionen freischalten. Du könntest damit Probleme bekommen.
-     Fortfahren?</value>
+    <value>Die Aktivierung des experimentellen Modus wird inoffizielle und nicht vollständig entwickelte oder getestete Funktionen freischalten. Du könntest damit Probleme bekommen. 
+
+Wir leisten keinen Support für Spiele im experimentellen Modus.
+
+Nur erfahrene Spieler sollten ihn aktivieren.
+    
+Bist Du sicher, dass Du fortfahren willst?</value>
   </data>
   <data name="MessageBoxTextNoSavedWorlds" xml:space="preserve">
     <value>Es existieren noch keine gespeicherten Welten. Bitte starte, indem du eine neue Welt erstellst.</value>
@@ -891,24 +908,22 @@ Fortfahren?</value>
   <data name="ScreenCubeBuilderToolbarConfig" xml:space="preserve">
     <value>Werkzeugleisten Einstellung</value>
   </data>
-  <data name="SteamOverlayDisabledCaption" xml:space="preserve">
-    <value>{0} Overlay ist deaktiviert</value>
-  </data>
   <data name="LoadScreenButtonPublish" xml:space="preserve">
     <value>Veröffentlichen</value>
   </data>
   <data name="MessageBoxTextWorldPublished" xml:space="preserve">
     <value>Die Veröffentlichung wurde erfolgreich abgeschlossen. 
 
-Wenn Du das {0} Overlay aktiviert hast, wird sich eine Seite öffnen, in der du die Attribute wie Titel, Beschreibung oder die Sichtbarkeit ändern kannst (Standardmäßige Einstellung: Öffentlich).</value>
+Möchtest Du das {0} Overlay öffnen, um Sachen wie Titel, Beschreibung oder die Sichtbarkeit zu ändern (Standardmäßige Einstellung: Öffentlich)?</value>
+  </data>
+  <data name="MessageBoxTextWorldPublishedBrowser" xml:space="preserve">
+    <value>Die Veröffentlichung wurde erfolgreich abgeschlossen.
+
+Möchten Sie einen externen Browser öffnen, um Attribute wie Titel, Beschreibung oder Sichtbarkeit zu bearbeiten (er ist standardmäßig öffentlich)?
+</value>
   </data>
   <data name="MessageBoxTextWorldPublishFailed" xml:space="preserve">
     <value>Veröffentlichung auf dem {0} Workshop fehlgeschlagen!</value>
-  </data>
-  <data name="MessageBoxTextModPublished" xml:space="preserve">
-    <value>Die Veröffentlichung wurde erfolgreich abgeschlossen. 
-
-Wenn Du das {0} Overlay aktiviert hast, wird sich eine Seite öffnen, in der du die Attribute wie Titel, Beschreibung oder die Sichtbarkeit ändern kannst (Standardmäßige Einstellung: Öffentlich).</value>
   </data>
   <data name="MessageBoxTextModPublishFailed" xml:space="preserve">
     <value>Veröffentlichung auf dem {0} Workshop fehlgeschlagen!</value>
@@ -1047,13 +1062,13 @@ Dabei stimmst du den Nutzungsbedingungen zu (Nachzulesen hier: {1}).</value>
     <value>Im Workshop öffnen</value>
   </data>
   <data name="ToolTipWorkshopBrowseWorkshop" xml:space="preserve">
-    <value>Öffne das {0}-Overlay im Workshop</value>
+    <value>Öffne den {0} Workshop im Browser</value>
   </data>
   <data name="ToolTipWorkshopCopyAndLoad" xml:space="preserve">
     <value>Gewählte Welt herunterladen und starten.</value>
   </data>
   <data name="ToolTipWorkshopOpenInWorkshop" xml:space="preserve">
-    <value>Öffne die gewählte Welt im Workshop - {0} Overlay.</value>
+    <value>Öffne die gewählte Welt im Browser</value>
   </data>
   <data name="ToolTipWorkshopRefresh" xml:space="preserve">
     <value>Aktualisiert die Liste Deiner abonnierten Welten.</value>
@@ -1218,6 +1233,9 @@ Größe der Welt: {1}</value>
   <data name="SteamIsOfflinePleaseRestart" xml:space="preserve">
     <value>{0} ist offline. Bitte starte {0} im normalen Modus oder starte {0} neu wenn das Problem bestehen bleibt.</value>
   </data>
+  <data name="InventoryScreen_InstallInProgress" xml:space="preserve">
+    <value>Die Skins werden installiert. Die Charakteranpassung ist verfügbar, wenn die Installation abgeschlossen ist.</value>
+  </data>
   <data name="MultiplayerCompatibleVersions" xml:space="preserve">
     <value>Kompatible Versionen</value>
   </data>
@@ -1270,7 +1288,64 @@ Größe der Welt: {1}</value>
     <value>Nicht unterstütztes Bildformat!</value>
   </data>
   <data name="OnlyFriendsCanJoinThisGame" xml:space="preserve">
-    <value>Nur Freunde können diesem Spiel beitreten</value>
+    <value>Nur Freunde können dieser Sitzung beitreten.</value>
+  </data>
+  <data name="LobbyDoesntExist" xml:space="preserve">
+    <value>Mehrspielersitzung existiert nicht mehr (wahrscheinlich geschlossen).</value>
+  </data>
+  <data name="LobbyNotAllowed" xml:space="preserve">
+    <value>Du hast nicht die nötigen Berechtigungen, um an dieser Sitzung teilzunehmen.</value>
+  </data>
+  <data name="LobbyFull" xml:space="preserve">
+    <value>Die Sitzung hat die maximale Anzahl an Spielern erreicht.</value>
+  </data>
+  <data name="LobbyError" xml:space="preserve">
+    <value>Beim Beitreten zur Sitzung ist ein unerwarteter Fehler aufgetreten. Bitte versuche es später noch einmal.</value>
+  </data>
+  <data name="LobbyBanned" xml:space="preserve">
+    <value>Du bist von dieser Sitzung verbannt und darfst nicht teilnehmen.</value>
+  </data>
+  <data name="LobbyLimited" xml:space="preserve">
+    <value>Die Teilnahme an dieser Sitzung ist nicht erlaubt, da du ein eingeschränkter Benutzer bist (kein Wert auf deinem Konto).</value>
+  </data>
+  <data name="LobbyClanDisabled" xml:space="preserve">
+    <value>Der Versuch, einer gesperrten oder deaktivierten Sitzung beizutreten, ist fehlgeschlagen.</value>
+  </data>
+  <data name="LobbyCommunityBan" xml:space="preserve">
+    <value>Der Versuch, einer Sitzung beizutreten, ist fehlgeschlagen, weil du eine Community-Sperre auf deinem Konto hast.</value>
+  </data>
+  <data name="LobbyMemberBlockedYou" xml:space="preserve">
+    <value>Der Beitritt ist fehlgeschlagen, weil irgendein Mitglied in der Sitzung den Beitritt blockiert hat.</value>
+  </data>
+  <data name="LobbyYouBlockedMember" xml:space="preserve">
+    <value>Der Beitritt ist fehlgeschlagen, weil Du bereits ein Mitglied in der Session blockiert hast.</value>
+  </data>
+  <data name="LobbyCancelled" xml:space="preserve">
+    <value>Verbindung durch Benutzeraktion oder einen anderen Prozess abgebrochen. Bitte versuche es noch einmal.</value>
+  </data>
+  <data name="LobbyLostInternetConnection" xml:space="preserve">
+    <value>Die lokale Internetverbindung ist nicht mehr verfügbar.</value>
+  </data>
+  <data name="LobbyServiceUnavailable" xml:space="preserve">
+    <value>Der {0}-Dienst ist vorübergehend nicht verfügbar. Bitte versuche es später noch einmal.</value>
+  </data>
+  <data name="LobbyNoDirectConnections" xml:space="preserve">
+    <value>Dein Gerät kann nicht mehr am Netzwerk teilnehmen, da es nicht mehr direkt mit anderen Geräten kommunizieren kann. Bitte überprüfe die Internetverbindung auf Probleme und versuche es erneut.</value>
+  </data>
+  <data name="LobbyVersionMismatch" xml:space="preserve">
+    <value>Inkompatible Version der Bibliothek. Bitte schau nach den neuesten System- und Spiel-Updates.</value>
+  </data>
+  <data name="LobbyUserMultiplayerRestricted" xml:space="preserve">
+    <value>Du hast eine {0}-Mehrspielerbeschränkung. Bitte, überprüfe dein {0}-Konto.</value>
+  </data>
+  <data name="LobbyConnectionProblems" xml:space="preserve">
+    <value>Es traten Netzwerkprobleme auf. Bitte versuche es später noch einmal.</value>
+  </data>
+  <data name="LobbyInvalidPasscode" xml:space="preserve">
+    <value>Invalid Passcode provided. Please, try again.</value>
+  </data>
+  <data name="LobbyNoUser" xml:space="preserve">
+    <value>Beim {0}-Dienst ist kein Benutzer eingeloggt.</value>
   </data>
   <data name="ToolTipWorldSettingsDescription" xml:space="preserve">
     <value>Eine Beschreibung der Welt</value>
@@ -1317,6 +1392,9 @@ Größe der Welt: {1}</value>
   <data name="MultiplayerErrorServerHasLeft" xml:space="preserve">
     <value>Der Serverhost hat das Spiel verlassen.</value>
   </data>
+  <data name="MultiplayerErrorAppVersionMismatch" xml:space="preserve">
+    <value>Der Server-Host verweigerte den Zugriff aufgrund von Versionsabweichungen. Bitte aktualisiere auf die neueste Version.</value>
+  </data>
   <data name="NotificationRespawn" xml:space="preserve">
     <value>Och nö! Nicht schon Wieder! Verd... Sch...! - Du bist schmächlich verreckt! Was wars diesmal? Neustart in {0} Sekunden.</value>
   </data>
@@ -1341,6 +1419,9 @@ Raffineriegeschwindigkeit {3}x</value>
   <data name="MultiplayerError_IncorrectVersion" xml:space="preserve">
     <value>Der Server benutzt eine andere Spielversion. Deine Version: {0}. Server Version: {1}.
 Du kannst die Version vor dem Starten des Spiels in den Steam Spieleigenschaften ändern.</value>
+  </data>
+  <data name="MultiplayerError_FamilyShareDisabled" xml:space="preserve">
+    <value>Der Server erlaubt keine gemeinsamen Familienkonten.</value>
   </data>
   <data name="ShowCrosshair" xml:space="preserve">
     <value>Fadenkreuz anzeigen</value>
@@ -1662,7 +1743,7 @@ Adminprofil öffnen?</value>
     <value>Erweitert</value>
   </data>
   <data name="ToolTipWorkshopOpenModInWorkshop" xml:space="preserve">
-    <value>Öffne die gewählte Mod im Workshop {0} Overlay</value>
+    <value>Öffne die gewählte Mod im Browser</value>
   </data>
   <data name="ToolTipWorkshopRefreshMod" xml:space="preserve">
     <value>Liste der abonnierten Mods aktualisieren</value>
@@ -1814,7 +1895,7 @@ Du kannst Die Spielversion in den Steam Spieloptionen ändern.</value>
   <data name="DisplayName_BlueprintClass_Tools" xml:space="preserve">
     <value>Werkzeuge
 
-- Klicke auf ein Tool, um es herzustellen.</value>
+- Klicke auf ein Werkzeug, um es herzustellen.</value>
   </data>
   <data name="DisplayName_BlueprintClass_BasicTools" xml:space="preserve">
     <value>Basiswerkzeuge
@@ -2001,6 +2082,12 @@ Willst du das Schiff wirklich einfügen?</value>
   <data name="ErrorDescriptionTooLong" xml:space="preserve">
     <value>Beschreibung ist zu lang (max. 8000 Zeichen erlaubt).</value>
   </data>
+  <data name="ErrorStartSessionNoUser" xml:space="preserve">
+    <value>Du musst mit einem Benutzerkonto eingeloggt sein, um eine Online-Sitzung starten zu können.</value>
+  </data>
+  <data name="ErrorJoinSessionNoUser" xml:space="preserve">
+    <value>Du musst mit einem Benutzerkonto eingeloggt sein, um an einer Online-Sitzung teilnehmen zu können.</value>
+  </data>
   <data name="Description" xml:space="preserve">
     <value>Beschreibung</value>
   </data>
@@ -2039,12 +2126,6 @@ Willst du das Schiff wirklich einfügen?</value>
   </data>
   <data name="VoxelHandSettingScreen_HandShowGizmos" xml:space="preserve">
     <value>Begrenzungsrahmen anzeigen</value>
-  </data>
-  <data name="MessageBoxTextOpenUrlOverlayNotEnabled" xml:space="preserve">
-    <value>Dies wird {0} in deinem Browser öffnen, da das {1}-Overlay sich nicht öffnen ließ, 
-bzw. da es deaktiviert ist. Das Spiel wird weiterlaufen.
-
-Willst du fortfahren?</value>
   </data>
   <data name="NotificationRotationFormatCombined" xml:space="preserve">
     <value>Drücke {0}, um den Block zu drehen.</value>
@@ -2157,33 +2238,6 @@ Willst du fortfahren?</value>
   <data name="ControlMenuItemValue_On" xml:space="preserve">
     <value>An</value>
   </data>
-  <data name="ControlMenuItemLabel_CameraMode" xml:space="preserve">
-    <value>Kameramodus</value>
-  </data>
-  <data name="ControlMenuItemValue_FPP" xml:space="preserve">
-    <value>Egoperspektive </value>
-  </data>
-  <data name="ControlMenuItemValue_TPP" xml:space="preserve">
-    <value>3. Person Ansicht</value>
-  </data>
-  <data name="ControlMenuItemLabel_CommitSuicide" xml:space="preserve">
-    <value>Selbstmord</value>
-  </data>
-  <data name="ControlMenuItemLabel_QuickLoad" xml:space="preserve">
-    <value>Schnellladen / Wiederverbinden</value>
-  </data>
-  <data name="ControlMenuItemLabel_ShowColorPicker" xml:space="preserve">
-    <value>Zeige Farbauswahl</value>
-  </data>
-  <data name="ControlMenuItemLabel_ShowToolbarScreen" xml:space="preserve">
-    <value>Zeige Werkzeugleisten-Fenster</value>
-  </data>
-  <data name="ControlMenuItemLabel_ToggleHud" xml:space="preserve">
-    <value>HUD ein/ausschalten</value>
-  </data>
-  <data name="ControlMenuItemLabel_PauseGame" xml:space="preserve">
-    <value>Spiel pausieren</value>
-  </data>
   <data name="MessageBoxTextErrorFeatureNotAvailableYet" xml:space="preserve">
     <value>Funktion noch nicht verfügbar</value>
   </data>
@@ -2213,9 +2267,6 @@ Willst du fortfahren?</value>
   </data>
   <data name="Notification_GameplayOptions" xml:space="preserve">
     <value>Drücke {0}, um die Spieloptionen zu ändern.</value>
-  </data>
-  <data name="ControlMenuItemLabel_Wardrobe" xml:space="preserve">
-    <value>Aussehen ändern</value>
   </data>
   <data name="NotificationHintJoystickPressToOpenInventory" xml:space="preserve">
     <value>Greife auf das Kontrollmenü zu, um das Inventar von {0} zu öffnen.</value>
@@ -2367,6 +2418,9 @@ zurückkehren, indem du  "Tutorials" im Bildschirm "Hilfe" anklickst (Drücke F1
   </data>
   <data name="ScreenPlayers_Demote" xml:space="preserve">
     <value>Degradieren</value>
+  </data>
+  <data name="ScreenPlayers_Profile" xml:space="preserve">
+    <value>Profil</value>
   </data>
   <data name="ScreenPlayers_Promote" xml:space="preserve">
     <value>Befördern</value>
@@ -2752,6 +2806,12 @@ zu Spieler {1} übertragen willst?</value>
 
 Bitte deaktiviere diese Option nur für experimentelle Zwecke.</value>
   </data>
+  <data name="MessageBoxTextBlockLimitsInMP" xml:space="preserve">
+    <value>Mehrspielerwelten haben strengere Blockbegrenzungen, um eine gute Leistung zu gewährleisten.
+Große Welten passen möglicherweise nicht in diese Grenzen und verweigern das Laden.
+Wenn du wieder in den Offline-Modus wechselst, werden die ursprünglichen Blocklimits wiederhergestellt und die Welt kann wieder geladen werden.
+</value>
+  </data>
   <data name="ToolTipWorldSettingsBlockLimits" xml:space="preserve">
     <value>Nutze empfohlenes Blocklimit.</value>
   </data>
@@ -2807,10 +2867,6 @@ An - Alle Performancewarnungen dieser Spielsession werden angezeigt.</value>
 
 Dabei stimmst du den Nutzungsbedingungen zu (nachzulesen hier: {1}).</value>
   </data>
-  <data name="MessageBoxTextCampaignPublished" xml:space="preserve">
-    <value>Die Veröffentlichung wurde erfolgreich abgeschlossen. 
-Wenn du das {0}-Overlay aktiviert hast, öffnet sich eine Seite, in der du die Attribute wie Titel, Beschreibung oder Sichtbarkeit bearbeiten kannst (Standardeinstellung: Öffentlich).</value>
-  </data>
   <data name="ScreenDebugAdminMenu_EntityName" xml:space="preserve">
     <value>Name der Entität: </value>
   </data>
@@ -2831,8 +2887,15 @@ Daher ist der Spieler standardmäßig erst mal im sicheren Modus mit ausgewählt
 Der experimentelle Modus wurde eingeführt, weil wir ein fehlerfreies Spielerlebnis garantieren wollen. Dies können wir jedoch nur, 
 wenn wir Grenzen definieren. Mods, unsichere Einstellungen oder inoffizielle Funktionen sind außerhalb dessen, was wir garantieren können.</value>
   </data>
-  <data name="Performance_LowSimulationQuality" xml:space="preserve">
-    <value>Reduzierte Qualität von Verformungen und Voxeländerungen aufgrund der adaptiven Simulationsqualität</value>
+  <data name="General_InstallInProgress" xml:space="preserve">
+    <value>Die Installation der Skins ist noch nicht abgeschlossen. Fehlende Skin-Texturen können falsch dargestellt werden.</value>
+  </data>
+  <data name="General_SteamOffline" xml:space="preserve">
+    <value>{0} ist Offline oder läuft im Offlinemodus. In diesem Modus funktionieren online Services wie Multispieler, Lander mit Charakterskins, das {0} Inventar und Anderes nicht.
+Es könnten auch Probleme mit Deinen DLCs auftreten, wenn diese online verifiziert werden.</value>
+  </data>
+  <data name="Performance_LowOnMemory" xml:space="preserve">
+    <value>Der Arbeitsspeicher geht zur Neige. Es wird empfohlen, die Welt zu säubern.</value>
   </data>
   <data name="Multiplayer_LowSimSpeed" xml:space="preserve">
     <value>Niedrige Simulationsgeschwindigkeit auf dem Server!</value>
@@ -2848,10 +2911,10 @@ Dieses bietet Ziele, welche durch Standardszenrien vorhanden sind, oder solche, 
     <value>Benutzerdefinierte Spiele bieten eine Vielzahl von Welten, in denen Du Dein eigenes Szenario starten kannst. Passe die Welteinstellungen an, um die Welt zu erstellen, die Du erkunden willst, und fordere Dich selbst heraus.</value>
   </data>
   <data name="BlueprintsScreen_Description" xml:space="preserve">
-    <value>Schiffe und Stationen können in einem Bauplan gespeichert werden. Hier findest Du Deine gespeicherten Baupläne, sowie solche, die Du über den Workshop heruntergeladen hast.</value>
+    <value>Schiffe und Stationen können in einem Bauplan gespeichert werden. Hier findest Du Deine gespeicherten Baupläne, sowie solche, die Du über den {0} Workshop heruntergeladen hast.</value>
   </data>
   <data name="ScriptsScreen_Description" xml:space="preserve">
-    <value>Hier findest Du Deine gespeicherten Skripte, sowie solche, die Du über den Workshop heruntergeladen hast.</value>
+    <value>Hier findest Du Deine gespeicherten Skripte, sowie solche, die Du über den {0} Workshop heruntergeladen hast.</value>
   </data>
   <data name="ScreenCaptionNewsletter" xml:space="preserve">
     <value>Newsletter</value>
@@ -3062,7 +3125,7 @@ er KANN jede der ausgewählten Mods haben.</value>
     <value>Start</value>
   </data>
   <data name="ToolTipWorkshopPublish" xml:space="preserve">
-    <value>Veröffentliche Deine Mod im Steam Workshop.</value>
+    <value>Veröffentliche Deine Mod im {0} Workshop.</value>
   </data>
   <data name="ModCrashedTheGame" xml:space="preserve">
     <value>Eine Mod führte zum Spielabsturz!</value>
@@ -3096,11 +3159,8 @@ Mehr Infos findest Du im Log:
   <data name="ScreenLoadInventoryViewDetails" xml:space="preserve">
     <value>Zeige Details</value>
   </data>
-  <data name="ToolTipInventoryBrowseItems" xml:space="preserve">
-    <value>Öffnet das Steam Overlay im Inventar</value>
-  </data>
   <data name="ToolTipInventoryOpenInStore" xml:space="preserve">
-    <value>Öffnet die gewählte Welt im Workshop Steam Overlay</value>
+    <value>Öffnet die gewählte Welt im Browser</value>
   </data>
   <data name="ToolTipInventoryViewDetails" xml:space="preserve">
     <value>Zeigt die Details des gewählten Gegenstands</value>
@@ -3226,7 +3286,7 @@ Mehr Infos findest Du im Log:
     <value>Spezieller Inhalt</value>
   </data>
   <data name="ScreenClaimItemText" xml:space="preserve">
-    <value>Versuch Dein Glück, um einen neuen speziellen Gegenstand zu erhalten.</value>
+    <value>Mit Glück bekommst Du einen neuen Gegenstand.</value>
   </data>
   <data name="ScreenCaptionNoGameItem" xml:space="preserve">
     <value>Nichts gefunden.</value>
@@ -3595,13 +3655,13 @@ Mehr Infos findest Du im Log:
     <value>Die Typen-Whitelist der Mod API hat einen Integritätsfehler.\n\nBitte prüfe das Log für mehr Hinweise.</value>
   </data>
   <data name="ToolTipWorkshopBrowseWorkshop_Steam" xml:space="preserve">
-    <value>Öffnet den Workshop im Steam Overlay</value>
+    <value>Öffnet den Workshop im Browser</value>
   </data>
   <data name="ToolTipWorkshopOpenInWorkshop_Steam" xml:space="preserve">
-    <value>Öffnet die gewählte Welt im Steam Workshop Overlay</value>
+    <value>Öffnet die gewählte Welt im Browser</value>
   </data>
   <data name="ToolTipWorkshopOpenModInWorkshop_Steam" xml:space="preserve">
-    <value>Öffnet die gewählte Mod im Steam Workshop Overlay</value>
+    <value>Öffnet die gewählte Mod im Browser</value>
   </data>
   <data name="Faction_PlayerApplied" xml:space="preserve">
     <value>Spieler "{0}" möchte Deiner Fraktion beitreten.</value>
@@ -3724,7 +3784,7 @@ Mehr Infos findest Du im Log:
     <value>In dieser Welt existieren Gitter mit unsicheren Werten.</value>
   </data>
   <data name="PerformanceWarningCombination" xml:space="preserve">
-    <value>Shift + {0} für Infos.</value>
+    <value>Shift + {0} für mehr Infos.</value>
   </data>
   <data name="PerformanceWarningHeading_Connection" xml:space="preserve">
     <value>VERBINDUNGSPROBLEM</value>
@@ -3735,11 +3795,11 @@ Mehr Infos findest Du im Log:
   <data name="PerformanceWarningHeading_SimSpeed" xml:space="preserve">
     <value>SZENERIE ZU KOMPLEX</value>
   </data>
-  <data name="PerformanceWarningHeading_LowSimulationQuality" xml:space="preserve">
-    <value>NIEDRIGE SIMULATIONSQUALITÄT</value>
-  </data>
   <data name="PerformanceWarningHeading_UnsafeGrids" xml:space="preserve">
     <value>UNSICHERE GITTER</value>
+  </data>
+  <data name="PerformanceWarningHeading_InstallInProgress" xml:space="preserve">
+    <value>INSTALLATION IM GANGE</value>
   </data>
   <data name="PerformanceWarningHeading_ExperimentalMode" xml:space="preserve">
     <value>EXPERIMENTELLER MODUS</value>
@@ -3772,7 +3832,7 @@ Mehr Infos findest Du im Log:
     <value>Die Welt wird bereits gespeichert</value>
   </data>
   <data name="PerformanceWarningIssuesServer_Simspeed" xml:space="preserve">
-    <value>Die Szenerie ist zu komplex. Entferne einige Gitter oder ändere die Einstellungen der automatischen Schrottentfernung.</value>
+    <value>Die Szenerie ist zu komplex. Entferne einige Gitter oder ändere die Einstellungen der automatischen Schrottentfernung. Die Qualität der Simulation, von Deformierungen und Voxeländerungen werden reduziert, um die Performance zu verbessern.</value>
   </data>
   <data name="PerformanceWarningIssuesServer_PoorConnection" xml:space="preserve">
     <value>Schlechte Netzwerkqualität</value>
@@ -3780,8 +3840,14 @@ Mehr Infos findest Du im Log:
   <data name="GeneralWarningIssues_Experimental" xml:space="preserve">
     <value>Experimentell</value>
   </data>
-  <data name="PerformanceWarningIssues_LowSimulationQuality" xml:space="preserve">
-    <value>Simulationsqualität</value>
+  <data name="GeneralWarningIssues_InstallInProgress" xml:space="preserve">
+    <value>Installation läuft</value>
+  </data>
+  <data name="GeneralWarningIssues_SteamOffline" xml:space="preserve">
+    <value>{0} Offline</value>
+  </data>
+  <data name="PerformanceWarningIssues_LowOnMemory" xml:space="preserve">
+    <value>Wenig RAM</value>
   </data>
   <data name="PerformanceWarningIssuesUnsafeGrids" xml:space="preserve">
     <value>Gitter mit unsicheren Werten</value>
@@ -3802,7 +3868,7 @@ Mehr Infos findest Du im Log:
     <value>Fester Beobachterpunkt</value>
   </data>
   <data name="ControlDescMoveToSpectator" xml:space="preserve">
-    <value>Bewege den Character zum Beobachterpunkt</value>
+    <value>Bewegt den Character zum Beobachterpunkt</value>
   </data>
   <data name="HelpScreenHeader" xml:space="preserve">
     <value>Hilfe</value>
@@ -3819,6 +3885,15 @@ Mehr Infos findest Du im Log:
   <data name="HelpScreen_AdvancedControls" xml:space="preserve">
     <value>Erweiterte Steuerung</value>
   </data>
+  <data name="HelpScreen_Gamepad" xml:space="preserve">
+    <value>Gamepad-Kontrollen</value>
+  </data>
+  <data name="HelpScreen_GamepadAdvanced" xml:space="preserve">
+    <value>Gamepad Erweitert</value>
+  </data>
+  <data name="HelpScreen_GamepadTips" xml:space="preserve">
+    <value>Gamepad Tipps</value>
+  </data>
   <data name="HelpScreen_AdvancedDescription" xml:space="preserve">
     <value>Erweiterte Bewegungs- und Interaktionssteuerungen, die jeder gute Ingenieur beherrschen sollte!</value>
   </data>
@@ -3826,7 +3901,7 @@ Mehr Infos findest Du im Log:
     <value>Allgemein:</value>
   </data>
   <data name="HelpScreen_AdvancedGridsAndBlueprints" xml:space="preserve">
-    <value>Gitter und Blaupausen:</value>
+    <value>Gitter und Baupläne:</value>
   </data>
   <data name="HelpScreen_AdvancedSpectator" xml:space="preserve">
     <value>Beobachter:</value>
@@ -3853,7 +3928,7 @@ Mehr Infos findest Du im Log:
     <value>Das offizielle Space Engineers Forum zum Diskutieren und zur Bugmeldung.</value>
   </data>
   <data name="HelpScreen_SupportLinkSteam" xml:space="preserve">
-    <value>Unsere Steam Community, wo Du Fragen stellen und Bugs melden kannst.</value>
+    <value>Unsere {0} Community, wo Du Fragen stellen und Bugs melden kannst.</value>
   </data>
   <data name="HelpScreen_TutorialsLinkWiki" xml:space="preserve">
     <value>Wiki-Seite, welche von Spielern geschrieben und unterhalten wird, voll mit nützlichen Informationen.</value>
@@ -3862,7 +3937,7 @@ Mehr Infos findest Du im Log:
     <value>Wähle Kategorie:</value>
   </data>
   <data name="HelpScreen_HomeSteamOverlay" xml:space="preserve">
-    <value>In Steam öffnen</value>
+    <value>Im Browser öffnen</value>
   </data>
   <data name="HelpScreen_Welcome" xml:space="preserve">
     <value>Willkommen Ingenieur</value>
@@ -3879,6 +3954,27 @@ Mehr Infos findest Du im Log:
   <data name="HelpScreen_Support" xml:space="preserve">
     <value>Links zur Unterstützung</value>
   </data>
+  <data name="HelpScreen_ReportIssue" xml:space="preserve">
+    <value>Problem melden</value>
+  </data>
+  <data name="HelpScreen_ReportIssue_Description" xml:space="preserve">
+    <value>Bitte fülle das Textfeld unten aus, um uns einen Bericht über ein Problem zu schicken, das Du vielleicht hast. Deine Spiel-Logs werden zusammen mit Deiner Nachricht an uns geschickt. Gib so viele Details wie möglich an:</value>
+  </data>
+  <data name="HelpScreen_ReportIssue_Email" xml:space="preserve">
+    <value>Wenn Du in dieser Angelegenheit kontaktiert werden möchtest, gib auch Deine E-Mail-Adresse an:</value>
+  </data>
+  <data name="HelpScreen_ReportIssue_SendReport" xml:space="preserve">
+    <value>Bericht senden</value>
+  </data>
+  <data name="HelpScreen_ReportIssue_WaitForSending" xml:space="preserve">
+    <value>Lade Deinen Bericht hoch, bitte bleib dran.</value>
+  </data>
+  <data name="HelpScreen_ReportIssue_ThanksForSendingCaption" xml:space="preserve">
+    <value>Danke für die Zusendung Deines Berichts.</value>
+  </data>
+  <data name="HelpScreen_ReportIssue_ThanksForSending" xml:space="preserve">
+    <value>Wir werden versuchen, es so schnell wie möglich zu lösen.</value>
+  </data>
   <data name="HelpScreen_SupportContact" xml:space="preserve">
     <value>Support@KeenSWH.com</value>
   </data>
@@ -3886,13 +3982,16 @@ Mehr Infos findest Du im Log:
     <value>Erfahren Sie mehr über Space Engineers und seine Community, indem Sie unsere Community-Guides anschauen oder auf unseren Wiki-Seiten surfen!</value>
   </data>
   <data name="HelpScreen_TutorialsLinkSteam" xml:space="preserve">
-    <value>Steam Community Guides, erstellt von unseren Spielern.</value>
+    <value>{0} Community Guides, erstellt von unseren Spielern.</value>
   </data>
   <data name="HelpScreen_TutorialsLinkYouTube" xml:space="preserve">
     <value>Sehen Sie sich das grundlegende Bewegungs-Tutorial auf unserem YouTube-Kanal an.</value>
   </data>
   <data name="ScreenCaptionWelcomeScreen" xml:space="preserve">
     <value>Willkommen Ingenieur!</value>
+  </data>
+  <data name="ScreenCaptionReportIssueScreen" xml:space="preserve">
+    <value>Ein Problem melden</value>
   </data>
   <data name="ScreenGraphicsOptions_PostProcessing" xml:space="preserve">
     <value>Aktiviere Nachbearbeitung</value>
@@ -3904,16 +4003,16 @@ Mehr Infos findest Du im Log:
     <value>Ultra</value>
   </data>
   <data name="Blueprints_CreateTooltip" xml:space="preserve">
-    <value>Erzeuge eine neue Blaupause aus der Zwischenablage</value>
+    <value>Erzeuge eine neuen Bauplan aus der Zwischenablage</value>
   </data>
   <data name="Blueprints_DeleteTooltip" xml:space="preserve">
-    <value>Lösche die gewählte Blaupause</value>
+    <value>Lösche den gewählten Bauplan</value>
   </data>
   <data name="Blueprints_DetailsTooltip" xml:space="preserve">
-    <value>Zeige die Details der gewählten Blaupause</value>
+    <value>Zeige die Details des gewählten Bauplans</value>
   </data>
   <data name="Blueprints_EmptyClipboardMessage" xml:space="preserve">
-    <value>Du musst eine Blaupause aus der Blaupausen-Bibliothek wählen (F10),
+    <value>Du musst einen Bauplan aus der Bauplan-Bibliothek wählen (F10),
 oder ein Gitter aus der Welt kopieren, indem Du darauf zielst und STRG+C drückst.</value>
   </data>
   <data name="Blueprints_EmptyClipboardMessageHeader" xml:space="preserve">
@@ -3929,54 +4028,54 @@ oder ein Gitter aus der Welt kopieren, indem Du darauf zielst und STRG+C drücks
     <value>Liste von Bauplänen:</value>
   </data>
   <data name="Blueprints_OkTooltip" xml:space="preserve">
-    <value>Füge die gewählte Blaupause in die Welt ein</value>
+    <value>Füge den gewählten Bauplan in die Welt ein</value>
   </data>
   <data name="Blueprints_PasteBlueprintMessage" xml:space="preserve">
-    <value>Füge die gewählte Blaupause in die Welt ein, indem Du STRG+V drückst</value>
+    <value>Füge den gewählten Bauplan in die Welt ein, indem Du STRG+V drückst</value>
   </data>
   <data name="Blueprints_PasteBlueprintMessageHeader" xml:space="preserve">
-    <value>Blaupause wurde in die Zwischenablage kopiert</value>
+    <value>Bauplan wurde in die Zwischenablage kopiert</value>
   </data>
   <data name="Blueprints_RefreshTooltip" xml:space="preserve">
-    <value>Aktualisiere die Liste der verfügbaren Blaupausen</value>
+    <value>Aktualisiere die Liste der verfügbaren Baupläne</value>
   </data>
   <data name="Blueprints_ReplaceBlueprintTooltip" xml:space="preserve">
     <value>Ersetze den gewählten Bauplan durch den Bauplan in der Zwischenablage</value>
   </data>
   <data name="Blueprints_SearchTooltip" xml:space="preserve">
-    <value>Suche nach einer Blaupause, indem Du ihren Namen eingibst</value>
+    <value>Suche nach einem Bauplan, indem Du seinen Namen eingibst</value>
   </data>
   <data name="Blueprints_SortByTooltip" xml:space="preserve">
     <value>Wähle die bevorzugte Sortiermethode</value>
   </data>
   <data name="Blueprints_TakeScreenshotTooltip" xml:space="preserve">
-    <value>Mach ein Foto der gewählten Blaupause</value>
+    <value>Mach ein Foto des gewählten Bauplans</value>
   </data>
   <data name="Blueprints_CreateTooltipDisabled" xml:space="preserve">
     <value>Zwischenablage ist leer. Du musst zuerst ein Gitter durch Drücken von STRG+C kopieren.</value>
   </data>
   <data name="Blueprints_DeleteTooltipDisabled" xml:space="preserve">
-    <value>Du kannst abbonierte Blaupausen nicht löschen.
+    <value>Du kannst abonnierte Baupläne nicht löschen.
 
-Du kannst sie im Workshop deabbonieren.</value>
+Du kannst sie aber im Workshop deabonnieren.</value>
   </data>
   <data name="Blueprints_OkTooltipDisabled" xml:space="preserve">
-    <value>Keine Blaupause gewählt</value>
+    <value>Kein Bauplan gewählt</value>
   </data>
   <data name="Blueprints_PlayersTooltip" xml:space="preserve">
     <value>Wähle Spieler</value>
   </data>
   <data name="Blueprints_RenameTooltip" xml:space="preserve">
-    <value>Die gewählte Blaupause umbenennen</value>
+    <value>Den gewählten Bauplan umbenennen</value>
   </data>
   <data name="Blueprints_TakeScreenshotTooltipDisabled" xml:space="preserve">
-    <value>Du kannst nur Fotos von lokalen Blaupausen machen.</value>
+    <value>Du kannst nur Fotos von lokalen Bauplänen machen.</value>
   </data>
   <data name="ScreenCaptionBlueprintDetails" xml:space="preserve">
-    <value>Blaupausen-Details</value>
+    <value>Bauplan-Details</value>
   </data>
   <data name="ToolTipBlueprintPublish" xml:space="preserve">
-    <value>Veröffentliche Deinen Bauplan im Steam Workshop</value>
+    <value>Veröffentliche Deinen Bauplan im {0} Workshop</value>
   </data>
   <data name="BlueprintsMessageBoxDesc_StillLoading" xml:space="preserve">
     <value>Bauplan wird geladen</value>
@@ -4013,10 +4112,10 @@ Du kannst die Farbe eines Blocks kopieren, indem Du auf ihn zielst und SHIFT+P d
 Die ausgewählte Farbe gilt außerdem für alle neuen Blöcke, die Du damit setzt.</value>
   </data>
   <data name="EnableSteamCloud" xml:space="preserve">
-    <value>Aktiviere die Steam Cloud</value>
+    <value>Aktiviere die {0} Cloud</value>
   </data>
   <data name="ToolTipGameOptionsEnableSteamCloud" xml:space="preserve">
-    <value>Ob die Synchronisation mit der Steam-Cloud aktiviert sein soll oder nicht. </value>
+    <value>Ob die Synchronisation mit der {0} Cloud aktiviert sein soll oder nicht. </value>
   </data>
   <data name="EnablePrediction" xml:space="preserve">
     <value>Aktiviere die Multiplayer-Prognose:</value>
@@ -4195,6 +4294,12 @@ An - Zeigt alle Warnungen für Blocklimits</value>
   <data name="SaveGameErrorExperimental" xml:space="preserve">
     <value>Die gespeicherte Welt ist im experimentellen Modus. Um sie zu laden, musst Du in den Spieloptionen den experimentellen Modus aktivieren.</value>
   </data>
+  <data name="SaveGameErrorExperimentalFeatures" xml:space="preserve">
+    <value>Diese Welt enthält Einstellungen, die mit der aktuellen Plattform nicht kompatibel sind. Sie kann nicht geladen werden.</value>
+  </data>
+  <data name="SaveGameErrorOverBlockLimits" xml:space="preserve">
+    <value>Die gespeicherte Welt überschreitet die sicheren Blockgrenzen und konnte nicht geladen werden.</value>
+  </data>
   <data name="MultiplayerWarningPing" xml:space="preserve">
     <value>Deine Verbindung zum Server hat eine hohe Latenz. Möchtest Du die Erfahrung serverweiten Rubber Bandings machen?</value>
   </data>
@@ -4323,7 +4428,7 @@ Willst Du fortsetzen und die ungespeicherten Änderungen verwerfen?</value>
     <value>Workshop Gegenstand {0}</value>
   </data>
   <data name="ModNotReceived_ToolTip" xml:space="preserve">
-    <value>Steam konnte mehrere Male keine Details senden.</value>
+    <value>{0} konnte mehrere Male keine Details senden.</value>
   </data>
   <data name="HelpScreen_SupportLinkUserResponse" xml:space="preserve">
     <value>Eine Seite um Bugs und Feedback zu melden, aber auch um Vorschläge für neue Funktionen zu machen, bzw. dafür abzustimmen.</value>
@@ -4392,10 +4497,10 @@ Willst Du fortsetzen und die ungespeicherten Änderungen verwerfen?</value>
     <value>Registerkarte mit Videosequenzwerkzeugen öffnen</value>
   </data>
   <data name="ScriptingTools_Tooltip_DeleteEnt" xml:space="preserve">
-    <value>Lösche gewählte Entität (Kurztaste: Entf)</value>
+    <value>Lösche die gewählte Entität</value>
   </data>
   <data name="ScriptingTools_Tooltip_DeselectEnt" xml:space="preserve">
-    <value>Gewählte Entität abwählen (Kurztaste: Strg+D)</value>
+    <value>Gewählte Entität abwählen</value>
   </data>
   <data name="ScriptingTools_Tooltip_DisableTransform" xml:space="preserve">
     <value>Alle Entitätstransformationen deaktivieren</value>
@@ -4410,7 +4515,7 @@ Willst Du fortsetzen und die ungespeicherten Änderungen verwerfen?</value>
     <value>Position der Entität setzen</value>
   </data>
   <data name="ScriptingTools_Tooltip_Rename1" xml:space="preserve">
-    <value>Gewählte Entität umbenennen (Vermeide das Umbenennen von Wegpunkten. Wegpunkte müssen mit "Waypoint_" beginnen).</value>
+    <value>Gewählte Entität umbenennen</value>
   </data>
   <data name="ScriptingTools_Tooltip_Rename2" xml:space="preserve">
     <value>Den gewählten Funktionsblock umbenennen</value>
@@ -4428,7 +4533,7 @@ Willst Du fortsetzen und die ungespeicherten Änderungen verwerfen?</value>
     <value>Größe des gewählten Triggers verringern</value>
   </data>
   <data name="ScriptingTools_Tooltip_SpawnEnt" xml:space="preserve">
-    <value>Neuen Wegpunkt erzeugen (Kurztaste: N)</value>
+    <value>Neuen Wegpunkt erzeugen</value>
   </data>
   <data name="ScriptingTools_Tooltip_TransformTools" xml:space="preserve">
     <value>Öffnet die Registerkarte mit Transformationswerkzeugen</value>
@@ -4443,7 +4548,7 @@ Willst Du fortsetzen und die ungespeicherten Änderungen verwerfen?</value>
     <value>Wähle den Trigger, in dem du stehst</value>
   </data>
   <data name="ScriptingTools_Tooltip_TriggerSnap" xml:space="preserve">
-    <value>Hefte Trigger an gewählte Entität oder Kamera (Wenn keine Entität ausgewählt ist)</value>
+    <value>Hefte Trigger an gewählte Entität oder Kamera</value>
   </data>
   <data name="ScriptingTools_Tooltip_WorldCoords" xml:space="preserve">
     <value>Die angewandten Transformationen werden im lokalen Koordinatensystem durchgeführt (Mit T kannst Du zwischen lokalen und Weltkoordinaten wechseln).</value>
@@ -4488,16 +4593,16 @@ Willst Du fortsetzen und die ungespeicherten Änderungen verwerfen?</value>
     <value>Gesamte PCU</value>
   </data>
   <data name="Blueprints_ReplaceError_CloudOff" xml:space="preserve">
-    <value>Du kannst Baupläne, die auf der Cloud gesichert sind, nicht ersetzen, wenn Du die Steam Cloud deaktiviert hast. Außerdem solltest Du dann keine Baupläne sehen können, die auf der Cloud gesichert sind. Daher ist dies ein Bug, bitte melde diesen.</value>
+    <value>Du kannst Baupläne, die auf der Cloud gesichert sind, nicht ersetzen, wenn Du die {0} Cloud deaktiviert hast. Außerdem solltest Du dann keine Baupläne sehen können, die auf der {0} Cloud gesichert sind. Daher ist dies ein Bug, bitte melde diesen.</value>
   </data>
   <data name="Blueprints_ReplaceError_CloudOff_Caption" xml:space="preserve">
-    <value>Steam Cloud ist abgeschaltet</value>
+    <value>{0} Cloud ist abgeschaltet</value>
   </data>
   <data name="Blueprints_ReplaceError_CloudOn" xml:space="preserve">
-    <value>Du kannst keine lokalen Baupläne ersetzen, solange die Steam Cloud aktiv ist. Bitte schalte diese in den Steam Spieloptionen zuerst ab.</value>
+    <value>Du kannst keine lokalen Baupläne ersetzen, solange die {0} Cloud aktiv ist. Bitte schalte diese in den Steam Spieloptionen zuerst ab.</value>
   </data>
   <data name="Blueprints_ReplaceError_CloudOn_Caption" xml:space="preserve">
-    <value>Steam Cloud ist aktiv</value>
+    <value>{0} Cloud ist aktiv</value>
   </data>
   <data name="BlocksScreen_BlocksTab" xml:space="preserve">
     <value>Blöcke</value>
@@ -4602,6 +4707,72 @@ Viel Glück da draußen!</value>
   </data>
   <data name="ChatCommand_AvailableControls" xml:space="preserve">
     <value>Verfügbare Kontrollen:</value>
+  </data>
+  <data name="ChatCommand_Smite" xml:space="preserve">
+    <value>Schlagen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_Smite" xml:space="preserve">
+    <value>Erzeuge Blitz</value>
+  </data>
+  <data name="ChatCommand_Help_Smite" xml:space="preserve">
+    <value>Lässt einen Blitz auf das, was du siehst, einschlagen.</value>
+  </data>
+  <data name="ChatCommand_RWeather" xml:space="preserve">
+    <value>RWetter</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_RWeather" xml:space="preserve">
+    <value>Zufälliges Wetter erstellen</value>
+  </data>
+  <data name="ChatCommand_Help_RWeather" xml:space="preserve">
+    <value>Erstellt ein zufälliges Wetter an der Position Deiner Kamera.</value>
+  </data>
+  <data name="ChatCommand_Texts_RandomWeather" xml:space="preserve">
+    <value>Erstellt ein zufälliges Wetter an Deiner Position.</value>
+  </data>
+  <data name="ChatCommand_Texts_WeatherIncoming" xml:space="preserve">
+    <value>Ein zufälliges Wetterereignis ist bereits im Anmarsch.</value>
+  </data>
+  <data name="ChatCommand_Weatherlist" xml:space="preserve">
+    <value>Wetterliste</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_Weatherlist" xml:space="preserve">
+    <value>Alle Wetterlagen auflisten</value>
+  </data>
+  <data name="ChatCommand_Help_Weatherlist" xml:space="preserve">
+    <value>Listet alle verfügbaren Wetterlagen auf.</value>
+  </data>
+  <data name="ChatCommand_Texts_AvailableWeathers" xml:space="preserve">
+    <value>Verfügbare Wetterarten:</value>
+  </data>
+  <data name="ChatCommand_Weather" xml:space="preserve">
+    <value>Wetter</value>
+  </data>
+  <data name="ChatCommand_Texts_CurrentWeather" xml:space="preserve">
+    <value>Aktuell erlebte Wetterlagen:</value>
+  </data>
+  <data name="ChatCommand_Texts_NoWeather" xml:space="preserve">
+    <value>Du erlebst kein Wetter.</value>
+  </data>
+  <data name="ChatCommand_Texts_NoPlanet" xml:space="preserve">
+    <value>Keine nahen Planeten gefunden</value>
+  </data>
+  <data name="ChatCommand_Texts_NoWeatherSystem" xml:space="preserve">
+    <value>Dein nächster Planet hat kein Wettersystem</value>
+  </data>
+  <data name="ChatCommand_Texts_SetWeather" xml:space="preserve">
+    <value>Du erlebst jetzt '{0}' an deiner Position</value>
+  </data>
+  <data name="ChatCommand_Texts_NoWeatherFound" xml:space="preserve">
+    <value>Kein Wetter vom Typ '{0}' gefunden</value>
+  </data>
+  <data name="ChatCommand_Texts_RemovedWeather" xml:space="preserve">
+    <value>Entfernt das Wetter an deiner Position</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_Weather" xml:space="preserve">
+    <value>Wetter abrufen oder einstellen</value>
+  </data>
+  <data name="ChatCommand_Help_Weather" xml:space="preserve">
+    <value>Ruft das Wetter an deiner aktuellen Position ab oder setzt es. Füge einen Wetternamen hinzu, um das Wetter einzustellen.</value>
   </data>
   <data name="ChatCommand_HelpSimple_F" xml:space="preserve">
     <value>Zum Fraktionskanal wechseln</value>
@@ -4807,6 +4978,11 @@ Beispiel: "? oxygen".</value>
   <data name="RequiresDlc" xml:space="preserve">
     <value>Benötigt das {0} DLC.</value>
   </data>
+  <data name="ScenarioRequiresDlc" xml:space="preserve">
+    <value>Dieses Szenario benötigt das {0} DLC.
+
+Das DLC im Shop öffnen?</value>
+  </data>
   <data name="MessageBoxTextMissingDLCWhenPasting" xml:space="preserve">
     <value>Das eingefügte Schiff enthält einige Blöcke, die Teil eines DLCs sind, über das Du nicht verfügst.
 
@@ -4819,10 +4995,10 @@ Diese Blöcke werden nicht erstellt, was zu einer möglichen Spaltung des Schiff
     <value>Benötigt DLC</value>
   </data>
   <data name="RequiresGameInventoryItem" xml:space="preserve">
-    <value>Benötigt diesen Gegenstand im Steaminventar: {0}</value>
+    <value>Benötigt {0} {1} im Inventar: </value>
   </data>
   <data name="RequiresAnyGameInventoryItem" xml:space="preserve">
-    <value>Benötigt Gegenstand im Steaminventar.</value>
+    <value>Benötigt Gegenstand im {0} Inventar</value>
   </data>
   <data name="ShowInGameInventoryStore" xml:space="preserve">
     <value>Zeige Item im Laden.</value>
@@ -4836,14 +5012,17 @@ Diese Blöcke werden nicht erstellt, was zu einer möglichen Spaltung des Schiff
   <data name="PerformanceWarningHeading_PaidContent" xml:space="preserve">
     <value>PREMIUM INHALTE IN NUTZUNG</value>
   </data>
+  <data name="PerformanceWarningHeading_SteamOffline" xml:space="preserve">
+    <value>{0} OFFLINE</value>
+  </data>
   <data name="PerformanceWarningIssuesPaidContent" xml:space="preserve">
-    <value>Du verwendest gerade Premium Inhalte, {0}. Kaufe [{1} hier], um ein reichhaltigeres Spielerlebnis zu erhalten.</value>
+    <value>Du verwendest gerade Premium Inhalte, {0}. Kaufe im Shop, um ein reichhaltigeres Spielerlebnis zu erhalten.</value>
   </data>
   <data name="PerformanceWarningTitle_PaidContent" xml:space="preserve">
     <value>Premiuminhalt</value>
   </data>
   <data name="ShowDlcStore" xml:space="preserve">
-    <value>Zeige {0} DLC Laden</value>
+    <value>Zeige {0} DLC</value>
   </data>
   <data name="ChatCommand_Angry" xml:space="preserve">
     <value>Wütend</value>
@@ -4905,6 +5084,12 @@ Diese Blöcke werden nicht erstellt, was zu einer möglichen Spaltung des Schiff
   <data name="ChatCommand_HelpSimple_PointRight" xml:space="preserve">
     <value>Nach rechts zeigen abspielen</value>
   </data>
+  <data name="ChatCommand_HelpSimple_Cold" xml:space="preserve">
+    <value>Kalt hier abspielen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_CheckWrist" xml:space="preserve">
+    <value>Auf Handgelenk schauen abspielen</value>
+  </data>
   <data name="ApplyColor" xml:space="preserve">
     <value>Nutze Farbe zum Übermalen</value>
   </data>
@@ -4916,6 +5101,73 @@ Diese Blöcke werden nicht erstellt, was zu einer möglichen Spaltung des Schiff
   </data>
   <data name="ApplySkinTooltip" xml:space="preserve">
     <value>Wähle, ob beim Übermalen ein Skin zusammen mit  Farbe verwendet werden soll.</value>
+  </data>
+  <data name="ModIO_EnterCode" xml:space="preserve">
+    <value>Gib den Sicherheitscode ein, welcher an Deinen Posteingang gesandt wurde.</value>
+  </data>
+  <data name="HelpScreen_LearningToSurvive" xml:space="preserve">
+    <value>Überlebenstraining</value>
+  </data>
+  <data name="HelpScreen_NeverSurrender" xml:space="preserve">
+    <value>Niemals aufgeben</value>
+  </data>
+  <data name="HelpScreen_TheFirstJump" xml:space="preserve">
+    <value>Der erste Sprung</value>
+  </data>
+  <data name="SimpleNewGame_Creative" xml:space="preserve">
+    <value>Rotes Schiff</value>
+  </data>
+  <data name="SimpleNewGame_Custom" xml:space="preserve">
+    <value>Benutzerdefiniert</value>
+  </data>
+  <data name="SimpleNewGame_LearningToSurvive" xml:space="preserve">
+    <value>Überlebenstraining</value>
+  </data>
+  <data name="SimpleNewGame_NeverSurrender" xml:space="preserve">
+    <value>Niemals aufgeben</value>
+  </data>
+  <data name="SimpleNewGame_TheFirstJump" xml:space="preserve">
+    <value>Der erste Sprung</value>
+  </data>
+  <data name="SimpleNewGame_Workshop" xml:space="preserve">
+    <value>Workshop</value>
+  </data>
+  <data name="SimpleNewGame_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="SimpleNewGame_Creative_Description" xml:space="preserve">
+    <value>Kreativmodus. Du hast die Nase voll vom Bergbau und der Logistik dahinter? Lass Deiner Fantasie freien Lauf und baue im kreativen Modus! Baue gigantische Raumschiffe und viele andere Fahrzeugtypen, oder willst Du vielleicht einen Weltraumaufzug errichten? Es ist deine Entscheidung. Im kreativen Modus gibt es keine Gesundheit.</value>
+  </data>
+  <data name="SimpleNewGame_LearningToSurvive_Description" xml:space="preserve">
+    <value>Stelle einen alten Außenposten wieder her, der als Basis für Deine Operationen dient und erkunde die Überreste einer einst blühenden Industrie. 
+Lerne mehr über Raumfahrttechnik oder such Dir einen Kampf. Du hast die Wahl, hier beginnt Deine Karriere!</value>
+  </data>
+  <data name="SimpleNewGame_NeverSurrender_Description" xml:space="preserve">
+    <value>Überlebensmodus. Starte Deine eigene Raumfahrt. Baue Ressourcen ab, produziere Komponenten und baue etwas wirklich Episches. Entdecke neue Herausforderungen und entwickele Lösungen. Erforsche Planeten, fliege zum Mond, navigiere durch den Weltraum oder bohre ein Loch in den Erdmittelpunkt. Es liegt an dir!</value>
+  </data>
+  <data name="SimpleNewGame_TheFirstJump_Description" xml:space="preserve">
+    <value>Dieses Szenario bietet eine lineare Geschichte mit actiongeladenem Gameplay. Die meisten Space Engineers-Szenarien bieten einzigartige Sandbox-Umgebungen, in denen Spieler ihre eigenen Herausforderungen erstellen.</value>
+  </data>
+  <data name="SettingSymmetryXGamepad" xml:space="preserve">
+    <value>Symmetrie X Achse: {0} zum Setzen, {1} zum Entfernen und {2} um die Ebene zu wählen</value>
+  </data>
+  <data name="SettingSymmetryXOffsetGamepad" xml:space="preserve">
+    <value>Symmetrie X Achse (Versatz): {0} zum Setzen, {1} zum Entfernen und {2} um die Ebene zu wählen</value>
+  </data>
+  <data name="SettingSymmetryYGamepad" xml:space="preserve">
+    <value>Symmetrie Y Achse: {0} zum Setzen, {1} zum Entfernen und {2} um die Ebene zu wählen</value>
+  </data>
+  <data name="SettingSymmetryYOffsetGamepad" xml:space="preserve">
+    <value>Symmetrie Y Achse (Versatz): {0} zum Setzen, {1} zum Entfernen und {2} um die Ebene zu wählen</value>
+  </data>
+  <data name="SettingSymmetryZGamepad" xml:space="preserve">
+    <value>Symmetrie Z Achse: {0} zum Setzen, {1} zum Entfernen und {2} um die Ebene zu wählen</value>
+  </data>
+  <data name="SettingSymmetryZOffsetGamepad" xml:space="preserve">
+    <value>Symmetrie Z Achse (Versatz): {0} zum Setzen, {1} zum Entfernen und {2} um die Ebene zu wählen</value>
+  </data>
+  <data name="ChatRestricted" xml:space="preserve">
+    <value>Der Chat ist aufgrund von Einschränkungen des Benutzerprofils nicht verfügbar.</value>
   </data>
   <data name="MessageBoxTextRemoveControlBinding" xml:space="preserve">
     <value>Bist Du sicher, dass Du die Zuweisung dieser Kontrolle aufheben willst?</value>
@@ -4956,8 +5208,17 @@ Diese Blöcke werden nicht erstellt, was zu einer möglichen Spaltung des Schiff
   <data name="ControlName_ActiveContractScreen" xml:space="preserve">
     <value>Vertragsbildschirm öffnen</value>
   </data>
-  <data name="Datapad_InventoryItem_TTIP" xml:space="preserve">
-    <value>Rechstklick zum Lesen</value>
+  <data name="Datapad_InventoryItem_TTIP_Keyboard" xml:space="preserve">
+    <value>Rechtsklick zum Lesen</value>
+  </data>
+  <data name="Datapad_InventoryItem_TTIP_Gamepad" xml:space="preserve">
+    <value>Mit {GAMEPAD_CONTROL:GUI:BUTTON_Y} lesen</value>
+  </data>
+  <data name="Consumable_InventoryItem_TTIP_Keyboard" xml:space="preserve">
+    <value>Mit Rechtsklick benutzen</value>
+  </data>
+  <data name="Consumable_InventoryItem_TTIP_Gamepad" xml:space="preserve">
+    <value>Mit {GAMEPAD_CONTROL:GUI:BUTTON_Y} benutzen</value>
   </data>
   <data name="ScreenOptionsGame_ResetGoodbotHints" xml:space="preserve">
     <value>Tipps vom Good.bot zurücks.</value>
@@ -4995,6 +5256,401 @@ Diese Blöcke werden nicht erstellt, was zu einer möglichen Spaltung des Schiff
   <data name="MessageBoxErrorFactionsMissingRights" xml:space="preserve">
     <value>Du hast nicht die Rechte, diese Aktion auszuführen.</value>
   </data>
+  <data name="EnableNewNewGameScreen" xml:space="preserve">
+    <value>Einfachen "Neues Spiel" Bildschirm aktivieren</value>
+  </data>
+  <data name="ToolTipGameOptionsEnableNewNewGameScreen" xml:space="preserve">
+    <value>Aktiviert einen neuen Spielbildschirm, auf dem die Spielszenarien linear dargestellt werden.</value>
+  </data>
+  <data name="ControlHintColoringTool" xml:space="preserve">
+    <value>Halte {0} und/oder {1} während dem Färben, um größere Bereiche zu erfassen</value>
+  </data>
+  <data name="VoxelHands_Description_Gamepad" xml:space="preserve">
+    <value>Halte {0} gedrückt, um Material zu Asteroiden oder Planeten zu addieren. 
 
+Halte {1} gedrückt, um Material zu entfernen. 
 
+Nutze {2}, um zwischen den verfügbaren Materialtypen umzuschalten.</value>
+  </data>
+  <data name="Gamepad_GScreen_Caption" xml:space="preserve">
+    <value>Einstellen der Aktion für Slot {0}</value>
+  </data>
+  <data name="Gamepad_GScreen_Hint" xml:space="preserve">
+    <value>Wähle den Block und die Aktion mit {0} und {1}.
+
+Drücke {2}, um den Slot zu leeren.</value>
+  </data>
+  <data name="OffensiveTextTooltip" xml:space="preserve">
+    <value>Beleidigendes Wort eingegeben: {0}</value>
+  </data>
+  <data name="MessageBoxCaptionUser" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MessageBoxTextNoUser" xml:space="preserve">
+    <value>Da ist kein Benutzer angemeldet.
+
+Bitte öffne das XBox Menü und melde Dich mit Deinen Benutzerdaten an.</value>
+  </data>
+  <data name="MessageBoxCaptionCriticalMemory" xml:space="preserve">
+    <value>Wenig RAM - kritisch!</value>
+  </data>
+  <data name="MessageBoxTextCriticalMemory" xml:space="preserve">
+    <value>Der RAM wird knapp!
+
+Bitte räume Deine Spielwelt auf, um weiterspielen zu können.</value>
+  </data>
+  <data name="Gamepad_Help_Button" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_Help_Checkbox" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_Help_Combobox" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_Help_Slider" xml:space="preserve">
+    <value>Wert ändern {GAMEPAD:DPAD_LEFTRIGHT}</value>
+  </data>
+  <data name="Gamepad_Help_SearchBox" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_Help_Table" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_Help_Textbox" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="GamepadScheme" xml:space="preserve">
+    <value>Controllerschema</value>
+  </data>
+  <data name="GamepadScheme_1" xml:space="preserve">
+    <value>Alternativ: Flug</value>
+  </data>
+  <data name="GamepadScheme_2" xml:space="preserve">
+    <value>Klassisch</value>
+  </data>
+  <data name="GamepadScheme_Default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ToolTipOptionsControls_GamepadScheme" xml:space="preserve">
+    <value>Aktives Controllerschema wählen.</value>
+  </data>
+  <data name="Gamepad_Help_TableSort" xml:space="preserve">
+    <value> {CONTROL:GUI:LEFT_STICK_BUTTON} Sortieren nach: {0}</value>
+  </data>
+  <data name="InvertGamepadYChar" xml:space="preserve">
+    <value>Y-Achse des Controllers invertieren</value>
+  </data>
+  <data name="InvertGamepadYVehicle" xml:space="preserve">
+    <value>Y-Achse invertieren (Jetpack/Fahrzeuge)</value>
+  </data>
+  <data name="Gamepad_Help_ContentButton" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_help_ControlList" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_Help_Grid" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_Help_Listbox" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_Help_MultiLineTextbox" xml:space="preserve">
+    <value>Wähle {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="MessageBox_Help_OK" xml:space="preserve">
+    <value>{CONTROL:GUI:ACCEPT}{0}</value>
+  </data>
+  <data name="MessageBox_Help_YesNo" xml:space="preserve">
+    <value>{CONTROL:GUI:ACCEPT} {0}   {CONTROL:GUI:CANCEL} {1}</value>
+  </data>
+  <data name="MessageBox_Help_YesNoCancel" xml:space="preserve">
+    <value>{CONTROL:GUI:ACCEPT} {0}   {CONTROL:GUI:BUTTON_Y} {1}   {CONTROL:GUI:CANCEL} {2}</value>
+  </data>
+  <data name="XBoxPermission_MultiplayerError" xml:space="preserve">
+    <value>VERBINDUNGSPROBLEM</value>
+  </data>
+  <data name="Gamepad_Help_Back" xml:space="preserve">
+    <value>Zurück: {CONTROL:GUI:CANCEL}</value>
+  </data>
+  <data name="PerformanceWarningCombinationGamepad" xml:space="preserve">
+    <value>{0} für mehr Infos.</value>
+  </data>
+  <data name="MessageBox_LoadingUserData" xml:space="preserve">
+    <value>Lade Nutzerdaten</value>
+  </data>
+  <data name="SimpleNewGame_Open" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="DialogAmount_Help_Screen" xml:space="preserve">
+    <value>OK: {CONTROL:GUI:BUTTON_X} 
+Abbrechen: {CONTROL:GUI:CANCEL}</value>
+  </data>
+  <data name="HelpScreen_Inventory" xml:space="preserve">
+    <value>Inventar</value>
+  </data>
+  <data name="HelpScreen_Production" xml:space="preserve">
+    <value>Produktion</value>
+  </data>
+  <data name="HelpScreen_GeneralUI" xml:space="preserve">
+    <value>Allgemeine Steuerung</value>
+  </data>
+  <data name="HelpScreen_Inventory_MoveItem" xml:space="preserve">
+    <value>Gegenstand transferieren</value>
+  </data>
+  <data name="HelpScreen_Inventory_Split" xml:space="preserve">
+    <value>Halten, um den Stapel zu teilen</value>
+  </data>
+  <data name="HelpScreen_Inventory_Transfer" xml:space="preserve">
+    <value>Alles übertragen</value>
+  </data>
+  <data name="HelpScreen_Inventory_Transfer10" xml:space="preserve">
+    <value>10 übertragen</value>
+  </data>
+  <data name="HelpScreen_Inventory_Transfer100" xml:space="preserve">
+    <value>100 übertragen</value>
+  </data>
+  <data name="HelpScreen_Inventory_Transfer1000" xml:space="preserve">
+    <value>1000 übertragen</value>
+  </data>
+  <data name="HelpScreen_Inventory_UseItem" xml:space="preserve">
+    <value>Gegenstand nutzen</value>
+  </data>
+  <data name="HelpScreen_Production_Dequeue" xml:space="preserve">
+    <value>Aus Warteschlange entfernen</value>
+  </data>
+  <data name="HelpScreen_Production_MoveItem" xml:space="preserve">
+    <value>Verschiebe Gegenstand in der Warteschlange</value>
+  </data>
+  <data name="HelpScreen_Production_Queue1" xml:space="preserve">
+    <value>Schlange 1</value>
+  </data>
+  <data name="HelpScreen_Production_Queue10" xml:space="preserve">
+    <value>Schlange 10</value>
+  </data>
+  <data name="HelpScreen_Production_Queue100" xml:space="preserve">
+    <value>100 in die Warteschlange setzen</value>
+  </data>
+  <data name="HelpScreen_Production_Queue1000" xml:space="preserve">
+    <value>1000 in die Warteschlange setzen</value>
+  </data>
+  <data name="HelpScreen_Numeric" xml:space="preserve">
+    <value>Numerisch:</value>
+  </data>
+  <data name="HelpScreen_Numeric_Move1" xml:space="preserve">
+    <value>Wert um 1 ändern</value>
+  </data>
+  <data name="HelpScreen_Numeric_Move10" xml:space="preserve">
+    <value>Wert um 10 ändern</value>
+  </data>
+  <data name="HelpScreen_Numeric_Move100" xml:space="preserve">
+    <value>Wert um 100 ändern</value>
+  </data>
+  <data name="HelpScreen_Numeric_Move1000" xml:space="preserve">
+    <value>Wert um 1000 ändern</value>
+  </data>
+  <data name="HelpScreen_Slider" xml:space="preserve">
+    <value>Regler:</value>
+  </data>
+  <data name="HelpScreen_Slider_Move1" xml:space="preserve">
+    <value>Wert um 1 Schritt ändern</value>
+  </data>
+  <data name="HelpScreen_Slider_Move10" xml:space="preserve">
+    <value>Wert um 10 Schritte ändern</value>
+  </data>
+  <data name="HelpScreen_Slider_Move100" xml:space="preserve">
+    <value>Wert um 100 Schritte ändern</value>
+  </data>
+  <data name="HelpScreen_Slider_MoveHalf" xml:space="preserve">
+    <value>Wert halbieren</value>
+  </data>
+  <data name="HelpScreen_Listbox" xml:space="preserve">
+    <value>Auswahlmenü:</value>
+  </data>
+  <data name="HelpScreen_Listbox_AddMove" xml:space="preserve">
+    <value>Bewegung zufügen</value>
+  </data>
+  <data name="HelpScreen_Listbox_DeSelectAll" xml:space="preserve">
+    <value>Alles aus/abwählen</value>
+  </data>
+  <data name="HelpScreen_Listbox_Move" xml:space="preserve">
+    <value>Bewegen</value>
+  </data>
+  <data name="HelpScreen_Listbox_SelectCurrent" xml:space="preserve">
+    <value>Aktuelles wählen</value>
+  </data>
+  <data name="HelpScreen_Listbox_SelectMove" xml:space="preserve">
+    <value>Bewegung wählen</value>
+  </data>
+  <data name="HelpScreen_Listbox_SelectRange" xml:space="preserve">
+    <value>Reichweite wählen</value>
+  </data>
+  <data name="HelpScreen_Listbox_ToggleCurrent" xml:space="preserve">
+    <value>Aktuelles umschalten</value>
+  </data>
+  <data name="HelpScreen_Listbox_ToggleMove" xml:space="preserve">
+    <value>Bewegung umschalten</value>
+  </data>
+  <data name="Crosshair_AlwaysHidden" xml:space="preserve">
+    <value>Immer verborgen</value>
+  </data>
+  <data name="Crosshair_AlwaysVisible" xml:space="preserve">
+    <value>Immer sichtbar</value>
+  </data>
+  <data name="Crosshair_VisibleWithHUD" xml:space="preserve">
+    <value>Sichtbar mit HUD</value>
+  </data>
+  <data name="ControllerErrorCaption" xml:space="preserve">
+    <value>Controllerfehler</value>
+  </data>
+  <data name="ControllerErrorText" xml:space="preserve">
+    <value>Bitte schließe den Controller neu an.</value>
+  </data>
+  <data name="ResearchGraph_Help_Control" xml:space="preserve">
+    <value>Wählen: {CONTROL:GUI:ACCEPT}</value>
+  </data>
+  <data name="Gamepad_Help_TabControl_Left" xml:space="preserve">
+    <value>{CONTROL:GUI:SWITCH_GUI_LEFT}</value>
+  </data>
+  <data name="Gamepad_Help_TabControl_Right" xml:space="preserve">
+    <value>{CONTROL:GUI:SWITCH_GUI_RIGHT}</value>
+  </data>
+  <data name="ScreenTextPanel_GamepadHelp" xml:space="preserve">
+    <value>OK: {CONTROL:GUI:BUTTON_X} Zurück: {CONTROL:GUI:BUTTON_B}</value>
+  </data>
+  <data name="ScreenTextPanel_GamepadHelp_Xbox" xml:space="preserve">
+    <value>Auswählen: {CONTROL:GUI:ACCEPT} OK: {CONTROL:GUI:BUTTON_X}
+Zurück: {CONTROL:GUI:BUTTON_B}</value>
+  </data>
+  <data name="ResearchGraph_BuildPlanner_Control" xml:space="preserve">
+    <value>Auswählen: {CONTROL:GUI:ACCEPT}
+Zum Bauplaner addieren: {CONTROL:GUI:ACTION1}
+Vom Bauplaner entfernen: {CONTROL:GUI:ACTION2}</value>
+  </data>
+  <data name="CloudQuota_CloudUsage" xml:space="preserve">
+    <value>Cloudnutzung</value>
+  </data>
+  <data name="Gamepad_Help_TableSort_Empty" xml:space="preserve">
+    <value>Sortieren: {CONTROL:GUI:LEFT_STICK_BUTTON}</value>
+  </data>
+  <data name="DialogTextIncompatibleWorldVersionWarning" xml:space="preserve">
+    <value>Diese Welt wurde in einer neueren Version des Spiels erzeugt, z.B. in einer öffentlichen Testversion.
+
+Das Spiel kann instabil werden, wenn Du die Welt lädst. Trotzdem fortfahren?</value>
+  </data>
+  <data name="PerformanceWarningAreaBlocksDescriptionSimple" xml:space="preserve">
+    <value>Zu viele Blöcke in der Welt. Entferne einige Gitter.</value>
+  </data>
+  <data name="PerformanceWarningAreaConveyorDescriptionSimple" xml:space="preserve">
+    <value>Zu viele Förderleitungen. Entferne Gitter.</value>
+  </data>
+  <data name="PerformanceWarningAreaGridDescriptionSimple" xml:space="preserve">
+    <value>Zu viele Gitter. Entferne einige Gitter.</value>
+  </data>
+  <data name="PerformanceWarningIssuesServer_Simspeed_Simple" xml:space="preserve">
+    <value>Die Szenerie ist zu komplex. Entferne einige Gitter. Die Qualität der Simulation, von Deformierungen und Voxeländerungen werden reduziert um die Performance zu verbessern.</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_RevertBoulders" xml:space="preserve">
+    <value>Felsbrocken zurücksetzen</value>
+  </data>
+  <data name="HelpScreen_PossibilitiesWithinTheGameModes" xml:space="preserve">
+    <value>Möglichkeiten innerhalb der Spielmodi</value>
+  </data>
+  <data name="HelpScreen_DrillingRefiningAssemblingSurvival" xml:space="preserve">
+    <value>Bohren, Raffinieren und Zusammenbauen (Überleben)</value>
+  </data>
+  <data name="HelpScreen_BuildingYour1stShipCreative" xml:space="preserve">
+    <value>Dein erstes Schiff  bauen (Kreativ)</value>
+  </data>
+  <data name="HelpScreen_BuildingYour1stGroundVehicle" xml:space="preserve">
+    <value>Dein erstes Bodenfahrzeug bauen (Kreativ)</value>
+  </data>
+  <data name="HelpScreen_OtherAdviceClosingThoughts" xml:space="preserve">
+    <value>Andere Ratschläge und abschließende Gedanken</value>
+  </data>
+  <data name="HelpScreen_Introduction" xml:space="preserve">
+    <value>Einführung</value>
+  </data>
+  <data name="HelpScreen_SteamWorkshopAndBlueprints" xml:space="preserve">
+    <value>Steam Workshop und Baupläne</value>
+  </data>
+  <data name="HelpScreen_HelloEngineer" xml:space="preserve">
+    <value>Hallo Ingenieur!
+
+            Wir empfehlen, Dir diese Tutorial-Links anzusehen, die nützliche Informationen über den Einstieg in Space Engineers enthalten!</value>
+  </data>
+  <data name="HelpScreen_AccessHelpScreen" xml:space="preserve">
+    <value>Du kannst diese Tutorials jederzeit über den Hilfe-Bildschirm aufrufen.</value>
+  </data>
+  <data name="HelpScreen_DontShowAgain" xml:space="preserve">
+    <value>Nicht wieder zeigen</value>
+  </data>
+  <data name="GridsRemovedWhilePasting" xml:space="preserve">
+    <value>Nach der Entfernung aller DLC-Blöcke, die Du nicht besitzt und die vom Server nicht erlaubt sind, blieben keine anderen Blöcke übrig.</value>
+  </data>
+
+<data name="SteamOverlayDisabledCaption" xml:space="preserve">
+    <value>{0} Overlay ist deaktiviert</value>
+  </data>
+<data name="MessageBoxTextModPublished" xml:space="preserve">
+    <value>Die Veröffentlichung wurde erfolgreich abgeschlossen. 
+
+Wenn Du das {0} Overlay aktiviert hast, wird sich eine Seite öffnen, in der du die Attribute wie Titel, Beschreibung oder die Sichtbarkeit ändern kannst (Standardmäßige Einstellung: Öffentlich).</value>
+  </data>
+<data name="MessageBoxTextOpenUrlOverlayNotEnabled" xml:space="preserve">
+    <value>Dies wird {0} in deinem Browser öffnen, da das {1}-Overlay sich nicht öffnen ließ, 
+bzw. da es deaktiviert ist. Das Spiel wird weiterlaufen.
+
+Willst du fortfahren?</value>
+  </data>
+<data name="ControlMenuItemLabel_CameraMode" xml:space="preserve">
+    <value>Kameramodus</value>
+  </data>
+<data name="ControlMenuItemValue_FPP" xml:space="preserve">
+    <value>Egoperspektive </value>
+  </data>
+<data name="ControlMenuItemValue_TPP" xml:space="preserve">
+    <value>3. Person Ansicht</value>
+  </data>
+<data name="ControlMenuItemLabel_CommitSuicide" xml:space="preserve">
+    <value>Selbstmord</value>
+  </data>
+<data name="ControlMenuItemLabel_QuickLoad" xml:space="preserve">
+    <value>Schnellladen / Wiederverbinden</value>
+  </data>
+<data name="ControlMenuItemLabel_ShowColorPicker" xml:space="preserve">
+    <value>Zeige Farbauswahl</value>
+  </data>
+<data name="ControlMenuItemLabel_ShowToolbarScreen" xml:space="preserve">
+    <value>Zeige Werkzeugleisten-Fenster</value>
+  </data>
+<data name="ControlMenuItemLabel_ToggleHud" xml:space="preserve">
+    <value>HUD ein/ausschalten</value>
+  </data>
+<data name="ControlMenuItemLabel_PauseGame" xml:space="preserve">
+    <value>Spiel pausieren</value>
+  </data>
+<data name="ControlMenuItemLabel_Wardrobe" xml:space="preserve">
+    <value>Aussehen ändern</value>
+  </data>
+<data name="MessageBoxTextCampaignPublished" xml:space="preserve">
+    <value>Die Veröffentlichung wurde erfolgreich abgeschlossen. 
+Wenn du das {0}-Overlay aktiviert hast, öffnet sich eine Seite, in der du die Attribute wie Titel, Beschreibung oder Sichtbarkeit bearbeiten kannst (Standardeinstellung: Öffentlich).</value>
+  </data>
+<data name="Performance_LowSimulationQuality" xml:space="preserve">
+    <value>Reduzierte Qualität von Verformungen und Voxeländerungen aufgrund der adaptiven Simulationsqualität</value>
+  </data>
+<data name="ToolTipInventoryBrowseItems" xml:space="preserve">
+    <value>Öffnet das Steam Overlay im Inventar</value>
+  </data>
+<data name="PerformanceWarningHeading_LowSimulationQuality" xml:space="preserve">
+    <value>NIEDRIGE SIMULATIONSQUALITÄT</value>
+  </data>
+<data name="PerformanceWarningIssues_LowSimulationQuality" xml:space="preserve">
+    <value>Simulationsqualität</value>
+  </data>
+<data name="Datapad_InventoryItem_TTIP" xml:space="preserve">
+    <value>Rechtsklick zum Lesen</value>
+  </data>
 </root>
