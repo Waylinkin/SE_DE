@@ -27,7 +27,8 @@ Auch bei den Sachen für die Controllersteuerung, allgemein was das Spielen mit 
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
-Für alle, bei denen der DL von Steam nicht funktioniert, oder die es lieber gleich direkt laden wollen, andere Möglichkeiten::
-Google-Drive: https://drive.google.com/open?id=1drX5eVdwQk4kWIilrpDyUb9TD7IA4-b_
-Nexus Mods: https://www.nexusmods.com/spaceengineers/mods/49
+Andere Bezugsquellen:
+Google-Drive: https://drive.google.com/file/d/1HIwWm82LA3UQhgcVkQPJjZdN5JVVgaK0/view?usp=sharing
+Nexus Mods: https://www.nexusmods.com/spaceengineers/mods/49?tab=description
 Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=833835072
+
