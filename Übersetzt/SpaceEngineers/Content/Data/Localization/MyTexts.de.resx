@@ -1246,6 +1246,9 @@ Wird er auf 0% gesetzt, ist die Federung blockiert.</value>
   <data name="BlockPropertyTitle_Waypoints" xml:space="preserve">
     <value>Wegpunkte</value>
   </data>
+  <data name="BlockPropertyTitle_AvailableEffects" xml:space="preserve">
+    <value>Verfügbare Effekte</value>
+  </data>
   <data name="BlockPropertyTitle_WeldForce" xml:space="preserve">
     <value>Sicherheitssperre aktivieren</value>
   </data>
@@ -1773,6 +1776,9 @@ bevor Du eine neue Blockgruppe erzeugen kannst.</value>
   <data name="CreateManageBlueprints" xml:space="preserve">
     <value>Erzeuge/Verwalte Baupläne</value>
   </data>
+  <data name="ClipboardBlueprintIsTooBig" xml:space="preserve">
+    <value>Der Bauplan ist zu groß, Vorschau deaktiviert.</value>
+  </data>
   <data name="CubeBuilder_CubeSizeModeChange" xml:space="preserve">
     <value>Drücken Sie erneut {0} {1}, um die Blockgröße zu ändern.</value>
   </data>
@@ -1825,7 +1831,7 @@ bevor Du eine neue Blockgruppe erzeugen kannst.</value>
     <value>Heimatsystem</value>
   </data>
   <data name="CustomWorld_AlienSystem" xml:space="preserve">
-    <value>Aliensystem</value>
+    <value>Ferne Welten</value>
   </data>
   <data name="CustomWorld_DistantMoons" xml:space="preserve">
     <value>Entfernte Monde</value>
@@ -2818,25 +2824,25 @@ Es bietet Anschlüsse für Elektrolyseblöcke und/oder Sauerstofftanks und kann 
     <value>Glatte Eckspitze 2x1x1 (SP)</value>
   </data>
   <data name="DisplayName_Block_HeavyArmorInvCorner" xml:space="preserve">
-    <value>Inv. Ecke (SP)</value>
+    <value>Ecke (SP, Inv. )</value>
   </data>
   <data name="DisplayName_Block_HeavyArmorInvCorner2" xml:space="preserve">
-    <value>Inv. Ecke 2x1x1 (SP)</value>
+    <value>Ecke 2x1x1 (SP, Inv. )</value>
   </data>
   <data name="DisplayName_Block_HeavyArmorInvCorner2Base" xml:space="preserve">
-    <value>Inv. Ecksockel 2x1x1 (SP)</value>
+    <value>Ecksockel 2x1x1 (SP, Inv. )</value>
   </data>
   <data name="DisplayName_Block_HeavyArmorInvCorner2BaseSmooth" xml:space="preserve">
-    <value>Inv. glatter Ecksockel 2x1x1 (SP)</value>
+    <value>Glatter Ecksockel 2x1x1 (SP, Inv. )</value>
   </data>
   <data name="DisplayName_Block_HeavyArmorInvCorner2Smooth" xml:space="preserve">
-    <value>Inv. glatte Ecke 2x1x1 (SP)</value>
+    <value>Glatte Ecke 2x1x1 (SP, Inv. )</value>
   </data>
   <data name="DisplayName_Block_HeavyArmorInvCorner2Tip" xml:space="preserve">
-    <value>Inv. Eckspitze 2x1x1 (SP)</value>
+    <value>Eckspitze 2x1x1 (SP, Inv. )</value>
   </data>
   <data name="DisplayName_Block_HeavyArmorInvCorner2TipSmooth" xml:space="preserve">
-    <value>Inv. glatte Eckspitze 2x1x1 (SP)</value>
+    <value>Glatte Eckspitze 2x1x1 (SP, Inv. )</value>
   </data>
   <data name="DisplayName_Block_HeavyArmorSlope" xml:space="preserve">
     <value>Rampe (SP)</value>
@@ -2863,7 +2869,7 @@ Es bietet Anschlüsse für Elektrolyseblöcke und/oder Sauerstofftanks und kann 
     <value>Runde Ecke (SP)</value>
   </data>
   <data name="DisplayName_Block_HeavyRoundArmorInvCorner" xml:space="preserve">
-    <value>Runde Ecke inv. (SP)</value>
+    <value>Runde Ecke (SP, Inv. )</value>
   </data>
   <data name="DisplayName_Block_HeavyRoundArmorSlope" xml:space="preserve">
     <value>Runde Rampe (SP)</value>
@@ -2873,6 +2879,72 @@ Es bietet Anschlüsse für Elektrolyseblöcke und/oder Sauerstofftanks und kann 
   </data>
   <data name="DisplayName_Block_HeavyRoundedArmorSlope" xml:space="preserve">
     <value>Runde Rampe (SP)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopeInverted" xml:space="preserve">
+    <value>Halbe Rampe (LP, inv.)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopeInverted" xml:space="preserve">
+    <value>Halbe Rampe (SP, inv.)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopeCorner" xml:space="preserve">
+    <value>Halbe Rampe (LP, Ecke)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopeCorner" xml:space="preserve">
+    <value>Halbe Rampe (SP, Ecke)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopeCornerInverted" xml:space="preserve">
+    <value>Halbe Rampe (LP, Ecke, inv.)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopeCornerInverted" xml:space="preserve">
+    <value>Halbe Rampe (SP, Ecke, inv.)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlopedCornerTip" xml:space="preserve">
+    <value>Eckrampenspitze (LP)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlopedCornerTip" xml:space="preserve">
+    <value>Eckrampenspitze (SP)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlopedCornerBase" xml:space="preserve">
+    <value>Rampe (LP, Ecksockel)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlopedCornerBase" xml:space="preserve">
+    <value>Rampe (SP, Ecksockel)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorSlopedCorner" xml:space="preserve">
+    <value>Eckrampe (LP)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorSlopedCorner" xml:space="preserve">
+    <value>Eckrampe (SP)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopedCornerBase" xml:space="preserve">
+    <value>Halbe Rampe (LP, Ecksockel)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopedCornerBase" xml:space="preserve">
+    <value>Halbe Rampe (SP, Ecksockel)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfCorner" xml:space="preserve">
+    <value>Halbe Ecke (LP)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfCorner" xml:space="preserve">
+    <value>Halbe Ecke (SP)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCornerSquare" xml:space="preserve">
+    <value>Viertel Ecke (LP)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCornerSquare" xml:space="preserve">
+    <value>Viertel Ecke (SP)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorCornerSquareInverted" xml:space="preserve">
+    <value>Viertel Ecke (LP, inv.)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorCornerSquareInverted" xml:space="preserve">
+    <value>Viertel Ecke (SP, inv.)</value>
+  </data>
+  <data name="DisplayName_Block_LightArmorHalfSlopedCorner" xml:space="preserve">
+    <value>Halbe Eckrampe (LP)</value>
+  </data>
+  <data name="DisplayName_Block_HeavyArmorHalfSlopedCorner" xml:space="preserve">
+    <value>Halbe Eckrampe (SP)</value>
   </data>
   <data name="DisplayName_Block_HydrogenTank" xml:space="preserve">
     <value>Wasserstofftank (groß)</value>
@@ -2959,31 +3031,31 @@ Es bietet Anschlüsse für Elektrolyseblöcke und/oder Sauerstofftanks und kann 
     <value>Glatte Ecke 3x1x1 (LP)</value>
   </data>
   <data name="DisplayName_Block_LightArmorInvCorner" xml:space="preserve">
-    <value>Inv. Ecke (LP)</value>
+    <value>Ecke (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightArmorInvCorner2" xml:space="preserve">
-    <value>Inv. Ecke 2x1x1 (LP)</value>
+    <value>Ecke 2x1x1 (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightArmorInvCorner2Base" xml:space="preserve">
-    <value>Inv. Ecksockel 2x1x1 (LP)</value>
+    <value>Ecksockel 2x1x1 (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightArmorInvCorner2BaseSmooth" xml:space="preserve">
-    <value>Inv. glatter Ecksockel 2x1x1 (LP)</value>
+    <value>Glatter Ecksockel 2x1x1 (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightArmorInvCorner2Smooth" xml:space="preserve">
-    <value>Inv. glatte Ecke 2x1x1 (LP)</value>
+    <value>Glatte Ecke 2x1x1 (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightArmorInvCorner2Tip" xml:space="preserve">
-    <value>Inv. Eckspitze 2x1x1 (LP)</value>
+    <value>Eckspitze 2x1x1 (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightArmorInvCorner2TipSmooth" xml:space="preserve">
-    <value>Inv. glatte Eckspitze 2x1x1 (LP)</value>
+    <value>Glatte Eckspitze 2x1x1 (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightArmorInvCorner3" xml:space="preserve">
-    <value>Inv. Ecke 3x1x1 (LP)</value>
+    <value>Ecke 3x1x1 (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightArmorInvCorner3Smooth" xml:space="preserve">
-    <value>Inv. glatte Ecke)3x1x1 (LP)</value>
+    <value>Glatte Ecke)3x1x1 (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightArmorSlope" xml:space="preserve">
     <value>Rampe (LP)</value>
@@ -3016,7 +3088,7 @@ Es bietet Anschlüsse für Elektrolyseblöcke und/oder Sauerstofftanks und kann 
     <value>Runde Ecke (LP)</value>
   </data>
   <data name="DisplayName_Block_LightRoundArmorInvCorner" xml:space="preserve">
-    <value>Runde Ecke inv. (LP)</value>
+    <value>Runde Ecke (LP, inv.)</value>
   </data>
   <data name="DisplayName_Block_LightRoundArmorSlope" xml:space="preserve">
     <value>Runde Rampe (LP)</value>
@@ -4020,6 +4092,9 @@ Die Workshop-ID findest Du im URL-Link des jeweiligen Szenarios im {0} Workshop.
   <data name="HelpScreen_ControllerLookAround" xml:space="preserve">
     <value>Umschauen</value>
   </data>
+  <data name="HelpScreen_ControllerLookAround_PassengerSeat" xml:space="preserve">
+    <value>Umschauen auf dem Passagiersitz.</value>
+  </data>
   <data name="HelpScreen_ControllerColorTool" xml:space="preserve">
     <value>Farbwerkzeug</value>
   </data>
@@ -4984,6 +5059,9 @@ Bitte kontaktiere den Autor, um das Problem zu beheben.</value>
   <data name="NoticeLine_07" xml:space="preserve">
     <value>Schaue auf www.havok.com für Details.</value>
   </data>
+  <data name="Department_Licenses" xml:space="preserve">
+    <value>Drittanbietersoftware</value>
+  </data>
   <data name="NotificationArgAngleGrinder" xml:space="preserve">
     <value>Flex</value>
   </data>
@@ -5562,11 +5640,17 @@ Erforderlich.</value>
   <data name="ProgrammableBlock_Editor_CheckCode" xml:space="preserve">
     <value>Code überprüfen</value>
   </data>
+  <data name="ProgrammableBlock_Editor_CheckingCode" xml:space="preserve">
+    <value>Code überprüfen</value>
+  </data>
   <data name="ProgrammableBlock_Editor_CheckCode_Tooltip" xml:space="preserve">
     <value>Überprüft den Code im Editor auf Fehler</value>
   </data>
   <data name="ProgrammableBlock_Editor_CompilationFailed" xml:space="preserve">
     <value>Kompilierung fehlgeschlagen!</value>
+  </data>
+  <data name="ProgrammableBlock_Editor_NotSupported" xml:space="preserve">
+    <value>Das Kompilieren und Ausführen von Skripten wird nicht unterstützt.</value>
   </data>
   <data name="ProgrammableBlock_Editor_CompilationFailedErrorFormat" xml:space="preserve">
     <value>Zeile {0} : {1}</value>
@@ -7550,6 +7634,12 @@ Diese kannst du in den Lautsprechereinstellungen ändern und dann das Spiel neu 
   <data name="ToolTipFlaresIntensity" xml:space="preserve">
     <value>Multiplikator für die Intensität aller Linsenreflexionen</value>
   </data>
+  <data name="ToolTipOptionsDisplay_SpriteMainViewportScale" xml:space="preserve">
+    <value>Skalierung der Benutzeroberfläche, um zu verhindern, dass Text außerhalb des TV-Rahmens erscheint.</value>
+  </data>
+  <data name="LabelOptionsDisplay_SpriteMainViewportScale" xml:space="preserve">
+    <value>UI Skalierung</value>
+  </data>
   <data name="ToolTipItemFilter_AmmoMagazineInput" xml:space="preserve">
     <value>Jedes Magazin, das von {0} akzeptiert wird.</value>
   </data>
@@ -9317,7 +9407,7 @@ Raffinerien ziehen sich die Rohstoffe automatisch zur Verarbeitung heran, wenn s
     <value>Öffne Baupläne (nur lokale/Cloud BPs) oder Skripte (nur lokale Skripte) im {0} Workshop.</value>
   </data>
   <data name="ScreenBlueprintsRew_Tooltip_ButOpenWorkshop" xml:space="preserve">
-    <value>Öffne den Workshop im Browser.</value>
+    <value>Workshop-Artikel durchsuchen und abonnieren</value>
   </data>
   <data name="ScreenBlueprintsRew_Tooltip_ButPublish" xml:space="preserve">
     <value>Veröffentliche Baupläne oder Skripte im {0} Workshop.</value>
@@ -10712,6 +10802,36 @@ Mögliche Dauer: {0} Sekunden {3}. Kosten: {1} Zonenschip {4} pro {2} Minuten {5
   <data name="ScreenDebugAdminMenu_ReplayTool_StopReplay_Tooltip" xml:space="preserve">
     <value>Stoppt die Wiedergabe von gespeicherten Daten.</value>
   </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_0" xml:space="preserve">
+    <value>Benutzung des Wiederholungstools:</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_1" xml:space="preserve">
+    <value>1. Füge so viele Charaktere hinzu, wie Du brauchst, dann positioniere sie so, wie Du sie haben willst und speichere die Welt. </value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_2" xml:space="preserve">
+    <value>2. Wechsle mit F6 zu dem Charakter, den Du kontrollieren möchtest..</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_3" xml:space="preserve">
+    <value>3. Klicke auf 'Aufnehmen + Wiederholen', und bewege den Charakter wie gewünscht.</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_4" xml:space="preserve">
+    <value>4. Drücke ESC, um die Aufnahme zu beenden.</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_5" xml:space="preserve">
+    <value>5. Lade die Welt neu, NICHT SPEICHERN!</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_6" xml:space="preserve">
+    <value>6. Wiederhole ab Schritt 2.</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_7" xml:space="preserve">
+    <value>Wenn Du die aufgezeichneten Daten löschen möchtest, klicke auf "Aufzeichnungen löschen", um neu zu beginnen.</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_8" xml:space="preserve">
+    <value>Wenn Du die aufgezeichneten Daten betrachten möchtest, drücke 'Wiederholen' und schaue zu, wie das Spiel die Daten wiedergibt.</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial_9" xml:space="preserve">
+    <value>Wenn Du die aufgezeichneten Daten speichern möchtest, lade die Welt neu und speichere dann das Spiel. Dann wird es auf andere Sitzungen übertragen.</value>
+  </data>
   <data name="ScreenDebugAdminMenu_ReplayTool_Tutorial" xml:space="preserve">
     <value>So nutzt Du das Wiedergabe-Werkzeug:
 1. Füge die gewünschte Anzahl an Charakteren hinzu, positioniere sie in der Welt und speichere die Welt ab.
@@ -10754,6 +10874,9 @@ Dann werden sie auf andere Sitzungen übertragen.</value>
   </data>
   <data name="DisplayName_DLC_SparksOfTheFuture" xml:space="preserve">
     <value>Funken der Zukunft</value>
+  </data>
+  <data name="DisplayName_DLC_ScrapRace" xml:space="preserve">
+    <value>Ödland</value>
   </data>
   <data name="SimpleNewGame_Frostbite_Description" xml:space="preserve">
     <value>Du bist Mitglied einer Bergungsmannschaft, die von einem mysteriösen Kunden beauftragt wurde, etwas extrem Wertvolles (noch unbekanntes) auf Triton zu beschaffen. Spiele allein oder mit bis zu vier Spielern; erkunde die eisige Landschaft und die bemerkenswerte Architektur dieses Mondes und meistere zahlreiche technische Herausforderungen, während du die Geheimnisse dieser Welt aufdeckst.</value>
@@ -10805,6 +10928,9 @@ Dann werden sie auf andere Sitzungen übertragen.</value>
   </data>
   <data name="Description_DLC_SparksOfTheFuture" xml:space="preserve">
     <value>*** Beschreibung des Funken der Zukunft DLCs ***</value>
+  </data>
+  <data name="Description_DLC_ScrapRace" xml:space="preserve">
+    <value>*** Beschreibung des Ödland DLCs ***</value>
   </data>
   <data name="DisplayName_TSS_ClockDigital" xml:space="preserve">
     <value>Digitale Uhr</value>
@@ -10978,6 +11104,12 @@ MMT auf einen Block fügt diesen schnell hinzu.</value>
   </data>
   <data name="DisplayName_EmoteCheckWrist" xml:space="preserve">
     <value>Handgelenk prüfen</value>
+  </data>
+  <data name="DisplayName_EmoteFYou" xml:space="preserve">
+    <value>Beiß mich</value>
+  </data>
+  <data name="DisplayName_EmoteDrunk" xml:space="preserve">
+    <value>Betrunken</value>
   </data>
   <data name="DisplayName_EmoteCharge" xml:space="preserve">
     <value>Aufladen</value>
@@ -11179,6 +11311,12 @@ MMT auf einen Block fügt diesen schnell hinzu.</value>
   </data>
   <data name="Description_BlockGroup_AutomationGroup" xml:space="preserve">
     <value>Verschiedene Blöcke, die für jede Art von Automatisierung verantwortlich sind.</value>
+  </data>
+  <data name="DisplayName_BlockGroup_LightArmorSlopedCorners" xml:space="preserve">
+    <value>Eckrampen (LP)</value>
+  </data>
+  <data name="DisplayName_BlockGroup_HeavyArmorSlopedCorners" xml:space="preserve">
+    <value>Eckrampen (SP)</value>
   </data>
   <data name="RadialMenuGroupTitle_Armor" xml:space="preserve">
     <value>Panzerung</value>
@@ -11434,6 +11572,15 @@ MMT auf einen Block fügt diesen schnell hinzu.</value>
   </data>
   <data name="Notification_TooManyPlanets" xml:space="preserve">
     <value>Diese welt enthält zu viele Planetentypen und kann nicht geladen werden</value>
+  </data>
+  <data name="Notification_TooManyUncounterPCUWarning" xml:space="preserve">
+    <value>Die Welt enthält zu viele ungezählte PCUs und könnte instabil sein.</value>
+  </data>
+  <data name="Notification_TooManyUncounterPCUError" xml:space="preserve">
+    <value>Die Welt enthält zu viele ungezählte PCUs und konnte nicht geladen werden.</value>
+  </data>
+  <data name="Notification_TooManyUncounterPCUReport" xml:space="preserve">
+    <value>Willst du diese Welt melden?</value>
   </data>
   <data name="Terminal_Factions_DataNotAvailable" xml:space="preserve">
     <value>Nicht verfügbar</value>
@@ -13661,8 +13808,8 @@ Du kannst die Art und Weise, wie GPS-Koordinaten und Antennen auf dem HUD angeze
   <data name="WorkshopAgeRestricted" xml:space="preserve">
     <value>Der Workshop ist aufgrund von Altersbeschränkungen nicht verfügbar. Dein Konto oder ein Gast-Benutzerkonto ist altersbeschränkt.</value>
   </data>
-  <data name="ActiveContractsScreen_Help_Abandon" xml:space="preserve">
-    <value>Verlassen: {CONTROL:GUI:BUTTON_A}</value>
+  <data name="DisplayName_Block_OffroadWheel5x5mirrored" xml:space="preserve">
+    <value>Geländefahrzeugreifen 5x5</value>
   </data>
   <data name="ActiveContractsScreen_Help_Refresh" xml:space="preserve">
     <value>Aktualisieren: {CONTROL:GUI:BUTTON_Y}</value>
@@ -13929,12 +14076,14 @@ Zurück: {CONTROL:GUI:CANCEL}
 Direktverbindung: {CONTROL:GUI:VIEW}
 Suchfilter: {CONTROL:GUI:MAIN_MENU}
 Serverdetails: {CONTROL:GUI:BUTTON_X}
+Serverbetreiber: {CONTROL:GUI:LEFT_STICK_BUTTON}
 Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   <data name="JoinGameScreen_Help_ScreenGamesTab" xml:space="preserve">
     <value>Aktualisieren: {CONTROL:GUI:BUTTON_Y} 
 Direktverbindung: {CONTROL:GUI:VIEW} 
 Suchfilter: {CONTROL:GUI:MAIN_MENU} 
+Serverbetreiber: {CONTROL:GUI:LEFT_STICK_BUTTON}
 Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   <data name="ModsScreen_Help_Screen" xml:space="preserve">
@@ -13978,9 +14127,12 @@ Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   <data name="NewGameWorkshop_Help_Screen" xml:space="preserve">
     <value>Aktualisieren: {CONTROL:GUI:BUTTON_Y}
-Workshop öffnen: {CONTROL:GUI:MAIN_MENU}
 Start: {CONTROL:GUI:BUTTON_X}
-Zurück: {CONTROL:GUI:CANCEL}</value>
+Zurück: {CONTROL:GUI:CANCEL}
+Objekt auf {0} öffnen: {CONTROL:GUI:VIEW}
+Workshop durchsuchen: {CONTROL:GUI:MAIN_MENU}
+
+</value>
   </data>
   <data name="ServerSearch_Help_Screen" xml:space="preserve">
     <value>Standard: {CONTROL:GUI:BUTTON_Y}
@@ -14012,7 +14164,8 @@ Zurück: {CONTROL:GUI:CANCEL}</value>
     <value>Im HUD anzeigen: {CONTROL:GUI:RIGHT_STICK_BUTTON}
 Im Terminal anzeigen: {CONTROL:GUI:BUTTON_Y}
 Ein/Ausschalten: {CONTROL:GUI:BUTTON_X}
-Zurück: {CONTROL:GUI:CANCEL}</value>
+Zurück: {CONTROL:GUI:CANCEL}
+Bereich auswählen: {CONTROL:GUI:MODIF_R} + {CONTROL:GUI:BUTTON_A} </value>
   </data>
   <data name="TerminalFactions_Help_Screen" xml:space="preserve">
     <value>Zurück: {CONTROL:GUI:CANCEL}</value>
@@ -14131,7 +14284,7 @@ Typ: {CONTROL:GUI:RIGHT_STICK_BUTTON}
 Aktualisieren: {CONTROL:GUI:BUTTON_Y}
 Neu aus Zwischenablage: {CONTROL:GUI:BUTTON_X}
 Zurück: {CONTROL:GUI:CANCEL}
-Gegenstand im Workshop öffnen: {CONTROL:GUI:VIEW}
+Objekt auf {0} öffnen: {CONTROL:GUI:VIEW}
 Workshop durchsuchen: {CONTROL:GUI:MAIN_MENU}</value>
   </data>
   <data name="BlueprintScreen_Help_Screen_Local" xml:space="preserve">
@@ -14205,6 +14358,14 @@ Zurück: {CONTROL:GUI:CANCEL}</value>
   <data name="JoinGameScreen_Help_ScreenGamesTabXbox" xml:space="preserve">
     <value>Aktualisieren: {CONTROL:GUI:BUTTON_Y} 
 Suchfilter: {CONTROL:GUI:MAIN_MENU}
+Serverbetreiber: {CONTROL:GUI:LEFT_STICK_BUTTON}
+Zurück: {CONTROL:GUI:CANCEL}</value>
+  </data>
+  <data name="JoinGameScreen_Help_ScreenXbox" xml:space="preserve">
+    <value>Aktualisieren: {CONTROL:GUI:BUTTON_Y}
+Suchfilter: {CONTROL:GUI:MAIN_MENU}
+Serverdetails: {CONTROL:GUI:BUTTON_X}
+Serverbetreiber: {CONTROL:GUI:LEFT_STICK_BUTTON}
 Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   
@@ -14970,6 +15131,9 @@ Halte {CONTROL:GUI:LEFT_BUTTON} + {CONTROL:GUI:RIGHT_BUTTON} gedrückt um 1000 z
   <data name="ProgressScreen_LoadingWorld" xml:space="preserve">
     <value>Bereite das Laden der Welt vor</value>
   </data>
+  <data name="ProgressScreen_UnloadingWorld" xml:space="preserve">
+    <value>Welt wird entladen...</value>
+  </data>
   <data name="ScreenTerminalInventory_FilterGamepadHelp_ActiveFilter" xml:space="preserve">
     <value>Aktive Filter:</value>
   </data>
@@ -15081,8 +15245,6 @@ Zurück: {CONTROL:GUI:CANCEL}</value>
   <data name="TieredUpdate_IsReplicated_True" xml:space="preserve">
     <value>Ja</value>
   </data>
-
-
   <data name="BlueprintScreen_FilePathTooLong_Caption" xml:space="preserve">
     <value>Dateipfad zu lang</value>
   </data>
@@ -15152,13 +15314,271 @@ Zurück: {CONTROL:GUI:CANCEL}</value>
   <data name="ScreenDebugAdminMenu_RevertBoulderTooltip" xml:space="preserve">
     <value>Der Mindestabstand der Spieler, um die Felsen zurückzusetzen, beträgt: {0} m.</value>
   </data>
-
   <data name="DisplayName_TSS_Weather_Marsstorm" xml:space="preserve">
     <value>Staubsturm</value>
   </data>
   <data name="DisplayName_TSS_Weather_SnowStorm" xml:space="preserve">
     <value>Schneesturm</value>
   </data>
+  <data name="RadialMenuGroupTitle_Decoration3" xml:space="preserve">
+    <value>Dekoration #3</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_CameraSmoothness" xml:space="preserve">
+    <value>Kamera Laufruhe</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Follow" xml:space="preserve">
+    <value>Folge</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Free" xml:space="preserve">
+    <value>Frei</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_None" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Orbit" xml:space="preserve">
+    <value>Orbit</value>
+  </data>
+  <data name="ScreenSpectatorAdminMenu_Load" xml:space="preserve">
+    <value>Ziffernblock "Zahl" - Kameraposition laden</value>
+  </data>
+  <data name="ScreenSpectatorAdminMenu_Save" xml:space="preserve">
+    <value>Strg + Ziffernblock "Zahl" - Kameraposition laden</value>
+  </data>
+  <data name="ScreenSpectatorAdminMenu_SavedPositions" xml:space="preserve">
+    <value>Gespeicherte Positionen</value>
+  </data>
+  <data name="ScreenSpectatorAdminMenu_Shortcuts" xml:space="preserve">
+    <value>Schnelltasten</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_Empty" xml:space="preserve">
+    <value>&lt;Leer&gt;</value>
+  </data>
+  <data name="Description_ExhaustPipe" xml:space="preserve">
+    <value>Das Auspuffrohr emittiert Partikel wie Rauch und Feuer, um Fahrzeuge und Strukturen zu dekorieren.</value>
+  </data>
+  <data name="DisplayName_Block_ExhaustPipe" xml:space="preserve">
+    <value>Auspuffrohr</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension1x1" xml:space="preserve">
+    <value>Geländefahrzeug Radaufhängung 1x1 R</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension1x1mirrored" xml:space="preserve">
+    <value>Geländefahrzeug Radaufhängung 1x1 L</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension3x3" xml:space="preserve">
+    <value>Geländefahrzeug Radaufhängung 3x3 R</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension3x3mirrored" xml:space="preserve">
+    <value>Geländefahrzeug Radaufhängung 3x3 L</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension5x5" xml:space="preserve">
+    <value>Geländefahrzeug Radaufhängung 5x5 R</value>
+  </data>
+  <data name="DisplayName_Block_OffroadSuspension5x5mirrored" xml:space="preserve">
+    <value>Geländefahrzeug Radaufhängung 5x5 L</value>
+  </data>
+  <data name="DisplayName_Block_OffroadWheel1x1" xml:space="preserve">
+    <value>Geländefahrzeugreifen 1x1</value>
+  </data>
+  <data name="DisplayName_Block_OffroadWheel3x3" xml:space="preserve">
+    <value>Geländefahrzeugreifen 3x3</value>
+  </data>
+  <data name="DisplayName_Block_OffroadWheel5x5" xml:space="preserve">
+    <value>Geländefahrzeugreifen 5x5</value>
+  </data>
+  
+<!--
+<data name="String2" xml:space="preserve">
+    <value />
+  </data>
+-->
+  <data name="Description_BuggyCockpit" xml:space="preserve">
+    <value>Das Buggy-Cockpit ist ähnlich wie das Rover-Cockpit, aber mit einem Überrollkäfig, um Dich zu schützen. Bitte lass Hände und Füße drinnen. </value>
+  </data>
+  <data name="Description_RoverCockpit" xml:space="preserve">
+    <value>Das Rover-Cockpit ist ein kompaktes Cockpit, das für Rover entworfen wurde, aber genauso gut für kleine Schiffe oder große Innenräume mit kleinem Gitter funktioniert. </value>
+  </data>
+  <data name="DisplayName_Block_BuggyCockpit" xml:space="preserve">
+    <value>Buggy Cockpit</value>
+  </data>
+  <data name="DisplayName_Block_RoverCockpit" xml:space="preserve">
+    <value>Rover Cockpit</value>
+  </data>
+  <data name="DisplayName_Screen_Left" xml:space="preserve">
+    <value>LCD (links)</value>
+  </data>
+  <data name="DisplayName_Screen_Right" xml:space="preserve">
+    <value>LCD (rechts)</value>
+  </data>
+  <data name="DisplayName_Screen_Small" xml:space="preserve">
+    <value>Kleiner LCD</value>
+  </data>
+  <data name="DisplayName_TSS_Weather_ElectricStorm" xml:space="preserve">
+    <value>Elektrischer Sturm</value>
+  </data>
+  <data name="AlienFogLight" xml:space="preserve">
+    <value>Leichter Aliennebel</value>
+  </data>
+  <data name="AlienFogHeavy" xml:space="preserve">
+    <value>Dichter Aliennebel</value>
+  </data>
+  <data name="AlienRainLight" xml:space="preserve">
+    <value>Leichter Alienregen</value>
+  </data>
+  <data name="AlienRainHeavy" xml:space="preserve">
+    <value>Starker Alienregen</value>
+  </data>
+  <data name="AlienThunderstormHeavy" xml:space="preserve">
+    <value>Schwerer Aliengewittersturm</value>
+  </data>
+  <data name="AlienThunderstormLight" xml:space="preserve">
+    <value>Leichter Aliengewittersturm</value>
+  </data>
+  <data name="Dust" xml:space="preserve">
+    <value>Staub</value>
+  </data>
+  <data name="ElectricStorm" xml:space="preserve">
+    <value>Elektrischer Sturm</value>
+  </data>
+  <data name="SnowLight" xml:space="preserve">
+    <value>Leichter Schneefall</value>
+  </data>
+  <data name="SnowHeavy" xml:space="preserve">
+    <value>Starker Schneefall</value>
+  </data>
+  <data name="SandStormLight" xml:space="preserve">
+    <value>Leichter Sandsturm</value>
+  </data>
+  <data name="SandStormHeavy" xml:space="preserve">
+    <value>Schwerer Sandsturm</value>
+  </data>
+  <data name="FogLight" xml:space="preserve">
+    <value>Leichter Nebel</value>
+  </data>
+  <data name="FogHeavy" xml:space="preserve">
+    <value>Starker Nebel</value>
+  </data>
+  <data name="MarsSnow" xml:space="preserve">
+    <value>Mars Schneefall</value>
+  </data>
+  <data name="MarsStormHeavy" xml:space="preserve">
+    <value>Mars starker Sturm</value>
+  </data>
+  <data name="MarsStormLight" xml:space="preserve">
+    <value>Mars leichter Sturm</value>
+  </data>
+  <data name="ThunderstormLight" xml:space="preserve">
+    <value>Leichter Gewittersturm</value>
+  </data>
+  <data name="ThunderstormHeavy" xml:space="preserve">
+    <value>Schwerer Gewittersturm</value>
+  </data>
+  <data name="RainHeavy" xml:space="preserve">
+    <value>Starker Regen</value>
+  </data>
+  <data name="RainLight" xml:space="preserve">
+    <value>Leichter Regen</value>
+  </data>
+  <data name="BlockPropertyTitle_ExhaustEffect" xml:space="preserve">
+    <value>Auspuffrohr-Effekt</value>
+  </data>
+  <data name="BlockPropertyTitle_PowerDependency" xml:space="preserve">
+    <value>Energieabhängigkeit</value>
+  </data>
+  <data name="DisplayName_Block_Viewport1" xml:space="preserve">
+    <value>Sichtfenster 1</value>
+  </data>
+  <data name="DisplayName_Block_Viewport2" xml:space="preserve">
+    <value>Sichtfenster 2</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_ChangeCharacter" xml:space="preserve">
+    <value>Charakter wechseln</value>
+  </data>
+  <data name="ScreenDebugAdminMenu_ReplayTool_ChangeCharacter_Tooltip" xml:space="preserve">
+    <value>Wechselt den derzeit aktiven Charakter.</value>
+  </data>
+  <data name="Description_OffsetLight" xml:space="preserve">
+    <value>Das Offset-Licht und das Offset-Scheinwerferlicht funktioniert genauso wie normale Lichter und kann benutzt werden, um dunkle Bereiche zu beleuchten.</value>
+  </data>
+  <data name="DisplayName_Block_OffsetLight" xml:space="preserve">
+    <value>Versetztes Licht</value>
+  </data>
+  <data name="DisplayName_Block_OffsetSpotlight" xml:space="preserve">
+    <value>Versetzter Scheinwerfer</value>
+  </data>
+  <data name="Description_BarredWindow" xml:space="preserve">
+    <value>Vergitterte Fenster haben die gleiche Integrität wie Glasfenster, sind aber nicht luftdicht. Gut, um große Spinnen draußen zu halten.</value>
+  </data>
+  <data name="DisplayName_Block_BarredWindow" xml:space="preserve">
+    <value>Vergittertes Fenster</value>
+  </data>
+  <data name="DisplayName_Block_BarredWindowFace" xml:space="preserve">
+    <value>Vergitterte Fensterfront</value>
+  </data>
+  <data name="DisplayName_Block_BarredWindowSide" xml:space="preserve">
+    <value>Vergittertes Fenster (Seite)</value>
+  </data>
+  <data name="DisplayName_Block_BarredWindowSlope" xml:space="preserve">
+    <value>Vergittertes Fenster (schräg)</value>
+  </data>
+  <data name="DisplayName_BlockGroup_BarredWindows" xml:space="preserve">
+    <value>Vergitterte Fenster</value>
+  </data>
+  <data name="Description_StorageShelf" xml:space="preserve">
+    <value>Lagerregale können zur Lagerung von Komponenten verwendet werden und lassen Deinen Hangar oder Deine Garage unordentlich und produktiv aussehen.</value>
+  </data>
+  <data name="DisplayName_BlockGroup_StorageShelves" xml:space="preserve">
+    <value>Lagerregale</value>
+  </data>
+  <data name="DisplayName_Block_StorageShelf1" xml:space="preserve">
+    <value>Lagerregal 1</value>
+  </data>
+  <data name="DisplayName_Block_StorageShelf2" xml:space="preserve">
+    <value>Lagerregal 2</value>
+  </data>
+  <data name="DisplayName_Block_StorageShelf3" xml:space="preserve">
+    <value>Lagerregal 3</value>
+  </data>
+  <data name="Description_FAQ_ScrapRacePack" xml:space="preserve">
+    <value>Das Ödlandpaket enthält ein neues Multiplayer-Szenario und mehrere neue Blöcke wie die Geländewagenräder, Autolichter, Buggy-Cockpit, Sichtfensterblöcke und das Auspuffrohr. Zusätzlich bietet dieser DLC mehrere neue Rüstungen und Spielerskins, wie den Heavy Rust Armor Skin, den Concrete Armor Skin und den Scavenger Charakter Skin.</value>
+  </data>
+  <data name="Description_ViewPort" xml:space="preserve">
+    <value>Sichtfenster sind im Ödlandpaket verfügbar. Es sind Fenster, die bündig mit Panzerblöcken abschließen und sich leicht mit Schreibtischen und Küchen kombinieren lassen.</value>
+  </data>
+  <data name="ControlMenuItemLabel_CrackedSoil" xml:space="preserve">
+    <value>Zerklüftete Erde</value>
+  </data>
+  <data name="ControlMenuItemLabel_DustyRocks" xml:space="preserve">
+    <value>Staubige Felsen 1</value>
+  </data>
+  <data name="ControlMenuItemLabel_DustyRocks2" xml:space="preserve">
+    <value>Staubige Felsen 2</value>
+  </data>
+  <data name="ControlMenuItemLabel_DustyRocks3" xml:space="preserve">
+    <value>Staubige Felsen 3</value>
+  </data>
+  <data name="ControlMenuItemLabel_PertamSand" xml:space="preserve">
+    <value>Pertam Sand</value>
+  </data>
+  <data name="ControlMenuItemLabel_TritonBlend" xml:space="preserve">
+    <value>Triton Mischung</value>
+  </data>
+  <data name="ControlMenuItemLabel_TritonIce" xml:space="preserve">
+    <value>Triton Eis</value>
+  </data>
+  <data name="ControlMenuItemLabel_TritonStone" xml:space="preserve">
+    <value>Triton Stein</value>
+  </data>
+  <data name="RadialMenuGroupTitle_VoxelTritonPertam" xml:space="preserve">
+    <value>Triton und Pertam</value>
+  </data>
+  <data name="DisplayName_Block_OffroadWheel1x1mirrored" xml:space="preserve">
+    <value>Geländefahrzeugreifen 1x1</value>
+  </data>
+  <data name="DisplayName_Block_OffroadWheel3x3mirrored" xml:space="preserve">
+    <value>Geländefahrzeugreifen 3x3</value>
+  </data>
+
 
 <data name="AnonymousActivityTracking_Caption" xml:space="preserve">
     <value>Anonyme Aktivitätenverfolgung</value>
@@ -15269,5 +15689,8 @@ Du kannst Deine Meinung jederzeit ändern.</value>
   </data>
 <data name="DisplayName_BuildPlanner" xml:space="preserve">
     <value>Bauplaner</value>
+  </data>
+<data name="ActiveContractsScreen_Help_Abandon" xml:space="preserve">
+    <value>Verlassen: {CONTROL:GUI:BUTTON_A}</value>
   </data>
 </root>

@@ -746,6 +746,18 @@ Die Originalbelegung löschen?</value>
   <data name="ControlName_ToggleSignalsMode_Tooltip" xml:space="preserve">
     <value>Schaltet die Signale um zwischen immer sichtbar und ausgeblendet.</value>
   </data>
+  <data name="ControlName_SpectatorLock" xml:space="preserve">
+    <value>An Entität koppeln/entkoppeln</value>
+  </data>
+  <data name="ControlName_SpectatorSwitchMode" xml:space="preserve">
+    <value>Nächster Kameramodus</value>
+  </data>
+  <data name="ControlName_SpectatorNextPlayer" xml:space="preserve">
+    <value>Nächster Spieler</value>
+  </data>
+  <data name="ControlName_SpectatorPrevPlayer" xml:space="preserve">
+    <value>Vorheriger Spieler</value>
+  </data>
   <data name="ControlName_HoldToSprint" xml:space="preserve">
     <value>Zum Sprinten halten</value>
   </data>
@@ -1098,7 +1110,11 @@ Dabei stimmst du den Nutzungsbedingungen zu (Nachzulesen hier: {1}).</value>
     <value>Drücke die linke Maustaste oder Strg+V, um das Objekt einzufügen.</value>
   </data>
   <data name="MessageBoxTextErrorLoadingEntities" xml:space="preserve">
-    <value>Beim Hinzufügen von einem oder mehreren Objekten ist ein Fehler aufgetreten. Schaue in die Log Dateien für mehr Informationen.</value>
+    <value>Beim Laden der Welt ist ein Fehler aufgetreten.
+
+Die Welt ist möglicherweise korrupt und kann nicht geladen werden.
+
+Bitte starte das Spiel neu und versuche es erneut.</value>
   </data>
   <data name="MessageBoxTextAreYouSureToMoveGridToClipboard" xml:space="preserve">
     <value>Bist du sicher, dass du das ausgewählte Objekt löschen willst (Eine Kopie wird in der Zwischenablage gespeichert)?</value>
@@ -1121,6 +1137,9 @@ Größe der Welt: {1}</value>
   </data>
   <data name="DialogTextDownloadWorldFailed" xml:space="preserve">
     <value>Herunterladen der Welt ist fehlgeschlagen!</value>
+  </data>
+  <data name="DialogTextCheckServerStatus" xml:space="preserve">
+    <value>Prüfe Serverstatus</value>
   </data>
   <data name="DialogTextJoiningWorld" xml:space="preserve">
     <value>Welt beitreten</value>
@@ -1246,7 +1265,7 @@ Größe der Welt: {1}</value>
     <value>Warte auf Weltdaten...</value>
   </data>
   <data name="MultiplayerErrorConnectionFailed" xml:space="preserve">
-    <value>Die Verbindung zum Server ist fehlgeschlagen: {0}</value>
+    <value>Die Verbindung zum Server ist fehlgeschlagen.</value>
   </data>
   <data name="MultiplayerStateConnectingToServer" xml:space="preserve">
     <value>Verbinde mit Server...</value>
@@ -1345,7 +1364,7 @@ Größe der Welt: {1}</value>
     <value>Invalid Passcode provided. Please, try again.</value>
   </data>
   <data name="LobbyNoUser" xml:space="preserve">
-    <value>Beim {0}-Dienst ist kein Benutzer eingeloggt.</value>
+    <value>Vom Netzwerk getrennt, da sich der Spieler vom {0}-Dienst abgemeldet hat.</value>
   </data>
   <data name="ToolTipWorldSettingsDescription" xml:space="preserve">
     <value>Eine Beschreibung der Welt</value>
@@ -1418,7 +1437,8 @@ Raffineriegeschwindigkeit {3}x</value>
   </data>
   <data name="MultiplayerError_IncorrectVersion" xml:space="preserve">
     <value>Der Server benutzt eine andere Spielversion. Deine Version: {0}. Server Version: {1}.
-Du kannst die Version vor dem Starten des Spiels in den Steam Spieleigenschaften ändern.</value>
+Bitte aktualisiere entweder den Server oder das Spiel auf die gleiche Version.
+ </value>
   </data>
   <data name="MultiplayerError_FamilyShareDisabled" xml:space="preserve">
     <value>Der Server erlaubt keine gemeinsamen Familienkonten.</value>
@@ -1531,6 +1551,9 @@ Du kannst die Version vor dem Starten des Spiels in den Steam Spieleigenschaften
   </data>
   <data name="MultiplayerErrorTicketAlreadyUsed" xml:space="preserve">
     <value>Ticket wird bereits benutzt!</value>
+  </data>
+  <data name="MultiplayerErrorNotFound" xml:space="preserve">
+    <value>Server nicht gefunden.</value>
   </data>
   <data name="MultiplayerErrorTicketCanceled" xml:space="preserve">
     <value>Ticket storniert!</value>
@@ -2373,6 +2396,12 @@ Willst du das Schiff wirklich einfügen?</value>
   <data name="EnableVoiceChat" xml:space="preserve">
     <value>Aktiviere Sprachchat</value>
   </data>
+  <data name="PushToTalk" xml:space="preserve">
+    <value>Drücke zum Sprechen</value>
+  </data>
+  <data name="MicSensitivity" xml:space="preserve">
+    <value>Mikrofonempfindlichkeit</value>
+  </data>
   <data name="ScreenGraphicsOptions_Tonemapping" xml:space="preserve">
     <value>Dynamikkompression</value>
   </data>
@@ -3010,7 +3039,7 @@ Dieses bietet Ziele, welche durch Standardszenrien vorhanden sind, oder solche, 
     <value>Favorit zufügen</value>
   </data>
   <data name="ServerDetails_IPAddress" xml:space="preserve">
-    <value>IP-Addresse</value>
+    <value>Verbinde mit</value>
   </data>
   <data name="ServerDetails_ModDownloadSize" xml:space="preserve">
     <value>Mod-Downloadgröße</value>
@@ -3795,6 +3824,9 @@ Mehr Infos findest Du im Log:
   <data name="PerformanceWarningHeading_SimSpeed" xml:space="preserve">
     <value>SZENERIE ZU KOMPLEX</value>
   </data>
+  <data name="PerformanceWarningHeading_ReducedReplicationRange" xml:space="preserve">
+    <value>SZENERIE ZU KOMPLEX</value>
+  </data>
   <data name="PerformanceWarningHeading_UnsafeGrids" xml:space="preserve">
     <value>UNSICHERE GITTER</value>
   </data>
@@ -3836,6 +3868,9 @@ Mehr Infos findest Du im Log:
   </data>
   <data name="PerformanceWarningIssuesServer_PoorConnection" xml:space="preserve">
     <value>Schlechte Netzwerkqualität</value>
+  </data>
+  <data name="PerformanceWarningIssuesServer_ReducedReplicationRange" xml:space="preserve">
+    <value>Die Sync-Distanz wurde wegen der Komplexität der Umgebung auf {0}m reduziert.</value>
   </data>
   <data name="GeneralWarningIssues_Experimental" xml:space="preserve">
     <value>Experimentell</value>
@@ -4816,6 +4851,12 @@ Viel Glück da draußen!</value>
   <data name="ChatCommand_HelpSimple_W" xml:space="preserve">
     <value>Zum Flüsterkanal wechseln</value>
   </data>
+  <data name="ChatCommand_HelpSimple_FYou" xml:space="preserve">
+    <value>Go Clang yourself abspielen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_Drunk" xml:space="preserve">
+    <value>Betrunken abspielen</value>
+  </data>
   <data name="ChatCommand_HelpSimple_Wave" xml:space="preserve">
     <value>Winken abspielen</value>
   </data>
@@ -5129,6 +5170,9 @@ Diese Blöcke werden nicht erstellt, was zu einer möglichen Spaltung des Schiff
   <data name="SimpleNewGame_TheFirstJump" xml:space="preserve">
     <value>Der erste Sprung</value>
   </data>
+  <data name="SimpleNewGame_SparksOfTheFuture" xml:space="preserve">
+    <value>Funken der Zukunft</value>
+  </data>
   <data name="SimpleNewGame_Workshop" xml:space="preserve">
     <value>Workshop</value>
   </data>
@@ -5147,6 +5191,9 @@ Lerne mehr über Raumfahrttechnik oder such Dir einen Kampf. Du hast die Wahl, h
   </data>
   <data name="SimpleNewGame_TheFirstJump_Description" xml:space="preserve">
     <value>Dieses Szenario bietet eine lineare Geschichte mit actiongeladenem Gameplay. Die meisten Space Engineers-Szenarien bieten einzigartige Sandbox-Umgebungen, in denen Spieler ihre eigenen Herausforderungen erstellen.</value>
+  </data>
+  <data name="SimpleNewGame_SparksOfTheFuture_Description" xml:space="preserve">
+    <value>Willkommen bei Funken der Zukunft! Genieße einen Wettkampf auf dem Schießstand oder auf der Tanzfläche. Entdecke die vielen Shops, die es im Zentrum von Funken der Zukunft gibt. Suchst du nach einer Ablenkung von deinen täglichen Aktivitäten oder suchst du das pulsierende Stadtleben? Das alles findest du hier bei Funken der Zukunft!</value>
   </data>
   <data name="SettingSymmetryXGamepad" xml:space="preserve">
     <value>Symmetrie X Achse: {0} zum Setzen, {1} zum Entfernen und {2} um die Ebene zu wählen</value>
@@ -5551,6 +5598,11 @@ Das Spiel kann instabil werden, wenn Du die Welt lädst. Trotzdem fortfahren?</v
   <data name="PerformanceWarningIssuesServer_Simspeed_Simple" xml:space="preserve">
     <value>Die Szenerie ist zu komplex. Entferne einige Gitter. Die Qualität der Simulation, von Deformierungen und Voxeländerungen werden reduziert um die Performance zu verbessern.</value>
   </data>
+  <data name="ExperimentalOutOfMemoryCrashMessageBox" xml:space="preserve">
+    <value>Beim letzten Mal stürzte das Spiel ab, weil der RAM knapp wurde. Dies wird normalerweise durch eine zu große Welt im Experimentiermodus verursacht. Bitte ziehe in Betracht, in den sicheren Modus zu wechseln.
+
+Möchtest du den abgesicherten Modus jetzt aktivieren?</value>
+  </data>
   <data name="ScreenDebugAdminMenu_RevertBoulders" xml:space="preserve">
     <value>Felsbrocken zurücksetzen</value>
   </data>
@@ -5588,6 +5640,66 @@ Das Spiel kann instabil werden, wenn Du die Welt lädst. Trotzdem fortfahren?</v
   </data>
   <data name="GridsRemovedWhilePasting" xml:space="preserve">
     <value>Nach der Entfernung aller DLC-Blöcke, die Du nicht besitzt und die vom Server nicht erlaubt sind, blieben keine anderen Blöcke übrig.</value>
+  </data>
+  <data name="HelpScreen_GamepadAdvanced_NextToolbar" xml:space="preserve">
+    <value>Nächste Werkzeugleiste</value>
+  </data>
+  <data name="HelpScreen_GamepadAdvanced_PreviousToolbar" xml:space="preserve">
+    <value>Vorherige Werkzeugleiste</value>
+  </data>
+  <data name="HelpScreen_GeneralGame" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="HelpScreen_ActionSetup" xml:space="preserve">
+    <value>Aktions-Einrichtungsbildschirm</value>
+  </data>
+  <data name="PerformanceWarningIssues_BetaTest_Header" xml:space="preserve">
+    <value>Experimentelle Betaversion</value>
+  </data>
+  <data name="PerformanceWarningIssues_BetaTest_Message" xml:space="preserve">
+    <value>Du spielst auf einer experimentellen Betaversion.</value>
+  </data>
+  <data name="PerformanceWarningIssues_SimplifiedSimulation_Header" xml:space="preserve">
+    <value>Vereinfachte Simulation</value>
+  </data>
+  <data name="PerformanceWarningIssues_SimplifiedSimulation_Message" xml:space="preserve">
+    <value>Diese Welt verwendet eine vereinfachte Überlebenssimulation. Ressourcen werden nicht richtig verbraucht, Inventare werden nicht aktualisiert und Munition wird nicht verbraucht. Es wird nicht empfohlen, in dieser Welt das Überleben zu spielen.</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_Charge" xml:space="preserve">
+    <value>Aufladen abspielen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_ComeHereBaby" xml:space="preserve">
+    <value>Komm her, Baby abspielen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_DanceDisco1" xml:space="preserve">
+    <value>Tanzdisco 1 abspielen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_DanceDisco2" xml:space="preserve">
+    <value>Tanzdisco 2 abspielen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_LookingAround" xml:space="preserve">
+    <value>Umschauen abspielen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_Stretching" xml:space="preserve">
+    <value>Ausstrecken abspielen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_Whatever" xml:space="preserve">
+    <value>Was auch immer abspielen</value>
+  </data>
+  <data name="ChatCommand_HelpSimple_yelling" xml:space="preserve">
+    <value>Rufen abspielen</value>
+  </data>
+  <data name="MessageBoxTextBetaFeedback" xml:space="preserve">
+    <value>Vielen Dank, dass ihr an unserem Betatest teilnehmt. Würdest Du Dir die Zeit nehmen, uns ein kurzes Feedback zu geben?</value>
+  </data>
+  <data name="MessageBoxCaptionBetaFeedback" xml:space="preserve">
+    <value>BETA RÜCKMELDUNG</value>
+  </data>
+  <data name="SimpleNewGame_ScrapRace" xml:space="preserve">
+    <value>Schrottrennen</value>
+  </data>
+  <data name="SimpleNewGame_ScrapRace_Description" xml:space="preserve">
+    <value>Das Schrottrennen ist ein Rennszenario, das für den Mehrspielermodus entwickelt wurde. Wähle ein Fahrzeug Deiner Wahl und trete gegen andere Bösewichte, Nervenkitzelsuchende und Geschwindigkeitsfreaks aus dem ganzen System an. Das Unterhaltungsangebot hier bei Pertam ist im Gegensatz zum menschlichen Leben das wertvollste Gut und wir bieten das Beste! Also tretet noch heute bei! Baut Dinge, fahrt Rennen oder bleibt im Staub zurück.</value>
   </data>
 
 <data name="SteamOverlayDisabledCaption" xml:space="preserve">
