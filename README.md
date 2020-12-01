@@ -20,6 +20,6 @@ Solltet ihr Fehler, oder Unstimmigkeiten feststellen, nicht zögern und sie mir 
 Auch bei den Sachen für die Controllersteuerung, allgemein was das Spielen mit der Konsole angeht, ich habe keine und kann da nichts prüfen. Sollte beim Spielen mit der Konsole was auffallen, bitte mit einem Screenshot melden.
 --------------------------------------------------------------------------------------------------------------------------------------
 Optionale Bezugsquellen:
-Google-Drive: https://drive.google.com/open?id=1drX5eVdwQk4kWIilrpDyUb9TD7IA4-b_
+Google-Drive: https://drive.google.com/drive/folders/1xKoAXB4dwR5L1aM2EuscldiwAlrj_wsx?usp=sharing
 Github: https://github.com/Waylinkin/SE_DE/releases
 Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=833835072
