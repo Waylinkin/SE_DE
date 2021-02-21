@@ -138,7 +138,7 @@ Nur im Szenarioeditor verfügbar.</value>
     <value>Sprinten</value>
   </data>
   <data name="AGravity" xml:space="preserve">
-    <value>Künstl. Grav.</value>
+    <value>Kün. Grav.</value>
   </data>
   <data name="Weather" xml:space="preserve">
     <value>Wetter</value>
@@ -157,6 +157,9 @@ Nur im Szenarioeditor verfügbar.</value>
   </data>
   <data name="GDPR_Caption" xml:space="preserve">
     <value>GDPR Einverständniserklärung</value>
+  </data>
+  <data name="WorkshopConsent" xml:space="preserve">
+    <value>Workshop Einwilligung</value>
   </data>
   <data name="GDPR_PrivacyPolicy" xml:space="preserve">
     <value>Lies unsere Datenschutzerklärung</value>
@@ -2111,9 +2114,7 @@ Du kannst Auswürfe zusammen mit Sortierern verwenden und so genau festlegen, wa
     <value>Angeboten von der Firma Steel and Sweat sind sie der große Bruder der Handschleifgeräte. Sie können an Schiffen/Stationen angebracht, zur Demontage von Objekten eingesetzt und an ein Leitungsnetzwerk angeschlossen werden. Vorsicht: Kommst Du zu nahe ran, dann... Hast Du schon mal einem Metzger zugesehen?</value>
   </data>
   <data name="Description_Gyroscope" xml:space="preserve">
-    <value>Die Gyroskope von der Firma ProSys dienen der Lagestabilisation von Objekten aller Art, ermöglichen aber auch erst die Drehung um alle drei Achsen eines Körpers. Es sind große Schwingkreisel, die unglaublich schnell rotieren. Daher solltest Du NIEMALS den Block, auf dem ein Gyro verankert ist, demontieren, solange der Gyro darauf noch aktiv ist. Ansonsten wird er Dir das Schiff zerlegen!
-
-Du kannst mehrere Gyros bauen, um die Kraft zu verstärken und so auch größere Massen stabilisieren oder drehen.</value>
+    <value>Die Gyroskope von der Firma ProSys dienen der Lagestabilisation von Objekten aller Art, ermöglichen aber auch erst die Drehung um alle drei Achsen eines Körpers. Es sind große Schwingkreisel, die unglaublich schnell rotieren. Daher NIEMALS den Block, auf dem ein Gyro verankert ist, demontieren, solange der Gyro darauf noch aktiv ist. Ansonsten wird er Dir das Schiff zerlegen!</value>
   </data>
   <data name="Description_HangarDoor" xml:space="preserve">
     <value>Hangartüren sind große Tore, die kombiniert werden können, um große Räume Luftdicht abschließen und dennoch Fahrzeugen Zutritt gewähren zu können. Sie sind ein Gemeinschaftsprodukt der Firmen ProSys und Positro-Complex Hive und verfügen über Schnittstellen zur automatischen Steuerung per Skript, Sensoren und Konsolen aller Art.</value>
@@ -2202,13 +2203,13 @@ Als Munition werden Raketenbehälter benötigt, die in Fabriken hergestellt werd
     <value>Der Kolben, ein Produkt der Firmen Steel and Sweat und ProSys, ist ein ausfahrbahrer Block, der den Transport von Gütern und Energie ermöglicht.</value>
   </data>
   <data name="Description_PistonTop" xml:space="preserve">
-    <value>Dieser Teil des Kolbens ist der Kolbenkopf. An ihm können weitere Blöcke angebracht werden. Z.B. ein Dockport. </value>
+    <value>Dieser Teil des Kolbens ist der Kolbenkopf. Er hat selbst keine Funktion, aber kann dekorativ genutzt werden.</value>
   </data>
   <data name="Description_ProgrammableBlock" xml:space="preserve">
     <value>Der Computerkern der Firma Positro-Complex Hive sieht zwar fast unscheinbar aus, hat es jedoch in sich. Er kann Skripte laden, die alle möglichen Aufgaben an Bord von Schiffen und Stationen ausführen können und ist somit ein mächtiges Werkzeug. Skripte können im Workshop gefunden oder selbst programmiert werden. </value>
   </data>
   <data name="Description_Projector" xml:space="preserve">
-    <value>Der Projektor ist ein Gemeinschaftsprodukt der Firmen ProSys und Positro-Complex Hive und ermöglicht die 3D-Projektion eines Bauplans. Dies kann dann einfach fertiggeschweißt werden. Beachte, dass die Projektoren Gitterabhängig arbeiten: Ein großer Projektor kann nur große, ein kleiner Projektor nur kleine Gitter darstellen. Außerdem muss eine Verbindung in Form von Blöcken vom Projektor zum Bauplan bestehen, bevor geschweißt werden kann. </value>
+    <value>Der Projektor ist ein Gemeinschaftsprodukt der Firmen ProSys und Positro-Complex Hive und ermöglicht die 3D-Projektion eines Bauplans. Dieser kann dann einfach fertiggeschweißt werden. Beachte, dass die Projektoren Gitterabhängig arbeiten: Ein großer Projektor kann nur große, ein kleiner Projektor nur kleine Gitter darstellen.</value>
   </data>
   <data name="Description_Ramp" xml:space="preserve">
     <value>Mit der Rampe kann man einen Höhenunterschied sanft überwinden. Oder sie einfach zur Verschönerung einsetzen.</value>
@@ -5531,7 +5532,7 @@ Ein Sitz/Fernsteuerung mit höherer Priorität ist bereits besetzt.</value>
     <value>www.SpaceEngineersGame.com</value>
   </data>
   <data name="PGravity" xml:space="preserve">
-    <value>Nat. -Grav.</value>
+    <value>Nat. Grav.</value>
   </data>
   <data name="PickColorFromCube" xml:space="preserve">
     <value>Übertrage die Farbe vom Würfel in einen Slot</value>
@@ -5668,7 +5669,7 @@ Erforderlich.</value>
     <value>Hilfe</value>
   </data>
   <data name="ProgrammableBlock_Editor_HelpTooltip" xml:space="preserve">
-    <value>Öffnet die {0} Workshop Seite mit Beschreibungen zur Ingame-Programmierung.</value>
+    <value>Öffnet die Workshop Seite mit Beschreibungen zur Ingame-Programmierung.</value>
   </data>
   <data name="ProgrammableBlock_Editor_LineNo" xml:space="preserve">
     <value>Zeile: {0} / {1}</value>
@@ -5723,6 +5724,9 @@ Erforderlich.</value>
   </data>
   <data name="ProgrammableBlock_PublishScriptDialogText" xml:space="preserve">
     <value>Willst du dieses Skript veröffentlichen?</value>
+  </data>
+  <data name="WorkshopItemPublished" xml:space="preserve">
+    <value>VERÖFFENTLICHT</value>
   </data>
   <data name="ProgrammableBlock_PublishScriptPublished" xml:space="preserve">
     <value>SKRIPT VERÖFFENTLICHT</value>
@@ -6486,6 +6490,9 @@ Wenn ein Gitter eine Fernsteuerung besitzt, kannst Du es aus der Ferne steuern.<
   <data name="ScreenDebugAdminMenu_WithMedBay" xml:space="preserve">
     <value>Mit Krankenstationen</value>
   </data>
+  <data name="ScreenDebugAdminMenu_RevertCloseToNPCGrids" xml:space="preserve">
+    <value>Zurückkehren zu NPC-Gittern</value>
+  </data>
   <data name="ScreenDebugAdminMenu_WithProduction" xml:space="preserve">
     <value>Mit Fabriken</value>
   </data>
@@ -7049,7 +7056,7 @@ Ausrichtung an Gravitation: Blöcke können frei gedreht und gesetzt werden, ric
     <value>Bearbeiten</value>
   </data>
   <data name="TerminalControlPanel_EditCode_Tooltip" xml:space="preserve">
-    <value>Öffnet einen Code Editor, mit welchem Du neue Skripte erstellen und im {0} Workshop hoch/herunterladen kannst.</value>
+    <value>Öffnet einen Code Editor, mit welchem Du neue Skripte erstellen und im Workshop hoch/herunterladen kannst.</value>
   </data>
   <data name="TerminalControlPanel_Recompile" xml:space="preserve">
     <value>Neukompilieren</value>
@@ -7798,7 +7805,7 @@ Diese kannst du in den Lautsprechereinstellungen ändern und dann das Spiel neu 
     <value>Wähle aus Deinen abonnierten Welten, oder suche neue.</value>
   </data>
   <data name="ToolTipNewGame_NoWorkshopWorld" xml:space="preserve">
-    <value>Hier gibt es keine abonnierten Welten. Im {0} Workshop kannst Du welche herunterladen:</value>
+    <value>Noch keine Welten abonniert. Im Workshop kannst Du welche herunterladen.</value>
   </data>
   <data name="ToolTipNewsletter_Close" xml:space="preserve">
     <value>Schließe dieses Fenster.</value>
@@ -9391,11 +9398,20 @@ Raffinerien ziehen sich die Rohstoffe automatisch zur Verarbeitung heran, wenn s
   <data name="ScreenBlueprintsRew_Tooltip_ButFolders" xml:space="preserve">
     <value>Öffne Verzeichnisauswahl</value>
   </data>
+  <data name="ScreenBlueprintsRew_Tooltip_ButGrouping_Aggregator" xml:space="preserve">
+    <value>Umschalten zwischen "Alle", "Lokal", "Cloud", "{0}" und "{1}" Baupläne/Skripte</value>
+  </data>
   <data name="ScreenBlueprintsRew_Tooltip_ButGrouping" xml:space="preserve">
     <value>Schaltet zwischen "Alle", "lokale", "Cloud" und "{0}" Bauplänen und Skripten um.</value>
   </data>
+  <data name="ScreenBlueprintsRew_Tooltip_ButGrouping_NoLocal_Aggregator" xml:space="preserve">
+    <value>Umschalten zwischen "Alle", "Cloud", "{0}" und "{1}" Baupläne/Skripte</value>
+  </data>
   <data name="ScreenBlueprintsRew_Tooltip_ButGrouping_NoLocal" xml:space="preserve">
     <value>Schaltet zwischen "Alle", "Cloud" und "{0}" Bauplänen und Skripten um.</value>
+  </data>
+  <data name="WorldSettings_Tooltip_ButGrouping" xml:space="preserve">
+    <value>Umschalten zwischen "Alle", "{0}" und "{1}"</value>
   </data>
   <data name="ScreenBlueprintsRew_Tooltip_ButInfo" xml:space="preserve">
     <value>Öffnet einen Tab mit Informationen zum Bauplan oder Skript.</value>
@@ -9404,13 +9420,13 @@ Raffinerien ziehen sich die Rohstoffe automatisch zur Verarbeitung heran, wenn s
     <value>Neue Blaupause aus der Zwischenablage erzeugen.</value>
   </data>
   <data name="ScreenBlueprintsRew_Tooltip_ButOpenInWorkshop" xml:space="preserve">
-    <value>Öffne Baupläne (nur lokale/Cloud BPs) oder Skripte (nur lokale Skripte) im {0} Workshop.</value>
+    <value>Öffne Baupläne (nur lokale/Cloud BPs) oder Skripte (nur lokale Skripte) im Workshop.</value>
   </data>
   <data name="ScreenBlueprintsRew_Tooltip_ButOpenWorkshop" xml:space="preserve">
     <value>Workshop-Artikel durchsuchen und abonnieren</value>
   </data>
   <data name="ScreenBlueprintsRew_Tooltip_ButPublish" xml:space="preserve">
-    <value>Veröffentliche Baupläne oder Skripte im {0} Workshop.</value>
+    <value>Veröffentliche Baupläne oder Skripte im Workshop.</value>
   </data>
   <data name="ScreenBlueprintsRew_Tooltip_ButRefresh" xml:space="preserve">
     <value>Baupläne und Skripte aktualisieren.</value>
@@ -9434,16 +9450,16 @@ Raffinerien ziehen sich die Rohstoffe automatisch zur Verarbeitung heran, wenn s
     <value>Zeige/Verberge Vorschaubilder von Bauplänen/Skripten.</value>
   </data>
   <data name="ScreenBlueprintsRew_Tooltip_SendToPlayer" xml:space="preserve">
-    <value>Bauplan an andere Spieler schicken (Nur {0} BPs).</value>
+    <value>Bauplan an andere Spieler schicken (Nur Workshop BPs).</value>
   </data>
   <data name="ScreenBlueprintsRew_NoBlueprints" xml:space="preserve">
     <value>Nichts zutreffendes gefunden.</value>
   </data>
   <data name="ScreenBlueprintsRew_NoWorkshopBlueprints" xml:space="preserve">
-    <value>Hier gibt es keine abonnierten Baupläne. Im {0} Workshop kannst Du welche herunterladen:</value>
+    <value>Noch keine Baupläne abonniert. Im Workshop kannst Du welche herunterladen.</value>
   </data>
   <data name="ScreenBlueprintsRew_NoWorkshopScripts" xml:space="preserve">
-    <value>Wähle links ein Skript aus. Wenn Du keine abonniert hast, findest Du im {0} Workshop welche:</value>
+    <value>Wähle links ein Skript aus. Wenn Du keine abonniert hast, findest Du im Workshop welche.</value>
   </data>
   <data name="ScreenFolders_ButOpen" xml:space="preserve">
     <value>Öffnen</value>
@@ -10254,7 +10270,7 @@ Rover können "springen", indem die Aufhängungen aufgeladen werden und so aus e
     <value>*Tipp:* Du kannst den Besitz konfigurieren, um ihn mit Freunden zu teilen. Denke daran, dass Du jederzeit zusätzliche Informationen im Hilfebildschirm finden kannst, indem Du die Option [Hilfe] im Reiter [Menü] des [System-Radial-Menü] {CONTROL:SYSTEM_RADIAL_MENU} aufrufst.</value>
   </data>
   <data name="IngameHelp_HelmetVisorTip_Detail1" xml:space="preserve">
-    <value>Die Fähigkeit zu atmen macht einiges einfacher... *g*</value>
+    <value>Die Fähigkeit zu atmen macht einiges einfacher... Hehe</value>
   </data>
   <data name="IngameHelp_HelmetVisorTip_Detail2" xml:space="preserve">
     <value>*Tipp:* Stelle sicher, dass der Helm geschlossen ist, bevor Du in den Weltraum gehst. 
@@ -11318,8 +11334,8 @@ MMT auf einen Block fügt diesen schnell hinzu.</value>
   <data name="DisplayName_BlockGroup_HeavyArmorSlopedCorners" xml:space="preserve">
     <value>Eckrampen (SP)</value>
   </data>
-  <data name="RadialMenuGroupTitle_Armor" xml:space="preserve">
-    <value>Panzerung</value>
+  <data name="RadialMenuGroupTitle_ArmorLight" xml:space="preserve">
+    <value>Leichte Panzerung</value>
   </data>
   <data name="RadialMenuGroupTitle_ProductionMedical" xml:space="preserve">
     <value>Produktion &amp; Medizin</value>
@@ -13799,6 +13815,12 @@ Du kannst die Art und Weise, wie GPS-Koordinaten und Antennen auf dem HUD angeze
   <data name="BlueprintPublished" xml:space="preserve">
     <value>BAUPLAN VERÖFFENTLICHT</value>
   </data>
+  <data name="WorkshopError" xml:space="preserve">
+    <value>Fehler beim Zugriff auf den Dienst.</value>
+  </data>
+  <data name="WorkshopPublishRestricted" xml:space="preserve">
+    <value>Das Veröffentlichen von Workshop-Elementen ist aufgrund der Privatsphäre-Einstellungen nicht möglich.</value>
+  </data>
   <data name="WorkshopRestricted" xml:space="preserve">
     <value>Abonnierte Workshop-Gegenstände sind aus Gründen der Privatsphäre-Einstellungen nicht verfügbar.</value>
   </data>
@@ -14076,14 +14098,15 @@ Zurück: {CONTROL:GUI:CANCEL}
 Direktverbindung: {CONTROL:GUI:VIEW}
 Suchfilter: {CONTROL:GUI:MAIN_MENU}
 Serverdetails: {CONTROL:GUI:BUTTON_X}
-Serverbetreiber: {CONTROL:GUI:LEFT_STICK_BUTTON}
+Serverbetreiber: {CONTROL:GUI:LEFT_BUTTON}
+Netzwerktyp: {CONTROL:GUI:RIGHT_BUTTON}
 Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   <data name="JoinGameScreen_Help_ScreenGamesTab" xml:space="preserve">
     <value>Aktualisieren: {CONTROL:GUI:BUTTON_Y} 
 Direktverbindung: {CONTROL:GUI:VIEW} 
 Suchfilter: {CONTROL:GUI:MAIN_MENU} 
-Serverbetreiber: {CONTROL:GUI:LEFT_STICK_BUTTON}
+Serverbetreiber: {CONTROL:GUI:LEFT_BUTTON}
 Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   <data name="ModsScreen_Help_Screen" xml:space="preserve">
@@ -14094,6 +14117,9 @@ Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   <data name="WorkshopTagsScreen_Help_Screen" xml:space="preserve">
     <value>OK {CONTROL:GUI:BUTTON_X} Zurück {CONTROL:GUI:CANCEL}</value>
+  </data>
+  <data name="WorkshopTagsScreen_HelpNoOk_Screen" xml:space="preserve">
+    <value>Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   <data name="ToolTipOptionsControls_InvertGamepadYChar" xml:space="preserve">
     <value>Y-Achse des Controllers invertieren (Charakterkontrolle)</value>
@@ -14129,7 +14155,7 @@ Zurück: {CONTROL:GUI:CANCEL}</value>
     <value>Aktualisieren: {CONTROL:GUI:BUTTON_Y}
 Start: {CONTROL:GUI:BUTTON_X}
 Zurück: {CONTROL:GUI:CANCEL}
-Objekt auf {0} öffnen: {CONTROL:GUI:VIEW}
+Objekt öffnen: {CONTROL:GUI:VIEW}
 Workshop durchsuchen: {CONTROL:GUI:MAIN_MENU}
 
 </value>
@@ -14326,7 +14352,8 @@ Zurück:  {CONTROL:GUI:CANCEL}</value>
   </data>
   <data name="PlayersScreen_Help_PlayersList" xml:space="preserve">
     <value>Profil: {CONTROL:GUI:ACCEPT}
-Handel: {CONTROL:GUI:BUTTON_X}</value>
+Handel: {CONTROL:GUI:BUTTON_X}
+Stummschalten: {CONTROL:GUI:BUTTON_Y}</value>
   </data>
   <data name="PlayersScreen_Help_Screen" xml:space="preserve">
     <value>Zurück: {CONTROL:GUI:CANCEL}</value>
@@ -14358,14 +14385,14 @@ Zurück: {CONTROL:GUI:CANCEL}</value>
   <data name="JoinGameScreen_Help_ScreenGamesTabXbox" xml:space="preserve">
     <value>Aktualisieren: {CONTROL:GUI:BUTTON_Y} 
 Suchfilter: {CONTROL:GUI:MAIN_MENU}
-Serverbetreiber: {CONTROL:GUI:LEFT_STICK_BUTTON}
+Serverbetreiber: {CONTROL:GUI:LEFT_BUTTON}
 Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   <data name="JoinGameScreen_Help_ScreenXbox" xml:space="preserve">
     <value>Aktualisieren: {CONTROL:GUI:BUTTON_Y}
 Suchfilter: {CONTROL:GUI:MAIN_MENU}
 Serverdetails: {CONTROL:GUI:BUTTON_X}
-Serverbetreiber: {CONTROL:GUI:LEFT_STICK_BUTTON}
+Serverbetreiber: {CONTROL:GUI:LEFT_BUTTON}
 Zurück: {CONTROL:GUI:CANCEL}</value>
   </data>
   
@@ -14656,6 +14683,9 @@ Zeige Hilfe: {CONTROL:GUI:BUTTON_Y}</value>
   <data name="ScreenCaptionModIoConsent" xml:space="preserve">
     <value>Mod.io</value>
   </data>
+  <data name="ScreenCaptionSteamAndModIoConsent" xml:space="preserve">
+    <value>Steam und Mod.io</value>
+  </data>
   <data name="ScreenModIoConsent_ButtonAgree" xml:space="preserve">
     <value>Ich stimme zu</value>
   </data>
@@ -14668,16 +14698,50 @@ Zeige Hilfe: {CONTROL:GUI:BUTTON_Y}</value>
   <data name="ScreenModIoConsent_ButtonTermsOfUse" xml:space="preserve">
     <value>Nutzungsbedingungen</value>
   </data>
+  <data name="ScreenModIoConsent_PrivacyPolicyModioHelp" xml:space="preserve">
+    <value>Datenschutzrichtlinie: {CONTROL:GUI:MAIN_MENU}</value>
+  </data>
+  <data name="ScreenModIoConsent_TermsOfUseModioHelp" xml:space="preserve">
+    <value>Nutzungsbedingungen: {CONTROL:GUI:VIEW}</value>
+  </data>
+  <data name="ScreenModIoConsent_PrivacyPolicySteamHelp" xml:space="preserve">
+    <value>Datenschutzrichtlinie: {CONTROL:GUI:RIGHT_STICK_BUTTON}</value>
+  </data>
+  <data name="ScreenModIoConsent_TermsOfUseSteamHelp" xml:space="preserve">
+    <value>Nutzungsbedingungen: {CONTROL:GUI:LEFT_STICK_BUTTON}</value>
+  </data>
   <data name="ScreenModIoConsent_ConsentTextPart1" xml:space="preserve">
     <value>Wir benutzen mod.io, um benutzergenerierte Inhalte im Spiel zu unterstützen. Um fortzufahren, musst Du den mod.io Nutzungsbedingungen und Datenschutzrichtlinien zustimmen. Es wird ein mod.io-Account erstellt, mit dem Du nutzergenerierte Inhalte im Spiel durchsuchen, teilen und mit ihnen interagieren kannst:</value>
   </data>
+  <data name="ScreenSteamAndModIoConsent_ConsentTextPart1" xml:space="preserve">
+    <value>Wir nutzen Steam und mod.io, um nutzergenerierte Inhalte im Spiel zu unterstützen. Um fortzufahren, musst Du den Steam- und mod.io-Nutzungsbedingungen und der Datenschutzrichtlinie zustimmen. Es wird ein mod.io-Account für dich erstellt, mit dem Du nutzergenerierte Inhalte durchsuchen, teilen und mit ihnen interagieren kannst:</value>
+  </data>
   <data name="ScreenModIoConsent_ConsentTextPart2" xml:space="preserve">
-    <value> - Xbox Benutzer-ID
- - Anzeigename
- - Avatar</value>
+    <value> •   {0} Nutzer-ID
+ •   Anzeigename
+ •   Avatar</value>
+  </data>
+  <data name="ScreenSteamAndModIoConsent_ConsentTextPart2" xml:space="preserve">
+    <value> •   {0} Nutzer-ID
+
+ •   Anzeigename
+
+ •   Avatar</value>
   </data>
   <data name="ScreenModIoConsent_ConsentTextPart3" xml:space="preserve">
     <value>Du stimmst zu, dass Dein Anzeigename, Dein Avatar und Dein Inhalt über die mod.io API und die Website, die öffentlich zugänglich sein kann, weitergegeben werden. Du kannst deinen mod.io-Account verwalten und Dich jederzeit über mod.io abmelden.</value>
+  </data>
+  <data name="ScreenSteamAndModIoConsent_ConsentTextPart3" xml:space="preserve">
+    <value>Du stimmst zu, dass Dein Anzeigename, Dein Avatar und Deine Inhalte über die mod.io API und die Website geteilt werden, die öffentlich zugänglich sein können. Du kannst Deinen mod.io Account verwalten und Dich jederzeit über mod.io abmelden.</value>
+  </data>
+  <data name="ScreenModIoConsent_LabelReadTOU" xml:space="preserve">
+    <value>Bitte lies die Nutzungsbedingungen und akzeptiere sie.</value>
+  </data>
+  <data name="ScreenModIoConsent_LabelModIo" xml:space="preserve">
+    <value>mod.io</value>
+  </data>
+  <data name="ScreenModIoConsent_LabelSteam" xml:space="preserve">
+    <value>Steam</value>
   </data>
   <data name="DisplayName_Block_GratedCatwalkRailingEnd" xml:space="preserve">
     <value>Gitterlaufsteg (Ende)</value>
@@ -14940,18 +15004,23 @@ Zeige Hilfe: {CONTROL:GUI:BUTTON_Y}</value>
   <data name="DisplayName_Screen_Numpad4" xml:space="preserve">
     <value>Nummernblock 4</value>
   </data>
-  <data name="ScreenModIoConsent_HelpText" xml:space="preserve">
-    <value>Zustimmen: {CONTROL:GUI:BUTTON_X}
-Ablehnen: {CONTROL:GUI:BUTTON_Y}
-Nutzungsbedingungen: {CONTROL:GUI:VIEW}
-Datenschutzbestimmungen: {CONTROL:GUI:MAIN_MENU} 
-</value>
+  <data name="ScreenModIoConsent_AgreeHelpText" xml:space="preserve">
+    <value>Ich stimme zu: {CONTROL:GUI:BUTTON_X}</value>
+  </data>
+  <data name="ScreenModIoConsent_OptOutHelpText" xml:space="preserve">
+    <value>Abmelden: {CONTROL:GUI:BUTTON_Y}</value>
   </data>
   <data name="ScreenModIoConsent_PrivacyPolicy_UrlFriendlyName" xml:space="preserve">
     <value>Mod.io - Datenschutzbestimmungen</value>
   </data>
   <data name="ScreenModIoConsent_TermsOfUse_UrlFriendlyName" xml:space="preserve">
     <value>Mod.io - Nutzungsbedingungen</value>
+  </data>
+  <data name="ScreenModIoConsent_SteamPrivacyPolicy_UrlFriendlyName" xml:space="preserve">
+    <value>Steam - Datenschutzrichtlinie</value>
+  </data>
+  <data name="ScreenModIoConsent_SteamTermsOfUse_UrlFriendlyName" xml:space="preserve">
+    <value>Steam - Nutzungsbedingungen</value>
   </data>
   <data name="ControlsOptions_Help_Scheme" xml:space="preserve">
     <value>Wählen: {CONTROL:GUI:ACCEPT}
@@ -15578,6 +15647,24 @@ Zurück: {CONTROL:GUI:CANCEL}</value>
   <data name="DisplayName_Block_OffroadWheel3x3mirrored" xml:space="preserve">
     <value>Geländefahrzeugreifen 3x3</value>
   </data>
+  <data name="RadialMenuGroupTitle_ArmorHeavy" xml:space="preserve">
+    <value>Schwere Panzerung</value>
+  </data>
+  <data name="WorkshopBrowser_Service0" xml:space="preserve">
+    <value>Steam</value>
+  </data>
+  <data name="WorkshopBrowser_Service1" xml:space="preserve">
+    <value>Mod.io</value>
+  </data>
+  <data name="PublishBlueprint_Caption" xml:space="preserve">
+    <value>Veröffentlichen</value>
+  </data>
+  <data name="PublishBlueprint_Question" xml:space="preserve">
+    <value>Willst du diesen Bauplan veröffentlichen?</value>
+  </data>
+  <data name="WorldFileCouldNotBeEdited" xml:space="preserve">
+    <value>Das Ändern der Kampagneneinstellungen kann zu ernsthaften Problemen führen. Es ist nur im experimentellen Modus erlaubt.</value>
+  </data>
 
 
 <data name="AnonymousActivityTracking_Caption" xml:space="preserve">
@@ -15690,7 +15777,17 @@ Du kannst Deine Meinung jederzeit ändern.</value>
 <data name="DisplayName_BuildPlanner" xml:space="preserve">
     <value>Bauplaner</value>
   </data>
+<data name="RadialMenuGroupTitle_Armor" xml:space="preserve">
+    <value>Panzerung</value>
+  </data>
 <data name="ActiveContractsScreen_Help_Abandon" xml:space="preserve">
     <value>Verlassen: {CONTROL:GUI:BUTTON_A}</value>
+  </data>
+<data name="ScreenModIoConsent_HelpText" xml:space="preserve">
+    <value>Zustimmen: {CONTROL:GUI:BUTTON_X}
+Ablehnen: {CONTROL:GUI:BUTTON_Y}
+Nutzungsbedingungen: {CONTROL:GUI:VIEW}
+Datenschutzbestimmungen: {CONTROL:GUI:MAIN_MENU} 
+</value>
   </data>
 </root>

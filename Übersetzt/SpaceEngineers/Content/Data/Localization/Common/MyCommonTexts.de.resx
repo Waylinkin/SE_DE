@@ -924,18 +924,24 @@ Bist Du sicher, dass Du fortfahren willst?</value>
     <value>Veröffentlichen</value>
   </data>
   <data name="MessageBoxTextWorldPublished" xml:space="preserve">
-    <value>Die Veröffentlichung wurde erfolgreich abgeschlossen. 
+    <value>Die Veröffentlichung auf {1} wurde erfolgreich abgeschlossen.
 
 Möchtest Du das {0} Overlay öffnen, um Sachen wie Titel, Beschreibung oder die Sichtbarkeit zu ändern (Standardmäßige Einstellung: Öffentlich)?</value>
   </data>
   <data name="MessageBoxTextWorldPublishedBrowser" xml:space="preserve">
-    <value>Die Veröffentlichung wurde erfolgreich abgeschlossen.
+    <value>Die Veröffentlichung auf {1} wurde erfolgreich abgeschlossen.
 
 Möchten Sie einen externen Browser öffnen, um Attribute wie Titel, Beschreibung oder Sichtbarkeit zu bearbeiten (er ist standardmäßig öffentlich)?
 </value>
   </data>
   <data name="MessageBoxTextWorldPublishFailed" xml:space="preserve">
     <value>Veröffentlichung auf dem {0} Workshop fehlgeschlagen!</value>
+  </data>
+  <data name="MessageBoxTextCloudExtractError" xml:space="preserve">
+    <value>Das Extrahieren von Dateien aus der Cloud ist fehlgeschlagen.</value>
+  </data>
+  <data name="MessageBoxTextLoadWorldError" xml:space="preserve">
+    <value>Das Laden der Weltdateien ist fehlgeschlagen.</value>
   </data>
   <data name="MessageBoxTextModPublishFailed" xml:space="preserve">
     <value>Veröffentlichung auf dem {0} Workshop fehlgeschlagen!</value>
@@ -962,7 +968,7 @@ Möchten Sie einen externen Browser öffnen, um Attribute wie Titel, Beschreibun
     <value>WELT VERÖFFENTLICHT.</value>
   </data>
   <data name="MessageBoxCaptionWorldPublishFailed" xml:space="preserve">
-    <value>WELTVERÖFFENTLICHUNG FEHLGESCHLAGEN!</value>
+    <value>VERÖFFENTLICHUNG FEHLGESCHLAGEN!</value>
   </data>
   <data name="MessageBoxCaptionModPublished" xml:space="preserve">
     <value>MOD VERÖFFENTLICHT.</value>
@@ -974,7 +980,7 @@ Möchten Sie einen externen Browser öffnen, um Attribute wie Titel, Beschreibun
     <value>Kopieren und Laden</value>
   </data>
   <data name="LoadScreenButtonTooltipPublish" xml:space="preserve">
-    <value>Veröffentlicht die gewählte Welt auf dem {0} Workshop.</value>
+    <value>Veröffentlicht die gewählte Welt auf dem Workshop.</value>
   </data>
   <data name="ToolTipMenuSubscribedWorlds" xml:space="preserve">
     <value>Zeigt eine Liste der aus dem {0} Workshop abonnierten Welten.</value>
@@ -985,13 +991,8 @@ Möchten Sie einen externen Browser öffnen, um Attribute wie Titel, Beschreibun
   <data name="MessageBoxCaptionDoYouWishToUpdateWorld" xml:space="preserve">
     <value>AKTUALISIERE WELT</value>
   </data>
-  <data name="MessageBoxTextDoYouWishToPublishWorld" xml:space="preserve">
-    <value>Bist du sicher dass du die ausgewählte Welt hochladen und im {0} Workshop veröffentlichen möchtest?
-
-Dabei stimmst du den Nutzungsbedingungen zu (nachzulesen hier: {1}).</value>
-  </data>
   <data name="MessageBoxTextDoYouWishToUpdateWorld" xml:space="preserve">
-    <value>Bist du sicher, dass du die ausgewählte Welt in den {0} Workshop hochladen und überschreiben willst?</value>
+    <value>Bist du sicher, dass du die ausgewählte Welt in den Workshop hochladen und überschreiben willst?</value>
   </data>
   <data name="MessageBoxCaptionDoYouWishToPublishMod" xml:space="preserve">
     <value>MOD VERÖFFENTLICHEN</value>
@@ -999,13 +1000,8 @@ Dabei stimmst du den Nutzungsbedingungen zu (nachzulesen hier: {1}).</value>
   <data name="MessageBoxCaptionDoYouWishToUpdateMod" xml:space="preserve">
     <value>MOD AKTUALISIEREN</value>
   </data>
-  <data name="MessageBoxTextDoYouWishToPublishMod" xml:space="preserve">
-    <value>Bist du sicher dass du die ausgewählte Welt hochladen und im {0}-Workshop veröffentlichen möchtest? 
-
-Dabei stimmst du den Nutzungsbedingungen zu (Nachzulesen hier: {1}).</value>
-  </data>
   <data name="MessageBoxTextDoYouWishToUpdateMod" xml:space="preserve">
-    <value>Bist du sicher, dass du die ausgewählte Welt in den {0} Workshop hochladen und überschreiben willst?</value>
+    <value>Bist du sicher, dass du die ausgewählte Mod in den Workshop hochladen und überschreiben willst?</value>
   </data>
   <data name="ScreenLoadSubscribedWorldBrowseWorkshop" xml:space="preserve">
     <value>Workshop durchsuchen</value>
@@ -1074,7 +1070,7 @@ Dabei stimmst du den Nutzungsbedingungen zu (Nachzulesen hier: {1}).</value>
     <value>Im Workshop öffnen</value>
   </data>
   <data name="ToolTipWorkshopBrowseWorkshop" xml:space="preserve">
-    <value>Öffne den {0} Workshop im Browser</value>
+    <value>Öffne den Workshop Browser</value>
   </data>
   <data name="ToolTipWorkshopCopyAndLoad" xml:space="preserve">
     <value>Gewählte Welt herunterladen und starten.</value>
@@ -1115,6 +1111,13 @@ Dabei stimmst du den Nutzungsbedingungen zu (Nachzulesen hier: {1}).</value>
 Die Welt ist möglicherweise korrupt und kann nicht geladen werden.
 
 Bitte starte das Spiel neu und versuche es erneut.</value>
+  </data>
+  <data name="MessageBoxTextErrorLoadingScripting" xml:space="preserve">
+    <value>Beim Laden der Welt ist ein Fehler aufgetreten.
+
+Scripting wird nicht unterstützt.
+
+Bitte entferne gescriptete Mods aus der Mod-Liste und versuche es erneut.</value>
   </data>
   <data name="MessageBoxTextAreYouSureToMoveGridToClipboard" xml:space="preserve">
     <value>Bist du sicher, dass du das ausgewählte Objekt löschen willst (Eine Kopie wird in der Zwischenablage gespeichert)?</value>
@@ -1906,6 +1909,9 @@ Du kannst Die Spielversion in den Steam Spieloptionen ändern.</value>
  
 Überprüfe, ob Du mit dem richtigen Account angemeldet bist.</value>
   </data>
+  <data name="MessageBoxTextPublishFailed_FileNotFound" xml:space="preserve">
+    <value>Konnte das Vorschaubild im Stammverzeichnis des Workshop-Ordners nicht finden. (thumb.jpg)</value>
+  </data>
   <data name="ScreenDebugOfficial_SavePrefab" xml:space="preserve">
     <value>Exportiere Zwischenablage zu Datei...</value>
   </data>
@@ -1926,7 +1932,13 @@ Du kannst Die Spielversion in den Steam Spieloptionen ändern.</value>
 - Klick auf ein Werkzeug, um es zu produzieren.</value>
   </data>
   <data name="ScreenCaptionWorkshopTags" xml:space="preserve">
-    <value>Wähle Kürzel aus</value>
+    <value>Öffentlich</value>
+  </data>
+  <data name="WorkshopTagsHeader" xml:space="preserve">
+    <value>Tags:</value>
+  </data>
+  <data name="WorkshopTagsServicesHeader" xml:space="preserve">
+    <value>Hochladen zu:</value>
   </data>
   <data name="WorkshopTag_Animation" xml:space="preserve">
     <value>Animation</value>
@@ -1942,6 +1954,21 @@ Du kannst Die Spielversion in den Steam Spieloptionen ändern.</value>
   </data>
   <data name="WorkshopTag_Skybox" xml:space="preserve">
     <value>Skybox</value>
+  </data>
+  <data name="WorkshopTag_InventoryManagement" xml:space="preserve">
+    <value>Inventarverwaltung</value>
+  </data>
+  <data name="WorkshopTag_Visualization" xml:space="preserve">
+    <value>Visualisierung</value>
+  </data>
+  <data name="WorkshopTag_Autopilot" xml:space="preserve">
+    <value>Autopilot</value>
+  </data>
+  <data name="WorkshopTag_NoScripts" xml:space="preserve">
+    <value>Keine Skripte</value>
+  </data>
+  <data name="WorkshopTag_ServerScripts" xml:space="preserve">
+    <value>Server Skripte</value>
   </data>
   <data name="MessageBoxTextPublishFailed_OwnerMismatchMod" xml:space="preserve">
     <value>Konnte die Mod nicht aktualiseren, da Du nicht der Eigentümer dieser Mod bist!</value>
@@ -2223,7 +2250,7 @@ Willst du das Schiff wirklich einfügen?</value>
     <value>Baumodus</value>
   </data>
   <data name="NotificationCubePlacementModeChanged" xml:space="preserve">
-    <value>{0} Platzierungsmodus ist aktiviert.</value>
+    <value>Platzierungsmodus {0} ist aktiv.</value>
   </data>
   <data name="NotificationCubePlacementMode_LocalCoordSystem" xml:space="preserve">
     <value>Lokale Gitterausrichtung</value>
@@ -2891,11 +2918,6 @@ An - Alle Performancewarnungen dieser Spielsession werden angezeigt.</value>
   <data name="MessageBoxCaptionModCampaignPublishFailed" xml:space="preserve">
     <value>VERÖFFENTLICHUNG DER KAMPAGNE FEHLGESCHLAGEN!</value>
   </data>
-  <data name="MessageBoxTextDoYouWishToPublishCampaign" xml:space="preserve">
-    <value>Bist du sicher dass du die ausgewählte Kampagne hochladen und im {0}-Workshop veröffentlichen möchtest?
-
-Dabei stimmst du den Nutzungsbedingungen zu (nachzulesen hier: {1}).</value>
-  </data>
   <data name="ScreenDebugAdminMenu_EntityName" xml:space="preserve">
     <value>Name der Entität: </value>
   </data>
@@ -2940,10 +2962,10 @@ Dieses bietet Ziele, welche durch Standardszenrien vorhanden sind, oder solche, 
     <value>Benutzerdefinierte Spiele bieten eine Vielzahl von Welten, in denen Du Dein eigenes Szenario starten kannst. Passe die Welteinstellungen an, um die Welt zu erstellen, die Du erkunden willst, und fordere Dich selbst heraus.</value>
   </data>
   <data name="BlueprintsScreen_Description" xml:space="preserve">
-    <value>Schiffe und Stationen können in einem Bauplan gespeichert werden. Hier findest Du Deine gespeicherten Baupläne, sowie solche, die Du über den {0} Workshop heruntergeladen hast.</value>
+    <value>Schiffe und Stationen können in einem Bauplan gespeichert werden. Hier findest Du Deine gespeicherten Baupläne, sowie solche, die Du über den Workshop heruntergeladen hast.</value>
   </data>
   <data name="ScriptsScreen_Description" xml:space="preserve">
-    <value>Hier findest Du Deine gespeicherten Skripte, sowie solche, die Du über den {0} Workshop heruntergeladen hast.</value>
+    <value>Hier findest Du Deine gespeicherten Skripte, sowie solche, die Du über den Workshop heruntergeladen hast.</value>
   </data>
   <data name="ScreenCaptionNewsletter" xml:space="preserve">
     <value>Newsletter</value>
@@ -3154,13 +3176,13 @@ er KANN jede der ausgewählten Mods haben.</value>
     <value>Start</value>
   </data>
   <data name="ToolTipWorkshopPublish" xml:space="preserve">
-    <value>Veröffentliche Deine Mod im {0} Workshop.</value>
+    <value>Veröffentliche Deine Mod im Workshop.</value>
   </data>
   <data name="ModCrashedTheGame" xml:space="preserve">
     <value>Eine Mod führte zum Spielabsturz!</value>
   </data>
   <data name="ModCrashedTheGameInfo" xml:space="preserve">
-    <value>Die Mod {0} (ModId: {1}) 
+    <value>Die Mod {0} (ModId: {1}:{2}
 
 produzierte einen Fehler und führte zum Spielabsturz!
 
@@ -4110,7 +4132,7 @@ Du kannst sie aber im Workshop deabonnieren.</value>
     <value>Bauplan-Details</value>
   </data>
   <data name="ToolTipBlueprintPublish" xml:space="preserve">
-    <value>Veröffentliche Deinen Bauplan im {0} Workshop</value>
+    <value>Veröffentliche Deinen Bauplan im Workshop</value>
   </data>
   <data name="BlueprintsMessageBoxDesc_StillLoading" xml:space="preserve">
     <value>Bauplan wird geladen</value>
@@ -4326,6 +4348,11 @@ An - Zeigt alle Warnungen für Blocklimits</value>
   <data name="MultiplayerErrorExperimental" xml:space="preserve">
     <value>Der Server ist im experimentellen Modus. Wenn Du ihm beitreten willst, schalte ihn in Deinen Spieloptionen ein.</value>
   </data>
+  <data name="WorldSettings_ModsNeedExperimental" xml:space="preserve">
+    <value>Mods werden nur im Experimentellen Modus unterstützt.
+
+Wenn Du Mods benutzen willst, schalte diese Einstellung in den Spieloptionen ein.</value>
+  </data>
   <data name="SaveGameErrorExperimental" xml:space="preserve">
     <value>Die gespeicherte Welt ist im experimentellen Modus. Um sie zu laden, musst Du in den Spieloptionen den experimentellen Modus aktivieren.</value>
   </data>
@@ -4477,6 +4504,9 @@ Willst Du fortsetzen und die ungespeicherten Änderungen verwerfen?</value>
   <data name="ModRuleViolation_EngineParallelAccess" xml:space="preserve">
     <value>Mod {0} greift über parallele Threads auf die Engine zu. Dies ist nicht sicher und kann dazu führen, dass das Spiel abstürzt oder sich unerwartet verhält.</value>
   </data>
+  <data name="ModRuleViolation_RuntimeScripts" xml:space="preserve">
+    <value>Mods in der aktuellen Welt verwenden Skripte, die auf der aktuellen Plattform nicht unterstützt werden. Dies kann dazu führen, dass das Spiel abstürzt oder sich unerwartet verhält.</value>
+  </data>
   <data name="ShowGoodBotHints" xml:space="preserve">
     <value>Zeige Tipps vom Good.bot</value>
   </data>
@@ -4514,7 +4544,7 @@ Willst Du fortsetzen und die ungespeicherten Änderungen verwerfen?</value>
     <value>Weltkoordinaten</value>
   </data>
   <data name="ScriptingTools_Grow" xml:space="preserve">
-    <value>Größe erhöhen</value>
+    <value>Vergrößern</value>
   </data>
   <data name="ScriptingTools_Hierarchy" xml:space="preserve">
     <value>Hierarchie</value>
@@ -4523,7 +4553,7 @@ Willst Du fortsetzen und die ungespeicherten Änderungen verwerfen?</value>
     <value>Rotation</value>
   </data>
   <data name="ScriptingTools_Shrink" xml:space="preserve">
-    <value>Größe verkleinern</value>
+    <value>Verkleinern</value>
   </data>
   <data name="ScriptingTools_Tooltip_AttachToEntity" xml:space="preserve">
     <value>Spawn-Trigger an ausgewählte Entität angehängt (Entität muss ausgewählt sein).</value>
@@ -5689,6 +5719,12 @@ Möchtest du den abgesicherten Modus jetzt aktivieren?</value>
   <data name="ChatCommand_HelpSimple_yelling" xml:space="preserve">
     <value>Rufen abspielen</value>
   </data>
+  <data name="JoinGame_Networking_eos" xml:space="preserve">
+    <value>Epic Online Dienste</value>
+  </data>
+  <data name="JoinGame_Networking_steam" xml:space="preserve">
+    <value>Steam</value>
+  </data>
   <data name="MessageBoxTextBetaFeedback" xml:space="preserve">
     <value>Vielen Dank, dass ihr an unserem Betatest teilnehmt. Würdest Du Dir die Zeit nehmen, uns ein kurzes Feedback zu geben?</value>
   </data>
@@ -5702,6 +5738,7 @@ Möchtest du den abgesicherten Modus jetzt aktivieren?</value>
     <value>Das Schrottrennen ist ein Rennszenario, das für den Mehrspielermodus entwickelt wurde. Wähle ein Fahrzeug Deiner Wahl und trete gegen andere Bösewichte, Nervenkitzelsuchende und Geschwindigkeitsfreaks aus dem ganzen System an. Das Unterhaltungsangebot hier bei Pertam ist im Gegensatz zum menschlichen Leben das wertvollste Gut und wir bieten das Beste! Also tretet noch heute bei! Baut Dinge, fahrt Rennen oder bleibt im Staub zurück.</value>
   </data>
 
+
 <data name="SteamOverlayDisabledCaption" xml:space="preserve">
     <value>{0} Overlay ist deaktiviert</value>
   </data>
@@ -5709,6 +5746,16 @@ Möchtest du den abgesicherten Modus jetzt aktivieren?</value>
     <value>Die Veröffentlichung wurde erfolgreich abgeschlossen. 
 
 Wenn Du das {0} Overlay aktiviert hast, wird sich eine Seite öffnen, in der du die Attribute wie Titel, Beschreibung oder die Sichtbarkeit ändern kannst (Standardmäßige Einstellung: Öffentlich).</value>
+  </data>
+<data name="MessageBoxTextDoYouWishToPublishWorld" xml:space="preserve">
+    <value>Bist du sicher dass du die ausgewählte Welt hochladen und im {0} Workshop veröffentlichen möchtest?
+
+Dabei stimmst du den Nutzungsbedingungen zu (nachzulesen hier: {1}).</value>
+  </data>
+<data name="MessageBoxTextDoYouWishToPublishMod" xml:space="preserve">
+    <value>Bist du sicher dass du die ausgewählte Welt hochladen und im {0}-Workshop veröffentlichen möchtest? 
+
+Dabei stimmst du den Nutzungsbedingungen zu (Nachzulesen hier: {1}).</value>
   </data>
 <data name="MessageBoxTextOpenUrlOverlayNotEnabled" xml:space="preserve">
     <value>Dies wird {0} in deinem Browser öffnen, da das {1}-Overlay sich nicht öffnen ließ, 
@@ -5745,6 +5792,11 @@ Willst du fortfahren?</value>
   </data>
 <data name="ControlMenuItemLabel_Wardrobe" xml:space="preserve">
     <value>Aussehen ändern</value>
+  </data>
+<data name="MessageBoxTextDoYouWishToPublishCampaign" xml:space="preserve">
+    <value>Bist du sicher dass du die ausgewählte Kampagne hochladen und im {0}-Workshop veröffentlichen möchtest?
+
+Dabei stimmst du den Nutzungsbedingungen zu (nachzulesen hier: {1}).</value>
   </data>
 <data name="MessageBoxTextCampaignPublished" xml:space="preserve">
     <value>Die Veröffentlichung wurde erfolgreich abgeschlossen. 
