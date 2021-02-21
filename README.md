@@ -1,3 +1,6 @@
+UPDATE 21.02.2020:
+Anpassung an die Version 1.197.170.
+
 UPDATE 01.12.2020:
 Anpassung der Übersetzung an die Spielversion 1.197.065.
 Implementierung des Ödland-DLCs.
